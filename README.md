@@ -20,5 +20,5 @@ Let's learn and grow together!
 
 ### Start of the Journey
 
-1. [Stage 1](Sgate-1)
+1. [Stage 1](Stage-1)
 	- [Bibliographies](Stage-1/Bibliographies.md)
