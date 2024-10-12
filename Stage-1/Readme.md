@@ -2,11 +2,11 @@
 
 ### Fisrt-Stage
 
-- **How the Internet and Websites Work**: Understanding the global network that connects computers and the structure of online sites.
-- **Key Differences Between Front-End and Back-End**: Exploring the responsibilities and functions of each in web development.
-- **HTML, CSS, and JavaScript Visualization**: Through practical examples, you will understand how these languages contribute to building dynamic web pages.
-- **Setting Up Development Tools**: Optimizing your work environment for efficient web development.
-- **Installing and Utilizing VSCode Extensions**: Enhancing the capabilities of this integrated development environment.
+- [**How the Internet and Websites Work**](How-Internet-And-WebSites-Work.md): Understanding the global network that connects computers and the structure of online sites.
+- [**Key Differences Between Front-End and Back-End**](Differences-Front-End-Back-End.md): Exploring the responsibilities and functions of each in web development.
+- [**HTML, CSS, and JavaScript Visualization**](HTML-CSS-JavaScript-Vi.md): Through practical examples, you will understand how these languages contribute to building dynamic web pages.
+- [**Setting Up Development Tools**](Setting-Up-Development-Tools.md): Optimizing your work environment for efficient web development.
+- [**Installing and Utilizing VSCode Extensions**](Vs-Code-Extensions.md): Enhancing the capabilities of this integrated development environment.
 
 
 # My Top  Bibliographies for Front-End Development
