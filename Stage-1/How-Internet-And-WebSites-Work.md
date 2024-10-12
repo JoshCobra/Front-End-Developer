@@ -9,7 +9,7 @@
     - How does it work?
 
     **Internet** <-> **Internet Proveedor** -> **DNS Server** <- **Server**
-    1. You send the signal to your Internet Proveedor
+    1. You (*client*) send the signal to your Internet Proveedor
     2. Internet Proveedor sends the information to the DNS Server(DNS is basically a website director)
     3. The sever search for the `ip` direction in its data base
     4. When the `ip` its identified the servers sends it to you 
