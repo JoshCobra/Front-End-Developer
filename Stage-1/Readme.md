@@ -1,3 +1,14 @@
+# Introduction to Web Development and Front-End
+
+Fisrt-Stage
+
+- **How the Internet and Websites Work**: Understanding the global network that connects computers and the structure of online sites.
+- **Key Differences Between Front-End and Back-End**: Exploring the responsibilities and functions of each in web development.
+- **HTML, CSS, and JavaScript Visualization**: Through practical examples, you will understand how these languages contribute to building dynamic web pages.
+- **Setting Up Development Tools**: Optimizing your work environment for efficient web development.
+- **Installing and Utilizing VSCode Extensions**: Enhancing the capabilities of this integrated development environment.
+
+
 # My Top  Bibliographies for Front-End Development
 
 Here is a list of some of the best books recommended for **front-end development**. They cover everything from fundamentals to advanced topics, making them perfect for developers of all levels:
