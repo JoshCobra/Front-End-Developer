@@ -21,4 +21,9 @@ Let's learn and grow together!
 # Start of the Journey
 
 1. [Stage 1](Stage-1)
-	- [Intro and Bibliographies](Stage-1/Readme.md)
+	- [Intro and Bibliographies](/Stage-1/Readme.md)
+		- [How Internet And Websites Work](/Stage-1/How-Internet-And-WebSites-Work.md)
+		- [Difference Between *Front-End* & *Back-End*](/Stage-1/Difference-Front-End-Back-End.md)
+		- [Setting Up Development Tools](/Stage-1/Setting-Up-Development-Tools.md)
+		- [Setting Up VsCode](/Stage-1/Vs-Code-Extensions.md)
+2. [Stage 2](/Stage-2/)
