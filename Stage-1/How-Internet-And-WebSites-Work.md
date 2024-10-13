@@ -7,6 +7,11 @@
 
 2. **The importance of protocols and resources transference** 
     - How does it work?
+  
+      ![](https://github.com/user-attachments/assets/95f69fbd-b789-46ee-bd5a-1b82c2c464c1)
+
+      - Extracted form: *HTML & CSS- Design and Build Websites – Jon Duckett*
+
 
     **Internet** <-> **Internet Proveedor** -> **DNS Server** <- **Server**
     1. You (*client*) send the signal to your Internet Proveedor
