@@ -24,3 +24,6 @@
     - **Live Share**: Collaborate with others in real-time, sharing your code and debugging sessions.
 
     These features make Visual Studio Code a powerful and versatile tool for developers.
+
+
+   [Stage 1 Intro](/Stage-1)    ---     [Go Back](/Stage-1/HTML-CSS-JavaScript-Vi.md)      ---     [Next](/Stage-1/Vs-Code-Extensions.md)
