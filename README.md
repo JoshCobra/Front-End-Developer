@@ -26,4 +26,5 @@ Let's learn and grow together!
 		- [Difference Between *Front-End* & *Back-End*](/Stage-1/Difference-Front-End-Back-End.md)
 		- [Setting Up Development Tools](/Stage-1/Setting-Up-Development-Tools.md)
 		- [Setting Up VsCode](/Stage-1/Vs-Code-Extensions.md)
+		- [Essential Tips](/Stage-1/Tips.md)
 2. [Stage 2](/Stage-2/)
