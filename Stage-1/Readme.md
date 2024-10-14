@@ -9,9 +9,9 @@
 - [**Installing and Utilizing VSCode Extensions**](Vs-Code-Extensions.md): Enhancing the capabilities of this integrated development environment.
 
 
-# My Top  Bibliographies for Front-End Development
+# My Top Bibliographies for Front-End Development
 
-Here is a list of some of the best books recommended for **front-end development**. They cover everything from fundamentals to advanced topics, making them perfect for developers of all levels:
+Here is a list of some of the best books recommended for **front-end development**. They cover everything from fundamentals to advanced topics, making them perfect for developers of all levels, you can find some of them [here](/Stage-1/Books): 
 
 ### 1. **HTML & CSS: Design and Build Websites** – *Jon Duckett*
    - This book is an excellent starting point for learning the basics of **HTML** and **CSS**. It’s designed visually, which makes it easy to grasp key concepts and apply them.
