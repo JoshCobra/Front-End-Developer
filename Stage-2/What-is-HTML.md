@@ -22,7 +22,6 @@ These tags tell the browser how to display the content. HTML provides the basic 
 Here's a simple example of HTML code:
 
 ```html
-Copiar código
 <!DOCTYPE html>
 <html>
   <head>
