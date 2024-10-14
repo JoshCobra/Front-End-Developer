@@ -32,3 +32,5 @@
     - Is based on requests and responses
     - The browser reads the archives and shows them on the web page 
     - The archives received principally are, `HTML` `CSS` `JavaScript`
+
+[Stage 1 Intro](/Stage-1)    ---     [Go Back](/Stage-1/)      ---     [Next](/Stage-1/Difference-Front-End-Back-End.md)
