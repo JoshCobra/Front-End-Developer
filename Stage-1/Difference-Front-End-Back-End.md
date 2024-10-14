@@ -25,3 +25,5 @@ Back-end development deals with the server-side of web applications. It involves
 - **Responsibilities**: Front-end developers ensure a good user experience; back-end developers ensure data integrity and application logic.
 
 Both front-end and back-end development are crucial for creating a fully functional and efficient web application.
+
+[Stage 1 Intro](/Stage-1)    ---     [Go Back](/Stage-1/How-Internet-And-WebSites-Work.md)      ---     [Next](/Stage-1/HTML-CSS-JavaScript-Vi.md)
