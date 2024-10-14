@@ -35,3 +35,7 @@ Here's a simple example of HTML code:
 </html>
 ```
 In this example, HTML defines the structure of the webpage, including a heading (`<h1>`), a paragraph (`<p>`), and a hyperlink (`<a>`).
+
+# Great TIP
+
+To efficiently look up documentation for HTML and many other programming languages, you can use [devdocs.io](https://devdocs.io/). It's a powerful and user-friendly tool that consolidates documentation for a variety of languages and frameworks, all in one place. It allows for quick and easy searches without needing to browse through multiple websites.
