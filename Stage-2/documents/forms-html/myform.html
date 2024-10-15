@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Test Form</title>
+</head>
+<body>
+    <h3>Example Form</h3>
+    <p>This is a simple form of a pizza page</p>
+    <form>
+        <fieldset>
+            <legend>Your Details</legend>
+            <div>
+                <label for="name" >Name</label>
+                <input type="text" id="name" name="name" placeholder="Full Name" required> 
+            </div>
+
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Choose your Pizza</legend>
+            <div>
+                <label>Your Pizza</label>
+                <select>
+                    <option value="">--Select--</option>
+                    <option value="hawaiian">Hawaiian</option>
+                    <option value="pepperoni">Pepperoni</option>
+                    <option value="meatlovers">Meatlovers</option>
+
+                </select>
+            </div>
+
+            <div>
+                <label>Specific Indications</label>
+                <textarea></textarea>
+            </div>
+        </fieldset>
+
+        <input type="submit" value="Order">
+    </form>
+    
+</body>
+</html>
