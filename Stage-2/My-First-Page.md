@@ -144,6 +144,12 @@ The `<body>` element in HTML is one of the core structural elements of a webpage
     - **Forms:** Input fields, buttons, checkboxes, etc.
     - **Interactive Elements:** Buttons, scripts, embedded elements like iframes, etc.
 
+## Finally we can create our first page
+With the things explained above we can create a new `.html` file and create our first webpage
+
+
+[My First Web Page](/Stage-2/documents/basics-html/html-5.html) 
+
 
 ---
 [^1]: You need to have an saved `.html` file in VsCode in order work, simply type `html:5` and select the "*Emmet Abbreviation*"
