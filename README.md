@@ -28,3 +28,7 @@ Let's learn and grow together!
 		- [Setting Up VsCode](/Stage-1/Vs-Code-Extensions.md)
 		- [Essential Tips](/Stage-1/Tips.md)
 2. [Stage 2](/Stage-2/)
+	- [First Steps Into HTML](/Stage-2/Readme.md)
+		- [My First Web Page](/Stage-2/My-First-Page.md)
+		- [Tables in HTML](/Stage-2/Tables-in-HTML.md)
+		- [Forms in HTML](/Stage-2/Forms-in-HTML.md)

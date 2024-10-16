@@ -1,4 +1,12 @@
-# What is HTML?
+# Into HTML
+
+**[My First Web Page](/Stage-2/My-First-Page.md):** We are going to learn the basic syntax of a website, and create our first one
+
+**[Tables in HTML](/Stage-2/Tables-in-HTML.md):** How to create *Tables* using `html` to implement them in our web sites 
+
+**[Forms in HTML](/Stage-2/Forms-in-HTML.md):** How to create *Forms* using `html` and implement them in our web sites
+
+## What is HTML?
 
 HTML **(HyperText Markup Language)** is the standard language used to create and structure content on the web. 
 It defines the elements and structure of a webpage, such as headings, paragraphs, links, images, and more.
