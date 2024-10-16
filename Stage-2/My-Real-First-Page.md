@@ -4,7 +4,7 @@ We are going to set our first page using the concepts of the [Basic Syntax](/Sta
 
 1. Step 1
 
-[](/Stage-2/Resources/Step-1.png)
+<img src="/Stage-2/Resources/Step-1.png">
 
 2. Step 2
 
