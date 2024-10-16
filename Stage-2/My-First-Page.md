@@ -16,8 +16,6 @@ An HTML document is structured with several key elements, wrapped inside tags, w
 </html>
 ```
 You can get this basic structure with a simple command[^1].
-[emmet-abbreviation]()
-
 
 ## Explanation 
 
@@ -153,7 +151,8 @@ With the things explained above we can create a new `.html` file and create our 
 
 
 ---
-[^1]: You need to have an saved `.html` file in VsCode in order work, simply type `html:5` and select the "*Emmet Abbreviation*"
+[^1]: Open your new `.html` file in VsCode and simply type `html:5` and select the *
+[Emmet Abbreviation](Stage-2/Resources/Emmet-Abbreviation.png)*
 
 
 
