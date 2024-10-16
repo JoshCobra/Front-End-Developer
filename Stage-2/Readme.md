@@ -1,5 +1,7 @@
 # Into HTML
 
+**[Basic Syntax of HTML](/Stage-2/Basic-Syntax-in-HTML.md)**
+
 **[My First Web Page](/Stage-2/My-First-Page.md):** We are going to learn the basic syntax of a website, and create our first one
 
 **[Tables in HTML](/Stage-2/Tables-in-HTML.md):** How to create *Tables* using `html` to implement them in our web sites 
@@ -42,6 +44,7 @@ Here's a simple example of HTML code:
   </body>
 </html>
 ```
+
 In this example, HTML defines the structure of the webpage, including a heading (`<h1>`), a paragraph (`<p>`), and a hyperlink (`<a>`).
 
 # Great TIP

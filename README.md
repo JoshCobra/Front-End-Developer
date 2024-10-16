@@ -29,6 +29,7 @@ Let's learn and grow together!
 		- [Essential Tips](/Stage-1/Tips.md)
 2. [Stage 2](/Stage-2/)
 	- [First Steps Into HTML](/Stage-2/Readme.md)
+		- [Basic Syntax of HTML](/Stage-2/Basic-Syntax-in-HTML.md)
 		- [My First Web Page](/Stage-2/My-First-Page.md)
 		- [Tables in HTML](/Stage-2/Tables-in-HTML.md)
 		- [Forms in HTML](/Stage-2/Forms-in-HTML.md)
