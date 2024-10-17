@@ -1,12 +1,16 @@
 # Into HTML
 
-**[Basic Syntax of HTML](/Stage-2/Basic-Syntax-in-HTML.md)**
+**[Basic Syntax of HTML](/Stage-2/Basic-Syntax-in-HTML.md)**: The basic syntax to create your first website
 
-**[My First Web Page](/Stage-2/My-First-Page.md):** We are going to learn the basic syntax of a website, and create our first one
+**[My First Web Page](/Stage-2/My-First-Page.md):** Based on the basic syntax of a website, we are going to create our first real example of a website
 
 **[Tables in HTML](/Stage-2/Tables-in-HTML.md):** How to create *Tables* using `html` to implement them in our web sites 
 
 **[Forms in HTML](/Stage-2/Forms-in-HTML.md):** How to create *Forms* using `html` and implement them in our web sites
+
+**[Stage 2 Final WebSite](/Stage-2/Final-Website.md):** With all the exaples above and the information, we create a final website with all thing we know at this point.
+
+**[TIPS](/Stage-2/Tips.md)** 
 
 ## What is HTML?
 
