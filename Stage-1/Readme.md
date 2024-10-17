@@ -7,6 +7,7 @@
 - [**HTML, CSS, and JavaScript Visualization**](HTML-CSS-JavaScript-Vi.md): Through practical examples, you will understand how these languages contribute to building dynamic web pages.
 - [**Setting Up Development Tools**](Setting-Up-Development-Tools.md): Optimizing your work environment for efficient web development.
 - [**Installing and Utilizing VSCode Extensions**](Vs-Code-Extensions.md): Enhancing the capabilities of this integrated development environment.
+- [**TIPS**](/Stage-1/Tips.md)
 
 
 # My Top Bibliographies for Front-End Development
