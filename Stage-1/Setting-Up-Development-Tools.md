@@ -25,5 +25,8 @@
 
     These features make Visual Studio Code a powerful and versatile tool for developers.
 
+<div align="center">
 
    [Stage 1 Intro](/Stage-1)    ---     [Go Back](/Stage-1/HTML-CSS-JavaScript-Vi.md)      ---     [Next](/Stage-1/Vs-Code-Extensions.md)
+
+</div>

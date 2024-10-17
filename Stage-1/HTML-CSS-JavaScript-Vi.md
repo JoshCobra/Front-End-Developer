@@ -94,5 +94,8 @@ Here's a simple example of JavaScript code that changes the content of an HTML e
 </html>
 ```
 
+<div align="center">
 
 [Stage 1 Intro](/Stage-1)    ---     [Go Back](/Stage-1/Difference-Front-End-Back-End.md)      ---     [Next](/Stage-1/Setting-Up-Development-Tools.md)
+
+</div>

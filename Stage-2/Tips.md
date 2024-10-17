@@ -59,3 +59,9 @@ Using the `<label>` Tag:
 ## Using the `<fieldset>` Tag:
 
 - To group related sets of fields, use the `<fieldset>` tag. This helps organize and visually structure the form.
+
+<div align="center">
+
+[Intro Stage-2](/Stage-2/) --- [Go Back](/Stage-2/Final-Website.md)  ---  [Next](/)
+
+</div>

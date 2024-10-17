@@ -36,4 +36,8 @@
 - **Simulate Local Servers for Testing and Debugging**  
   Familiarize yourself with extensions and tools that simulate local servers, enabling you to test and debug your websites more effectively before deployment.
 
+<div align="center">
+
   [Return](/)
+
+</div>

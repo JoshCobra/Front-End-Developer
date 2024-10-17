@@ -92,3 +92,10 @@ Copiar código
     ...
 </table>
 ```
+
+<div align="center">
+
+
+[Intro Stage-2](/Stage-2/) --- [Go Back](/Stage-2/My-First-Page.md)  ---  [Next](/Stage-2/Forms-in-HTML.md)
+
+</div>

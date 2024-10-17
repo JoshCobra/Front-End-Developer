@@ -149,7 +149,11 @@ With the things explained above we can create a new `.html` file and create our 
 
 [My First Web Page](/Stage-2/documents/basics-html/html-5.html) 
 
+<div align="center">
 
+[Intro Stage-2](/Stage-2/) --- [Go Back](/Stage-2/)  ---  [Next](/Stage-2/My-First-Page.md)
+
+</div>
 ---
 [^1]: Open your new `.html` file in VsCode and simply type `html:5` and select the *
 [Emmet Abbreviation](Stage-2/Resources/Emmet-Abbreviation.png)*

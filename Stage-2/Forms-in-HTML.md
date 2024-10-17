@@ -48,5 +48,12 @@ The [`myform.html` Example](/Stage-2/documents/forms-html/myform.html)
 
 </body>
 </html>
+```
+
+<div align="center">
+
+[Intro Stage-2](/Stage-2/) --- [Go Back](/Stage-2/Tables-in-HTML.md)  ---  [Next](/Stage-2/Final-Website.md)
+
+</div>
 
 

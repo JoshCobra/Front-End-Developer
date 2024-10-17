@@ -73,3 +73,9 @@ Paragraphs `(<p>)`:
 This is the second page created just to do an example of the use of: `<a href=" ">`
 
 <img src="/Stage-2/Resources/rules.png">
+
+<div align="center">
+
+[Intro Stage-2](/Stage-2/) --- [Go Back](/Stage-2/Basic-Syntax-in-HTML.md)  ---  [Next](/Stage-2/Tables-in-HTML.md)
+
+</div>
