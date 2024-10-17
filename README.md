@@ -33,3 +33,4 @@ Let's learn and grow together!
 		- [My First Web Page](/Stage-2/My-First-Page.md)
 		- [Tables in HTML](/Stage-2/Tables-in-HTML.md)
 		- [Forms in HTML](/Stage-2/Forms-in-HTML.md)
+		- [Essential Tips](/Stage-2/Tips.md)
