@@ -26,5 +26,6 @@ This will render as:
 
 ## Additional Resources
 
+- [Symbl: HTML Entities](https://symbl.cc/es/html-entities/)
 - [W3Schools: HTML Entities](https://www.w3schools.com/html/html_entities.asp)
 - [MDN Web Docs: HTML Entities](https://developer.mozilla.org/en-US/docs/Glossary/Entity)
