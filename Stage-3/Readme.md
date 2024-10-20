@@ -5,6 +5,7 @@
 - [**Entities**](/Stage-3/Entities.md): How to use entities in HTML.
 - [**Semantic Elements**](/Stage-3/Semantic-Elements.md): The importance of semantic elements those that are descriptive and make a better structure for your HTML.
 - [**Multi-Media Elements**](/Stage-3/Multi-Media-Elements.md): How to use multi-media elements in HTML.
+- [**TIPS**](/Stage-3/tips.md)
 
 ## Introduction
 
