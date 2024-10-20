@@ -20,7 +20,7 @@ Let's learn and grow together!
 
 # Start of the Journey
 
-## [Stage 1](Stage-1)
+### [Stage 1](Stage-1)
 - [Intro and Bibliographies](/Stage-1/Readme.md)
 	- [How Internet And Websites Work](/Stage-1/How-Internet-And-WebSites-Work.md)
 	- [Difference Between *Front-End* & *Back-End*](/Stage-1/Difference-Front-End-Back-End.md)
@@ -31,7 +31,7 @@ Let's learn and grow together!
   
 <hr>
 
-## [Stage 2](/Stage-2)
+### [Stage 2](/Stage-2)
 - [First Steps Into HTML](/Stage-2/Readme.md)
 	- [Basic Syntax of HTML](/Stage-2/Basic-Syntax-in-HTML.md)
 	- [My First Web Page](/Stage-2/My-First-Page.md)
@@ -42,7 +42,7 @@ Let's learn and grow together!
 
 <hr>
 
-## [Stage 3](/Stage-3)
+### [Stage 3](/Stage-3)
 - [HTML II](/Stage-3/Readme.md)
 	- [Diversity in HTML](/Stage-3/Diversity-in-HTML.md)
 	- [Block and Inline Elements](/Stage-3/Block-and-Inline-Elements.md)
@@ -53,7 +53,7 @@ Let's learn and grow together!
 
 <hr>
 
-## [Stage 4](/Stage-4)
+### [Stage 4](/Stage-4)
 - [Introduction to CSS](/Stage-4/Readme.md)
 	- [CSS Syntax](/Stage-4/CSS-Syntax.md)
 	- [CSS Selectors](/Stage-4/CSS-Selectors.md)
@@ -63,13 +63,14 @@ Let's learn and grow together!
   
 <hr>
 
-  ## Projects
-  - [Stage-2]
-    	- [The Basics in HTML](Stage-2/documents/basics-html)
-    	- [My First Website](Stage-2/documents/my-website-html) *spanish*
-  - [Stage-3]
-    	- [My E-Commerce](Stage-3/Projects/e-commerce-html) *spanish*
-    	- [McLaren Page](Stage-3/Projects/the-w1-mclaren) *spanish*
+  ### Projects
+  - Stage-2
+    - [The Basics in HTML](Stage-2/documents/basics-html)
+    - [My First Website](Stage-2/documents/my-website-html) *spanish*
+
+  - Stage-3
+    - [My E-Commerce](Stage-3/Projects/e-commerce-html) *spanish*
+    - [McLaren Page](Stage-3/Projects/the-w1-mclaren) *spanish*
     
 <hr>
 
