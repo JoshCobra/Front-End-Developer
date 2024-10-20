@@ -4,6 +4,8 @@
 CSS (Cascading Style Sheets) is used to style and layout web pages. It is a stylesheet language that describes the presentation of an HTML document.
 CSS is a powerful tool for web design, allowing you to create visually appealing and responsive web pages.
 
+[Real Example](/Stage-4/documents/syntax.css)
+
 <em>This is the basic syntax of CSS:</em>
 
 ```css

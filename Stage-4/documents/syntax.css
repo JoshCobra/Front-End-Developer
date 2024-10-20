@@ -1,0 +1,20 @@
+/* The Basic Syntax of CSS */
+
+/* The selector is the HTML element you want to style. */
+
+/*
+selector {
+    property: value;
+}
+*/
+
+/* Examples */
+
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: navy;
+    margin-left: 20px;
+}
