@@ -103,3 +103,9 @@ Here is an example of using different color methods in CSS:
 ```
 
 This example demonstrates how to use different color methods in CSS to style text.
+
+<div align="center">
+
+[Intro Stage-4](/Stage-4/) --- [Go Back](/Stage-4/CSS-Syntax.md)  ---  [Next](/Stage-4/CSS-Properties.md)
+
+</div>

@@ -39,3 +39,9 @@ To embed YouTube videos, use the `<iframe>` tag:
 ## Conclusion
 
 Using these HTML elements, you can easily add multimedia content to your web pages to enhance user experience.
+
+<div align="center">
+
+[Intro Stage-3](/Stage-3/) --- [Go Back](/Stage-3/Semantic-Elements.md)  ---  [Next](/Stage-3/tips.md)
+
+</div>

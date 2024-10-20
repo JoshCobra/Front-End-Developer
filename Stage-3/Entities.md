@@ -29,3 +29,9 @@ This will render as:
 - [Symbl: HTML Entities](https://symbl.cc/es/html-entities/)
 - [W3Schools: HTML Entities](https://www.w3schools.com/html/html_entities.asp)
 - [MDN Web Docs: HTML Entities](https://developer.mozilla.org/en-US/docs/Glossary/Entity)
+
+<div align="center">
+
+[Intro Stage-3](/Stage-3/) --- [Go Back](/Stage-3/Diversity-in-HTML.md)  ---  [Next](/Stage-3/Semantic-Elements.md)
+
+</div>

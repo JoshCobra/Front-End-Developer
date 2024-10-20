@@ -71,3 +71,9 @@ Semantic elements in HTML provide meaning to the web page rather than just prese
 ```
 
 Using semantic elements improves the accessibility and SEO of your web pages.
+
+<div align="center">
+
+[Intro Stage-3](/Stage-3/) --- [Go Back](/Stage-3/Entities.md)  ---  [Next](/Stage-3/Multi-Media-Elements.md)
+
+</div>

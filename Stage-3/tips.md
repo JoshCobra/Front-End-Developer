@@ -13,3 +13,9 @@ Utilize comments (`<!-- ... -->`) to explain your code. This is particularly hel
 Break your page into logical sections using appropriate tags. For example, use `<header>` for the header, `<nav>` for navigation, `<article>` for independent content, and `<footer>` for the footer.
 
 Ensure you optimize your code for multimedia elements. You can use tools and methods to minimize redundant code and improve website performance.
+
+<div align="center">
+
+ [Go Back](/)
+
+</div>

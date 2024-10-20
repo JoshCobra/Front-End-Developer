@@ -53,3 +53,9 @@ Inline elements do not start on a new line and only take up as much width as nec
 - `<rt>`
 - `<rp>`
 - `<wbr>`
+
+<div align="center">
+
+[Intro Stage-3](/Stage-3/) --- [Go Back](/Stage-3/)  ---  [Next](/Stage-3/Diversity-in-HTML.md)
+
+</div>

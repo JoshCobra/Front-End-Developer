@@ -85,3 +85,9 @@ This is a **very important** statement.
 This is an *emphasized* statement.
 
 By understanding and using these tags correctly, you can create more meaningful and accessible web content.
+
+<div align="center">
+
+[Intro Stage-3](/Stage-3/) --- [Go Back](/Stage-3/Block-and-Inline-Elements.md)  ---  [Next](/Stage-3/Entities.md)
+
+</div>
