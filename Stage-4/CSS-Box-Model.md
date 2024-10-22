@@ -16,7 +16,7 @@ The CSS Box Model is a fundamental concept in web design and development. It des
 > **Orange**: Margin,
 > **Black**: Border,
 > **Green**: Padding,
-> **Blue**: Content,
+> **Blue**: Content
 
 ## CSS Properties
 
