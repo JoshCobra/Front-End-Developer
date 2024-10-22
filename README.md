@@ -57,7 +57,9 @@ Let's learn and grow together!
 - [Introduction to CSS](/Stage-4/Readme.md)
 	- [CSS Syntax](/Stage-4/CSS-Syntax.md)
 	- [CSS Selectors](/Stage-4/CSS-Selectors.md)
+	- [CSS Colors](/Stage-4/CSS-Colors.md)
 	- [CSS Properties](/Stage-4/CSS-Properties.md)
+	- [CSS Units](/Stage-4/CSS-Units.md)
 	- [CSS Box Model](/Stage-4/CSS-Box-Model.md)
 - [TIPS](/Stage-4/tips.md)
   
