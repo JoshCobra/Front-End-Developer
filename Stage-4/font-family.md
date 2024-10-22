@@ -10,9 +10,11 @@ The `font-family` property in CSS is used to specify the font of the text. You c
 > The suggested VsCode font-families are called safe-fonts, which are fonts that are available on most systems.
 
 
-[] Note: You can add font-families from the web using the referring link to the font-family.   
-    - [Recommended Google Fonts](https://fonts.google.com/)
-    - [Recommended Adobe Fonts](https://fonts.adobe.com/)
+> [!NOTE] 
+> You can add font-families from the web using the referring link to the font-family.  
+
+- [Recommended Google Fonts](https://fonts.google.com/)
+- [Recommended Adobe Fonts](https://fonts.adobe.com/)
 
 <img src="/Stage-4/resources/google-fonts-example.png">
 
