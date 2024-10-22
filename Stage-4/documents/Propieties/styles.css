@@ -1,0 +1,44 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+} 
+/*The above CSS code will be applied to the h1 element in the Properties folder.*/
+/*The suggested VsCode Fonts are called, "Safe-fonts" because they are available in most operating systems.*/
+
+p{
+  text-align: right;  
+}
+/*The above CSS code will be applied to the p element in the Properties folder.*/
+/*The text-align property is used to set the horizontal alignment of a text.*/
+/*The value "right" will align the text to the right you can use: center, left, right.*/
+/*Justify is also a value that can be used to justify the text.*/
+
+div{
+    letter-spacing: 5px;
+    text-decoration: underline;
+    text-transform: capitalize;
+    line-height: 3;
+    word-spacing: 10px;
+    text-shadow: 10px 10px 15px red;
+}
+/*The above CSS code will be applied to the div element in the Properties folder.*/
+/*The letter-spacing property is used to specify the space between the characters in a text.*/
+/*The value "5px" will add 5 pixels of space between the characters.*/
+
+/*The text-decoration property is used to set or remove decorations from text.*/
+/*The value "underline" will add an underline to the text.*/
+
+/*The text-transform property is used to specify uppercase and lowercase letters in a text.*/
+/*The value "capitalize" will capitalize the first letter of each word.*/
+
+/*The line-height property is used to specify the height of a line.*/
+/*The value "3" will set the height of the line to 3 times the font size.*/
+/*The line-height property can also be used to set the space between lines of text.*/
+
+/*The word-spacing property is used to specify the space between words in a text.*/
+/*The value "10px" will add 10 pixels of space between the words.*/
+
+/*The text-shadow property is used to add shadow to text.*/
+/*The first value "10px" is the horizontal shadow.*/
+/*The second value "10px" is the vertical shadow.*/
+/*The third value "15px" is the blur radius.*/
+/*The fourth value "red" is the color of the shadow.*/
