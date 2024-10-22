@@ -1,6 +1,7 @@
 # CSS Properties
 
 CSS (Cascading Style Sheets) is used to style and layout web pages. Here are some common CSS properties:
+Visualize the [Example](/Stage-4/documents/Propieties)
 
 ## Text Properties
 - `color`: Sets the color of the text.

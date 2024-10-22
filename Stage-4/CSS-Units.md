@@ -1,6 +1,7 @@
 # CSS Units
 
 CSS units are used to define the size of various elements in a web page. Here are some common CSS units:
+Visualize the [Example](/Stage-4/documents/Units)
 
 ## Absolute Units
 - **px** (pixels): A fixed unit that represents a single dot on the screen.
