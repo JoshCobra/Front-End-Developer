@@ -9,14 +9,14 @@ The CSS Box Model is a fundamental concept in web design and development. It des
 
 ## Visual Representation
 
-
+<img width="40%" src="/Stage-4/resources/box-model-visual.png">
 <img width="40%" src="/Stage-4/resources/box-model-example.png">
 
 >[!NOTE]
-> Orange: Margin,
-> Black: Border,
-> Green: Padding,
-> Blue: Content,
+> **Orange**: Margin,
+> **Black**: Border,
+> **Green**: Padding,
+> **Blue**: Content,
 
 ## CSS Properties
 
