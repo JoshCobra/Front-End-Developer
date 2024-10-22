@@ -5,7 +5,7 @@ CSS (Cascading Style Sheets) is used to style and layout web pages. Here are som
 ## Text Properties
 - `color`: Sets the color of the text.
 - `font-size`: Sets the size of the text.
-- `font-family`: Specifies the font of the text.
+- [`font-family`](font-family.md): Specifies the font of the text.
 - `text-align`: Aligns the text (e.g., left, right, center).
 
 ## Box Model Properties
