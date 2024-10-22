@@ -27,7 +27,7 @@ Let's learn and grow together!
 	- [Setting Up Development Tools](/Stage-1/Setting-Up-Development-Tools.md)
 	- [Setting Up VsCode](/Stage-1/Vs-Code-Extensions.md)
 	- [Essential Tips](/Stage-1/Tips.md)
-- [TIPS](/Stage-1/tips.md)
+- [TIPS](/Stage-1/Tips.md)
   
 <hr>
 
@@ -38,7 +38,7 @@ Let's learn and grow together!
 	- [Tables in HTML](/Stage-2/Tables-in-HTML.md)
 	- [Forms in HTML](/Stage-2/Forms-in-HTML.md)
 	- [Essential Tips](/Stage-2/Tips.md)
-- [TIPS](/Stage-2/tips.md)
+- [TIPS](/Stage-2/Tips.md)
 
 <hr>
 
