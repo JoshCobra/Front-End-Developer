@@ -1,0 +1,23 @@
+header{
+    padding: 20px 40px;
+    border: 2px solid #e27216;
+}
+
+header .logo{
+    width: 200px;
+}
+
+header nav{
+    display: inline;
+    float: right;
+    /* we don't use the float property anymore */
+    /* display: flex; is the replacement*/
+    padding-top: 45px;
+}
+
+header nav a{
+    margin: 0 10px;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+}
