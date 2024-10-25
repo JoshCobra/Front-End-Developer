@@ -65,6 +65,17 @@ Let's learn and grow together!
   
 <hr>
 
+### [Stage 5](/Stage-5)
+- [CSS II](/Stage-5/Readme.md)
+	- [Type, Class, ID Selectors](/Stage-5/CSS-Selectors.md)
+	- [Pseudo-classes](/Stage-5/CSS-Pseudo-Classes.md)
+	- [Grouping Selectors](/Stage-5/CSS-Grouping-Selectors.md)
+	- [Styles Cascade](/Stage-5/CSS-Styles-Cascade.md)
+	- [Attribute Selectors](/Stage-5/CSS-Attribute-Selectors.md)
+- [TIPS](/Stage-5/tips.md)
+
+<hr>
+
   ### Projects
   - Stage-2
     - [The Basics in HTML](Stage-2/documents/basics-html)

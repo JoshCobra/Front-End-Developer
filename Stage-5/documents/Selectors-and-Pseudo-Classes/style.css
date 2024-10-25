@@ -1,0 +1,55 @@
+/*SELECTORS AND PSEUDO-CLASSES*/
+
+/*Classic Selectors*/
+header{ /*Element Selector*/
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#title{ /*ID Selector*/
+    color: #333;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.inputs{ /*Class Selector*/
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/*----------------------------------------------*/
+
+/*Pseudo-Classes*/
+.inputs input[type="submit"]:hover{ /*Attribute Selector*/
+    background-color: #333;
+    color: #fff;
+    width: 80px;
+    height: 40px;
+}
+
+.tables table tr:first-child{ /*First Child Pseudo-Class*/
+    background-color: #e47474;
+    color: #fff;
+}
+
+.tables table tr:last-child{ /*Last Child Pseudo-Class*/
+    background-color: #459945;
+    color: #fff;
+}
+
+.inputs input[type="checkbox"]:checked{ /*Focus Pseudo-Class*/
+    width: 40px;
+}
+
+.inputs input[type="button"]:active{
+    /*This action appears when you hold the button pressed*/
+    width: 20%;
+    background-color: #459945;
+}
