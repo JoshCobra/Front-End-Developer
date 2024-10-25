@@ -6,10 +6,23 @@ Cascading in CSS refers to the way styles are applied to HTML elements based on 
 
 - **Inheritance**: Some CSS properties are inherited from parent elements to child elements. For example, `color` and `font-family` are inherited, while `margin` and `padding` are not.
 
+```css
+/* Example of inheritance */
+body {
+    font-family: Arial, sans-serif;
+}
+
+body p {
+    color: blue; /* Inherits font-family from body */
+}
+```
+
 - **Specificity**: Specificity determines which CSS rule is applied by the browser when multiple rules could apply to the same element. Specificity is calculated based on the types of selectors used:
     1. Inline styles (e.g., `style="..."`) have the highest specificity.
     2. IDs (e.g., `#header`) have higher specificity than classes (e.g., `.menu`), attributes (e.g., `[type="text"]`), and pseudo-classes (e.g., `:hover`).
     3. Classes, attributes, and pseudo-classes have higher specificity than element selectors (e.g., `div`, `p`).
+
+<img align="center" src="/Stage-5/resources/specifity-CSS.png">
 
 - **Source Order**: When two rules have the same specificity, the one that appears later in the CSS file takes precedence.
 
@@ -61,3 +74,8 @@ main p{/*2nd rule*/
     color: blue;
 }
 ```
+
+- **Aditional Resources**:
+    - [MDN Web Docs: Specificity](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity)
+    - [MDN Web Docs: Inheritance](https://developer.mozilla.org/en-US/docs/Web/CSS/inheritance)
+    - [CSS Tricks: Specifics on CSS Specificity](https://css-tricks.com/specifics-on-css-specificity/)
