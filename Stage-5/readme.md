@@ -3,7 +3,7 @@ In this section, we will cover more advanced topics in CSS, including:
 
 - [**Type, Class, ID Selectors**](/Stage-5/CSS-Selectors.md): Learn about type selectors in CSS.
 - [**Pseudo-classes**](/Stage-5/CSS-Pseudo-Classes.md): Learn about pseudo-classes in CSS.
-- [**Grouping Selectors**](/Stage-5/CSS-Grouping-Selectors.md): Learn how to group selectors in CSS.
+- [**Contextual and Grouping Selectors**](/Stage-5/Contextual-and-Grouping-Selectors.md): Learn how to group selectors in CSS.
 - [**Cascading Styles**](/Stage-5/CSS-Cascading.md): Learn about the cascade in CSS.
 - [**Attribute Selectors**](/Stage-5/CSS-Attribute-Selectors.md): Learn about attribute selectors in CSS.
 
