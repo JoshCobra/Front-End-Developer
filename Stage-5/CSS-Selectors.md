@@ -41,3 +41,14 @@ The ID selector targets a single element by its id attribute. Use a hash (`#`) f
     <p>This is a unique element.</p>
 </div>
 ```
+
+## Universal Selector
+The universal selector targets all elements on the page. Use an asterisk (`*`) to select everything.
+
+```css
+/* Selects all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+```
