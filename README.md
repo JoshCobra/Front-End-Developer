@@ -66,7 +66,7 @@ Let's learn and grow together!
 <hr>
 
 ### [Stage 5](/Stage-5)
-- [CSS II](/Stage-5/Readme.md)
+- [CSS II](/Stage-5/readme.md)
 	- [Type, Class, ID Selectors](/Stage-5/CSS-Selectors.md)
 	- [Pseudo-classes](/Stage-5/CSS-Pseudo-Classes.md)
 	- [Grouping Selectors](/Stage-5/CSS-Grouping-Selectors.md)
