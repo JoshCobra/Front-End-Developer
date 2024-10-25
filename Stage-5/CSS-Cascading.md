@@ -22,7 +22,7 @@ body p {
     2. IDs (e.g., `#header`) have higher specificity than classes (e.g., `.menu`), attributes (e.g., `[type="text"]`), and pseudo-classes (e.g., `:hover`).
     3. Classes, attributes, and pseudo-classes have higher specificity than element selectors (e.g., `div`, `p`).
 
-<img align="center" src="/Stage-5/resources/specifity-CSS.png">
+<img width="30%" align="center" src="/Stage-5/resources/specifity-CSS.png">
 
 - **Source Order**: When two rules have the same specificity, the one that appears later in the CSS file takes precedence.
 
