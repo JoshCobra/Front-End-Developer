@@ -47,4 +47,17 @@ In this example, the last paragraph has both a class and an ID. The ID selector 
 
 - **The `!important` Keyword**: 
 
-The `!important` keyword can be used to override other styles and force a rule to take precedence. However, it is generally recommended to avoid using `!important` as it can make the CSS harder to maintain.
+The `!important` keyword can be used to override other styles and force a rule to take precedence. However, it is generally recommended to avoid using `!important` as it can make the CSS harder to maintain. Its considered a bad practice.
+
+## Code Order 
+In this example, the second rule will override the first rule because it appears later in the CSS file.
+
+```css
+main p{/*1st rule*/
+    color: red;
+}
+
+main p{/*2nd rule*/
+    color: blue;
+}
+```
