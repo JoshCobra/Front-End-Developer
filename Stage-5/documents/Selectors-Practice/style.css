@@ -1,0 +1,73 @@
+*{ /* Selects all elements */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+article{ /* Selects all article elements */
+    background-color: #f4f4f4;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+p, h1{
+    font-size: 20px;
+}
+
+h1, h2{
+    font-weight: 700;
+}
+
+.home{ /* Selects all elements with class home */
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    margin: 1em 10px;
+    border-radius: 15px;
+    padding: 2%;
+    text-align: center;
+}
+
+article .txt{
+    font-size: 14px;
+}
+
+section .txt{
+    font-size: 16px;
+    text-decoration:line-through;
+}
+
+button{ /* Selects all button elements */
+    background-color: #333;
+    color: #fff;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    width: 50%;
+    margin-left: 25%;
+}
+
+button:hover{ /* Selects all button elements when hovered */
+    background-color: #6bc064;
+    color: #333;
+}
+
+input[type="password"]{ /* Selects all input elements with type text */
+    background-color:#6bc064;
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin: 20px 35%;
+}
+
+input[type="password"]:focus{ /* Selects all input elements with type text when focused */
+    background-color:#333;
+    color: #fff;
+}
+
+footer{ /* Selects all footer elements */
+    background-color: #333;
+    color: #fff;
+    padding: 1px;
+    text-align: center;
+    margin: 20px 0;
+    border-radius: 15px;
+    margin: 5em;
+}
