@@ -42,3 +42,9 @@ button:hover {
 ```
 
 For more detailed information, refer to the [MDN Web Docs on Pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes).
+
+<div align="center">
+
+[Intro Stage-4](/Stage-5/) --- [Go Back](/Stage-5/CSS-Selectors.md)  ---  [Next](/Stage-5/Contextual-and-Grouping-Selectors.md)
+
+</div>

@@ -40,3 +40,9 @@ The CSS Box Model is a fundamental concept in web design and development. It des
 In this example, the `.box` class will create an element with a content area of 300px by 150px, 20px of padding, a 5px solid black border, and a 10px margin.
 
 Understanding the CSS Box Model is crucial for designing and laying out web pages effectively.
+
+<div align="center">
+
+[Intro Stage-4](/Stage-4/) --- [Go Back](/Stage-4/CSS-Units.md)  ---  [Next](/Stage-4/tips.md)
+
+</div>

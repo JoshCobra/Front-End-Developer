@@ -52,3 +52,9 @@ The universal selector targets all elements on the page. Use an asterisk (`*`) t
     padding: 0;
 }
 ```
+
+<div align="center">
+
+[Intro Stage-4](/Stage-5/) --- [Go Back](/Stage-5/readme.md)  ---  [Next](/Stage-5/CSS-Pseudo-Classes.md)
+
+</div>

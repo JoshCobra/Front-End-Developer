@@ -29,3 +29,9 @@ Visualize the [Example](/Stage-4/documents/Units)
 ```
 
 Understanding and using the appropriate CSS units is crucial for responsive and well-designed web pages.
+
+<div align="center">
+
+[Intro Stage-4](/Stage-4/) --- [Go Back](/Stage-4/CSS-Properties.md)  ---  [Next](/Stage-4/CSS-Box-Model.md)
+
+</div>

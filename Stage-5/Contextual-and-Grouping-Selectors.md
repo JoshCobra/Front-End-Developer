@@ -77,3 +77,8 @@ In this example, all `p` elements that are descendants of a `div` element will h
 
 By using contextual selectors, you can create more precise and manageable CSS rules.
 
+<div align="center">
+
+[Intro Stage-4](/Stage-5/) --- [Go Back](/Stage-5/CSS-Pseudo-Classes.md)  ---  [Next](/Stage-5/CSS-Cascading.md)
+
+</div>

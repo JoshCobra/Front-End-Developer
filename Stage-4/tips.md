@@ -41,3 +41,9 @@ Consider using relative units and percentages from the beginning of development 
 
 ### Avoid Excessive Use of Float:
 Although `float` was demonstrated, keep in mind that excessive use can cause design issues. Instead, consider more modern layout techniques, such as Flexbox or Grid.
+
+<div align="center">
+
+[Go Back](/)
+
+</div>

@@ -56,7 +56,6 @@ Let's learn and grow together!
 ### [Stage 4](/Stage-4)
 - [Introduction to CSS](/Stage-4/Readme.md)
 	- [CSS Syntax](/Stage-4/CSS-Syntax.md)
-	- [CSS Selectors](/Stage-4/CSS-Selectors.md)
 	- [CSS Colors](/Stage-4/CSS-Colors.md)
 	- [CSS Properties](/Stage-4/CSS-Properties.md)
 	- [CSS Units](/Stage-4/CSS-Units.md)
@@ -88,5 +87,7 @@ Let's learn and grow together!
  - Stage-4
    - [McLaren Page Including CSS Stylesheet](Stage-4/projects/mclaren-styles)
     
+- Stage-5
+  - [My E-Commerce Including CSS Stylesheet](Stage-5/projects/e-commerce-html/)
 <hr>
 

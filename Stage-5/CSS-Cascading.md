@@ -79,3 +79,9 @@ main p{/*2nd rule*/
     - [MDN Web Docs: Specificity](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity)
     - [MDN Web Docs: Inheritance](https://developer.mozilla.org/en-US/docs/Web/CSS/inheritance)
     - [CSS Tricks: Specifics on CSS Specificity](https://css-tricks.com/specifics-on-css-specificity/)
+
+<div align="center">
+
+[Intro Stage-4](/Stage-5/) --- [Go Back](/Stage-5/Contextual-and-Grouping-Selectors.md)  ---  [Next](/Stage-5/CSS-Attribute-Selectors.md)
+
+</div>

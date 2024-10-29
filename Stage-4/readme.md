@@ -1,7 +1,6 @@
 # CSS Basics
 
 - [**Syntax in CSS**](/Stage-4/CSS-Syntax.md): Learn about the basic syntax of CSS.
-- [**Selectors in CSS**](/Stage-4/CSS-Selectors.md): Learn about different types of selectors in CSS.
 - [**Colors in CSS**](/Stage-4/CSS-Colors.md): Learn how to use colors in CSS.
 - [**Properties in CSS**](/Stage-4/CSS-Properties.md): Learn about some common CSS properties.
 - [**Box Model in CSS**](/Stage-4/CSS-Box-Model.md): Learn about the box model in CSS.
