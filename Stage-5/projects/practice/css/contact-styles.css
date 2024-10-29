@@ -1,0 +1,119 @@
+body{
+    background-color: #f4f4f4;
+    font-family: Spectral, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+header i{
+    cursor: pointer;
+    display: inline-block;
+    width: 50px;
+}
+
+header i img{
+    width: 100%;
+}
+
+#main-title{
+    font-size: 2em;
+    font-weight: 800;
+    color: #fff;
+    margin: 0 auto;
+}
+
+nav{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+nav ul li a:hover{
+    background-color: #555;
+}
+
+.title{
+    font-size: 2em;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+.txt{
+    font-size: 1.2em;
+    margin: 20px 0;
+    font-weight: 400;
+    color: #212121;
+    text-align: center;
+}
+
+#name #email #phone #message{
+    margin-top: 20px;
+    font-size: 1.5em;
+    font-weight: 800;
+    color: #333;
+}
+
+button{
+    background-color: #224a8b;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    font-weight: 800;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover{
+    background-color: #555;
+}
+
+button:active{
+    background-color: #333;
+}
+
+button:focus{
+    outline: none;
+}
+
+article{
+    margin-top: 200px;
+}
+
+strong{
+    color: #224a8b;
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    margin-top: 40%;
+    padding: 10px 0;
+}

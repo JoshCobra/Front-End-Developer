@@ -9,7 +9,6 @@ body{
 header{
     background-color: #333;
     color: #fff;
-    padding: 10px 0;
     text-align: center;
 }
 
@@ -23,10 +22,16 @@ header i img{
     width: 100%;
 }
 
+#main-title{
+    font-size: 2em;
+    font-weight: 800;
+    color: #fff;
+    margin: 0 auto;
+}
+
 nav{
     background-color: #333;
     color: #fff;
-    padding: 10px 0;
     text-align: center;
 }
 
@@ -83,17 +88,52 @@ nav ul li a:hover{
 }
 
 .why-to p:first-child{
-    margin: 20px 0;
+    margin: 40px 0;
 }
 
-.why-to p:nth-child(3){
+.why-to p:nth-child(4){
     margin: 20px 0;
-    font-weight: 300;
-    
+    font-weight: 200;
+    font-size: 1em;
+    text-decoration: underline;
 }
 
 .why-to p:last-child{
-    font-size: 2em;
-    font-weight: 600;
+    font-weight: 700;
     color: #224a8b;
+}
+
+.how-to{
+    padding: 40px 0;
+    text-align: center;
+}
+
+.btn{
+    background-color: #224a8b;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 1.2em;
+}
+
+.btn:hover{
+    background-color: #333;
+}
+
+.btn:active{
+    background-color: #555;
+}
+
+.btn:visited{
+    color: #fff;
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 100%;
 }
