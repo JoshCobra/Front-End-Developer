@@ -76,6 +76,14 @@ Let's learn and grow together!
 
 <hr>
 
+### [Stage 6](/Stage-6)
+- [HTML & CSS: Flexbox and Grid](/Stage-6/readme.md)
+	- [Flexbox in HTML and CSS](/Stage-6/Flexbox.md)
+	- [Grid in HTML and CSS](/Stage-6/Grid.md)
+- [TIPS](/Stage-6/tips.md)
+
+<hr>
+
   ### Projects
   - Stage-2
     - [The Basics in HTML](Stage-2/documents/basics-html)
