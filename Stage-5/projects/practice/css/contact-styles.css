@@ -134,6 +134,10 @@ button:hover{
     background-color: #555;
 }
 
+button:active{
+    background-color: #333;
+}
+
 article{
     margin-top: 200px;
 }
