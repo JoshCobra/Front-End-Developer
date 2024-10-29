@@ -54,10 +54,11 @@ Let's learn and grow together!
 <hr>
 
 ### [Stage 4](/Stage-4)
-- [Introduction to CSS](/Stage-4/Readme.md)
+- [Introduction to CSS](/Stage-4/readme.md)
 	- [CSS Syntax](/Stage-4/CSS-Syntax.md)
 	- [CSS Colors](/Stage-4/CSS-Colors.md)
 	- [CSS Properties](/Stage-4/CSS-Properties.md)
+		- [*Font-Family*](/Stage-4/font-family.md)
 	- [CSS Units](/Stage-4/CSS-Units.md)
 	- [CSS Box Model](/Stage-4/CSS-Box-Model.md)
 - [TIPS](/Stage-4/tips.md)
