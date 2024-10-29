@@ -1,0 +1,99 @@
+body{
+    background-color: #f4f4f4;
+    font-family: Spectral, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header i{
+    cursor: pointer;
+    display: inline-block;
+    width: 50px;
+}
+
+header i img{
+    width: 100%;
+}
+
+nav{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+nav ul li a:hover{
+    background-color: #555;
+}
+
+.who-is{
+    padding: 40px 0;
+    text-align: center;
+}
+
+.who-is img{
+    width: 100%;
+}
+
+.txt{
+    font-size: 1.2em;
+    margin: 20px 0;
+    font-weight: 400;
+    color: #212121;
+}
+
+.title{
+    font-size: 2em;
+    font-weight: 800;
+    color: #333;
+}
+
+.why-to{
+    padding: 40px 0;
+    text-align: center;
+}
+
+.why-to img{
+    width: 100%;
+}
+
+.why-to p:first-child{
+    margin: 20px 0;
+}
+
+.why-to p:nth-child(3){
+    margin: 20px 0;
+    font-weight: 300;
+    
+}
+
+.why-to p:last-child{
+    font-size: 2em;
+    font-weight: 600;
+    color: #224a8b;
+}
