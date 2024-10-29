@@ -143,6 +143,7 @@ img{
     margin: 0 auto;
     display: block;
     padding-bottom: 80px;
+    border-radius: 5%;
 }
 
 strong{
