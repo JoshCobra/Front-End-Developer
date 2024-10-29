@@ -23,7 +23,7 @@ header i img{
 }
 
 #main-title{
-    font-size: 2em;
+    font-size: 3.5em;
     font-weight: 800;
     color: #fff;
     margin: 0 auto;
@@ -140,6 +140,23 @@ button:active{
 
 article{
     margin-top: 200px;
+}
+
+article a{
+    color: #224a8b;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+article a:hover{
+    color: #555;
+}
+
+article a:active{
+    color: #333;
+}
+article a:visited{
+    color: #841d1d;
 }
 
 img{
