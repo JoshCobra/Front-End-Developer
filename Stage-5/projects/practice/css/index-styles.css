@@ -8,7 +8,7 @@ body{
 
 header{
     background-color: #333;
-    color: #fff;
+    color: #ffffff;
     text-align: center;
 }
 
@@ -27,6 +27,18 @@ header i img{
     font-weight: 800;
     color: #fff;
     margin: 0 auto;
+    text-align: center;
+}
+
+.banner{
+    width: 100%;
+    padding: 80px 0;
+    text-align: center;
+    background-image: url("../img/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 3%;
+    color: #fff;
 }
 
 nav{
@@ -38,7 +50,7 @@ nav{
 nav ul{
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 9px;
 }
 
 nav ul li{
@@ -62,7 +74,8 @@ nav ul li a:hover{
 }
 
 .who-is img{
-    width: 100%;
+    width: 30%;
+    border-radius: 5%;
 }
 
 .txt{
@@ -79,12 +92,13 @@ nav ul li a:hover{
 }
 
 .why-to{
-    padding: 40px 0;
+    padding: 10px 0;
     text-align: center;
 }
 
 .why-to img{
-    width: 100%;
+    width: 50%;
+    border-radius: 5%;
 }
 
 .why-to p:first-child{
