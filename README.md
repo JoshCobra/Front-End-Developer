@@ -89,6 +89,7 @@ Let's learn and grow together!
    - [McLaren Page Including CSS Stylesheet](Stage-4/projects/mclaren-styles)
     
 - Stage-5
-  - [My E-Commerce Including CSS Stylesheet](Stage-5/projects/e-commerce-html/)
+  - [My E-Commerce Including CSS Stylesheet](Stage-5/projects/e-commerce-html/) *spanish*
+  - [Dr. House Website](/Stage-5/projects/dr-house-website/) *spanish*
 <hr>
 
