@@ -57,11 +57,16 @@ The presented [Example](/Stage-6/dcuments/grid/) of Grid Layout.
 
 ## Element Manipulation
 
-<img src="resources/gird-element-manip.png" width="300px" align="right">
+<img src="resources/gird-element-manip.png" width="300px" align="right" alt="element-manipulation">
+
+<br>
+<br>
 
 - **grid-cloumn:[start]/[end]**: Specifies the start and end positions of the grid item.
 - **grid-row:[start]/[end]**: Specifies the start and end positions of the grid item.
 - Example: `grid-column: 1 / 3;` will span the grid item from the first to the third column as shown in the image "**the green example**".
+
+<br>
 
 ## Align and Justify Items
 
