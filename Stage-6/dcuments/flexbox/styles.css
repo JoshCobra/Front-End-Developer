@@ -1,0 +1,61 @@
+/*Testing the Flexbox properties*/
+
+.container{
+    display:  flex;
+    padding: 50px;
+    background-color: #4b9652;
+    box-sizing: border-box;
+    gap: 20px; /* gap between the flex items */
+    flex-direction: row; /* row-reverse, column, column-reverse */
+    /* row is the default value */
+    flex-wrap: wrap;
+    height: 300px;
+    align-items: flex-start; /* align-items: stretch, flex-start, flex-end, center, baseline */
+    justify-content:center; /* justify-content: flex-start, flex-end, center, space-between, space-around, space-evenly */
+}
+
+.container article{
+    background-color: #ffff;
+    padding: 10px;
+    box-sizing: border-box;
+   /* flex-basis: calc(33.33% - 20px);  33.33% of the container width */
+   flex-basis: 33%; /* 20% of the container width */
+}
+
+.container article:nth-child(2){
+    flex-grow: 1; /* 0 is the default value */
+}
+
+.container article:nth-child(3){
+    flex-basis: 50px;
+    flex-shrink: 3; /* 0 is the default value */
+}
+
+.container article:nth-child(4){
+    flex-basis: 20%;
+}
+
+
+.container2{
+    display:  flex;
+    padding: 50px;
+    background-color: #4b9652;
+    box-sizing: content-box;
+    gap: 10%;
+    flex-direction: column;
+    flex-wrap:nowrap;
+    height: 400px;
+    align-items: center;
+    justify-content: center
+}
+
+.container2 article{
+    background-color: #ffff;
+    padding: 10px;
+    box-sizing: border-box;
+    flex-basis: 20%;
+}
+
+.container2 article:nth-child(2){
+    flex-shrink: 1;
+}
