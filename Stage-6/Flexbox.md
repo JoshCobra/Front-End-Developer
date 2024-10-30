@@ -10,6 +10,8 @@ Watch this [video](https://www.youtube.com/watch?v=JJSoEo8JSnc) to understand th
 ### Flex Container
 To create a flexbox layout, you need a flex container. This is done by setting the `display` property to `flex` or `inline-flex`.
 
+<img align="center" width="20%" src="resources/flexbox.png">
+
 ```html
 <div class="flex-container">
     <div class="flex-item">Item 1</div>
