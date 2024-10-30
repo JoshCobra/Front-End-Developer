@@ -7,7 +7,7 @@ CSS Grid Layout is a two-dimensional layout system for the web. It lets you layo
 
 [![CSS Grid Layout](https://img.youtube.com/vi/7kVeCqQCxlk/0.jpg)](https://www.youtube.com/watch?v=7kVeCqQCxlk)
 
-The web real [Example](/Stage-6/dcuments/grid/) of Grid Layout.
+The presented [Example](/Stage-6/dcuments/grid/) of Grid Layout.
 
 ## Basic HTML Structure
 ```html
@@ -55,9 +55,37 @@ The web real [Example](/Stage-6/dcuments/grid/) of Grid Layout.
 - **gap**: Sets the spacing between grid items.
 - **grid-item**: Styles for individual grid items.
 
+## Element Manipulation
+
+<img src="resources/gird-element-manip.png" width="300px" align="right">
+
+- **grid-cloumn:[start]/[end]**: Specifies the start and end positions of the grid item.
+- **grid-row:[start]/[end]**: Specifies the start and end positions of the grid item.
+- Example: `grid-column: 1 / 3;` will span the grid item from the first to the third column as shown in the image "**the green example**".
+
+## Align and Justify Items
+
+<img src="resources/grid-positioning-example.png" width="100%" align="middle" alt="positioning-example">
+
+## Grid Area Definition
+
+You can define grid areas using the `grid-template-areas` property. This allows you to name areas of the grid and place items in those areas as shown below:
+```css
+.grid-item1 {
+    grid-area: header;
+}
+.grid-item2 {
+    grid-area: footer;
+}
+```
+
+<img src="resources/grid-areas.png" alt="grid-areas" width="60%" align="middle">
+
+
 ## Resources
 - [MDN Web Docs: CSS Grid Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
 - [CSS-Tricks: A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
-
+- [Grid Areas](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Grid_Areas)
+- [CSS Grid Poster](resources/css-grid-poster.png)
 
 CSS Grid Layout is a powerful tool for creating complex web layouts. By mastering it, you can create responsive and flexible designs with ease.

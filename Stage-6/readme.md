@@ -1,6 +1,7 @@
 # HTML, CSS: Grid and Flexbox
 
 - [**Grid**](/Stage-6/Grid.md): Learn about CSS Grid.
+    - [**CSS Grid Poster**](resources/css-grid-poster.png): A visual guide to CSS Grid.
 - [**Flexbox**](/Stage-6/Flexbox.md): Learn about CSS Flexbox.
 
 ## Grid and Flexbox
