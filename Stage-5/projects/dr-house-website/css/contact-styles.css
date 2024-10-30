@@ -167,7 +167,7 @@ img{
     width: 15%;
     margin: 0 auto;
     display: block;
-    padding-bottom: 80px;
+   /* padding-bottom: 80px; */ /*El espacio entre la imagen y el texto hacia no completar correctamente el border-radius en la imagen*/
     border-radius: 5%;
 }
 
