@@ -48,6 +48,8 @@ The web real [Example](/Stage-6/dcuments/grid/) of Grid Layout.
 }
 ```
 
+<img src="resources/grid-example-html.png" width="100%" height="130px" alt="grid-example" align="middle">
+
 ## Explanation
 - **grid-template-columns**: Defines the number of columns in the grid and their width. `repeat(3, 1fr)` creates three columns of equal width.
 - **gap**: Sets the spacing between grid items.
