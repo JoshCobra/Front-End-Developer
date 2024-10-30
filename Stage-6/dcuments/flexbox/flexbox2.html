@@ -1,0 +1,77 @@
+<style>
+
+    @media(min-width: 768px){
+        .container-1, .container-2{
+            display: flex;
+            justify-content: space-between;
+        }
+    } /*Apply the flexbox only when the screen size is 768px or more*/
+/*
+    .container-1 {
+        display: flex;
+        align-items: flex-start; Align the items to the start of the container
+        align-items: flex-end; Align the items to the end of the container
+        align-items: center; Align the items to the center of the container
+    }
+
+    .container-2{
+        display: flex;
+        justify-content: space-between; Align the items to the start and end of the container
+        justify-content: space-around; Align the items to the start and end of the container
+    }
+*/
+    .container-1 div, .container-2 div{
+        border: 1px solid #ccc;
+        padding: 10px;
+    }
+
+    .box-1{
+        flex: 2; /*Stretch the box to 2 times the size of the other boxes*/
+        order: 2; /*Change the order of the box*/
+    }
+
+    .box-2{
+        flex: 1;
+        order: 3; /*Change the order of the box*/
+    }
+
+    .box-3{
+        flex: 1;
+        order: 1;
+    }
+
+    .container-2 .box{
+        flex-basis: 20%;
+    }
+
+</style>
+
+<section class="container-1">
+    <div class="box-1">
+        <h2>Box 1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod.</p>
+    </div>
+    <div class="box-2">
+        <h2>Box 2</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod.</p>
+    </div>
+    <div class="box-3">
+        <h2>Box 3</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod.</p>
+    </div>
+</section>
+
+<section class="container-2">
+    <div class="box">
+        <h2>Box 1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod.</p>
+    </div>
+    <div class="box">
+        <h2>Box 2</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod.</p>
+    </div>
+    <div class="box">
+        <h2>Box 3</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod.</p>
+    </div>
+</section>
