@@ -97,6 +97,10 @@ input[type="text"], input[type="email"], input[type="tel"], textarea{
     border: 1px solid #ccc;
 }
 
+textarea{
+    resize: none; /*Deshabilita la propiedad de redimensionar el textarea*/ 
+}
+
 label{
     font-size: 1em;
     font-weight: 700;

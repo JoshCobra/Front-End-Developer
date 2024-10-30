@@ -106,7 +106,7 @@ nav ul li a:hover{
 }
 
 .why-to p:nth-child(4){
-    margin: 20px 0;
+    /*margin: 20px 0; repite el mismo estilo de .txt*/
     font-weight: 200;
     font-size: 1em;
     text-decoration: underline;
