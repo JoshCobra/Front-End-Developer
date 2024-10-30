@@ -37,7 +37,7 @@ The direct children of a flex container automatically become flex items.
 - `align-items`: Aligns the flex items along the cross axis.
 - `flex-wrap`: Specifies whether the flex items should wrap or not.
 
-<img width="50%"src="resources/flexbox-model.png" alt="flexbox-model">
+<img width="50%" src="resources/flexbox-model.png" alt="flexbox-model">
 
 ### Item Properties
 - `order`: Controls the order of the flex items.
