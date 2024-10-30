@@ -10,7 +10,7 @@ Watch this [video](https://www.youtube.com/watch?v=JJSoEo8JSnc) to understand th
 ### Flex Container
 To create a flexbox layout, you need a flex container. This is done by setting the `display` property to `flex` or `inline-flex`.
 
-<img align="middle" width="50%" src="resources/flexbox.png" alt="flexbox-example">
+<img align="middle" width="60%" src="resources/flexbox.png" alt="flexbox-example">
 
 ```html
 <div class="flex-container">
@@ -36,6 +36,8 @@ The direct children of a flex container automatically become flex items.
 - `justify-content`: Aligns the flex items along the main axis.
 - `align-items`: Aligns the flex items along the cross axis.
 - `flex-wrap`: Specifies whether the flex items should wrap or not.
+
+<img width="50%"src="resources/flexbox-model.png" alt="flexbox-model">
 
 ### Item Properties
 - `order`: Controls the order of the flex items.
