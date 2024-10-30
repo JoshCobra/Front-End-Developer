@@ -5,6 +5,8 @@ Flexbox is a layout model in CSS that allows you to design complex layouts with 
 
 ## Basic Concepts
 
+Watch this [video](https://www.youtube.com/watch?v=JJSoEo8JSnc) to understand the basic concepts of Flexbox.
+
 ### Flex Container
 To create a flexbox layout, you need a flex container. This is done by setting the `display` property to `flex` or `inline-flex`.
 
