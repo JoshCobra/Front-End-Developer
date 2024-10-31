@@ -79,7 +79,9 @@ Let's learn and grow together!
 ### [Stage 6](/Stage-6)
 - [HTML & CSS: Flexbox and Grid](/Stage-6/readme.md)
 	- [Flexbox in HTML and CSS](/Stage-6/Flexbox.md)
+		- [FlexBox Froggy](https://flexboxfroggy.com/)
 	- [Grid in HTML and CSS](/Stage-6/Grid.md)
+		- [CSS Grid Garden](https://cssgridgarden.com/)
 - [TIPS](/Stage-6/tips.md)
 
 <hr>
