@@ -74,6 +74,8 @@ The presented [Example](/Stage-6/dcuments/grid/) of Grid Layout.
 
 ## Grid Area Definition
 
+Check the [Example](dcuments/grid-areas/) of Grid Areas.
+
 You can define grid areas using the `grid-template-areas` property. This allows you to name areas of the grid and place items in those areas as shown below:
 ```css
 .grid-item1 {
