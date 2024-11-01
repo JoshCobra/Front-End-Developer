@@ -1,0 +1,34 @@
+*{
+    font-family: 'Azeret Mono', monospace;
+    color: #1d1d1d;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 5px 40px;
+    background-color: #e2f327;
+    border-bottom: 10px solid #1d1d1d;
+}
+
+header img {
+    order: -1;
+    width: 100px;
+    height: 100px;
+}
+
+header h1 {
+    order: 1;
+    font-size: 3em;
+    align-self: center;
+    padding-left: 15px;
+}
+
+header p {
+    order: 2;
+    font-size: 1em;
+    padding: 23px 0 0 40%;
+    align-self: center;
+}
