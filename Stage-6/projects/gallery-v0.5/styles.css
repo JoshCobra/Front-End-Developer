@@ -1,0 +1,22 @@
+Estilos CSS
+
+body {
+
+    margin: 0;
+
+    font-family: 'Arial', sans-serif;
+
+}
+
+
+
+.gallery {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+
+}
+
