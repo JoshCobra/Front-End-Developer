@@ -9,9 +9,9 @@ header {
     justify-content: left;
     align-items: center;
     padding: 5px 40px;
-    background-color: #e7f456;
+    background: linear-gradient(#fefff1, #e7f456 60%);
+    /* https://developer.mozilla.org/en/docs/Web/CSS/CSS_images/Using_CSS_gradients */
     border-bottom: 10px solid #1d1d1d;
-    background-image: url(..img/start.jpg);
 }
 
 header img {
@@ -40,6 +40,11 @@ header p {
     align-items: center;
     padding: 20px;
     background-color: #faffc0;
+    background-image: url(../img/start.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 20%;
+    background-blend-mode: darken;
 }
 
 .form h2{
@@ -49,6 +54,8 @@ header p {
 
 .form p{
     margin-bottom: 50px;
+    color: #fdfff0;
+    font-weight: 800;
 }
 
 .select-file::before{
@@ -126,7 +133,7 @@ footer{
     justify-content: center;
     align-items: center;
     padding: 40px;
-    background-color: #e7f456;
+    background: linear-gradient(#e7f456 60%, #fefff1);
     border-top: 10px solid #1d1d1d;
 }
 
