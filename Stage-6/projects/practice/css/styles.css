@@ -9,7 +9,7 @@ header {
     justify-content: left;
     align-items: center;
     padding: 5px 40px;
-    background-color: #e2f327;
+    background-color: #e7f456;
     border-bottom: 10px solid #1d1d1d;
 }
 
@@ -32,3 +32,69 @@ header p {
     padding: 23px 0 0 40%;
     align-self: center;
 }
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #faffc0;
+}
+
+.form h2{
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.form p{
+    margin-bottom: 50px;
+}
+
+.select-file::before{
+    content: 'Seleccionar Archivo';
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #e2f327;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.select-file input[type="file"]{
+    display: none;
+}
+
+.select-file:hover::before{
+    background-color: #1d1d1d;
+    color: #e2f327;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #e2f327;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #1d1d1d;
+    color: #e2f327;
+}
+
+.gallery_img{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    background-color: #faffc0;
+}
+
+.gallery_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Para que la imagen no se deforme */
+}
+
