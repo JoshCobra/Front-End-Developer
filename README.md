@@ -39,6 +39,9 @@ Let's learn and grow together!
 	- [Forms in HTML](/Stage-2/Forms-in-HTML.md)
 	- [Essential Tips](/Stage-2/Tips.md)
 - [TIPS](/Stage-2/Tips.md)
+- [Projects](/Stage-2/documents)
+    - [The Basics in HTML](Stage-2/documents/basics-html)
+    - [My First Website](Stage-2/documents/my-website-html) *spanish*
 
 <hr>
 
@@ -50,6 +53,9 @@ Let's learn and grow together!
 	- [Semantic Elements](/Stage-3/Semantic-Elements.md)
 	- [Multi-Media Elements](/Stage-3/Multi-Media-Elements.md)
 - [TIPS](/Stage-3/tips.md)
+- [Projects](/Stage-3/Projects)
+    - [My E-Commerce](Stage-3/Projects/e-commerce-html) *spanish*
+    - [McLaren Page](Stage-3/Projects/the-w1-mclaren) *spanish*
 
 <hr>
 
@@ -62,6 +68,8 @@ Let's learn and grow together!
 	- [CSS Units](/Stage-4/CSS-Units.md)
 	- [CSS Box Model](/Stage-4/CSS-Box-Model.md)
 - [TIPS](/Stage-4/tips.md)
+- [Projects](/Stage-4/projects)
+   - [McLaren Page Including CSS Stylesheet](Stage-4/projects/mclaren-styles)
   
 <hr>
 
@@ -73,6 +81,9 @@ Let's learn and grow together!
 	- [Styles Cascade](/Stage-5/CSS-Cascading.md)
 	- [Attribute Selectors](/Stage-5/CSS-Attribute-Selectors.md)
 - [TIPS](/Stage-5/tips.md)
+- [Projects](/Stage-5/projects)
+  - [My E-Commerce Including CSS Stylesheet](Stage-5/projects/e-commerce-html/) *spanish*
+  - [Dr. House Website](/Stage-5/projects/dr-house-website/) *spanish*
 
 <hr>
 
@@ -83,6 +94,9 @@ Let's learn and grow together!
 	- [Grid in HTML and CSS](/Stage-6/Grid.md)
 		- [CSS Grid Garden](https://cssgridgarden.com/)
 - [TIPS](/Stage-6/tips.md)
+- [Projects](/Stage-6/projects)
+  - [Gallery Implementing Flexbox and Grid](/Stage-6/projects/mi-galeria/)
+  - [My E-Commerce Using Flexbox and Grid](/Stage-6/projects/e-commerce-html/)
 
 <hr>
 
@@ -101,5 +115,10 @@ Let's learn and grow together!
 - Stage-5
   - [My E-Commerce Including CSS Stylesheet](Stage-5/projects/e-commerce-html/) *spanish*
   - [Dr. House Website](/Stage-5/projects/dr-house-website/) *spanish*
+
+- Stage-6
+  - [Gallery Implementing Flexbox and Grid](/Stage-6/projects/mi-galeria/)
+  - [My E-Commerce Using Flexbox and Grid](/Stage-6/projects/e-commerce-html/)
+  
 <hr>
 
