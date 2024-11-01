@@ -24,6 +24,7 @@ header h1 {
     font-size: 3.5em;
     align-self: center;
     padding-left: 15px;
+    color: #000;
 }
 
 header p {
