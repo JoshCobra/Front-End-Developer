@@ -4,9 +4,10 @@
     box-sizing: border-box;
 }
 
+/*Header*/
 header {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     padding: 5px 40px;
     background: linear-gradient(#fefff1, #e7f456 60%);
@@ -14,26 +15,58 @@ header {
     border-bottom: 10px solid #1d1d1d;
 }
 
-header img {
-    order: -1;
-    width: 100px;
-}
-
 header h1 {
     order: 1;
     font-size: 3.5em;
     align-self: center;
-    padding-left: 15px;
+    padding-left: 10px;
     color: #000;
 }
 
 header p {
     order: 2;
     font-size: 1em;
-    padding: 23px 0 0 40%;
+    padding-left: 10%;
     align-self: center;
 }
 
+header nav{
+    order: 3;
+    margin-left: auto;
+    padding-right: 10px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #1d1d1d;
+    font-size: 1em;
+    padding: 0 10px;
+}
+
+header nav li:hover{
+    color: #c70000;
+    cursor: pointer;
+}
+
+header nav input[type="search"]{
+    padding: 5px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+#search{
+    padding: 0;
+    margin: 0 0 0 0;
+    width: 100px;
+}
+
+header img {
+    order: -1;
+    width: 100px;
+}
+
+/*Main*/
 .form{
     display: flex;
     flex-direction: column;
@@ -92,6 +125,7 @@ button:hover {
     color: #e2f327;
 }
 
+    /*Gallery*/
 .gallery-1 h2{
     color: #fdffea;
     background-color: #1d1d1d;
@@ -128,6 +162,7 @@ button:hover {
     opacity: 0.6;
 }
 
+/*Footer*/
 footer{
     display: flex;
     justify-content: center;
