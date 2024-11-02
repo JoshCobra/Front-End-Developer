@@ -1,5 +1,9 @@
 # Front-End Development Journey
 
+![Static Badge](https://img.shields.io/badge/Start:-12/10/2024-%23238725?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/Current:-Stage_7-%23238725?style=for-the-badge)
+
+
 Welcome to my **Front-End Development** repository
 
 In this space, I’ll be documenting every step of my journey to becoming a **Front-End Developer**. I’ll share insights, tips, and hacks that have been valuable to me along the way. You’ll also find resources and materials that I consider helpful if you're aiming to follow a similar path.
@@ -15,8 +19,6 @@ Feel free to explore, learn, and contribute
 - Useful tips and tricks that have helped me along the way.
 - Learning resources and tools that can assist you in becoming a front-end developer.
 - Recommendations and hacks to improve your workflow.
-
-Let's learn and grow together!
 
 # Start of the Journey
 
