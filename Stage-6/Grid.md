@@ -96,3 +96,10 @@ You can define grid areas using the `grid-template-areas` property. This allows 
 - [CSS Grid Poster](resources/css-grid-poster.png)
 
 CSS Grid Layout is a powerful tool for creating complex web layouts. By mastering it, you can create responsive and flexible designs with ease.
+
+
+<div align="center">
+
+[Intro Stage-6](/Stage-6/) --- [Go Back](/Stage-6/Flexbox.md)  ---  [Next](/Stage-6/tips.md)
+
+</div>

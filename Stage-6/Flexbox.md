@@ -85,3 +85,9 @@ The direct children of a flex container automatically become flex items.
 Flexbox is a powerful tool for creating responsive layouts. By understanding its properties and how they interact, you can create flexible and efficient designs.
 
 For more information, refer to the [MDN Web Docs on Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox).
+
+<div align="center">
+
+[Intro Stage-6](/Stage-6/) --- [Go Back](/Stage-6)  ---  [Next](/Stage-6/Grid.md)
+
+</div>

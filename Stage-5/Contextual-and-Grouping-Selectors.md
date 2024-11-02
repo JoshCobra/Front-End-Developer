@@ -79,6 +79,6 @@ By using contextual selectors, you can create more precise and manageable CSS ru
 
 <div align="center">
 
-[Intro Stage-4](/Stage-5/) --- [Go Back](/Stage-5/CSS-Pseudo-Classes.md)  ---  [Next](/Stage-5/CSS-Cascading.md)
+[Intro Stage-5](/Stage-5/) --- [Go Back](/Stage-5/CSS-Pseudo-Classes.md)  ---  [Next](/Stage-5/CSS-Cascading.md)
 
 </div>

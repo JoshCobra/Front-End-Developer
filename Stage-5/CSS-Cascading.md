@@ -82,6 +82,6 @@ main p{/*2nd rule*/
 
 <div align="center">
 
-[Intro Stage-4](/Stage-5/) --- [Go Back](/Stage-5/Contextual-and-Grouping-Selectors.md)  ---  [Next](/Stage-5/CSS-Attribute-Selectors.md)
+[Intro Stage-5](/Stage-5/) --- [Go Back](/Stage-5/Contextual-and-Grouping-Selectors.md)  ---  [Next](/Stage-5/CSS-Attribute-Selectors.md)
 
 </div>

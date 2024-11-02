@@ -72,6 +72,6 @@ More information on CSS attribute selectors can be found in the [MDN Web Docs](h
 
 <div align="center">
 
-[Intro Stage-4](/Stage-5/) --- [Go Back](/Stage-5/CSS-Cascading.md)  ---  [Next](/Stage-5/tips.md)
+[Intro Stage-5](/Stage-5/) --- [Go Back](/Stage-5/CSS-Cascading.md)  ---  [Next](/Stage-5/tips.md)
 
 </div>

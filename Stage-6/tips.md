@@ -39,3 +39,9 @@
 17. Use auto and min/max functions: The auto keyword and the minmax() function can help you create flexible layouts in CSS Grid and Flexbox. By using these functions, you can define the size of grid tracks based on the content or available space.
 
 18 . **Combine Grid with Flexbox** : You can combine CSS Grid and Flexbox to create complex layouts that take advantage of the strengths of each layout method. For example, you can use CSS Grid to create a grid container and Flexbox to align and distribute items within the grid.
+
+<div align="center">
+
+[Go Back](/)
+
+</div>

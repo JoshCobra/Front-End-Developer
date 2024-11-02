@@ -55,6 +55,6 @@ The universal selector targets all elements on the page. Use an asterisk (`*`) t
 
 <div align="center">
 
-[Intro Stage-4](/Stage-5/) --- [Go Back](/Stage-5/readme.md)  ---  [Next](/Stage-5/CSS-Pseudo-Classes.md)
+[Intro Stage-5](/Stage-5/) --- [Go Back](/Stage-5/readme.md)  ---  [Next](/Stage-5/CSS-Pseudo-Classes.md)
 
 </div>
