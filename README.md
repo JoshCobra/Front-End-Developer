@@ -1,4 +1,5 @@
-# Front-End Development Journey
+
+<h1 align="center">Front-End Development Journey</h1>
 
 <p align="center">
 <img src="https://img.shields.io/badge/Start-12/10/2024-%23238725?style=for-the-badge">
