@@ -1,0 +1,28 @@
+/*Structure
+@media media-type and (media-feature-rule) {
+   -> CSS rules <--
+}
+*/
+
+/* media print is used to apply the styles to the printed page */
+/* media screen is used to apply the styles to the screen */
+/* media all is used to apply the styles to all devices */
+
+/* Example */
+
+section{
+    width: 50%;
+    background-color: #e67979;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+p{
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px){
+    p{
+        font-size: 10px;
+    }
+}
