@@ -12,17 +12,27 @@
 
 section{
     width: 50%;
-    background-color: #e67979;
     margin: 0 auto;
     padding: 20px;
+    background-color: #e67979;
 }
 
-p{
+section p{
     font-size: 20px;
+    text-align: right;
+    line-height: 3;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 900px){
+    section{
+        width: 100%;
+        padding: 0;
+        background-color: aqua;
+    }
+
     p{
         font-size: 10px;
+        text-align: center;
+        line-height: 1;
     }
 }
