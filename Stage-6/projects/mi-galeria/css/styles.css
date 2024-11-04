@@ -56,10 +56,17 @@ header nav input[type="search"]{
 }
 
 #search{
-    padding: 0;
+    background-color: #fdfff0;
+    padding: 3px;
     margin: 0 0 0 0;
     width: 100px;
 }
+
+#search:hover{
+    color: #fdffea;
+    background-color: #333;
+}
+
 
 header img {
     order: -1;
@@ -107,6 +114,7 @@ header img {
 .select-file:hover::before{
     background-color: #1d1d1d;
     color: #e2f327;
+    transition: 250ms;
 }
 
 button {
@@ -123,6 +131,7 @@ button {
 button:hover {
     background-color: #1d1d1d;
     color: #e2f327;
+    transition: 250ms;
 }
 
     /*Gallery*/
@@ -160,6 +169,7 @@ button:hover {
 
 .gallery_img img:hover{
     opacity: 0.6;
+    transition: 400ms; /*Efecto Visual mas Agradable*/
 }
 
 /*Footer*/
