@@ -1,60 +1,45 @@
-
-.grid-container {
-    display: grid;
-    grid-template-columns:  1fr 3fr;
-    grid-template-rows: auto 1fr auto;
-    width: 100%;
-    height: 350px;
-    gap: 20px;
-    grid-template-areas: 
-    "header header"
-    "sidebar main"
-    "footer footer";
+header{
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
-@media screen and (max-width: 50em) {
-    .grid-container {
+
+header h1{
+    font-size: 2em;
+    color: #e1e1e1;
+}
+
+main{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 2fr;
+}
+
+@media screen and (max-width: 50em){
+    /* We use em's to make the media query more responsive */
+    /* As em's are relative to the font-size of the element */
+    /* They are more responsive than pixels */
+    /* 50em is equivalent to 800px,  */ 
+    /* 1em is equivalent to 16px */
+    main{
         grid-template-columns: 1fr;
     }
 }
 
-header{
-    grid-area: header;
-    background-color: #a57575;
-    height: 100px;
-    align-content: center;
-    text-align: center;
-    font-weight: 800;
-    font-size: 30px;
+main section{
+    padding: 20px;
+    background-color: #66815d;
 }
 
-aside{
-    grid-area: sidebar;
-    background-color: #75a575;
-    height: 400px;
-    align-content: center;
-    align-self: center;
-    text-align: center;
-    font-weight: 800;
-    font-size: 30px;
-}
-
-main{
-    grid-area: main;
-    background-color: #7575a5;
-    height: 400px;
-    align-content: center;
-    text-align: center;
-    font-weight: 800;
-    font-size: 30px;
+main aside{
+    padding: 20px;
+    background-color: #b7d7e8;
 }
 
 footer{
-    grid-area: footer;
-    background-color: #699aab;
-    height: 100px;
-    width: 100%;
-    align-content: center;
+    background-color: #333;
+    color: white;
+    padding: 40px;
     text-align: center;
-    font-weight: 800;
-    font-size: 30px;
 }
