@@ -1,9 +1,3 @@
-@media screen and (max-width: 50em) {
-    .grid-container {
-        grid-template-columns: 1fr;
-        /* Does not work because greater specificity on the .grid-container below */
-    }
-}
 
 .grid-container {
     display: grid;
@@ -16,6 +10,11 @@
     "header header"
     "sidebar main"
     "footer footer";
+}
+@media screen and (max-width: 50em) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
 }
 
 header{
