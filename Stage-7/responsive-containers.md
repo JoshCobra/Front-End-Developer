@@ -54,3 +54,9 @@ To create responsive containers, you can use CSS to ensure that your containers 
     ```
 
 By following these steps, you can ensure that your containers are responsive and adapt to various screen sizes.
+
+<div align="center">
+
+[Intro Stage-7](/Stage-7/) --- [Go Back](/Stage-7/media-queries.md)  ---  [Next](/Stage-7/responsive-images.md)
+
+</div>
