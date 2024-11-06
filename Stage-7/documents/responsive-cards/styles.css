@@ -1,13 +1,31 @@
 header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #333;
     color: white;
     padding: 20px;
     text-align: center;
 }
 
+header img{
+    width: 80px;
+}
+
 header h1{
     font-size: 2em;
-    color: #e1e1e1;
+}
+
+header nav{
+    width: 200px;
+    display: flex;
+    gap: 10px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: thistle;
+    font-size: 16px;
 }
 
 .cards {
@@ -17,7 +35,8 @@ header h1{
     /* In this case we don't need to use media queries, we can replace it
     with the following code */
     grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
-    gap: 10px;
+    gap: 0.5em;
+    padding: 0.5em;
 }
 
 /*
