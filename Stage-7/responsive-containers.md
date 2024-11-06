@@ -1,10 +1,10 @@
 # Apply Responsive Containers
 To create responsive containers, you can use CSS to ensure that your containers adapt to different screen sizes. Here are some steps to apply responsive containers:
 
-[Example](documents/Responsive-Containers/)
+[Example:](documents/Responsive-Containers/)
 
 <div align="center">
-    <img src= "resources/example-rescont_1.gif" width="50%">
+    <img src= "resources/example-rescont_1.gif" width="65%">
 </div>
 
 1. **Use Relative Units**: Instead of fixed units like `px`, use relative units like percentages (`%`), `em`, or `rem` to make your containers flexible.
