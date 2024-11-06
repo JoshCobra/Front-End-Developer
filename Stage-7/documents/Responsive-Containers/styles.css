@@ -16,6 +16,15 @@ main{
     grid-template-columns: 1fr 2fr;
 }
 
+/* Alternative using Flex
+
+main{
+    display: flex;
+    gap: 20px;
+}
+*/
+
+/* Media query for responsive design */
 @media screen and (max-width: 50em){
     /* We use em's to make the media query more responsive */
     /* As em's are relative to the font-size of the element */
@@ -26,6 +35,14 @@ main{
         grid-template-columns: 1fr;
     }
 }
+
+/* Alternative using Flex
+@media screen and (max-width: 50em){
+    main{
+        flex-direction: column;
+    }
+}
+*/
 
 main section{
     padding: 20px;

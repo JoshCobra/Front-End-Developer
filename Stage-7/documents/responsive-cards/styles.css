@@ -1,0 +1,48 @@
+header{
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1{
+    font-size: 2em;
+    color: #e1e1e1;
+}
+
+.cards {
+    background-color: #333;
+    display: grid;
+    /*grid-template-columns: 1fr 1fr 1fr 1fr;*/
+    /* In this case we don't need to use media queries, we can replace it
+    with the following code */
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    gap: 10px;
+}
+
+/*
+@media screen and (max-width: 45em) {
+    .cards {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 30em) {
+    .cards {
+        grid-template-columns: 1fr;
+    }
+}
+*/
+.card{
+    background-color: #58ac50;
+    padding: 10px;
+    border-radius: 10px;
+}
+ 
+footer{
+    font-size: 2em;
+    background-color: #333;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
