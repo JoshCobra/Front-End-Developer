@@ -112,6 +112,7 @@ Feel free to explore, learn, and contribute
 	- [Media Queries](/Stage-7/media-queries.md)
 	- [Responsive Containers](/Stage-7/responsive-containers.md)
 	- [Responsive Images and Texts](/Stage-7/responsive-images.md)
+- [TIPS](/Stage-7/tips.md)
 
 <hr>
 
