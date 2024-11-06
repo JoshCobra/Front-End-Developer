@@ -3,9 +3,9 @@ To create responsive containers, you can use CSS to ensure that your containers 
 
 [Example](documents/Responsive-Containers/)
 
-<video align="center">
-    <source src="resources/example-rescont.mp4" type="video/mp4" width="70%">
-</video>
+<div align="center">
+    <img src= "resources/example-rescont_1.gif" width=85%"">
+</div>
 
 1. **Use Relative Units**: Instead of fixed units like `px`, use relative units like percentages (`%`), `em`, or `rem` to make your containers flexible.
 
