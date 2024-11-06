@@ -9,10 +9,18 @@ header {
     align-items: center;
     padding: 1rem 2rem;
     background: linear-gradient(90deg, #e68611ec, #ff4d00d0);
+    box-shadow: 0 0 10px #a5320b;
 }
 
 header img {
-    max-width: 100%;
+    width: 40px;
+}
+
+@media screen and (min-width: 1024px) {
+    header img {
+        width: 60px;
+    }
+    
 }
 
 .main-title {
@@ -31,13 +39,108 @@ header img {
     padding: 0.6rem 1rem;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (hover : hover) {
     .top-nav a:hover {
         background: #ff5f1a;
         transition: all 0.6s ease;
-        box-shadow: 0 0 10px #ff5f1a;
+        box-shadow: 0 0 10px #a5320b;
     }
 }
 
+.sonido-ideal {
+    background: url(../img/sonido-ideal.jpg) no-repeat center center/cover;
+    background-position-y: -2px;
+    color: #fff;
+    padding: 1rem 2rem;
+    text-align: center;
+    margin: 1.5rem 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #a5320b;
+}
 
+.sonido-ideal div {
+    display: flex;
+    justify-content: right;
+    gap: 1rem;
+}
 
+@media screen and (hover : hover) {
+    .sonido-ideal div {
+        filter: blur(2px);
+    }
+    .sonido-ideal div:hover {
+        filter: blur(0);
+        transition: all 0.6s ease;
+        cursor: pointer;
+    }
+}
+
+.sonido-ideal img {
+    width: 50px;
+    height: 50px;
+    align-self: center;
+}
+
+@media screen and (min-width: 1024px) {
+    .sonido-ideal img {
+        width: 90px;
+        height: 90px;
+        align-self: center;
+    }
+
+    .sonido-ideal div {
+        gap: 5rem;
+        font-size: 2.5rem;
+    }
+}
+
+.sonido-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+@media screen and (max-width: 407px) {
+    .sonido-form {
+        grid-template-columns: 1fr;
+    }
+}
+
+.sonido-form h2 {
+    color: #323232;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 0 auto;
+}
+
+.card{
+    border-radius: 10px;
+    box-shadow: 0 0 10px #a5320b;
+    background: url(../img/music-genres.jpg) no-repeat center center/cover;
+    padding: 1rem 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.card:active {
+    background: #ff5f1a;
+}
+
+.card h3 {
+    backdrop-filter: blur(5px);
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 8px #ffffff;
+}
+
+@media screen and (hover : hover) {
+    .card h3:hover {
+        background: #ff5f1a;
+        transition: all 0.6s ease;
+        box-shadow: 0 0 10px #a5320b;
+        cursor: pointer;
+    }
+}
