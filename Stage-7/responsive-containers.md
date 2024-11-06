@@ -57,6 +57,6 @@ By following these steps, you can ensure that your containers are responsive and
 
 <div align="center">
 
-[Intro Stage-7](/Stage-7/) --- [Go Back](/Stage-7/media-queries.md)  ---  [Next](/Stage-7/responsive-images.md)
+[Intro Stage-7](/Stage-7/) --- [Go Back](/Stage-7/responsive-design.md)  ---  [Next](/Stage-7/media-queries.md)
 
 </div>

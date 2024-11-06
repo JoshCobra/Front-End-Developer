@@ -77,3 +77,9 @@ Media queries can be applied in various ways:
     ```
 
 By using media queries effectively, you can create a more flexible and user-friendly web experience.
+
+<div align="center">
+
+[Intro Stage-7](/Stage-7/) --- [Go Back](/Stage-7/responsive-containers.md)  ---  [Next](/Stage-7/responsive-images.md)
+
+</div>
