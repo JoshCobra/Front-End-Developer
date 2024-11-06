@@ -30,9 +30,11 @@
 12. **Testing and Debugging**: Testing and debugging are essential parts of the web development process. Testing ensures that your website works as expected on different devices and browsers. Debugging helps you identify and fix errors in your code. By testing and debugging your website, you can ensure that it provides a consistent and reliable user experience.
 
 13. **Use of the 'clamp()' function**: The clamp() function in CSS allows you to create a flexible layout that adapts to the size of the user’s screen. The clamp() function takes three parameters: a minimum value, a preferred value, and a maximum value. The browser will use the preferred value if it is within the minimum and maximum values. If the preferred value is outside this range, the browser will use the minimum or maximum value instead.
-    > [!NOTE] The 'clamp()' function is supported in most modern browsers, but it may not work in older browsers. You can use @supports to check if the browser supports the 'clamp()' function before using it in your CSS.
+    >[!NOTE] 
+    >The 'clamp()' function is supported in most modern browsers, but it may not work in older browsers. You can use @supports to check if the browser supports the 'clamp()' function before using it in your CSS.
 
-    >[!IMPORTANT] The 'clamp()' function can affect the performance of your website if used excessively because is constantly calculating the font-size. Use it judiciously to create a flexible and responsive layout without compromising performance.
+    >[!IMPORTANT] 
+    >The 'clamp()' function can affect the performance of your website if used excessively because is constantly calculating the font-size. Use it judiciously to create a flexible and responsive layout without compromising performance.
 
 14. **Accessibility**: Accessibility is the practice of making your website usable by as many people as possible. This includes people with disabilities, such as visual, auditory, physical, speech, cognitive, and neurological disabilities. By designing your website with accessibility in mind, you can ensure that all users can access and use your website effectively.
 
