@@ -106,6 +106,13 @@ Feel free to explore, learn, and contribute
 
 <hr>
 
+### [Stage 7](/Stage-7)
+- [Responsive Design](/Stage-7/readme.md)
+	- [Responsive Design](/Stage-7/responsive-desgin.md)
+	- [Media Queries](/Stage-7/media-queries.md)
+	- [Responsive Containers](/Stage-7/responsive-containers.md)
+	- [Responsive Images and Texts](/Stage-7/responsive-images.md)
+
   ### Projects
   - Stage-2
     - [The Basics in HTML](Stage-2/documents/basics-html)
