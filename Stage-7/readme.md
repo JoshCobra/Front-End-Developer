@@ -1,8 +1,8 @@
 # Responsive Design
 
-- [**Responsive Design**](/responsive-design.md) : What is Responsive Design?
-- [**Responsive Containers**](/responsive-containers.md) : Fluid Containers 
-- [**Media Queries**](/media-queries.md) : Different Styles for Different Screen Sizes
+- [**Responsive Design**](/Stage-7/responsive-desgin.md) : What is Responsive Design?
+- [**Responsive Containers**](/Stage-7/responsive-containers.md) : Fluid Containers 
+- [**Media Queries**](/Stage-7/media-queries.md) : Different Styles for Different Screen Sizes
 
 > "Content is like water" - Josh Clark
 
