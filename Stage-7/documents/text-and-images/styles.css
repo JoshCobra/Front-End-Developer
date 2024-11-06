@@ -1,0 +1,92 @@
+.main-section {
+    margin: 0 auto;
+    width: 60%;
+    padding: 1rem;
+    box-sizing: border-box;
+    /*Reminder: box-sizing: border-box; 
+    includes padding and border in the element's 
+    total width and height, so the padding and border
+    are no longer added to the width and height of the element */
+    /* This also helps to make the layout more predictable */
+}
+
+img {
+    max-width: 100%;
+    /* max-width: 100% will make sure the image does not 
+    exceed the width of the container */
+}
+
+.title {
+    font-size: clamp(1.4rem, 2.5vw, 2.5rem);
+    /* 1.4rem is the minimum font size*/
+    /* 2.5vw is the maximum font size */
+    /* 2.5rem is the maximum font size */
+    font-weight: 600;
+    color: #1c1c1c;
+}
+
+.txt {
+    color: #1c1c1c;
+}
+
+.main-section h3 { 
+    font-size: clamp(1rem, 2.5vw, 1.8rem);
+    font-weight: 600;
+    color: #1c1c1c;
+}
+
+.main-section p:last-child {
+    width: 100%;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    border: none;
+    padding: 0.5rem 1rem;
+    background-color: #a40c0c;
+    color: #fff;
+}
+
+@media (hover: hover) {
+    /* This media query will only apply the styles 
+    when the device has the ability to hover */
+    button:hover {
+        background-color: #1c1c1c;
+        transition: all 0.3s;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    /* This media query will only apply the styles 
+    when the user has set their device to dark mode */
+    body {
+        background-color: #1c1c1c;
+        color: #fff;
+    }
+
+    .main-section {
+        background-color: #1c1c1c;
+        color: #fff;
+    }
+
+    .title {
+        color: #fff;
+    }
+
+    .txt {
+        color: #fff;
+    }
+
+    button {
+        background-color: #fff;
+        color: #1c1c1c;
+    }
+
+    button:hover {
+        background-color: #a40c0c;
+        color: #fff;
+    }
+}

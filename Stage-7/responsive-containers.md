@@ -2,7 +2,8 @@
 To create responsive containers, you can use CSS to ensure that your containers adapt to different screen sizes. Here are some steps to apply responsive containers:
 
 [Example:](documents/Responsive-Containers/)
-[Responsive Cards Example](documents/responsive-cards/)
+
+[Responsive Cards Example:](documents/responsive-cards/)
 
 <div align="center">
     <img src= "resources/example-rescont_1.gif" width="65%">
