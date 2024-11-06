@@ -4,7 +4,7 @@ To create responsive containers, you can use CSS to ensure that your containers 
 [Example](documents/Responsive-Containers/)
 
 <div align="center">
-    <img src= "resources/example-rescont_1.gif" width=85%"">
+    <img src= "resources/example-rescont_1.gif" width=75%"">
 </div>
 
 1. **Use Relative Units**: Instead of fixed units like `px`, use relative units like percentages (`%`), `em`, or `rem` to make your containers flexible.
