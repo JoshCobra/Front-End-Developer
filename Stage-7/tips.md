@@ -39,3 +39,9 @@
 14. **Accessibility**: Accessibility is the practice of making your website usable by as many people as possible. This includes people with disabilities, such as visual, auditory, physical, speech, cognitive, and neurological disabilities. By designing your website with accessibility in mind, you can ensure that all users can access and use your website effectively.
 
 15. **The Media Query (prefers-color-scheme)**: The prefers-color-scheme media query allows you to create a dark mode for your website. This media query detects whether the user has set their device to use a light or dark color scheme. You can use this media query to create a dark mode that is automatically enabled when the user has set their device to use a dark color scheme.
+
+<div align="center">
+
+[Go Back](/)
+
+</div>
