@@ -113,6 +113,8 @@ Feel free to explore, learn, and contribute
 	- [Responsive Containers](/Stage-7/responsive-containers.md)
 	- [Responsive Images and Texts](/Stage-7/responsive-images.md)
 
+<hr>
+
   ### Projects
   - Stage-2
     - [The Basics in HTML](Stage-2/documents/basics-html)
