@@ -200,4 +200,7 @@ footer p {
     body {
         background: #323232;
     }
+    .sonido-ideal div h2 {
+        color: #fff6e3;
+    }
 }
