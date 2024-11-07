@@ -2,6 +2,10 @@
     font-family: Signika, Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
+/*Como recomendación adicional, para un look más pulido, 
+puedes definir una jerarquía de fuentes con diferentes pesos y tamaños 
+en lugar de depender del peso 800 en varias secciones, como en .top-nav a. 
+Te permitirá un control visual mejor.*/
 
 header {
     display: flex;
@@ -42,6 +46,10 @@ header img {
 .sonido-ideal {
     background: url(../img/sonido-ideal.jpg) no-repeat center center/cover;
     background-position-y: -2px;
+    /*Estás usando background-position-y: -2px; para ajustar el fondo de .sonido-ideal. 
+    Aunque funciona, considera que este valor puede variar en pantallas diferentes. 
+    background-position: center; o background-position: top center; 
+    puede ayudar a lograr un ajuste más consistente en distintas pantallas.*/
     color: #fff;
     padding: 1rem 2rem;
     text-align: center;
@@ -133,7 +141,7 @@ header img {
 footer {
     color: #323232;
     display: flex;
-    gap: 2rem;;
+    gap: 2rem; 
     justify-content: space-evenly;
     align-items: center;
     padding: 1rem 2rem;
