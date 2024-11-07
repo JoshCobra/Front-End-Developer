@@ -113,6 +113,9 @@ Feel free to explore, learn, and contribute
 	- [Responsive Containers](/Stage-7/responsive-containers.md)
 	- [Responsive Images and Texts](/Stage-7/responsive-images.md)
 - [TIPS](/Stage-7/tips.md)
+- [Projects](/Stage-7/projects)
+  - [E-Commerce Responsive Design](/Stage-7/projects/e-commerce-html/)
+  - [Practice with Media Queries](/Stage-7/projects/practice/)
 
 <hr>
 
