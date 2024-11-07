@@ -39,14 +39,6 @@ header img {
     padding: 0.6rem 1rem;
 }
 
-@media screen and (hover : hover) {
-    .top-nav a:hover {
-        background: #ff5f1a;
-        transition: all 0.6s ease;
-        box-shadow: 0 0 10px #a5320b;
-    }
-}
-
 .sonido-ideal {
     background: url(../img/sonido-ideal.jpg) no-repeat center center/cover;
     background-position-y: -2px;
@@ -62,17 +54,6 @@ header img {
     display: flex;
     justify-content: right;
     gap: 1rem;
-}
-
-@media screen and (hover : hover) {
-    .sonido-ideal div {
-        filter: blur(2px);
-    }
-    .sonido-ideal div:hover {
-        filter: blur(0);
-        transition: all 0.6s ease;
-        cursor: pointer;
-    }
 }
 
 .sonido-ideal img {
@@ -107,11 +88,24 @@ header img {
     }
 }
 
+@media screen and (min-width: 682px) {
+    .sonido-form {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
 .sonido-form h2 {
     color: #323232;
-    font-size: 1.5rem;
+    font-size: 2.3rem;
     font-weight: 800;
     margin: 0 auto;
+    padding: 1.5rem;
+}
+
+@media screen and (max-width: 407px) {
+    .sonido-form h2 {
+        font-size: 2rem;
+    }
 }
 
 .card{
@@ -136,11 +130,74 @@ header img {
     box-shadow: 0 0 8px #ffffff;
 }
 
+footer {
+    color: #323232;
+    display: flex;
+    gap: 2rem;;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: linear-gradient(90deg, #e68611ec, #ff4d00d0);
+    box-shadow: 0 0 10px #a5320b;
+}
+
+footer p {
+    margin: 0;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact a {
+    margin: 0  auto;
+    text-decoration: none;
+    color: #323232;
+}
+
+.bottom-nav {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-nav a {
+    text-decoration: none;
+    color: #323232;
+}
+
 @media screen and (hover : hover) {
+    .top-nav a:hover {
+        background: #ff5f1a;
+        transition: all 0.6s ease;
+        box-shadow: 0 0 10px #a5320b;
+    }
+    .sonido-ideal div {
+        filter: blur(2px);
+    }
+    .sonido-ideal div:hover {
+        filter: blur(0);
+        transition: all 0.6s ease;
+        cursor: pointer;
+    }
     .card h3:hover {
         background: #ff5f1a;
         transition: all 0.6s ease;
         box-shadow: 0 0 10px #a5320b;
         cursor: pointer;
+    }
+    .contact a:hover {
+        color: #ce3018e4;
+    }
+    .bottom-nav a:hover {
+        color: #ce3018e4;
+    }
+}
+
+@media (prefers-color-scheme :dark) {
+    body {
+        background: #323232;
     }
 }

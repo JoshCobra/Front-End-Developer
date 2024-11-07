@@ -1,0 +1,95 @@
+*{
+    font-family: Signika, Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    color: #323232;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: linear-gradient(90deg, #e68611ec, #ff4d00d0);
+    box-shadow: 0 0 10px #a5320b;
+}
+
+.top-nav a {
+    font-size: 1rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #323232;
+    padding: 0.6rem 1rem;
+}
+
+.personal h2 {
+    background: linear-gradient(90deg, #e68611ec, #ff4d00d0);
+    box-shadow: 0 0 10px #a5320b;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+.contact-info h2 {
+    background: linear-gradient(90deg, #e68611ec, #ff4d00d0);
+    box-shadow: 0 0 10px #a5320b;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+footer {
+    color: #323232;
+    display: flex;
+    gap: 2rem;;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: linear-gradient(90deg, #e68611ec, #ff4d00d0);
+    box-shadow: 0 0 10px #a5320b;
+}
+
+footer p {
+    margin: 0;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact a {
+    margin: 0  auto;
+    text-decoration: none;
+    color: #323232;
+}
+
+.bottom-nav a {
+    text-decoration: none;
+    color: #323232;
+}
+
+@media screen and (hover : hover) {
+    .top-nav a:hover {
+        background: #ff5f1a;
+        transition: all 0.6s ease;
+        box-shadow: 0 0 10px #a5320b;
+    }
+    .contact a:hover {
+        color: #ce3018e4;
+    }
+
+    .bottom-nav a:hover {
+        color: #ce3018e4;
+    }
+}
+
+@media (prefers-color-scheme :dark) {
+    .personal p {
+        color: #fff6e3;
+    }
+    .contact-info p {
+        color: #fff6e3;
+    }
+    body {
+        background: #323232;
+    }
+}
