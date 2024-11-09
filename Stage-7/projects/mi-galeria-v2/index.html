@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Mi Galería</title>
+</head>
+<body>
+    <header>
+        <h1>Mi Galería</h1>
+        <p><b>Galería: Mejores Recuerdos En México</b></p>
+        <nav>
+            <ul>
+                <li><a href="#Index"></a>Inicio</li>
+                <li><a href="#Recientes"></a>Recientes</li>
+                <li><a href="#2024"></a>2024</li>
+                <li><a href="2023"></a>2023</li>
+                <input type="search" placeholder="Buscar Por Año">
+                <button id="search" type="submit">Buscar</button>
+            </ul>
+        </nav>
+        <i><img src="img/logo.png" alt="logo" id="logo"></i>
+    </header>
+    <!--Sección Principal-->
+    <main>
+        <section class="form">
+            <h2>Sube una imagen a la Galería</h2>
+            <p>Sube tu imagen para que forme parte de los <b>mejores</b> recuerdos de México</p>
+            <form>
+                <div class="select-file">
+                    <input type="file" name="image" id="upload-image">
+                </div>
+                <button type="submit">Subir</button>
+            </form>
+        </section>
+        <!--Sección Recientes-->
+        <section class="gallery-1">
+            <h2>Recientes</h2>
+            <div class="gallery_img">
+                <img src="img/recent-1.jpg" alt="Imagen 1">
+                <img src="img/recent-2.jpg" alt="Imagen 2">
+                <img src="img/recent-3.jpg" alt="Imagen 3">
+                <img src="img/recent-4.jpg" alt="Imagen 4">
+                <img src="img/recent-5.jpg" alt="Imagen 5">
+                <img src="img/recent-6.png" alt="Imagen 6">
+            </div>
+        </section>
+        <!--Sección Mejores Fotos-->
+        <section class="gallery-2">
+            <h3>Las Mejores Fotos</h3>
+            <div class="gallery_img">
+                <img src="img/best-1.jpg" alt="Imagen 1">
+                <img src="img/best-2.jpg" alt="Imagen 2">
+                <img src="img/best-3.jpg" alt="Imagen 3">
+                <img src="img/best-4.jpeg" alt="Imagen 4">
+                <img src="img/best-5.jpg" alt="Imagen 5">
+                <img src="img/best-6.jpg" alt="Imagen 6">
+            </div>
+        </section>
+    </main>
+    <!--Pie de Página-->
+    <footer>
+        <p>&copy; 2024 Mi Galería</p>
+        <h3>Información de Contacto:</h3>
+        <div class="contac">
+            <p>Correo: <a href="mailto:galeriamex@galeria.mx "> <br> galeriamex@galeria.mx </a></p>
+            <p>Teléfono: <a href="tel:+555123456"><br> (55) 123 456 </a></p>
+        </div>
+        <i><img src="img/logo.png" alt="logo"></i>
+    </footer>
+</body>
+</html>

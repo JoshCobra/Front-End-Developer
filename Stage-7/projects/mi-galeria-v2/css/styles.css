@@ -1,0 +1,254 @@
+*{
+    font-family: 'Azeret Mono', monospace;
+    color: #1d1d1d;
+    box-sizing: border-box;
+}
+
+/*Header*/
+
+body {
+    scrollbar-width: none;
+    /* No scrollbar is shown */
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 40px;
+    background: linear-gradient(#fefff1, #e7f456 60%);
+    /* https://developer.mozilla.org/en/docs/Web/CSS/CSS_images/Using_CSS_gradients */
+    border-bottom: 10px solid #1d1d1d;
+    position: sticky;
+}
+
+header h1 {
+    order: 1;
+    font-size: 3.5em;
+    align-self: center;
+    padding-left: 10px;
+    color: #000;
+}
+
+header p {
+    order: 2;
+    font-size: 1em;
+    padding-left: 10%;
+    align-self: center;
+}
+
+header nav{
+    order: 3;
+    margin-left: auto;
+    padding-right: 10px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #1d1d1d;
+    font-size: 1em;
+    padding: 0 10px;
+}
+
+header nav li:hover{
+    color: #c70000;
+    cursor: pointer;
+}
+
+header nav input[type="search"]{
+    padding: 5px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+#search{
+    background-color: #fdfff0;
+    padding: 3px;
+    margin: 0 0 0 0;
+    width: 100px;
+}
+
+#search:hover{
+    color: #fdffea;
+    background-color: #333;
+}
+
+
+header img {
+    order: -1;
+    width: 100px;
+}
+
+/*Main*/
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #faffc0;
+    background-image: url(../img/start.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 20%;
+    background-blend-mode: darken;
+}
+
+.form h2{
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.form p{
+    margin-bottom: 50px;
+    color: #fdfff0;
+    font-weight: 800;
+}
+
+.select-file::before{
+    content: 'Seleccionar Archivo';
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #e2f327;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.select-file input[type="file"]{
+    display: none;
+}
+
+.select-file:hover::before{
+    background-color: #1d1d1d;
+    color: #e2f327;
+    transition: 250ms;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #e2f327;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #1d1d1d;
+    color: #e2f327;
+    transition: 250ms;
+}
+
+    /*Gallery*/
+.gallery-1 h2{
+    color: #fdffea;
+    background-color: #1d1d1d;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+}
+
+.gallery-2 h3{
+    color: #fdffea;
+    background-color: #1d1d1d;
+    padding: 10px;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+}
+
+.gallery_img{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    background-color: #faffc0;
+}
+
+.gallery_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Para que la imagen no se deforme */
+    cursor: pointer;
+    border-radius: 2%;
+    transition: all 0.7s ease-in-out;
+}
+
+.gallery_img img:hover{
+    opacity: 0.6;
+    transition: 400ms; /*Efecto Visual mas Agradable*/
+}
+
+/*Footer*/
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0 0;
+    background: linear-gradient(#e7f456 60%, #fefff1);
+}
+
+footer p{
+    order: 2;
+    font-size: 0.8em;
+    margin: 0;
+    padding: 0 10px;
+}
+
+footer h3{
+    font-size: 1.5em;
+    margin: 0;
+}
+
+footer div p{
+    margin: 15px;
+}
+
+footer a{
+    color: #1d1d1d;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: #c70000;
+}
+
+footer img{
+    width: 30px;
+    height: 30px;
+    margin-left: 110px;
+}
+
+@media screen and (max-width: 830px){
+    header{
+        flex-direction: column;
+    }
+    header h1{
+        padding-left: 0;
+    }
+    header p{
+        display: none;
+    }
+    header nav{
+        display: none;
+    }
+    header nav a{
+        padding: 0 5px;
+    }
+    header img{
+        width: 80px;
+    }
+    .form{
+        background-position-y: 0;
+    }
+    .gallery_img{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    footer {
+        flex-direction: column;
+    }
+    footer img {
+        margin-left: 0;
+    }
+}
