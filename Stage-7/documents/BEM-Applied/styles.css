@@ -5,19 +5,23 @@ body {
 .header {
     width: 100%;
     display: flex;
-    padding: 20px;
+    padding: 15px 40px;
     box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header__logo {
-    width: 150px;
+    width: 140px;
 }
 
 .header__nav {
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 
 .header__link { /*Block__Element */
     font-size: 2rem;
+    font-weight: 600;
+    cursor: pointer;
 }
