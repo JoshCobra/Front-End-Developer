@@ -70,6 +70,7 @@ body {
 .products__img {
     width: 100%;
     transition: all 0.3s ease;
+    border-radius: 5px;
 }
 
 .products__img:hover {
