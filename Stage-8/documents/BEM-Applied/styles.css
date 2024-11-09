@@ -44,5 +44,26 @@ body {
 
 .header__icon--secondary {
     opacity: 0.5;
-    color: blue;
+    color: rgb(0, 102, 255);
+}
+
+.header__icon--secondary:hover {
+    opacity: 1;
+    color: #000;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    margin: 30px auto 0;
+    gap: 10px;
+}
+
+.products__item {
+
+}
+
+.products__img {
+    width: 100%;
 }
