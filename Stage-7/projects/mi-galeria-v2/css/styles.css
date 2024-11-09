@@ -8,6 +8,7 @@
 
 body {
     scrollbar-width: none;
+    position: relative;
     /* No scrollbar is shown */
 }
 
@@ -19,7 +20,10 @@ header {
     background: linear-gradient(#fefff1, #e7f456 60%);
     /* https://developer.mozilla.org/en/docs/Web/CSS/CSS_images/Using_CSS_gradients */
     border-bottom: 10px solid #1d1d1d;
+    /* --- */
     position: sticky;
+    top: 0;
+    /* The header will stick to the top of the page */
 }
 
 header h1 {
@@ -74,7 +78,6 @@ header nav input[type="search"]{
     background-color: #333;
 }
 
-
 header img {
     order: -1;
     width: 100px;
@@ -112,6 +115,7 @@ header img {
     background-color: #e2f327;
     font-size: 1em;
     cursor: pointer;
+    transition: all 0.4s ease-in-out;
 }
 
 .select-file input[type="file"]{
@@ -133,6 +137,7 @@ button {
     font-size: 1em;
     cursor: pointer;
     margin-top: 20px;
+    transition: all 0.4s ease-in-out;
 }
 
 button:hover {
@@ -226,6 +231,7 @@ footer img{
     }
     header h1{
         padding-left: 0;
+        font-size: 2rem;
     }
     header p{
         display: none;
@@ -237,7 +243,7 @@ footer img{
         padding: 0 5px;
     }
     header img{
-        width: 80px;
+        display: none;
     }
     .form{
         background-position-y: 0;
