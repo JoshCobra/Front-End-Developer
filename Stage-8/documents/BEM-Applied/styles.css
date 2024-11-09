@@ -13,6 +13,7 @@ body {
 
 .header__logo {
     width: 140px;
+    cursor: pointer;
 }
 
 .header__menu {
@@ -29,6 +30,11 @@ body {
     font-size: 1.4rem;
     font-weight: 600;
     cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.header__link:hover { /*Block__Element--Modifier */
+    color: rgb(36, 73, 175);
 }
 
 .header__user {
@@ -44,7 +50,8 @@ body {
 
 .header__icon--secondary {
     opacity: 0.5;
-    color: rgb(0, 102, 255);
+    color: rgb(36, 73, 175);
+    transition: all 0.3s ease;
 }
 
 .header__icon--secondary:hover {
@@ -57,13 +64,48 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     width: 80%;
     margin: 30px auto 0;
-    gap: 10px;
-}
-
-.products__item {
-
+    gap: 30px;
 }
 
 .products__img {
     width: 100%;
+    transition: all 0.3s ease;
+}
+
+.products__img:hover {
+    transform: scale(1.05);
+}
+
+.products__title {
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.products__btn {
+    display: block;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 20px;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.products__btn:hover {
+    background-color: rgb(36, 73, 175);
+}
+
+.products__btn--disabled {
+    cursor: not-allowed;
+    background-color: #bdbdbd
+}
+
+.products__btn--disabled:hover {
+    background-color: #bdbdbd
 }
