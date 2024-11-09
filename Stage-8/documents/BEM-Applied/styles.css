@@ -15,13 +15,34 @@ body {
     width: 140px;
 }
 
+.header__menu {
+    display: flex;
+    gap: 50px;
+}
+
 .header__nav {
     display: flex;
     gap: 20px;
 }
 
 .header__link { /*Block__Element */
-    font-size: 2rem;
+    font-size: 1.4rem;
     font-weight: 600;
     cursor: pointer;
+}
+
+.header__user {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+
+.header__icon {
+    cursor: pointer;
+}
+
+.header__icon--secondary {
+    opacity: 0.5;
+    color: blue;
 }

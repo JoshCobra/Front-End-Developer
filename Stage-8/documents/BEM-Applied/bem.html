@@ -9,15 +9,17 @@
 <body>
     <header class="header">
         <img class="header__logo" src="img/Adidas-Logo.svg" alt="">
-        <nav class="header__nav">
-            <span class="header__link">Home</span>
-            <span class="header__link">About</span>
-            <span class="header__link">Services</span>
-            <span class="header__link">Contact</span>
-        </nav>
-        <section>
-            <i data-feather="shopping-bag"></i>
-            <i data-feather="user"></i>
+        <section class="header__menu">
+            <nav class="header__nav">
+                <a class="header__link">Home</a>
+                <a class="header__link">About</a>
+                <a class="header__link">Services</a>
+                <a class="header__link">Contact</a>
+            </nav>
+            <section class="header__user">
+                <i data-feather="shopping-bag" class="header__icon header__icon--secondary"></i>
+                <i data-feather="user" class="header__icon header__icon--secondary"></i>
+            </section>
         </section>
     </header>
     <main>
