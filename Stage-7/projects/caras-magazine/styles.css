@@ -8,6 +8,13 @@
     background-color: #ED1E1E;
     gap: 20px;
     padding: 25px;
+    /*Sticky header like the original page*/
+    position: sticky;
+    top: 0;
+}
+
+.burger-menu {
+    display: none;
 }
 
 .page-header img {
@@ -282,6 +289,22 @@ button {
 }
 
 @media screen and (max-width: 550px) {
+    .page-header nav {
+        display: none;
+    }
+    .burger-menu {
+        display: block;
+        align-self: center;
+        max-width: 2.5rem;
+        cursor: pointer;
+    }
+    .page-header {
+        justify-content: space-evenly;
+        padding: 5px;
+    }
+    .page-header img {
+        width: 11rem;
+    }
     .destacada {
         flex-direction: column;
         text-align: center;
@@ -300,7 +323,6 @@ button {
         text-align: center;
         padding: 2rem 1rem 0 1rem;
     }
-
     .page-footer img {
         width: 250px;
         margin: 10px;
@@ -308,6 +330,12 @@ button {
 }
 
 @media screen and (max-width: 465px) {
+    .burger-menu {
+        max-width: 2rem;
+    }
+    .page-header img {
+        width: 9rem;
+    }
     .subscription-form {
         display: flex;
         flex-direction: column;
@@ -316,8 +344,5 @@ button {
     .subscription-form img {
         padding: 0;
         max-width: 200px;
-    }
-    .page-header nav {
-        display: none;
     }
 }
