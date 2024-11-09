@@ -118,7 +118,15 @@ Feel free to explore, learn, and contribute
   - [E-Commerce Responsive Design](/Stage-7/projects/e-commerce-html/)
   - [Practice with Media Queries](/Stage-7/projects/practice/)
   - [Mi Galería v.2](/Stage-7/projects/mi-galeria-v2/)
-  - [CARAS Magazine](/Stage-7/projects/) *hidden*
+  - [CARAS Magazine](/Stage-7/projects/) *spanish*
+
+<hr>
+
+### [Stage 8](/Stage-8)
+- [BEM Methodology](/Stage-8/readme.md)
+	- [BEM Methodology](/Stage-8/BEM-Metodology.md)
+	- [Practice Projects](/Stage-8/documents/)
+- [TIPS](/Stage-8/tips.md)
 
 <hr>
 
@@ -142,5 +150,13 @@ Feel free to explore, learn, and contribute
   - [Gallery Implementing Flexbox and Grid](/Stage-6/projects/mi-galeria/)
   - [My E-Commerce Using Flexbox and Grid](/Stage-6/projects/e-commerce-html/)
   
+- Stage-7
+  - [E-Commerce Responsive Design](/Stage-7/projects/e-commerce-html/)
+  - [Practice with Media Queries](/Stage-7/projects/practice/)
+  - [Mi Galería v.2](/Stage-7/projects/mi-galeria-v2/)
+  - [CARAS Magazine](/Stage-7/projects/) *spanish*
+
+- Stage-8
+  - [Practice Projects](/Stage-8/documents/)
 <hr>
 
