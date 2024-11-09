@@ -116,6 +116,8 @@ Feel free to explore, learn, and contribute
 - [Projects](/Stage-7/projects)
   - [E-Commerce Responsive Design](/Stage-7/projects/e-commerce-html/)
   - [Practice with Media Queries](/Stage-7/projects/practice/)
+  - [Mi Galería v.2](/Stage-7/projects/mi-galeria-v2/)
+  - [CARAS Magazine](/Stage-7/projects/) *hidden*
 
 <hr>
 
