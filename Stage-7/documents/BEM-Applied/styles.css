@@ -1,7 +1,23 @@
 body {
     font-family: 'Courier New', Courier, monospace;
 }
-
+/*Block__Element--Modifier */
 .header {
-    
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.header__logo {
+    width: 150px;
+}
+
+.header__nav {
+    display: flex;
+    gap: 10px;
+}
+
+.header__link { /*Block__Element */
+    font-size: 2rem;
 }
