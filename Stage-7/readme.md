@@ -4,6 +4,7 @@
 - [**Responsive Containers**](/Stage-7/responsive-containers.md) : Fluid Containers 
 - [**Media Queries**](/Stage-7/media-queries.md) : Different Styles for Different Screen Sizes
 - [**Responsive Images and Text**](/Stage-7/responsive-images.md) : Images and Text that Scale with the Screen
+- [**BEM Methodology in CSS**](/Stage-7/BEM-Metodology.md) : Block Element Modifier in CSS
 
 > "Content is like water" - Josh Clark
 
