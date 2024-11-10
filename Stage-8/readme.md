@@ -10,6 +10,6 @@ In this we will practice with some projects to understand how BEM works.
 
 - [BEM Methodology](https://en.bem.info/methodology/)
 - [BEM Method](/Stage-8/BEM-Metodology.md)
-- [Practice Projects](/Stage-8/documents/)
+- [Practice Projects](/Stage-8/projects/)
 
 

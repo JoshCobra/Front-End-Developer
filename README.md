@@ -125,7 +125,7 @@ Feel free to explore, learn, and contribute
 ### [Stage 8](/Stage-8)
 - [BEM Methodology](/Stage-8/readme.md)
 	- [BEM Methodology](/Stage-8/BEM-Metodology.md)
-	- [Practice Projects](/Stage-8/documents/)
+	- [Practice Projects](/Stage-8/projects/)
 - [TIPS](/Stage-8/tips.md)
 
 <hr>
