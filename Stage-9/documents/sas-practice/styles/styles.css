@@ -1,0 +1,30 @@
+/* Variables */
+body {
+  font-family: "Sour Gummy", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+footer {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #106e10;
+  display: flex;
+  justify-content: space-between;
+}
+footer article img {
+  width: 80px;
+}
+footer article nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer article nav a {
+  text-decoration: none;
+  color: #fff;
+}
+footer article > a {
+  display: block;
+  color: #fff;
+}/*# sourceMappingURL=styles.css.map */
