@@ -1,8 +1,10 @@
 /* Variables */
-$main-color: #106e10;
+$mainColor: #106e10;
+$fontFamily: "Sour Gummy", Arial, Helvetica, sans-serif;
+$colorWhite: #fff;
 
 body {
-    font-family: "Sour Gummy", Arial, Helvetica, sans-serif;
+    font-family: $fontFamily;
     font-weight: 600;
 }
 
@@ -26,12 +28,12 @@ footer {
 
             a{
                 text-decoration: none;
-                color: #fff;
+                color: $colorWhite;
             }
         }
         > a {
             display: block;
-            color: #fff;
+            color: $colorWhite;
         }
     }
 }
