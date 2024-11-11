@@ -10,11 +10,12 @@
     <title>Tienda Cobra</title>
 </head>
 <body>
-
-    <header>
-        <i><img src="img/menu.png" alt="Icono Menu"></i> 
+    <header class="header">
+        <section class="header__menu">
+            <i data-feather="menu" class="header__menuIcon"></i>
+            <i data-feather="shopping-cart" class="header__menuIcon"></i>
+        </section>
         <img src="img/cobra-logo.png" alt="Logo Cobra">
-        <i><img src="img/shopping-cart.png" alt="Icono Carrito"></i>
     </header>
 
     <main>
@@ -100,6 +101,9 @@
         </section>
 
     </main>
-
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+        feather.replace();
+    </script>
 </body>
 </html>
