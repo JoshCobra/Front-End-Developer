@@ -14,8 +14,8 @@
     <header class="header">
         <img src="img/cobra-logo.png" alt="Logo Cobra" class="header__logo">
         <section class="header__menu">
-            <i data-feather="menu" class="header__menuIcon"></i> <!--using feather-icons-pack-->
-            <i data-feather="shopping-cart" class="header__menuIcon"></i>
+            <i data-feather="menu" class="header__menu-icon"></i> <!--using feather-icons-pack-->
+            <i data-feather="shopping-cart" class="header__menu-icon"></i>
         </section>
     </header>
     <main>
@@ -93,31 +93,35 @@
 
         <!--Cart-->
         <section class="cart">
-            <h2><strong>CARRITO</strong></h2>
-            <div>
-                <img src="img/sweater.png" alt="sweater">
-                <p>Sweater</p>
-                <p>$1,450.00</p>
-                <i><img src="img/close-x.svg" alt="Icono Close" class="delete-icon"></i>
+            <!--Cart Title-->
+            <h2 class="cart__title"><strong>CARRITO</strong></h2>
+            <!--    --  --  -- Cart Item  --  --  --    -->
+            <div class="cart__item">
+                <img src="img/sweater.png" alt="sweater" class="cart__item-img">
+                <p class="cart__item-title">Sweater</p>
+                <p class="cart__item-price">$1,450.00</p>
+                <i class="cart__item-quit"><img src="img/close-x.svg" alt="Icono Close" class="delete-icon"></i>
             </div>
-            <div>
-                <img src="img/sweater.png" alt="sweater">
-                <p>Sweater</p>
-                <p>$1,450.00</p>
-                <i><img src="img/close-x.svg" alt="Icono Close" class="delete-icon"></i>
+            <!--    --  --  -- --  -- --  --  --  --    -->
+            <div class="cart__item">
+                <img src="img/sweater.png" alt="sweater" class="cart__item-img">
+                <p class="cart__item-title">Sweater</p>
+                <p class="cart__item-price">$1,450.00</p>
+                <i class="cart__item-quit"><img src="img/close-x.svg" alt="Icono Close" class="delete-icon"></i>
             </div>
-            <div>
-                <img src="img/sweater.png" alt="sweater">
-                <p>Sweater</p>
-                <p>$1,450.00</p>
-                <i><img src="img/close-x.svg" alt="Icono Close" class="delete-icon"></i>
+            <div class="cart__item">
+                <img src="img/sweater.png" alt="sweater" class="cart__item-img">
+                <p class="cart__item-title">Sweater</p>
+                <p class="cart__item-price">$1,450.00</p>
+                <i class="cart__item-quit"><img src="img/close-x.svg" alt="Icono Close" class="delete-icon"></i>
             </div>
         </section>
-
     </main>
+    <!-- Script Section-->
     <script src="https://unpkg.com/feather-icons"></script>
     <script>
         feather.replace();
     </script>
+    <!--  --  --  --   -->
 </body>
 </html>
