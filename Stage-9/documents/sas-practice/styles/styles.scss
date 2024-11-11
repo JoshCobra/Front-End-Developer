@@ -1,5 +1,5 @@
 /* Variables */
-$main-color: #000;
+$main-color: #106e10;
 
 body {
     font-family: "Sour Gummy", Arial, Helvetica, sans-serif;
@@ -10,7 +10,7 @@ footer {
     width: 100%;
     padding: 20px;
     box-sizing: border-box;
-    background-color: #106e10;
+    background-color: $main-color;
     display: flex;
     justify-content: space-between;
 
