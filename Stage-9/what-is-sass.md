@@ -3,11 +3,11 @@ Sass is a preprocessor scripting language that is interpreted or compiled into C
 
 ### What are preprocessors?
 Preprocessors are tools that allow you to write CSS in a more concise and powerful way. They extend the CSS language with features that are not available in CSS itself. Preprocessors make it easier to maintain and organize your stylesheets, and can also help you write more DRY (Don't Repeat Yourself) code.
-    - Help with CSS limitations
-    - Make CSS more maintainable
-    - Make CSS more organized
-    - Write on alternative syntax
-    - Make CSS more powerful
+- Help with CSS limitations
+- Make CSS more maintainable
+- Make CSS more organized
+- Write on alternative syntax
+- Make CSS more powerful
 
 <div align="center">
 <h1> Examples of Preprocessors </h1>
