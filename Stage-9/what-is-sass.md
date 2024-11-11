@@ -21,3 +21,23 @@ Preprocessors are tools that allow you to write CSS in a more concise and powerf
         <img src="https://upload.wikimedia.org/wikipedia/commons/d/d8/Stylus-logo.svg" alt="Stylus-logo" width="150px">
     </div>
 </div>
+
+### What we need for use SASS?
+There is a ot of ways to install SASS in your project, but the most common way is to use npm.
+
+Please check SASS website for more information: [SASS](https://sass-lang.com/)
+
+First, you need to install SASS in your project. You can do this by running the following command in your terminal:
+```bash
+npm install -g sass
+```
+This is if you already have node.js installed on your computer. If you don't have node.js installed, you can download it from the official website, or you can use a package manager like Homebrew or Chocolatey.
+
+- For Homebrew:
+```bash
+brew install node
+```
+- For Chocolatey:
+```bash
+choco install nodejs
+```
