@@ -4,6 +4,17 @@ footer article > a, footer article nav a {
   color: #fff;
 }
 
+main article .secondary-button, main article .main-button {
+  display: block;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  width: 100%;
+  font-weight: 600;
+}
+
 body {
   font-family: "Sour Gummy", Arial, Helvetica, sans-serif;
   font-weight: 600;
@@ -13,22 +24,28 @@ main article {
   width: 200px;
   height: 200px;
   margin: 0 auto;
-  box-shadow: 0 0 10px yellow;
-  padding: 10px;
-  border-radius: 10px;
-  background-color: blue;
-}
-main article:first-child {
   box-shadow: 0 0 10px #106e10;
   padding: 10px;
-  border-radius: 10px;
-  background-color: red;
+  border-radius: 15px;
+  background-color: #106e10;
+}
+main article.mixin {
+  box-shadow: 0 0 10px rgb(28, 89, 219);
+  padding: 10px;
+  border-radius: 15px;
+  background-color: rgb(28, 89, 219);
+}
+main article .main-button {
+  background-color: chartreuse;
+}
+main article .secondary-button {
+  background-color: dimgray;
 }
 main article.container3 {
-  box-shadow: 0 0 10px #803300;
+  box-shadow: 0 0 10px rgb(216, 219, 28);
   padding: 10px;
-  border-radius: 10px;
-  background-color: #00aeff;
+  border-radius: 15px;
+  background-color: rgb(216, 219, 28);
 }
 
 footer {
