@@ -22,10 +22,18 @@ body {
 
 main {
     article {
-        width: 300px;
-        height: 300px;
+        width: 200px;
+        height: 200px;
         margin: 0 auto;
-        @include shadowContainer();
+        @include shadowContainer(10px, yellow, blue);
+        
+        &:first-child {
+            @include shadowContainer(10px, green, red);
+        }
+
+        &.container3 {
+            @include shadowContainer(10px, #803300, #00aeff);
+        }
     }
 }
 
