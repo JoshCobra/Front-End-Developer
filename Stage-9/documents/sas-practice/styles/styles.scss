@@ -3,18 +3,38 @@ $mainColor: #106e10;
 $fontFamily: "Sour Gummy", Arial, Helvetica, sans-serif;
 $colorWhite: #fff;
 
+@mixin flexbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin shadowContainer($blur, $shadowColor, $bgColor) {
+    box-shadow: 0 0 $blur $shadowColor;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: $bgColor;
+}
+
 body {
     font-family: $fontFamily;
     font-weight: 600;
+}
+
+main {
+    article {
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
+        @include shadowContainer();
+    }
 }
 
 footer {
     width: 100%;
     padding: 20px;
     box-sizing: border-box;
-    background-color: $main-color;
-    display: flex;
-    justify-content: space-between;
+    background-color: $mainColor;
+    @include flexbox();
 
     article {
         img{ 
@@ -22,7 +42,7 @@ footer {
         }
 
         nav{
-            display: flex;
+            @include flexbox();
             flex-direction: column;
             gap: 10px;
 

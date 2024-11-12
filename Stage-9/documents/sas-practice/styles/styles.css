@@ -4,6 +4,16 @@ body {
   font-weight: 600;
 }
 
+main article {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  box-shadow: 0 0 20px #000;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #5fa55f;
+}
+
 footer {
   width: 100%;
   padding: 20px;
@@ -17,6 +27,7 @@ footer article img {
 }
 footer article nav {
   display: flex;
+  justify-content: space-between;
   flex-direction: column;
   gap: 10px;
 }
