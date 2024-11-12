@@ -1,0 +1,32 @@
+$white: #fff;
+$mainColor: #348f22cc;
+$textColor: #3f3f3f;
+$titleFontWeight: 700;
+$fontFamily: 'Lexend', Arial, Helvetica, sans-serif;
+
+@mixin flexbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin body{
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 300;
+    color: $textColor;
+    margin: 0;
+}
+body {
+    @include body();
+
+    .header{ 
+        @include flexbox();
+        background-color: #333;
+        width: 100%;
+        padding: 20px 50px;
+        box-sizing: border-box;
+        position: sticky;
+        top: 0;
+    }
+}
