@@ -1,14 +1,15 @@
 $white: #fff;
-$mainColor: #348f22cc;
+$mainColor: #348f22; /*Mejor tener un color solido y luego agregar la transparencia si es necesario*/
 $textColor: #3f3f3f;
 $bgColor: #333;
 $titleWeight: 700;
 $fontFamily: 'Lexend', Arial, Helvetica, sans-serif;
 
-@mixin flexbox {
+@mixin flexbox($justify:space-between, $align:center) { 
+    /* Teniendo variables facilitamos la modificación en caso de ser necesario*/
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: $justify;
+    align-items: $align;
 }
 
 @mixin body{
@@ -149,7 +150,7 @@ body {
 
         .cart__item {
             border-bottom: 1px solid $bgColor;
-            @include flexbox();
+            @include flexbox(space-around);
             padding: 15px;
             box-sizing: border-box;
 
