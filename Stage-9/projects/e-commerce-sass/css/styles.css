@@ -29,6 +29,7 @@ body .header {
   box-sizing: border-box;
   position: sticky;
   top: 0;
+  box-shadow: 0 0 10px #333;
 }
 body .header .header__logo {
   width: 4rem;
@@ -104,7 +105,7 @@ body .cart {
   box-sizing: border-box;
   height: 100%;
   position: fixed;
-  right: 0%; /* Oculta el carrito */
+  right: -100%; /* Oculta el carrito */
   top: 108px;
   box-shadow: -19px -1px 22px -15px rgba(0, 0, 0, 0.75);
 }
