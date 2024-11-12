@@ -139,7 +139,7 @@ body {
         height: 100%;
         position: fixed;
         right: -00%; /* Oculta el carrito */
-        top: 100px;
+        top: 108px;
         box-shadow: -19px -1px 22px -15px rgba(0,0,0,0.75);
 
         .cart__item {
@@ -149,7 +149,7 @@ body {
             box-sizing: border-box;
 
             .cart-item__img {
-                width: 60px;
+                width: 80px;
             }
             
             .cart-item__price {

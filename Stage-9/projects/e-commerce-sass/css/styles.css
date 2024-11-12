@@ -105,7 +105,7 @@ body .cart {
   height: 100%;
   position: fixed;
   right: 0%; /* Oculta el carrito */
-  top: 100px;
+  top: 108px;
   box-shadow: -19px -1px 22px -15px rgba(0, 0, 0, 0.75);
 }
 body .cart .cart__item {
@@ -117,7 +117,7 @@ body .cart .cart__item {
   box-sizing: border-box;
 }
 body .cart .cart__item .cart-item__img {
-  width: 60px;
+  width: 80px;
 }
 body .cart .cart__item .cart-item__price {
   font-weight: 700;
