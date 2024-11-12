@@ -7,7 +7,7 @@ footer article > a, footer article nav a {
 main article .secondary-button, main article .main-button {
   display: block;
   border: none;
-  border-radius: 30px;
+  border-radius: 20px;
   color: #fff;
   text-align: center;
   padding: 15px 0;
@@ -64,4 +64,4 @@ footer article nav {
   justify-content: space-between;
   flex-direction: column;
   gap: 10px;
-}/*# sourceMappingURL=styles.css.map */
+}
