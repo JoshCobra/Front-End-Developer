@@ -120,7 +120,7 @@ body .cart .cart__item {
   box-sizing: border-box;
 }
 body .cart .cart__item .cart-item__img {
-  width: 80px;
+  width: 5rem;
 }
 body .cart .cart__item .cart-item__price {
   font-weight: 700;
