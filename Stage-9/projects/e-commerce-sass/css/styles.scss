@@ -138,7 +138,7 @@ body {
         box-sizing: border-box;
         height: 100%;
         position: fixed;
-        right: -100%; /* Oculta el carrito */
+        right: -00%; /* Oculta el carrito */
         top: 100px;
         box-shadow: -19px -1px 22px -15px rgba(0,0,0,0.75);
 
@@ -147,23 +147,23 @@ body {
             @include flexbox();
             padding: 15px;
             box-sizing: border-box;
-        }
-        
-        .cart-item__img {
-            width: 60px;
-        }
-        
-        .cart-item__price {
-            font-weight: $titleWeight;
-        }
-        
-        .cart-item__quit {
-            width: 25px;
-            cursor: pointer;
-        }
-        
-        .cart-item__quit:hover {
-            color: $mainColor;
+
+            .cart-item__img {
+                width: 60px;
+            }
+            
+            .cart-item__price {
+                font-weight: $titleWeight;
+            }
+            
+            .cart-item__quit {
+                width: 25px;
+                cursor: pointer;
+            }
+            
+            .cart-item__quit:hover {
+                color: $mainColor;
+            }
         }
     }
 }
