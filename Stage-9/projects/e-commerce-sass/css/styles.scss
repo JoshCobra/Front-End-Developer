@@ -142,6 +142,10 @@ body {
         top: 108px;
         box-shadow: -19px -1px 22px -15px rgba(0,0,0,0.75);
 
+        .cart__title {
+            text-align: center;
+        }
+
         .cart__item {
             border-bottom: 1px solid $bgColor;
             @include flexbox();
