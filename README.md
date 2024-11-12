@@ -3,7 +3,7 @@
 
 <p align="center">
 <img src="https://img.shields.io/badge/Start-12/10/2024-%23238725?style=for-the-badge">
-<img src="https://img.shields.io/badge/Current-Stage_7-%23238725?style=for-the-badge">
+<img src="https://img.shields.io/badge/Current-Stage_9-%23238725?style=for-the-badge">
 <img src="https://img.shields.io/github/last-commit/JoshCobra/Front-End-Developer?style=for-the-badge&color=%23238725">
 </p>
 
@@ -127,6 +127,17 @@ Feel free to explore, learn, and contribute
 	- [BEM Methodology](/Stage-8/BEM-Metodology.md)
 	- [Practice Projects](/Stage-8/projects/)
 - [TIPS](/Stage-8/tips.md)
+
+<hr>
+
+### [Stage 9](/Stage-9)
+- [SASS](/Stage-9/readme.md)
+	- [SASS](/Stage-9/what-is-sass.md)
+	- [Variables in SASS](/Stage-9/variables.md)
+	- [Nesting in SASS](/Stage-9/nesting.md)
+	- [Mixins in SASS](/Stage-9/mixins.md)
+	- [Extend/Inheritance in SASS](/Stage-9/extend-inheritance.md)
+- [TIPS](/Stage-9/tips.md)
 
 <hr>
 
