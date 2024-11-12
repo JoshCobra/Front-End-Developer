@@ -2,6 +2,7 @@
 Nesting in SASS allows you to nest your CSS selectors in a way that follows the same visual hierarchy of your HTML. This makes your CSS more readable and maintainable.
 
 ## Example
+[Example](documents/sas-practice/)
 
 ```scss
 nav {

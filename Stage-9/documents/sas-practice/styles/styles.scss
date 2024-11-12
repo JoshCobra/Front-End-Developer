@@ -15,6 +15,11 @@ $colorWhite: #fff;
     background-color: $bgColor;
 }
 
+%link {
+    text-decoration: none;
+    color: $colorWhite;
+}
+
 body {
     font-family: $fontFamily;
     font-weight: 600;
@@ -28,7 +33,7 @@ main {
         @include shadowContainer(10px, yellow, blue);
         
         &:first-child {
-            @include shadowContainer(10px, green, red);
+            @include shadowContainer(10px, $mainColor, red);
         }
 
         &.container3 {
@@ -54,14 +59,12 @@ footer {
             flex-direction: column;
             gap: 10px;
 
-            a{
-                text-decoration: none;
-                color: $colorWhite;
+            a {
+                @extend %link;
             }
         }
         > a {
-            display: block;
-            color: $colorWhite;
+            @extend %link;
         }
     }
 }

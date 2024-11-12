@@ -1,4 +1,9 @@
 /* Variables */
+footer article > a, footer article nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
 body {
   font-family: "Sour Gummy", Arial, Helvetica, sans-serif;
   font-weight: 600;
@@ -14,7 +19,7 @@ main article {
   background-color: blue;
 }
 main article:first-child {
-  box-shadow: 0 0 10px green;
+  box-shadow: 0 0 10px #106e10;
   padding: 10px;
   border-radius: 10px;
   background-color: red;
@@ -42,12 +47,4 @@ footer article nav {
   justify-content: space-between;
   flex-direction: column;
   gap: 10px;
-}
-footer article nav a {
-  text-decoration: none;
-  color: #fff;
-}
-footer article > a {
-  display: block;
-  color: #fff;
 }/*# sourceMappingURL=styles.css.map */
