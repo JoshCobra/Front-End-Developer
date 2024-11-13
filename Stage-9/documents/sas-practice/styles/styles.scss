@@ -34,6 +34,38 @@ $white: #fff;
 body {
     font-family: $fontFamily;
     font-weight: 600;
+    margin: 0;
+}
+
+header {
+    @include flexbox();
+    background-color: $mainColor;
+    padding: 20px;
+    box-sizing: border-box;
+    align-items: center;
+
+    img {
+        width: 120px;
+    }
+
+    nav {
+        @include flexbox();
+        gap: 10px;
+
+        a {
+            font-weight: 500;
+            font-size: 1rem;
+            @extend %link;
+        }
+    }
+
+    article {
+        @include flexbox();
+
+        i {
+            gap: 20px;
+        }
+    }
 }
 
 main {

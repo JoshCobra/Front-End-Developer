@@ -1,5 +1,5 @@
 /* Variables */
-footer article > a, footer article nav a {
+footer article > a, footer article nav a, header nav a {
   text-decoration: none;
   color: #fff;
 }
@@ -18,6 +18,35 @@ main article .secondary-button, main article .main-button {
 body {
   font-family: "Sour Gummy", Arial, Helvetica, sans-serif;
   font-weight: 600;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #106e10;
+  padding: 20px;
+  box-sizing: border-box;
+  align-items: center;
+}
+header img {
+  width: 120px;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+header nav a {
+  font-weight: 500;
+  font-size: 1rem;
+}
+header article {
+  display: flex;
+  justify-content: space-between;
+}
+header article i {
+  gap: 20px;
 }
 
 main article {
