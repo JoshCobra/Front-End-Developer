@@ -40,12 +40,23 @@ header nav {
 header nav a {
   font-weight: 500;
   font-size: 1rem;
+  transition: all 0.2s ease;
+}
+header nav a:hover {
+  transform: scale(1.1);
 }
 header article {
   display: flex;
   justify-content: space-between;
-  color: #fff;
   gap: 20px;
+}
+header article div {
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+header article div:hover {
+  transform: scale(1.1);
 }
 
 main article {

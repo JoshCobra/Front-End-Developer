@@ -3,6 +3,11 @@ $mainColor: #106e10;
 $fontFamily: "Sour Gummy", Arial, Helvetica, sans-serif;
 $white: #fff;
 
+@function divideUnits($value, $quantity) {
+    $result: $value / $quantity;
+    @return $result;
+}
+
 @mixin flexbox {
     display: flex;
     justify-content: space-between;
@@ -27,7 +32,7 @@ $white: #fff;
     color: $white;
     text-align: center;
     padding: 15px 0;
-    width: 100%;
+    width: divideUnits(200%, 2);
     font-weight: 600;
 }
 
@@ -56,13 +61,27 @@ header {
             font-weight: 500;
             font-size: 1rem;
             @extend %link;
+            transition: all 0.2s ease;
+
+            &:hover {
+                transform: scale(1.1);
+            }
         }
     }
 
     article {
         @include flexbox();
-        color: $white;
         gap: 20px;
+
+        div {
+            color: $white;
+            cursor: pointer;
+            transition: all 0.2s ease;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
     }
 }
 
