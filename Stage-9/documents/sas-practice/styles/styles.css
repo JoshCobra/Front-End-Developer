@@ -24,7 +24,7 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  background-color: #106e10;
+  background-color: #7a7a7a;
   padding: 20px;
   box-sizing: border-box;
   align-items: center;
@@ -48,12 +48,20 @@ header nav a:hover {
 header article {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   gap: 20px;
 }
 header article div {
   color: #fff;
   cursor: pointer;
   transition: all 0.2s ease;
+}
+header article div:first-child {
+  width: 50px;
+  height: 50px;
+  background-color: #008000;
+  border-radius: 50px;
+  /* Evaluates the condition in "@mixin avatar()" */
 }
 header article div:hover {
   transform: scale(1.1);
@@ -63,16 +71,16 @@ main article {
   width: 200px;
   height: 200px;
   margin: 0 auto;
-  box-shadow: 0 0 10px #106e10;
+  box-shadow: 0 0 10px #008000;
   padding: 10px;
   border-radius: 15px;
-  background-color: #106e10;
+  background-color: #008000;
 }
 main article.mixin {
-  box-shadow: 0 0 10px rgb(28, 89, 219);
+  box-shadow: 0 0 10px #7a7a7a;
   padding: 10px;
   border-radius: 15px;
-  background-color: rgb(28, 89, 219);
+  background-color: #7a7a7a;
 }
 main article .main-button {
   background-color: chartreuse;
@@ -91,7 +99,7 @@ footer {
   width: 100%;
   padding: 20px;
   box-sizing: border-box;
-  background-color: #106e10;
+  background-color: #7a7a7a;
   display: flex;
   justify-content: space-between;
 }

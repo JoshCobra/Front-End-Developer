@@ -1,11 +1,23 @@
 /* Variables */
-$mainColor: #106e10;
+$mainColor: #7a7a7a;
 $fontFamily: "Sour Gummy", Arial, Helvetica, sans-serif;
 $white: #fff;
 
 @function divideUnits($value, $quantity) {
     $result: $value / $quantity;
     @return $result;
+}
+
+@mixin avatar($size, $type) {
+    width: $size;
+    height: $size;
+    background-color: #008000;
+    
+    @if $type == circle {
+        border-radius: 50px;
+    } @else {
+        border-radius: 10px;
+    }
 }
 
 @mixin flexbox {
@@ -71,12 +83,18 @@ header {
 
     article {
         @include flexbox();
+        align-items: center;
         gap: 20px;
 
         div {
             color: $white;
             cursor: pointer;
             transition: all 0.2s ease;
+
+            &:first-child {
+                @include avatar(50px, $type:circle);
+                /* Evaluates the condition in "@mixin avatar()" */
+            }
 
             &:hover {
                 transform: scale(1.1);
@@ -90,10 +108,10 @@ main {
         width: 200px;
         height: 200px;
         margin: 0 auto;
-        @include shadowContainer(10px, 10px, $mainColor);
+        @include shadowContainer(10px, 10px, #008000);
 
         &.mixin {
-            @include shadowContainer(10px, 10px, rgb(28, 89, 219));
+            @include shadowContainer(10px, 10px, $mainColor);
         }
 
         .main-button {
