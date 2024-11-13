@@ -18,5 +18,6 @@ In this module, you will learn about:
 - **Variables**: Discover how to use variables to store values that you use repeatedly in your stylesheets, such as colors, fonts, or any CSS value.
 - **Mixins**: Understand how to create reusable chunks of code with mixins, allowing you to avoid repetition and keep your styles DRY (Don't Repeat Yourself).
 - **Extend/Inheritance**: Explore how to share a set of CSS properties from one selector to another using the `@extend` directive, promoting code reuse and reducing redundancy.
+- **Functions in SASS**: Learn how to create custom functions in SASS to perform calculations, manipulate values, and generate dynamic styles.
 
 
