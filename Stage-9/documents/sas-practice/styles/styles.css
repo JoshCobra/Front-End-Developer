@@ -44,8 +44,7 @@ header nav a {
 header article {
   display: flex;
   justify-content: space-between;
-}
-header article i {
+  color: #fff;
   gap: 20px;
 }
 

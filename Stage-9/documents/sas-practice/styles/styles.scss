@@ -61,10 +61,8 @@ header {
 
     article {
         @include flexbox();
-
-        i {
-            gap: 20px;
-        }
+        color: $white;
+        gap: 20px;
     }
 }
 
