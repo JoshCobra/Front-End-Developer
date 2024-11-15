@@ -1,0 +1,61 @@
+/* Variables */
+$mainColor: #888888;
+$fontFamily: "Sour Gummy", Arial, Helvetica, sans-serif;
+$white: #fff;
+
+@function divideUnits($value, $quantity) {
+    $result: $value / $quantity;
+    @return $result;
+}
+
+@mixin avatar($size, $type) {
+    width: $size;
+    height: $size;
+    background-color: #008000;
+    
+    @if $type == circle {
+        border-radius: 50px;
+    } @else {
+        border-radius: 10px;
+    }
+}
+
+@mixin flexbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin shadowContainer($blur, $padding, $color) {
+    box-shadow: 0 0 $blur $color;
+    padding: $padding;
+    border-radius: 15px;
+    background-color: $color;
+}
+
+@mixin laptop {
+    @media screen and (max-width: 72rem) { @content };
+}
+
+@mixin tablet {
+    @media screen and (max-width: 55rem) { @content };
+}
+
+@mixin phone {
+    @media screen and (max-width: 40rem) { @content};
+}
+
+%link {
+    text-decoration: none;
+    color: $white;
+}
+
+%button {
+    display: block;
+    border: none;
+    border-radius: 20px;
+    color: $white;
+    text-align: center;
+    padding: 15px 0;
+    width: divideUnits(200%, 2);
+    font-weight: 600;
+}

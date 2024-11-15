@@ -4,7 +4,7 @@ footer article > a, footer article nav a, header nav a {
   color: #fff;
 }
 
-main article .secondary-button, main article .main-button {
+.secondary-button, .main-button {
   display: block;
   border: none;
   border-radius: 20px;
@@ -92,12 +92,6 @@ main article.mixin {
   border-radius: 15px;
   background-color: #888888;
 }
-main article .main-button {
-  background-color: chartreuse;
-}
-main article .secondary-button {
-  background-color: dimgray;
-}
 main article.container3 {
   box-shadow: 0 0 10px rgb(216, 219, 28);
   padding: 10px;
@@ -136,4 +130,33 @@ footer article nav {
   footer article nav {
     flex-direction: column;
   }
-}/*# sourceMappingURL=styles.css.map */
+}
+.main-button {
+  background-color: chartreuse;
+}
+
+.secondary-button {
+  background-color: dimgray;
+}
+
+main article {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px #008000;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #008000;
+}
+main article.mixin {
+  box-shadow: 0 0 10px #888888;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #888888;
+}
+main article.container3 {
+  box-shadow: 0 0 10px rgb(216, 219, 28);
+  padding: 10px;
+  border-radius: 15px;
+  background-color: rgb(216, 219, 28);
+}/*# sourceMappingURL=main.css.map */
