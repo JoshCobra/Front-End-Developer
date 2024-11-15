@@ -82,3 +82,28 @@
 17. **Avoid Excessive Nesting in Sass:**
     - While nesting in Sass can make your code more readable, excessive nesting can lead to specificity issues and make your code harder to maintain.
 
+18. **Use @imports in Sass to organize your code:**
+    - The @import directive in Sass allows you to split your stylesheets into smaller files and organize your code more effectively.
+
+19. **Whats the difference between @import and @use in Sass?**
+    - The @import directive in Sass is used to import stylesheets into your code, while the @use directive is used to import modules.
+
+20. **Whats the difference between @extend and @include in Sass?**
+    - The @extend directive in Sass is used to share styles between selectors, while the @include directive is used to include mixins in your styles.
+
+21. **Functions in Sass:**
+    - Functions in Sass allow you to define custom functions that can be used to calculate values or perform other operations.
+
+    example:
+    ```scss
+    @function calculate-width($width, $padding) {
+        @return $width + $padding * 2;
+    }
+    ```
+
+22. **When to use Functions in Sass?**
+    - Functions in Sass are useful when you need to perform calculations or other operations that are not possible with regular CSS.
+
+23. **Media Queries in Mixins in Sass:**
+    - Mixins in Sass can be used to create reusable media queries that can be included in your stylesheets.
+
