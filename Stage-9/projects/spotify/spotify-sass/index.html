@@ -12,7 +12,7 @@
 <body>
     <main>
         <aside class="main__left-side">
-            <!-- Sección home y Buscar-->
+            <!-- Section library Home, Buscar -->
             <section class="leftSide__home">
                 <div class="home__icon">
                     <i data-feather="home"></i>
@@ -23,26 +23,44 @@
                     <p>Buscar</p>
                 </div>
             </section>
-            <!-- -- -- -- -- -- -- -->
-            <!-- Sección library izquierda -->
+
+            <!-- Section library left -->
             <section class="leftSide__library">
+                <!-- library top section -->
                 <div class="library__selectors">
                     <div class="library__icon">
-                        <i data-feather="library"></i>
+                        <i data-feather="book-open"></i>
                         <p>Tu Biblioteca</p>
                     </div>
                     <div class="library__addIcon">
                         <i data-feather="plus"></i>
                     </div>
                     <div class="library__rightArrowIcon">
-                        <i data-feather=""></i>
+                        <i data-feather="arrow-right"></i>
                     </div>
                 </div>
-                <nav>
-
+                <nav class="library__nav">
+                    <div class="nav__closeIcon">
+                        <i data-feather="x"></i>
+                    </div>
+                    <input type="search" placeholder="Orden alfabético">
                 </nav>
             </section>
+
+            <!-- section library content-->
+            <section class="library__contents">
+                <!-- library items -->
+                <div class="library__item">
+                    <img src="" alt="">
+                    <span></span>
+                </div>
+                <div class="library__item">
+                    <img src="" alt="">
+                    <span></span>
+                </div>
+            </section>
         </aside>
+
         <section class="main__content"></section>
         <aside class="main__right-side"></aside>
     </main>
