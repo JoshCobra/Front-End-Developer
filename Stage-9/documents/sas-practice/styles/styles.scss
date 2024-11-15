@@ -1,5 +1,5 @@
 /* Variables */
-$mainColor: #7a7a7a;
+$mainColor: #888888;
 $fontFamily: "Sour Gummy", Arial, Helvetica, sans-serif;
 $white: #fff;
 
@@ -30,6 +30,18 @@ $white: #fff;
     padding: $padding;
     border-radius: 15px;
     background-color: $color;
+}
+
+@mixin laptop {
+    @media screen and (max-width: 72rem) { @content };
+}
+
+@mixin tablet {
+    @media screen and (max-width: 55rem) { @content };
+}
+
+@mixin phone {
+    @media screen and (max-width: 40rem) { @content};
 }
 
 %link {
@@ -63,11 +75,17 @@ header {
 
     img {
         width: 120px;
+        @include laptop() {
+            width: 200px;
+        }
     }
 
     nav {
         @include flexbox();
         gap: 10px;
+        @include laptop() {
+            display: none;
+        }
 
         a {
             font-weight: 500;
@@ -136,6 +154,9 @@ footer {
     box-sizing: border-box;
     background-color: $mainColor;
     @include flexbox();
+    @include phone() {
+        flex-direction: column;
+    }
 
     article {
         img{ 
@@ -146,6 +167,12 @@ footer {
             @include flexbox();
             flex-direction: column;
             gap: 10px;
+            @include tablet() {
+                flex-direction: row;
+            }
+            @include phone() {
+                flex-direction: column;
+            }
 
             a {
                 @extend %link;

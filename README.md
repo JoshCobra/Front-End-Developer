@@ -138,6 +138,7 @@ Feel free to explore, learn, and contribute
 	- [Mixins in SASS](/Stage-9/mixins.md)
 	- [Extend/Inheritance in SASS](/Stage-9/extend-inheritance.md)
 	- [Functions in SASS](/Stage-9/functions-in-sass.md)
+	- [Media Queries in SASS](/Stage-9/sass-mediaqueries.md)
 - [TIPS](/Stage-9/tips.md)
 - [Projects](/Stage-9/projects)
   - [E-Commerce-Sass](/Stage-9/projects/e-commerce-sass/)

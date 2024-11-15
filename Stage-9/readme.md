@@ -7,6 +7,7 @@
     - [Mixins](/Stage-9/mixins.md) : A way to make groups of CSS declarations that you want to reuse throughout your site.
     - [Extend/Inheritance](/Stage-9/extend-inheritance.md) : A way to share styles between selectors.
     - [Functions in SASS](/Stage-9/functions-in-sass.md) : Functions in SASS are used to perform operations on variables and return a value.
+    - [Media Queries Inside Mixins](/Stage-9/sass-mediaqueries.md) : Media queries are a powerful tool in CSS that allow you to apply styles based on the characteristics of the device or viewport. 
 
 ## Introduction 
 SASS (Syntactically Awesome Style Sheets) is a powerful CSS preprocessor that extends the capabilities of CSS with features like variables, nesting, and mixins. This section will cover the basics of SASS and how it can help you write more maintainable and efficient stylesheets.

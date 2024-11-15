@@ -24,7 +24,7 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  background-color: #7a7a7a;
+  background-color: #888888;
   padding: 20px;
   box-sizing: border-box;
   align-items: center;
@@ -32,10 +32,20 @@ header {
 header img {
   width: 120px;
 }
+@media screen and (max-width: 72rem) {
+  header img {
+    width: 200px;
+  }
+}
 header nav {
   display: flex;
   justify-content: space-between;
   gap: 10px;
+}
+@media screen and (max-width: 72rem) {
+  header nav {
+    display: none;
+  }
 }
 header nav a {
   font-weight: 500;
@@ -77,10 +87,10 @@ main article {
   background-color: #008000;
 }
 main article.mixin {
-  box-shadow: 0 0 10px #7a7a7a;
+  box-shadow: 0 0 10px #888888;
   padding: 10px;
   border-radius: 15px;
-  background-color: #7a7a7a;
+  background-color: #888888;
 }
 main article .main-button {
   background-color: chartreuse;
@@ -99,9 +109,14 @@ footer {
   width: 100%;
   padding: 20px;
   box-sizing: border-box;
-  background-color: #7a7a7a;
+  background-color: #888888;
   display: flex;
   justify-content: space-between;
+}
+@media screen and (max-width: 40rem) {
+  footer {
+    flex-direction: column;
+  }
 }
 footer article img {
   width: 80px;
@@ -111,4 +126,14 @@ footer article nav {
   justify-content: space-between;
   flex-direction: column;
   gap: 10px;
+}
+@media screen and (max-width: 55rem) {
+  footer article nav {
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 40rem) {
+  footer article nav {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=styles.css.map */
