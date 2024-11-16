@@ -1,24 +1,12 @@
-@import "./variables";
-
-body {
-    margin: 0;
-    box-sizing: border-box;
-    display: grid;
-    grid-template-columns: 1.5fr 3fr 1.5fr;
-    background-color: $background-base;
-    color: $text;
-    font-family: $font-family;
-}
+@import "./base";
+@import "./components";
 
 .left-side {
     display: flex;
     flex-direction: column;
 
     .leftSide__home {
-        display: flex;
-        flex-direction: column;
-        background-color: $background-highlight;
-        border-radius: 15px;
+        @include asideFlex();
 
         .home__icon {
             display: flex;
@@ -45,10 +33,7 @@ body {
     }
 
     .leftSide__library {
-        display: flex;
-        flex-direction: column;
-        background-color: $background-highlight;
-        border-radius: 15px;
+        @include asideFlex();
 
         .library__selectors {
             display: flex;

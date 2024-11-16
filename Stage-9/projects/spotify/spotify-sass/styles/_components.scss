@@ -1,0 +1,10 @@
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1.5fr 3fr 1.5fr;
+    background-color: $background-base;
+    color: $text;
+    font-family: $font-family;
+}
