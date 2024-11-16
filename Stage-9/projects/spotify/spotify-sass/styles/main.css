@@ -144,5 +144,23 @@ main {
   padding: 30px 15px;
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 30px;
+}
+.left-side .leftSide__library .library__contents .library__item {
+  display: flex;
+  color: #fff;
+  font-size: 0.8rem;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.3s ease;
+  border-radius: 90px;
+  cursor: pointer;
+}
+.left-side .leftSide__library .library__contents .library__item img {
+  width: 50px;
+  border-radius: 50%;
+}
+.left-side .leftSide__library .library__contents .library__item:hover {
+  background-color: #1f1f1f;
+  border-radius: 22px;
 }/*# sourceMappingURL=main.css.map */
