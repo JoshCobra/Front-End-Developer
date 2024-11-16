@@ -39,7 +39,7 @@ main {
   display: inline;
   cursor: pointer;
 }
-.left-side .leftSide__home .home__icon svg, .left-side .leftSide__home .home__icon .main .main__nav .nav__right img, .main .main__nav .nav__right .left-side .leftSide__home .home__icon img, .left-side .leftSide__home .home__searchIcon svg, .left-side .leftSide__home .home__searchIcon .main .main__nav .nav__right img, .main .main__nav .nav__right .left-side .leftSide__home .home__searchIcon img {
+.left-side .leftSide__home .home__icon svg, .left-side .leftSide__home .home__icon .main .main__banner .main__nav .nav__right img, .main .main__banner .main__nav .nav__right .left-side .leftSide__home .home__icon img, .left-side .leftSide__home .home__searchIcon svg, .left-side .leftSide__home .home__searchIcon .main .main__banner .main__nav .nav__right img, .main .main__banner .main__nav .nav__right .left-side .leftSide__home .home__searchIcon img {
   width: 15px;
   cursor: pointer;
 }
@@ -83,12 +83,12 @@ main {
   display: inline;
   cursor: pointer;
 }
-.left-side .leftSide__library .library__selectors svg, .left-side .leftSide__library .library__selectors .main .main__nav .nav__right img, .main .main__nav .nav__right .left-side .leftSide__library .library__selectors img {
+.left-side .leftSide__library .library__selectors svg, .left-side .leftSide__library .library__selectors .main .main__banner .main__nav .nav__right img, .main .main__banner .main__nav .nav__right .left-side .leftSide__library .library__selectors img {
   width: 15px;
   cursor: pointer;
   transition: all 0.3s ease;
 }
-.left-side .leftSide__library .library__selectors svg:hover, .left-side .leftSide__library .library__selectors .main .main__nav .nav__right img:hover, .main .main__nav .nav__right .left-side .leftSide__library .library__selectors img:hover {
+.left-side .leftSide__library .library__selectors svg:hover, .left-side .leftSide__library .library__selectors .main .main__banner .main__nav .nav__right img:hover, .main .main__banner .main__nav .nav__right .left-side .leftSide__library .library__selectors img:hover {
   color: #fff;
 }
 .left-side .leftSide__library .library__nav {
@@ -101,7 +101,7 @@ main {
   padding-left: 5px;
   color: #b3b3b3;
 }
-.left-side .leftSide__library .library__nav .nav__closeIcon svg, .left-side .leftSide__library .library__nav .nav__closeIcon .main .main__nav .nav__right img, .main .main__nav .nav__right .left-side .leftSide__library .library__nav .nav__closeIcon img {
+.left-side .leftSide__library .library__nav .nav__closeIcon svg, .left-side .leftSide__library .library__nav .nav__closeIcon .main .main__banner .main__nav .nav__right img, .main .main__banner .main__nav .nav__right .left-side .leftSide__library .library__nav .nav__closeIcon img {
   width: 15px;
   height: 15px;
   border-radius: 50%;
@@ -109,7 +109,7 @@ main {
   cursor: pointer;
   transition: all 0.3s ease;
 }
-.left-side .leftSide__library .library__nav .nav__closeIcon svg:hover, .left-side .leftSide__library .library__nav .nav__closeIcon .main .main__nav .nav__right img:hover, .main .main__nav .nav__right .left-side .leftSide__library .library__nav .nav__closeIcon img:hover {
+.left-side .leftSide__library .library__nav .nav__closeIcon svg:hover, .left-side .leftSide__library .library__nav .nav__closeIcon .main .main__banner .main__nav .nav__right img:hover, .main .main__banner .main__nav .nav__right .left-side .leftSide__library .library__nav .nav__closeIcon img:hover {
   background-color: #1f1f1f;
 }
 .left-side .leftSide__library .library__nav .nav__closeIcon p {
@@ -132,7 +132,7 @@ main {
   color: #b3b3b3;
   padding: 0 5px 0 0;
 }
-.left-side .leftSide__library .library__nav .nav__search .home__searchIcon svg, .left-side .leftSide__library .library__nav .nav__search .home__searchIcon .main .main__nav .nav__right img, .main .main__nav .nav__right .left-side .leftSide__library .library__nav .nav__search .home__searchIcon img {
+.left-side .leftSide__library .library__nav .nav__search .home__searchIcon svg, .left-side .leftSide__library .library__nav .nav__search .home__searchIcon .main .main__banner .main__nav .nav__right img, .main .main__banner .main__nav .nav__right .left-side .leftSide__library .library__nav .nav__search .home__searchIcon img {
   width: 15px;
 }
 .left-side .leftSide__library .library__nav .nav__search input {
@@ -169,33 +169,101 @@ main {
 .main {
   display: flex;
   flex-direction: column;
+  margin: 3px;
 }
-.main .main__nav {
+.main .main__banner {
+  display: flex;
+  flex-direction: column;
+  background-image: url("https://img.freepik.com/foto-gratis/dos-hombres-cafe_23-2147775893.jpg?t=st=1731795369~exp=1731798969~hmac=f41e715f4ef08047e814706ecec14e25c9170e0eb716fecc1c03582200a9950b&w=1380");
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 15px 0 0;
+}
+.main .main__banner .main__nav {
   display: flex;
   justify-content: space-between;
+  padding: 0 5px;
 }
-.main .main__nav .nav__left, .main .main__nav .nav__right {
+.main .main__banner .main__nav .nav__left, .main .main__banner .main__nav .nav__right {
   display: flex;
   gap: 5px;
   align-items: center;
   padding-top: 5px;
 }
-.main .main__nav .nav__left svg, .main .main__nav .nav__right svg, .main .main__nav .nav__right img {
+.main .main__banner .main__nav .nav__left svg, .main .main__banner .main__nav .nav__right svg, .main .main__banner .main__nav .nav__right img {
   background-color: rgba(31, 31, 31, 0.5411764706);
   padding: 2px;
   border-radius: 50%;
   cursor: pointer;
   transition: all 0.3s ease;
 }
-.main .main__nav .nav__left svg:hover, .main .main__nav .nav__right svg:hover, .main .main__nav .nav__right img:hover {
+.main .main__banner .main__nav .nav__left svg:hover, .main .main__banner .main__nav .nav__right svg:hover, .main .main__banner .main__nav .nav__right img:hover {
   background-color: #1f1f1f;
 }
-.main .main__nav .nav__right svg, .main .main__nav .nav__right img {
+.main .main__banner .main__nav .nav__right svg, .main .main__banner .main__nav .nav__right img {
   width: 19px;
   height: 19px;
   padding: 5px;
 }
-.main .main__banner {
+.main .main__banner .main__info {
   display: flex;
+  padding: 20px;
   flex-direction: column;
+}
+.main .main__banner .main__info .banner__verified {
+  padding-top: 5.3rem;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.main .main__banner .main__info .banner__verified img {
+  width: 20px;
+}
+.main .main__banner .main__info .banner__title {
+  font-size: 5.5rem;
+  margin: 0;
+}
+.main .main__songs {
+  background: linear-gradient(#c06906, #000 30%);
+}
+.main .main__songs .main__content {
+  display: flex;
+  gap: 15px;
+  padding: 5px;
+  align-items: center;
+}
+.main .main__songs .main__content .content__btn {
+  background-color: #1ed760;
+  border: none;
+  outline: none;
+  color: #000;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.main .main__songs .main__content .content__btn svg, .main .main__songs .main__content .content__btn .main__banner .main__nav .nav__right img, .main .main__banner .main__nav .nav__right .main__songs .main__content .content__btn img {
+  fill: #000;
+  width: 27px;
+  height: 27px;
+  align-self: center;
+}
+.main .main__songs .main__content .content__btn:hover {
+  scale: 1.03;
+}
+.main .main__songs .main__content .content__following {
+  padding: 5px;
+  border: 2px solid #b3b3b3;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+.main .main__songs .main__content .content__following:hover {
+  scale: 1.03;
+}
+.main .main__songs .main__content .content__threeDots {
+  align-self: baseline;
+  font-size: 1.5rem;
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */

@@ -3,47 +3,123 @@
 .main {
     display: flex;
     flex-direction: column;
-
-    .main__nav {
-        display: flex;
-        justify-content: space-between;
-
-        .nav__left {
-            display: flex;
-            gap: 5px;
-            align-items: center;
-            padding-top: 5px;
-
-            svg {
-                background-color: $transparent;
-                padding: 2px;
-                border-radius: 50%;
-                cursor: pointer;
-                transition: $transition;
-
-                &:hover {
-                    background-color: $background-highlight;
-                }
-            }
-        }
-
-        .nav__right {
-            @extend .nav__left;
-
-            svg {
-                width: 19px;
-                height: 19px;
-                padding: 5px;
-            }
-
-            img {
-                @extend svg;
-            }
-        }
-    }
+    margin: 3px;
 
     .main__banner {
         display: flex;
         flex-direction: column;
+        background-image: url("https://img.freepik.com/foto-gratis/dos-hombres-cafe_23-2147775893.jpg?t=st=1731795369~exp=1731798969~hmac=f41e715f4ef08047e814706ecec14e25c9170e0eb716fecc1c03582200a9950b&w=1380");
+        background-size: cover;
+        background-position: center;
+        border-radius: 15px 15px 0 0;
+
+        .main__nav {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 5px;
+
+            .nav__left {
+                display: flex;
+                gap: 5px;
+                align-items: center;
+                padding-top: 5px;
+
+                svg {
+                    background-color: $transparent;
+                    padding: 2px;
+                    border-radius: 50%;
+                    cursor: pointer;
+                    transition: $transition;
+
+                    &:hover {
+                        background-color: $background-highlight;
+                    }
+                }
+            }
+
+            .nav__right {
+                @extend .nav__left;
+
+                svg {
+                    width: 19px;
+                    height: 19px;
+                    padding: 5px;
+                }
+
+                img {
+                    @extend svg;
+                }
+            }
+        }
+
+        .main__info {
+            display: flex;
+            padding: 20px;
+            flex-direction: column;
+
+            .banner__verified {
+                padding-top: 5.3rem;
+                display: flex;
+                gap: 5px;
+                align-items: center;
+
+                img {
+                    width: 20px;
+                }
+            }
+
+            .banner__title {
+                font-size: 5.5rem;
+                margin: 0;
+            }
+        }
+    }
+
+    .main__songs {
+        background: linear-gradient(#c06906, $background-color 30%);
+        .main__content { 
+            display: flex;
+            gap: 15px;
+            padding: 5px;
+            align-items: center;
+
+            .content__btn {
+                @include greenInput();
+                border-radius: 50%;
+                width: 55px;
+                height: 55px;
+                cursor: pointer;
+                transition: $transition;
+
+                svg {
+                    fill: $background-color;
+                    width: 27px;
+                    height: 27px;
+                    align-self: center;
+                }
+
+                &:hover {
+                    scale: 1.03;
+                }
+            }
+
+            .content__following {
+                padding: 5px;
+                border: 2px solid $sub-text;
+                border-radius: 20px;
+                font-size: $text-size;
+                cursor: pointer;
+
+                &:hover {
+                    scale: 1.03;
+                }
+            }
+
+            .content__threeDots {
+                align-self: baseline;
+                font-size: 1.5rem;
+                cursor: pointer;
+            }
+        }
     }
 }
