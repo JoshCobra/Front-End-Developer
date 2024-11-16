@@ -185,6 +185,7 @@
     </aside>
 
     <footer>
+        <!-- Footer song -->
         <article class="footer__song">
             <img class="item__img" src="" alt="song-img">
             <div class="footerSong__content">
@@ -193,16 +194,24 @@
             </div>
             <button class="item__like"><i data-feather="heart"></i></button>
         </article>
-
+        <!-- Footer player -->
         <section class="footer__player">
             <button class="player__forward"><i data-feather="skip-forward"></i></button>
             <button class="content__btn"><i data-feather="play"></i></button>
             <button class="player__forward"><i data-feather="skip-forward"></i></button>
             <button class="player__repeat"><i data-feather="repeat"></i></button>
         </section>
-        
-        <article class="footer__controls"></article>
+        <!-- Footer right controls -->
+        <article class="footer__controls">
+            <div class="controls__volume">
+                <i data-feather="volume-2"></i>
+            </div>
+            <div class="controls__maximize">
+                <i data-feather="maximize-2"></i>
+            </div>
+        </article>
     </footer>
+
     <script src="https://unpkg.com/feather-icons"></script>
     <script>
         feather.replace();
