@@ -10,73 +10,73 @@
     <title>Spotify</title>
 </head>
 <body>
+    <aside class="left-side">
+        <!-- Section library Home, Buscar -->
+        <section class="leftSide__home">
+            <div class="home__icon">
+                <i data-feather="home"></i>
+                <p>Inicio</p>
+            </div>
+            <div class="home__SearchIcon">
+                <i data-feather="search"></i>
+                <p>Buscar</p>
+            </div>
+        </section>
+
+        <!-- Section library left -->
+        <section class="leftSide__library">
+            <!-- library top section -->
+            <div class="library__selectors">
+                <div class="library__icon">
+                    <i data-feather="book-open"></i>
+                    <p>Tu Biblioteca</p>
+                </div>
+                <div class="library__addIcon">
+                    <i data-feather="plus"></i>
+                </div>
+                <div class="library__rightArrowIcon">
+                    <i data-feather="arrow-right"></i>
+                </div>
+            </div>
+            <nav class="library__nav">
+                <div class="nav__closeIcon">
+                    <i data-feather="x"></i>
+                </div>
+                <input type="search" placeholder="Orden alfabético">
+            </nav>
+        </section>
+
+        <!-- section library content-->
+        <section class="library__contents">
+            <!-- library items -->
+            <div class="library__item">
+                <img src="" alt="desayuno-img">
+                <span>Desayuno</span>
+            </div>
+            <div class="library__item">
+                <img src="" alt="comida-img">
+                <span>Comida</span>
+            </div>
+            <div class="library__item">
+                <img src="" alt="sobremesa-img">
+                <span>Sobremesa</span>
+            </div>
+            <div class="library__item">
+                <img src="" alt="cena-img">
+                <span>Cena</span>
+            </div>
+            <div class="library__item">
+                <img src="" alt="noche-img">
+                <span>Noche</span>
+            </div>
+            <div class="library__item">
+                <img src="" alt="party-img">
+                <span>Party</span>
+            </div>
+        </section>
+    </aside>
+
     <main>
-        <aside class="main__left-side">
-            <!-- Section library Home, Buscar -->
-            <section class="leftSide__home">
-                <div class="home__icon">
-                    <i data-feather="home"></i>
-                    <p>Inicio</p>
-                </div>
-                <div class="home__SearchIcon">
-                    <i data-feather="search"></i>
-                    <p>Buscar</p>
-                </div>
-            </section>
-
-            <!-- Section library left -->
-            <section class="leftSide__library">
-                <!-- library top section -->
-                <div class="library__selectors">
-                    <div class="library__icon">
-                        <i data-feather="book-open"></i>
-                        <p>Tu Biblioteca</p>
-                    </div>
-                    <div class="library__addIcon">
-                        <i data-feather="plus"></i>
-                    </div>
-                    <div class="library__rightArrowIcon">
-                        <i data-feather="arrow-right"></i>
-                    </div>
-                </div>
-                <nav class="library__nav">
-                    <div class="nav__closeIcon">
-                        <i data-feather="x"></i>
-                    </div>
-                    <input type="search" placeholder="Orden alfabético">
-                </nav>
-            </section>
-
-            <!-- section library content-->
-            <section class="library__contents">
-                <!-- library items -->
-                <div class="library__item">
-                    <img src="" alt="desayuno-img">
-                    <span>Desayuno</span>
-                </div>
-                <div class="library__item">
-                    <img src="" alt="comida-img">
-                    <span>Comida</span>
-                </div>
-                <div class="library__item">
-                    <img src="" alt="sobremesa-img">
-                    <span>Sobremesa</span>
-                </div>
-                <div class="library__item">
-                    <img src="" alt="cena-img">
-                    <span>Cena</span>
-                </div>
-                <div class="library__item">
-                    <img src="" alt="noche-img">
-                    <span>Noche</span>
-                </div>
-                <div class="library__item">
-                    <img src="" alt="party-img">
-                    <span>Party</span>
-                </div>
-            </section>
-        </aside>
-
         <section class="main__content">
             <!-- section nav on Main -->
             <nav class="main__nav">
@@ -117,43 +117,67 @@
                     <p class="item__number">1</p>
                     <img class="item__img" src="" alt="song-img">
                     <p class="item__listeners"></p>
-                    <button class="item__like"></button>
+                    <button class="item__like"><i data-feather="heart"></i></button>
                     <p class="item__duration"></p>
                 </div>
                 <div class="main__item">
                     <p class="item__number">2</p>
                     <img class="item__img" src="" alt="song-img">
                     <p class="item__listeners"></p>
-                    <button class="item__like"></button>
+                    <button class="item__like"><i data-feather="heart"></i></button>
                     <p class="item__duration"></p>
                 </div>
                 <div class="main__item">
                     <p class="item__number">3</p>
                     <img class="item__img" src="" alt="song-img">
                     <p class="item__listeners"></p>
-                    <button class="item__like"></button>
+                    <button class="item__like"><i data-feather="heart"></i></button>
                     <p class="item__duration"></p>
                 </div>
                 <div class="main__item">
                     <p class="item__number">4</p>
                     <img class="item__img" src="" alt="song-img">
                     <p class="item__listeners"></p>
-                    <button class="item__like"></button>
+                    <button class="item__like"><i data-feather="heart"></i></button>
                     <p class="item__duration"></p>
                 </div>
                 <div class="main__item">
                     <p class="item__number">5</p>
                     <img class="item__img" src="" alt="song-img">
                     <p class="item__listeners"></p>
-                    <button class="item__like"></button>
+                    <button class="item__like"><i data-feather="heart"></i></button>
                     <p class="item__duration"></p>
                 </div>
             </article>
             <small>See more</small>
         </section>
-
-        <aside class="main__right-side"></aside>
     </main>
+    <!-- Section Right Side -->        
+    <aside class="right-side">
+        <section class="right-side__picture">
+            <div class="picture__nav">
+                <h3 class="picture-nav__title">PlayIn</h3>
+                <div class="nav__closeIcon">
+                    <i data-feather="x"></i>
+                </div>
+                <img src="" alt="picture-img">
+            </div>
+            <div class="picture__info">
+                <h1 class="picture__name">Song</h1>
+                <p class="picture__artist">PlayIn</p>
+            </div>
+            <div class="picure__interaction">
+                <div class="picture__heartIcon">
+                    <i data-feather="heart"></i>
+                </div>
+                <p class="content__threeDots">...</p>
+            </div>
+        </section>
+        <section class="right-side__artistInfo">
+            <p class="artistInfo__title">Información sobre el artista</p>
+        </section>
+    </aside>
+
     <footer>
         <article class="footer__song"></article>
         <section class="footer__player"></section>
