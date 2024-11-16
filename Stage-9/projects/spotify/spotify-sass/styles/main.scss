@@ -1,6 +1,57 @@
+@import "./variables";
+
 body {
     margin: 0;
     box-sizing: border-box;
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1.5fr 3fr 1.5fr;
+    background-color: $background-base;
+    color: $text;
+    font-family: $font-family;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+
+    .leftSide__home {
+        display: flex;
+        flex-direction: column;
+        background-color: $background-highlight;
+        border-radius: 15px;
+
+        .home__icon {
+            display: flex;
+            gap: 5px;
+            align-items: center;
+            padding-left: 10px;
+            font-size: 0.8rem;
+            color: $sub-text;
+
+            i, p {
+                display: inline;
+                cursor: pointer;
+            }
+
+            svg {
+                width: 15px;
+                cursor: pointer;
+            }
+        }
+
+        .home__searchIcon {
+            @extend .home__icon;
+        }
+    }
+
+    .leftSide__library {
+        display: flex;
+        flex-direction: column;
+
+        .library__selectors {
+            display: flex;
+            flex-direction: column;
+
+        }
+    }
 }

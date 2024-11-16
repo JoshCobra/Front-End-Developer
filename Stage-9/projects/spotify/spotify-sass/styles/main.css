@@ -1,6 +1,46 @@
+/* Colors */
+/* Font */
 body {
   margin: 0;
   box-sizing: border-box;
   display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-columns: 1.5fr 3fr 1.5fr;
+  background-color: #121212;
+  color: #fff;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+}
+.left-side .leftSide__home {
+  display: flex;
+  flex-direction: column;
+  background-color: #1f1f1f;
+  border-radius: 15px;
+}
+.left-side .leftSide__home .home__icon, .left-side .leftSide__home .home__searchIcon {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  padding-left: 10px;
+  font-size: 0.8rem;
+  color: #b3b3b3;
+}
+.left-side .leftSide__home .home__icon i, .left-side .leftSide__home .home__searchIcon i, .left-side .leftSide__home .home__icon p, .left-side .leftSide__home .home__searchIcon p {
+  display: inline;
+  cursor: pointer;
+}
+.left-side .leftSide__home .home__icon svg, .left-side .leftSide__home .home__searchIcon svg {
+  width: 15px;
+  cursor: pointer;
+}
+.left-side .leftSide__library {
+  display: flex;
+  flex-direction: column;
+}
+.left-side .leftSide__library .library__selectors {
+  display: flex;
+  flex-direction: column;
 }/*# sourceMappingURL=main.css.map */
