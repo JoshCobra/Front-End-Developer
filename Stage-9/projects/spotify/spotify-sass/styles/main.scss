@@ -1,173 +1,48 @@
-@import "./base";
-@import "./components";
+@import "./leftSide";
 
-.left-side {
+.main {
     display: flex;
     flex-direction: column;
 
-    .leftSide__home {
-        @include asideFlex();
+    .main__nav {
+        display: flex;
+        justify-content: space-between;
 
-        .home__icon {
+        .nav__left {
             display: flex;
             gap: 5px;
             align-items: center;
-            padding-left: 10px;
-            font-size: $text-size;
-            color: $sub-text;
-            transition: $transition;
-
-            p {
-                display: inline;
-                cursor: pointer;
-            }
+            padding-top: 5px;
 
             svg {
-                width: $svg;
-                cursor: pointer;
-            }
-
-            &:hover {
-                color: $text;
-            }
-        }
-
-        .home__searchIcon {
-            @extend .home__icon;
-        }
-    }
-
-    .leftSide__library {
-        @include asideFlex();
-
-        .library__selectors {
-            display: flex;
-            font-size: $text-size;
-            color: $sub-text;
-            align-items: center;
-            padding-left: 10px;
-            justify-content: space-between;
-
-            .selectors__left {
-                display: flex;
-                align-items: center;
-
-                div {
-                    display: flex;
-                    align-items: center;
-                    gap: 5px;
-                    transition: $transition;
-
-                    &:hover {
-                        color: $text;
-                    }
-                }
-            }
-
-            .selectors__right {
-                display: flex;
-                gap: 5px;
-                padding-right: 5px;
-            }
-
-            i, p {
-                display: inline;
-                cursor: pointer;
-            }
-
-            svg {
-                width: $svg;
+                background-color: $transparent;
+                padding: 2px;
+                border-radius: 50%;
                 cursor: pointer;
                 transition: $transition;
-
-                &:hover {
-                    color: $text;
-                }
-            }
-        }
-
-        .library__nav {
-            display: flex;
-            flex-direction: column;
-
-            .nav__closeIcon {
-                display: flex;
-                align-items: center;
-                padding-left: 5px;
-                color: $sub-text;
-
-                svg {
-                    width: $svg;
-                    border-radius: 50%;
-                    padding: 4px;
-                    cursor: pointer;
-                    transition: $transition;
-
-                    &:hover {
-                        background-color: $background-highlight;
-                    }
-                }
-
-                p {
-                    background-color: $text;
-                    padding: 5px;
-                    border-radius: 20px;
-                    color: $background-color;
-                    cursor: pointer;
-                    font-size: $text-size;
-                    transition: $transition;
-
-                    &:hover {
-                        scale: 1.03;
-                    }
-                }
-            }
-
-            .nav__search {
-                display: flex;
-                padding-left: 10px;
-
-                .home__searchIcon {
-                    color: $sub-text;
-                    padding: 0 5px 0 0;
-
-                    svg {
-                        width: $svg;
-                    }
-                }
-
-                input {
-                    @include cleanInput();
-                }
-            }
-        }
-
-        .library__contents {
-            padding: 30px 15px;
-            display: flex;
-            flex-direction: column;
-            gap: 30px;
-
-            .library__item {
-                display: flex;
-                color: $text;
-                font-size: $text-size;
-                align-items: center;
-                gap: 10px;
-                transition: $transition;
-                border-radius: 90px;
-                cursor: pointer;
-
-                img {
-                    width: 50px;
-                    border-radius: 50%;
-                }
 
                 &:hover {
                     background-color: $background-highlight;
-                    border-radius: 22px;
                 }
             }
         }
+
+        .nav__right {
+            @extend .nav__left;
+
+            svg {
+                width: 19px;
+                height: 19px;
+                padding: 5px;
+            }
+
+            img {
+                @extend svg;
+            }
+        }
+    }
+
+    .main__banner {
+        
     }
 }

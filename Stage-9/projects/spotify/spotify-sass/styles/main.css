@@ -39,7 +39,7 @@ main {
   display: inline;
   cursor: pointer;
 }
-.left-side .leftSide__home .home__icon svg, .left-side .leftSide__home .home__searchIcon svg {
+.left-side .leftSide__home .home__icon svg, .left-side .leftSide__home .home__icon .main .main__nav .nav__right img, .main .main__nav .nav__right .left-side .leftSide__home .home__icon img, .left-side .leftSide__home .home__searchIcon svg, .left-side .leftSide__home .home__searchIcon .main .main__nav .nav__right img, .main .main__nav .nav__right .left-side .leftSide__home .home__searchIcon img {
   width: 15px;
   cursor: pointer;
 }
@@ -83,12 +83,12 @@ main {
   display: inline;
   cursor: pointer;
 }
-.left-side .leftSide__library .library__selectors svg {
+.left-side .leftSide__library .library__selectors svg, .left-side .leftSide__library .library__selectors .main .main__nav .nav__right img, .main .main__nav .nav__right .left-side .leftSide__library .library__selectors img {
   width: 15px;
   cursor: pointer;
   transition: all 0.3s ease;
 }
-.left-side .leftSide__library .library__selectors svg:hover {
+.left-side .leftSide__library .library__selectors svg:hover, .left-side .leftSide__library .library__selectors .main .main__nav .nav__right img:hover, .main .main__nav .nav__right .left-side .leftSide__library .library__selectors img:hover {
   color: #fff;
 }
 .left-side .leftSide__library .library__nav {
@@ -101,14 +101,15 @@ main {
   padding-left: 5px;
   color: #b3b3b3;
 }
-.left-side .leftSide__library .library__nav .nav__closeIcon svg {
+.left-side .leftSide__library .library__nav .nav__closeIcon svg, .left-side .leftSide__library .library__nav .nav__closeIcon .main .main__nav .nav__right img, .main .main__nav .nav__right .left-side .leftSide__library .library__nav .nav__closeIcon img {
   width: 15px;
+  height: 15px;
   border-radius: 50%;
-  padding: 4px;
+  padding: 6px;
   cursor: pointer;
   transition: all 0.3s ease;
 }
-.left-side .leftSide__library .library__nav .nav__closeIcon svg:hover {
+.left-side .leftSide__library .library__nav .nav__closeIcon svg:hover, .left-side .leftSide__library .library__nav .nav__closeIcon .main .main__nav .nav__right img:hover, .main .main__nav .nav__right .left-side .leftSide__library .library__nav .nav__closeIcon img:hover {
   background-color: #1f1f1f;
 }
 .left-side .leftSide__library .library__nav .nav__closeIcon p {
@@ -131,7 +132,7 @@ main {
   color: #b3b3b3;
   padding: 0 5px 0 0;
 }
-.left-side .leftSide__library .library__nav .nav__search .home__searchIcon svg {
+.left-side .leftSide__library .library__nav .nav__search .home__searchIcon svg, .left-side .leftSide__library .library__nav .nav__search .home__searchIcon .main .main__nav .nav__right img, .main .main__nav .nav__right .left-side .leftSide__library .library__nav .nav__search .home__searchIcon img {
   width: 15px;
 }
 .left-side .leftSide__library .library__nav .nav__search input {
@@ -158,9 +159,39 @@ main {
 }
 .left-side .leftSide__library .library__contents .library__item img {
   width: 50px;
-  border-radius: 50%;
+  border-radius: 50px;
 }
 .left-side .leftSide__library .library__contents .library__item:hover {
   background-color: #1f1f1f;
   border-radius: 22px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+.main .main__nav {
+  display: flex;
+  justify-content: space-between;
+}
+.main .main__nav .nav__left, .main .main__nav .nav__right {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  padding-top: 5px;
+}
+.main .main__nav .nav__left svg, .main .main__nav .nav__right svg, .main .main__nav .nav__right img {
+  background-color: rgba(31, 31, 31, 0.5411764706);
+  padding: 2px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.main .main__nav .nav__left svg:hover, .main .main__nav .nav__right svg:hover, .main .main__nav .nav__right img:hover {
+  background-color: #1f1f1f;
+}
+.main .main__nav .nav__right svg, .main .main__nav .nav__right img {
+  width: 19px;
+  height: 19px;
+  padding: 5px;
 }/*# sourceMappingURL=main.css.map */
