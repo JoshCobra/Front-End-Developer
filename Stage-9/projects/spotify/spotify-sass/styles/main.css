@@ -194,4 +194,8 @@ main {
   width: 19px;
   height: 19px;
   padding: 5px;
+}
+.main .main__banner {
+  display: flex;
+  flex-direction: column;
 }/*# sourceMappingURL=main.css.map */
