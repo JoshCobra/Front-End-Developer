@@ -1,4 +1,5 @@
 /* Colors */
+$background-color: #000;
 $background-base: #121212;
 $background-highlight: #1f1f1f;
 $text: #fff;
@@ -7,10 +8,23 @@ $sub-text: #b3b3b3;
 /* Font */
 $font-family: "Inter", Arial, Helvetica, sans-serif;
 
+/* Animations */
+$transition: all 0.3s ease;
+
+/* Sizes */
+$svg: 15px;
 
 @mixin asideFlex($direction: column) {
     display: flex;
     flex-direction: $direction;
-    background-color: $background-highlight;
+    background-color: $background-base;
     border-radius: 15px;
+    margin: 3px;
+}
+
+@mixin cleanInput {
+    background: none;
+    border: none;
+    outline: none;
+    color: $text;
 }

@@ -1,11 +1,16 @@
 /* Colors */
 /* Font */
+/* Animations */
+/* Sizes */
 body {
   margin: 0;
   box-sizing: border-box;
+}
+
+main {
   display: grid;
   grid-template-columns: 1.5fr 3fr 1.5fr;
-  background-color: #121212;
+  background-color: #000;
   color: #fff;
   font-family: "Inter", Arial, Helvetica, sans-serif;
 }
@@ -17,8 +22,9 @@ body {
 .left-side .leftSide__home {
   display: flex;
   flex-direction: column;
-  background-color: #1f1f1f;
+  background-color: #121212;
   border-radius: 15px;
+  margin: 3px;
 }
 .left-side .leftSide__home .home__icon, .left-side .leftSide__home .home__searchIcon {
   display: flex;
@@ -27,8 +33,9 @@ body {
   padding-left: 10px;
   font-size: 0.8rem;
   color: #b3b3b3;
+  transition: all 0.3s ease;
 }
-.left-side .leftSide__home .home__icon i, .left-side .leftSide__home .home__searchIcon i, .left-side .leftSide__home .home__icon p, .left-side .leftSide__home .home__searchIcon p {
+.left-side .leftSide__home .home__icon p, .left-side .leftSide__home .home__searchIcon p {
   display: inline;
   cursor: pointer;
 }
@@ -36,18 +43,41 @@ body {
   width: 15px;
   cursor: pointer;
 }
+.left-side .leftSide__home .home__icon:hover, .left-side .leftSide__home .home__searchIcon:hover {
+  color: #fff;
+}
 .left-side .leftSide__library {
   display: flex;
   flex-direction: column;
-  background-color: #1f1f1f;
+  background-color: #121212;
   border-radius: 15px;
+  margin: 3px;
 }
 .left-side .leftSide__library .library__selectors {
   display: flex;
   font-size: 0.8rem;
   color: #b3b3b3;
   align-items: center;
+  padding-left: 10px;
   justify-content: space-between;
+}
+.left-side .leftSide__library .library__selectors .selectors__left {
+  display: flex;
+  align-items: center;
+}
+.left-side .leftSide__library .library__selectors .selectors__left div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: all 0.3s ease;
+}
+.left-side .leftSide__library .library__selectors .selectors__left div:hover {
+  color: #fff;
+}
+.left-side .leftSide__library .library__selectors .selectors__right {
+  display: flex;
+  gap: 5px;
+  padding-right: 5px;
 }
 .left-side .leftSide__library .library__selectors i, .left-side .leftSide__library .library__selectors p {
   display: inline;
@@ -56,4 +86,63 @@ body {
 .left-side .leftSide__library .library__selectors svg {
   width: 15px;
   cursor: pointer;
+  transition: all 0.3s ease;
+}
+.left-side .leftSide__library .library__selectors svg:hover {
+  color: #fff;
+}
+.left-side .leftSide__library .library__nav {
+  display: flex;
+  flex-direction: column;
+}
+.left-side .leftSide__library .library__nav .nav__closeIcon {
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+  color: #b3b3b3;
+}
+.left-side .leftSide__library .library__nav .nav__closeIcon svg {
+  width: 15px;
+  border-radius: 50%;
+  padding: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.left-side .leftSide__library .library__nav .nav__closeIcon svg:hover {
+  background-color: #1f1f1f;
+}
+.left-side .leftSide__library .library__nav .nav__closeIcon p {
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 20px;
+  color: #000;
+  cursor: pointer;
+  font-size: 0.8rem;
+  transition: all 0.3s ease;
+}
+.left-side .leftSide__library .library__nav .nav__closeIcon p:hover {
+  scale: 1.03;
+}
+.left-side .leftSide__library .library__nav .nav__search {
+  display: flex;
+  padding-left: 10px;
+}
+.left-side .leftSide__library .library__nav .nav__search .home__searchIcon {
+  color: #b3b3b3;
+  padding: 0 5px 0 0;
+}
+.left-side .leftSide__library .library__nav .nav__search .home__searchIcon svg {
+  width: 15px;
+}
+.left-side .leftSide__library .library__nav .nav__search input {
+  background: none;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+.left-side .leftSide__library .library__contents {
+  padding: 30px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
 }/*# sourceMappingURL=main.css.map */
