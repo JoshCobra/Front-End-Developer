@@ -100,12 +100,12 @@
                     <small>Artista Verificado</small>
                 </div>
                 <h1 class="banner__title">PlayIn</h1>
-                <p class="banner__oyenter">2.435.946 oyentes mensuales</p>
+                <p class="banner__oyentes">2.435.946 oyentes mensuales</p>
             </article>
             <!-- Section Main Content -->
             <article class="main__content">
                 <div class="content__playPauseFollow">
-                    <button class="content__btn"></button>
+                    <button class="content__btn"><i data-feather="play"></i></button>
                     <p class="content__following">Siguiendo</p>
                     <p class="content__threeDots">...</p>
                 </div>
@@ -154,6 +154,7 @@
     </main>
     <!-- Section Right Side -->        
     <aside class="right-side">
+        <!-- Right Side Top -->
         <section class="right-side__picture">
             <div class="picture__nav">
                 <h3 class="picture-nav__title">PlayIn</h3>
@@ -168,19 +169,38 @@
             </div>
             <div class="picure__interaction">
                 <div class="picture__heartIcon">
-                    <i data-feather="heart"></i>
+                    <button class="item__like"><i data-feather="heart"></i></button>
                 </div>
                 <p class="content__threeDots">...</p>
             </div>
         </section>
+        <!-- Right Side Bottom -->
         <section class="right-side__artistInfo">
             <p class="artistInfo__title">Información sobre el artista</p>
+            <h3 class="artistInfo__name">PlayIn</h3>
+            <p class="artistInfo__oyentes">2.435.946 oyentes mensuales</p>
+            <p class="content__following">Dejar de Seguir</p>
+            <p class="artistInfo__txt"></p>
         </section>
     </aside>
 
     <footer>
-        <article class="footer__song"></article>
-        <section class="footer__player"></section>
+        <article class="footer__song">
+            <img class="item__img" src="" alt="song-img">
+            <div class="footerSong__content">
+                <h1 class="picture__name">Song</h1>
+                <p class="picture__artist">PlayIn</p>
+            </div>
+            <button class="item__like"><i data-feather="heart"></i></button>
+        </article>
+
+        <section class="footer__player">
+            <button class="player__forward"><i data-feather="skip-forward"></i></button>
+            <button class="content__btn"><i data-feather="play"></i></button>
+            <button class="player__forward"><i data-feather="skip-forward"></i></button>
+            <button class="player__repeat"><i data-feather="repeat"></i></button>
+        </section>
+        
         <article class="footer__controls"></article>
     </footer>
     <script src="https://unpkg.com/feather-icons"></script>
