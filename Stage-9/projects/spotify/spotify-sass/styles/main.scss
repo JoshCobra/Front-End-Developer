@@ -47,11 +47,25 @@ body {
     .leftSide__library {
         display: flex;
         flex-direction: column;
+        background-color: $background-highlight;
+        border-radius: 15px;
 
         .library__selectors {
             display: flex;
-            flex-direction: column;
+            font-size: 0.8rem;
+            color: $sub-text;
+            align-items: center;
+            justify-content: space-between;
 
+            i, p {
+                display: inline;
+                cursor: pointer;
+            }
+
+            svg {
+                width: 15px;
+                cursor: pointer;
+            }
         }
     }
 }

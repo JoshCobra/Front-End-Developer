@@ -39,8 +39,21 @@ body {
 .left-side .leftSide__library {
   display: flex;
   flex-direction: column;
+  background-color: #1f1f1f;
+  border-radius: 15px;
 }
 .left-side .leftSide__library .library__selectors {
   display: flex;
-  flex-direction: column;
+  font-size: 0.8rem;
+  color: #b3b3b3;
+  align-items: center;
+  justify-content: space-between;
+}
+.left-side .leftSide__library .library__selectors i, .left-side .leftSide__library .library__selectors p {
+  display: inline;
+  cursor: pointer;
+}
+.left-side .leftSide__library .library__selectors svg {
+  width: 15px;
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */
