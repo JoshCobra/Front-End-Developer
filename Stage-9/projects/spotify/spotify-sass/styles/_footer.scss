@@ -3,4 +3,83 @@
 
 footer {
     display: flex;
+    justify-content: space-between;
+    background-color: $background-color;
+    color: $text;
+    height: 5rem;
+    align-items: center;
+    font-family: $font-family;
+
+    .footer__song {
+        display: flex;
+        gap: 5px;
+        padding: 10px;
+        align-items: center;
+        transition: $transition;
+        cursor: pointer;
+
+        img {
+            height: 3rem;
+            border-radius: 5px;
+        }
+
+        .footerSong__content {
+            margin: 0;
+
+            h1,
+            p {
+                font-size: 0.9rem;
+                font-weight: 600;
+                margin: 0;
+            }
+
+            p {
+                font-size: 0.75rem;
+                font-weight: 300;
+            }
+        }
+    }
+
+    .item__like {
+        @include like-btn();
+
+        svg {
+            @include svg-icon(18px);
+        }
+    }
+
+    .footer__player {
+        display: flex;
+        gap: 7px;
+        align-items: center;
+
+
+        .player__backwards {
+            transform: scale(-1, 1);
+        }
+
+        button {
+            @include cleanInput();
+            
+            svg{
+                @include svg-icon(17px);
+                color: $sub-text;
+            }
+        }
+
+        .content__btn {
+            svg {
+                @include svg-icon(25px);
+                color: $background-color;
+                fill: $background-color;
+                background-color: $text;
+                border-radius: 50%;
+                padding: 5px;
+            }
+
+            &:hover {
+                scale: 1.03;
+            }
+        }
+    }
 }

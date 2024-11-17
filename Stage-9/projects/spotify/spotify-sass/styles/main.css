@@ -356,6 +356,89 @@ main {
 
 footer {
   display: flex;
+  justify-content: space-between;
+  background-color: #000;
+  color: #fff;
+  height: 5rem;
+  align-items: center;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+footer .footer__song {
+  display: flex;
+  gap: 5px;
+  padding: 10px;
+  align-items: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+footer .footer__song img {
+  height: 3rem;
+  border-radius: 5px;
+}
+footer .footer__song .footerSong__content {
+  margin: 0;
+}
+footer .footer__song .footerSong__content h1,
+footer .footer__song .footerSong__content p {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin: 0;
+}
+footer .footer__song .footerSong__content p {
+  font-size: 0.75rem;
+  font-weight: 300;
+}
+footer .item__like {
+  background: none;
+  border: none;
+  outline: none;
+  color: #fff;
+  color: #b3b3b3;
+}
+footer .item__like svg, footer .item__like .main .main__banner .main__nav .nav__right img, .main .main__banner .main__nav .nav__right footer .item__like img {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+footer .item__like svg:hover, footer .item__like .main .main__banner .main__nav .nav__right img:hover, .main .main__banner .main__nav .nav__right footer .item__like img:hover {
+  fill: #1ed760;
+  color: #1ed760;
+}
+footer .item__like svg, footer .item__like .main .main__banner .main__nav .nav__right img, .main .main__banner .main__nav .nav__right footer .item__like img {
+  width: 18px;
+  height: 18px;
+}
+footer .footer__player {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+}
+footer .footer__player .player__backwards {
+  transform: scale(-1, 1);
+}
+footer .footer__player button {
+  background: none;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+footer .footer__player button svg, footer .footer__player button .main .main__banner .main__nav .nav__right img, .main .main__banner .main__nav .nav__right footer .footer__player button img {
+  width: 17px;
+  height: 17px;
+  color: #b3b3b3;
+}
+footer .footer__player .content__btn svg, footer .footer__player .content__btn .main .main__banner .main__nav .nav__right img, .main .main__banner .main__nav .nav__right footer .footer__player .content__btn img {
+  width: 25px;
+  height: 25px;
+  color: #000;
+  fill: #000;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 5px;
+}
+footer .footer__player .content__btn:hover {
+  scale: 1.03;
 }
 
 .main {
