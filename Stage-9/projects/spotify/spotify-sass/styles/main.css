@@ -219,7 +219,7 @@ main {
 }
 .right-side img {
   border-radius: 5px;
-  margin: 5px;
+  margin: 0 5px;
   max-width: 100%;
 }
 .right-side .picture__info {
@@ -228,25 +228,67 @@ main {
   align-items: center;
 }
 .right-side .picture__info .pictureInfo__text {
-  margin: 0;
+  padding-left: 10px;
 }
 .right-side .picture__info .picture__interaction {
   display: flex;
+  align-items: center;
+  padding-right: 10px;
+}
+.right-side .picture__info .picture__interaction .item__like {
   background: none;
   border: none;
   outline: none;
   color: #fff;
   color: #b3b3b3;
 }
-.right-side .picture__info .picture__interaction svg, .right-side .picture__info .picture__interaction .main .main__banner .main__nav .nav__right img, .main .main__banner .main__nav .nav__right .right-side .picture__info .picture__interaction img {
+.right-side .picture__info .picture__interaction .item__like svg, .right-side .picture__info .picture__interaction .item__like .main .main__banner .main__nav .nav__right img, .main .main__banner .main__nav .nav__right .right-side .picture__info .picture__interaction .item__like img {
   width: 15px;
   height: 15px;
   cursor: pointer;
   transition: all 0.3s ease;
 }
-.right-side .picture__info .picture__interaction svg:hover, .right-side .picture__info .picture__interaction .main .main__banner .main__nav .nav__right img:hover, .main .main__banner .main__nav .nav__right .right-side .picture__info .picture__interaction img:hover {
+.right-side .picture__info .picture__interaction .item__like svg:hover, .right-side .picture__info .picture__interaction .item__like .main .main__banner .main__nav .nav__right img:hover, .main .main__banner .main__nav .nav__right .right-side .picture__info .picture__interaction .item__like img:hover {
   fill: #1ed760;
   color: #1ed760;
+}
+.right-side .picture__info .picture__interaction .item__like svg, .right-side .picture__info .picture__interaction .item__like .main .main__banner .main__nav .nav__right img, .main .main__banner .main__nav .nav__right .right-side .picture__info .picture__interaction .item__like img {
+  width: 20px;
+  height: 20px;
+}
+.right-side .picture__info .content__threeDots {
+  align-self: baseline;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.right-side .picture__info .content__threeDots:hover {
+  scale: 1.03;
+}
+.right-side .right-side__artistInfo {
+  display: flex;
+  flex-direction: column;
+  background-color: #121212;
+  border-radius: 15px;
+  margin: 4px;
+  background-color: #1f1f1f;
+  margin: 10px;
+  transition: all 0.3s ease;
+  flex-grow: 1;
+}
+.right-side .right-side__artistInfo .artistInfo__img {
+  padding-bottom: 6.25rem;
+  background-image: url("https://img.freepik.com/foto-gratis/dos-hombres-cafe_23-2147775893.jpg?t=st=1731795369~exp=1731798969~hmac=f41e715f4ef08047e814706ecec14e25c9170e0eb716fecc1c03582200a9950b&w=1380");
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 15px 0 0;
+}
+.right-side .right-side__artistInfo .artistInfo__img p {
+  margin: 0;
+  padding: 10px;
+  font-size: 0.8rem;
+}
+.right-side .right-side__artistInfo:hover {
+  scale: 1.005;
 }
 
 .main {
@@ -351,6 +393,9 @@ main {
   align-self: baseline;
   font-size: 1.5rem;
   cursor: pointer;
+}
+.main .main__songs .main__content .content__threeDots:hover {
+  scale: 1.03;
 }
 .main .main__songs h2 {
   font-size: 2rem;

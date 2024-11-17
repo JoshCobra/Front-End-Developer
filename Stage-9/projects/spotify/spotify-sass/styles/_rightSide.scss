@@ -28,7 +28,7 @@
 
     img {
         border-radius: 5px;
-        margin: 5px;
+        margin: 0 5px;
         max-width: 100%;
     }
 
@@ -38,12 +38,52 @@
         align-items: center;
 
         .pictureInfo__text {
-            margin: 0;
+            padding-left: 10px;
         }
 
         .picture__interaction {
             display: flex;
-            @include like-btn();
+            align-items: center;
+            padding-right: 10px;
+
+            .item__like {
+                @include like-btn();
+
+                svg {
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+        }
+
+        .content__threeDots {
+            @include three-dots();
+        }
+    }
+
+    .right-side__artistInfo {
+        @include asideFlex();
+        background-color: $background-highlight;
+        margin: 10px;
+        transition: $transition;
+        flex-grow: 1;
+        
+        .artistInfo__img {
+            padding-bottom: 6.25rem;
+            background-image: url("https://img.freepik.com/foto-gratis/dos-hombres-cafe_23-2147775893.jpg?t=st=1731795369~exp=1731798969~hmac=f41e715f4ef08047e814706ecec14e25c9170e0eb716fecc1c03582200a9950b&w=1380");
+            background-size: cover;
+            background-position: center;
+            border-radius: 15px 15px 0 0;
+
+            p {
+                margin: 0;
+                padding: 10px;
+                font-size: $text-size;
+            }
+        }
+
+        &:hover {
+            scale: 1.005;
         }
     }
 }

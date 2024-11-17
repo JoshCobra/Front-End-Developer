@@ -120,9 +120,7 @@
             }
 
             .content__threeDots {
-                align-self: baseline;
-                font-size: 1.5rem;
-                cursor: pointer;
+                @include three-dots();
             }
         }
 

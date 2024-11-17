@@ -69,3 +69,13 @@ $svg: 15px;
         }
     }
 }
+
+@mixin three-dots {
+    align-self: baseline;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+    &:hover {
+        scale: 1.03;
+    }
+}
