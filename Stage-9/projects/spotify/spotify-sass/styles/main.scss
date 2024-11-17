@@ -9,7 +9,7 @@
     .main__banner {
         display: flex;
         flex-direction: column;
-        background-image: url("https://img.freepik.com/foto-gratis/dos-hombres-cafe_23-2147775893.jpg?t=st=1731795369~exp=1731798969~hmac=f41e715f4ef08047e814706ecec14e25c9170e0eb716fecc1c03582200a9950b&w=1380");
+        background-image: url("https://img.freepik.com/foto-gratis/mediano-disparo-joven-dj-fiesta-techno_23-2150639037.jpg?t=st=1731873962~exp=1731877562~hmac=48f515e8e46be80de0d3d055d1569f6a178704f5577cae303bf0a48a5cd0e3d6&w=1800");
         background-size: cover;
         background-position: center;
         border-radius: 15px 15px 0 0;
@@ -108,15 +108,7 @@
             }
 
             .content__following {
-                padding: 5px;
-                border: 2px solid $sub-text;
-                border-radius: 20px;
-                font-size: $text-size;
-                cursor: pointer;
-
-                &:hover {
-                    scale: 1.03;
-                }
+                @include following();
             }
 
             .content__threeDots {

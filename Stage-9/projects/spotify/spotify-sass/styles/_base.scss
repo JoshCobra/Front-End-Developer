@@ -3,7 +3,7 @@ $background-color: #000;
 $background-base: #121212;
 $background-highlight: #1f1f1f;
 $green: #1ed760;
-$orange: #c06906;
+$orange: #eb6708;
 $transparent: #1f1f1f8a;
 $text: #fff;
 $sub-text: #b3b3b3;
@@ -73,6 +73,19 @@ $svg: 15px;
 @mixin three-dots {
     align-self: baseline;
     font-size: 1.5rem;
+    cursor: pointer;
+
+    &:hover {
+        scale: 1.03;
+    }
+}
+
+@mixin following {
+    padding: 5px;
+    border: 2px solid $sub-text;
+    border-radius: 20px;
+    font-size: $text-size;
+    color: $text;
     cursor: pointer;
 
     &:hover {

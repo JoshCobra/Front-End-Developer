@@ -39,6 +39,16 @@
 
         .pictureInfo__text {
             padding-left: 10px;
+            
+            > h1, p {
+                margin: 0;
+                padding: 0;
+            }
+
+            p {
+                font-size: 0.85rem;
+                font-weight: 300;
+            }
         }
 
         .picture__interaction {
@@ -76,15 +86,49 @@
             background-position: center;
             border-radius: 15px 15px 0 0;
 
-            p {
+            > p {
                 margin: 0;
                 padding: 10px;
                 font-size: $text-size;
+                font-weight: 600;
+                color: $text;
             }
         }
 
         &:hover {
             scale: 1.005;
+        }
+
+        .artistInfo__oyentes {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            
+            h3, p {
+                padding: 10px 0 0 10px;
+                margin: 0;
+            }
+
+            .artistInfo__mensual {
+                font-size: 0.65rem;
+                grid-area: 1 / -4;
+                padding-top: 2px;
+            }
+
+            .content__following {
+                @include following();
+                grid-area: -2 / -1;
+                font-size: 0.5rem;
+                margin: 3px;
+                width: 60px;
+                font-weight: 600;
+            }
+        }
+
+        p {
+            font-size: 0.7rem;
+            font-weight: 300;
+            padding-left: 10px;
+            color: $sub-text;
         }
     }
 }
