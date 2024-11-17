@@ -135,3 +135,7 @@ $svg: 15px;
         }
     }
 }
+
+@function mix-colors($color1, $color2, $weight: 50%) {
+    @return mix($color1, $color2, $weight);
+}

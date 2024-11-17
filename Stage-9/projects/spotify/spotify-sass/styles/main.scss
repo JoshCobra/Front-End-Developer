@@ -12,6 +12,7 @@
         display: flex;
         flex-direction: column;
         background-image: url("https://img.freepik.com/foto-gratis/mediano-disparo-joven-dj-fiesta-techno_23-2150639037.jpg?t=st=1731873962~exp=1731877562~hmac=48f515e8e46be80de0d3d055d1569f6a178704f5577cae303bf0a48a5cd0e3d6&w=1800");
+        background-color: mix-colors($orange, $background-base, 20%);
         background-size: cover;
         background-position: center;
         border-radius: 15px 15px 0 0;
