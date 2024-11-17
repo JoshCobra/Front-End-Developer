@@ -76,8 +76,9 @@
     }
 
     .main__songs {
-        background: linear-gradient(#c06906, $background-base 30%);
+        background: linear-gradient(#c06906, $background-base 40%);
         border-radius: 0 0 15px 15px;
+
         .main__content { 
             display: flex;
             gap: 15px;
@@ -132,13 +133,13 @@
         .main__items {
             display: flex;
             flex-direction: column;
-            padding-top: 20px;
-            gap: 20px;
+            padding: 20px 0;
 
             .main__item {
                 display: flex;
                 justify-content: space-between;
-                padding: 0 15px;
+                padding: 10px 15px;
+                margin: 0 5px;
                 align-items: center;
                 font-size: $text-size;
                 transition: $transition;
@@ -148,13 +149,20 @@
                     gap: 10px;
                     align-items: center;
                     cursor: pointer;
+
+                    img {
+                        width: 2.5rem;
+                        border-radius: 5px;
+                    }
                 }
 
                 p {
                     color: $sub-text;
+                    font-weight: 300;
 
                     &:nth-child(3) {
                         color: $text;
+                        font-weight: 600;
                     }
                 }
 
@@ -173,6 +181,11 @@
                             color: $green;
                         }
                     }
+                }
+
+                &:hover {
+                    background-color: $transparent;
+                    border-radius: 10px;
                 }
             }
         }

@@ -39,6 +39,7 @@
 
     .leftSide__library {
         @include asideFlex();
+        flex-grow: 1;
 
         .library__selectors {
             display: flex;
@@ -165,8 +166,8 @@
                 }
 
                 &:hover {
-                    background-color: $background-highlight;
-                    border-radius: 22px;
+                    background-color: $transparent;
+                    border-radius: 15px;
                 }
             }
         }
