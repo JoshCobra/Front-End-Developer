@@ -31,4 +31,19 @@
         margin: 5px;
         max-width: 100%;
     }
+
+    .picture__info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .pictureInfo__text {
+            margin: 0;
+        }
+
+        .picture__interaction {
+            display: flex;
+            @include like-btn();
+        }
+    }
 }

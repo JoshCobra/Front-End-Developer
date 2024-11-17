@@ -222,6 +222,32 @@ main {
   margin: 5px;
   max-width: 100%;
 }
+.right-side .picture__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.right-side .picture__info .pictureInfo__text {
+  margin: 0;
+}
+.right-side .picture__info .picture__interaction {
+  display: flex;
+  background: none;
+  border: none;
+  outline: none;
+  color: #fff;
+  color: #b3b3b3;
+}
+.right-side .picture__info .picture__interaction svg, .right-side .picture__info .picture__interaction .main .main__banner .main__nav .nav__right img, .main .main__banner .main__nav .nav__right .right-side .picture__info .picture__interaction img {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.right-side .picture__info .picture__interaction svg:hover, .right-side .picture__info .picture__interaction .main .main__banner .main__nav .nav__right img:hover, .main .main__banner .main__nav .nav__right .right-side .picture__info .picture__interaction img:hover {
+  fill: #1ed760;
+  color: #1ed760;
+}
 
 .main {
   display: flex;

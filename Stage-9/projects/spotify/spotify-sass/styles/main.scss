@@ -168,20 +168,7 @@
                 }
 
                 .item__like {
-                    @include cleanInput();
-                    color: $sub-text;
-
-                    svg {
-                        width: $svg;
-                        height: $svg;
-                        cursor: pointer;
-                        transition: $transition;
-
-                        &:hover {
-                            fill: $green;
-                            color: $green;
-                        }
-                    }
+                    @include like-btn();
                 }
 
                 &:hover {

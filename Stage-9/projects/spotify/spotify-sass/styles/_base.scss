@@ -52,3 +52,20 @@ $svg: 15px;
         background-color: $background-highlight;
     }
 }
+
+@mixin like-btn {
+    @include cleanInput();
+    color: $sub-text;
+
+    svg {
+        width: $svg;
+        height: $svg;
+        cursor: pointer;
+        transition: $transition;
+
+        &:hover {
+            fill: $green;
+            color: $green;
+        }
+    }
+}
