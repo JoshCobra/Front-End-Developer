@@ -6,5 +6,29 @@
 
     .right-side__picture {
         display: flex;
+        flex-direction: column;
+
+        .picture__nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 10px;
+
+            h3 {
+                font-size: 1.2rem;
+            }
+
+            svg {
+                @include x-button();
+                width: 17px;
+                height: 17px;
+            }
+        }
+    }
+
+    img {
+        border-radius: 5px;
+        margin: 5px;
+        max-width: 100%;
     }
 }

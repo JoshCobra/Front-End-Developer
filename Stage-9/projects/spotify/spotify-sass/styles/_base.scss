@@ -39,3 +39,16 @@ $svg: 15px;
     outline: none;
     color: $background-color;
 }
+
+@mixin x-button {
+    width: $svg;
+    height: $svg;
+    border-radius: 50%;
+    padding: 6px;
+    cursor: pointer;
+    transition: $transition;
+
+    &:hover {
+        background-color: $background-highlight;
+    }
+}

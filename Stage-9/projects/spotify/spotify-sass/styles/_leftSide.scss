@@ -98,16 +98,7 @@
                 color: $sub-text;
 
                 svg {
-                    width: $svg;
-                    height: $svg;
-                    border-radius: 50%;
-                    padding: 6px;
-                    cursor: pointer;
-                    transition: $transition;
-
-                    &:hover {
-                        background-color: $background-highlight;
-                    }
+                    @include x-button();
                 }
 
                 p {
