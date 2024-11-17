@@ -316,7 +316,7 @@ main {
 }
 .right-side .right-side__artistInfo .artistInfo__oyentes .content__following {
   padding: 5px;
-  border: 2px solid #b3b3b3;
+  border: 1px solid #b3b3b3;
   border-radius: 20px;
   font-size: 0.8rem;
   color: #fff;
@@ -335,6 +335,27 @@ main {
   font-weight: 300;
   padding-left: 10px;
   color: #b3b3b3;
+}
+
+/* Colors */
+/* Font */
+/* Animations */
+/* Sizes */
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1.5fr 3fr 1.5fr;
+  background-color: #000;
+  color: #fff;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+footer {
+  display: flex;
 }
 
 .main {
@@ -427,7 +448,7 @@ main {
 }
 .main .main__songs .main__content .content__following {
   padding: 5px;
-  border: 2px solid #b3b3b3;
+  border: 1px solid #b3b3b3;
   border-radius: 20px;
   font-size: 0.8rem;
   color: #fff;
