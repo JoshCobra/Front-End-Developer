@@ -24,7 +24,7 @@ main {
   flex-direction: column;
   background-color: #121212;
   border-radius: 15px;
-  margin: 3px;
+  margin: 4px;
 }
 .left-side .leftSide__home .home__icon, .left-side .leftSide__home .home__searchIcon {
   display: flex;
@@ -51,7 +51,7 @@ main {
   flex-direction: column;
   background-color: #121212;
   border-radius: 15px;
-  margin: 3px;
+  margin: 4px;
   flex-grow: 1;
 }
 .left-side .leftSide__library .library__selectors {
@@ -170,7 +170,7 @@ main {
 .main {
   display: flex;
   flex-direction: column;
-  margin: 3px;
+  margin: 4px;
 }
 .main .main__banner {
   display: flex;

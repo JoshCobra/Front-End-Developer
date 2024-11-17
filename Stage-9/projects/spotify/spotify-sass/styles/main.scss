@@ -1,9 +1,10 @@
 @import "./leftSide";
+@import "./rightSide";
 
 .main {
     display: flex;
     flex-direction: column;
-    margin: 3px;
+    margin: 4px;
 
     .main__banner {
         display: flex;
