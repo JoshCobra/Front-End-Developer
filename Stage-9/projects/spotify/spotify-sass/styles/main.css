@@ -413,6 +413,14 @@ footer .footer__player {
   display: flex;
   gap: 7px;
   align-items: center;
+  width: 22rem;
+  justify-content: center;
+}
+footer .footer__player button {
+  cursor: pointer;
+}
+footer .footer__player button:hover {
+  scale: 1.03;
 }
 footer .footer__player .player__backwards {
   transform: scale(-1, 1);
@@ -437,8 +445,25 @@ footer .footer__player .content__btn svg, footer .footer__player .content__btn .
   border-radius: 50%;
   padding: 5px;
 }
-footer .footer__player .content__btn:hover {
+footer .footer__controls {
+  display: flex;
+  gap: 10px;
+  color: #b3b3b3;
+  padding-right: 10px;
+  width: 150px;
+  justify-content: right;
+}
+footer .footer__controls .controls__volume,
+footer .footer__controls .controls__maximize {
+  cursor: pointer;
+}
+footer .footer__controls .controls__volume:hover,
+footer .footer__controls .controls__maximize:hover {
   scale: 1.03;
+}
+footer .footer__controls svg, footer .footer__controls .main .main__banner .main__nav .nav__right img, .main .main__banner .main__nav .nav__right footer .footer__controls img {
+  width: 17px;
+  height: 17px;
 }
 
 .main {
