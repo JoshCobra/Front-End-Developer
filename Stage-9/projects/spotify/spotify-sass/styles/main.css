@@ -13,11 +13,29 @@ main {
   background-color: #000;
   color: #fff;
   font-family: "Inter", Arial, Helvetica, sans-serif;
+  transition: width 0.3s ease;
+}
+@media (max-width: 930px) {
+  main {
+    width: 100%;
+    grid-template-columns: 1fr 3fr;
+  }
+}
+@media (max-width: 480px) {
+  main {
+    width: 100%;
+    grid-template-columns: 1fr;
+  }
 }
 
 .left-side {
   display: flex;
   flex-direction: column;
+}
+@media (max-width: 480px) {
+  .left-side {
+    display: none !important;
+  }
 }
 .left-side .leftSide__home {
   display: flex;
@@ -182,6 +200,19 @@ main {
   background-color: #000;
   color: #fff;
   font-family: "Inter", Arial, Helvetica, sans-serif;
+  transition: width 0.3s ease;
+}
+@media (max-width: 930px) {
+  main {
+    width: 100%;
+    grid-template-columns: 1fr 3fr;
+  }
+}
+@media (max-width: 480px) {
+  main {
+    width: 100%;
+    grid-template-columns: 1fr;
+  }
 }
 
 .right-side {
@@ -190,6 +221,11 @@ main {
   background-color: #121212;
   border-radius: 15px;
   margin: 4px;
+}
+@media (max-width: 930px) {
+  .right-side {
+    display: none !important;
+  }
 }
 .right-side .right-side__picture {
   display: flex;
@@ -352,6 +388,19 @@ main {
   background-color: #000;
   color: #fff;
   font-family: "Inter", Arial, Helvetica, sans-serif;
+  transition: width 0.3s ease;
+}
+@media (max-width: 930px) {
+  main {
+    width: 100%;
+    grid-template-columns: 1fr 3fr;
+  }
+}
+@media (max-width: 480px) {
+  main {
+    width: 100%;
+    grid-template-columns: 1fr;
+  }
 }
 
 footer {
@@ -370,6 +419,11 @@ footer .footer__song {
   align-items: center;
   transition: all 0.3s ease;
   cursor: pointer;
+}
+@media (max-width: 380px) {
+  footer .footer__song {
+    display: none !important;
+  }
 }
 footer .footer__song img {
   height: 3rem;
@@ -416,6 +470,11 @@ footer .footer__player {
   width: 22rem;
   justify-content: center;
 }
+@media (max-width: 380px) {
+  footer .footer__player {
+    width: 100%;
+  }
+}
 footer .footer__player button {
   cursor: pointer;
 }
@@ -452,6 +511,11 @@ footer .footer__controls {
   padding-right: 10px;
   width: 150px;
   justify-content: right;
+}
+@media (max-width: 480px) {
+  footer .footer__controls {
+    display: none !important;
+  }
 }
 footer .footer__controls .controls__volume,
 footer .footer__controls .controls__maximize {
@@ -499,6 +563,20 @@ footer .footer__controls svg, footer .footer__controls .main .main__banner .main
 }
 .main .main__banner .main__nav .nav__left svg:hover, .main .main__banner .main__nav .nav__right svg:hover, .main .main__banner .main__nav .nav__right img:hover {
   background-color: #1f1f1f;
+}
+.main .main__banner .main__nav .nav__left .home__icon, .main .main__banner .main__nav .nav__right .home__icon, .main .main__banner .main__nav .nav__left .left-side .leftSide__home .home__searchIcon, .main .main__banner .main__nav .nav__right .left-side .leftSide__home .home__searchIcon, .left-side .leftSide__home .main .main__banner .main__nav .nav__left .home__searchIcon, .left-side .leftSide__home .main .main__banner .main__nav .nav__right .home__searchIcon {
+  display: none;
+}
+@media (max-width: 480px) {
+  .main .main__banner .main__nav .nav__left .home__icon, .main .main__banner .main__nav .nav__right .home__icon, .main .main__banner .main__nav .nav__left .left-side .leftSide__home .home__searchIcon, .main .main__banner .main__nav .nav__right .left-side .leftSide__home .home__searchIcon, .left-side .leftSide__home .main .main__banner .main__nav .nav__left .home__searchIcon, .left-side .leftSide__home .main .main__banner .main__nav .nav__right .home__searchIcon {
+    display: contents;
+    padding: 5px;
+  }
+  .main .main__banner .main__nav .nav__left .home__icon svg, .main .main__banner .main__nav .nav__left .home__icon .nav__right img, .main .main__banner .main__nav .nav__right .home__icon svg, .main .main__banner .main__nav .nav__right .home__icon img, .main .main__banner .main__nav .nav__left .left-side .leftSide__home .home__searchIcon svg, .main .main__banner .main__nav .nav__left .left-side .leftSide__home .home__searchIcon .nav__right img, .main .main__banner .main__nav .nav__right .left-side .leftSide__home .home__searchIcon svg, .main .main__banner .main__nav .nav__right .left-side .leftSide__home .home__searchIcon img, .left-side .leftSide__home .main .main__banner .main__nav .nav__left .home__searchIcon svg, .left-side .leftSide__home .main .main__banner .main__nav .nav__left .home__searchIcon .nav__right img, .left-side .leftSide__home .main .main__banner .main__nav .nav__right .home__searchIcon svg, .left-side .leftSide__home .main .main__banner .main__nav .nav__right .home__searchIcon img {
+    width: 19px;
+    height: 19px;
+    padding: 5px;
+  }
 }
 .main .main__banner .main__nav .nav__right svg, .main .main__banner .main__nav .nav__right img {
   width: 19px;
@@ -629,4 +707,10 @@ footer .footer__controls svg, footer .footer__controls .main .main__banner .main
 .main .main__songs .main__items .main__item:hover {
   background-color: rgba(31, 31, 31, 0.5411764706);
   border-radius: 10px;
+}
+@media (max-width: 380px) {
+  .main .main__songs .main__items .main__item .item__listeners,
+  .main .main__songs .main__items .main__item .item__like {
+    display: none !important;
+  }
 }/*# sourceMappingURL=main.css.map */

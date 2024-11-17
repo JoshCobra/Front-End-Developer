@@ -2,6 +2,7 @@
 @import "./components";
 
 .right-side {
+    @include hideOnBreakpoint(930px);
     @include asideFlex();
 
     .right-side__picture {

@@ -98,3 +98,40 @@ $svg: 15px;
     height: $svg;
 }
 
+@mixin hideOnBreakpoint($max-width) {
+    @media (max-width: $max-width) {
+        display: none !important;
+    }
+}
+
+@mixin extendOnBreakpoint($max-width) {
+    @media (max-width: $max-width) {
+        width: 100%; // Ocupa todo el espacio disponible
+        grid-template-columns: 1fr 3fr;
+    }
+}
+
+@mixin fullGrid($max-width) {
+    @media (max-width: $max-width) {
+        width: 100%; // Ocupa todo el espacio disponible
+        grid-template-columns: 1fr;
+    }
+}
+
+@mixin footerPlayer($max-width) {
+    @media (max-width: $max-width) {
+        width: 100%;
+    }
+}
+
+@mixin navHomeIcon($max-width) {
+    @media (max-width: $max-width) {
+        display: contents;
+        padding: 5px;
+
+        svg {
+            @include svg-icon(19px);
+            padding: 5px;
+        }
+    }
+}

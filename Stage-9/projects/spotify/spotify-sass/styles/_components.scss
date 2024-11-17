@@ -9,4 +9,7 @@ main {
     background-color: $background-color;
     color: $text;
     font-family: $font-family;
+    @include extendOnBreakpoint(930px);
+    @include fullGrid(480px);
+    transition: width 0.3s ease;
 }

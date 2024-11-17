@@ -2,6 +2,7 @@
 @import "./rightSide";
 @import "./footer";
 
+
 .main {
     display: flex;
     flex-direction: column;
@@ -36,6 +37,11 @@
                     &:hover {
                         background-color: $background-highlight;
                     }
+                }
+
+                .home__icon {
+                    display: none;
+                    @include navHomeIcon(480px);
                 }
             }
 
@@ -165,6 +171,11 @@
                 &:hover {
                     background-color: $transparent;
                     border-radius: 10px;
+                }
+
+                .item__listeners,
+                .item__like {
+                    @include hideOnBreakpoint(380px);
                 }
             }
         }

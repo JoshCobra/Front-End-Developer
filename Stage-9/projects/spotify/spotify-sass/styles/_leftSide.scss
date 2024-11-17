@@ -2,6 +2,7 @@
 @import "./components";
 
 .left-side {
+    @include hideOnBreakpoint(480px);
     display: flex;
     flex-direction: column;
 

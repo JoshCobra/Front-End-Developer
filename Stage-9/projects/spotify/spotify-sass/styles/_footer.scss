@@ -11,6 +11,7 @@ footer {
     font-family: $font-family;
 
     .footer__song {
+        @include hideOnBreakpoint(380px);
         display: flex;
         gap: 5px;
         padding: 10px;
@@ -49,6 +50,7 @@ footer {
     }
 
     .footer__player {
+        @include footerPlayer(380px);
         display: flex;
         gap: 7px;
         align-items: center;
@@ -90,6 +92,7 @@ footer {
     }
 
     .footer__controls {
+        @include hideOnBreakpoint(480px);
         display: flex;
         gap: 10px;
         color: $sub-text;
