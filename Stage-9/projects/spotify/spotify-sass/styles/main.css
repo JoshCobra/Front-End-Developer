@@ -167,6 +167,34 @@ main {
   border-radius: 15px;
 }
 
+/* Colors */
+/* Font */
+/* Animations */
+/* Sizes */
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1.5fr 3fr 1.5fr;
+  background-color: #000;
+  color: #fff;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  background-color: #121212;
+  border-radius: 15px;
+  margin: 4px;
+}
+.right-side .right-side__picture {
+  display: flex;
+}
+
 .main {
   display: flex;
   flex-direction: column;

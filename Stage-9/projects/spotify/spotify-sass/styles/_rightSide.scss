@@ -1,0 +1,10 @@
+@import "./base";
+@import "./components";
+
+.right-side {
+    @include asideFlex();
+
+    .right-side__picture {
+        display: flex;
+    }
+}
