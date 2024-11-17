@@ -274,6 +274,7 @@ main {
   margin: 10px;
   transition: all 0.3s ease;
   flex-grow: 1;
+  font-size: 0.8rem;
 }
 .right-side .right-side__artistInfo .artistInfo__img {
   padding-bottom: 6.25rem;
