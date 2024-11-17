@@ -2,7 +2,7 @@
 $background-color: #000;
 $background-base: #121212;
 $background-highlight: #1f1f1f;
-$btn-color: #1ed760;
+$green: #1ed760;
 $transparent: #1f1f1f8a;
 $text: #fff;
 $sub-text: #b3b3b3;
@@ -33,7 +33,7 @@ $svg: 15px;
 }
 
 @mixin greenInput {
-    background-color: $btn-color;
+    background-color: $green;
     border: none;
     outline: none;
     color: $background-color;

@@ -224,13 +224,15 @@ main {
   margin: 0;
 }
 .main .main__songs {
-  background: linear-gradient(#c06906, #000 30%);
+  background: linear-gradient(#c06906, #121212 30%);
+  border-radius: 0 0 15px 15px;
 }
 .main .main__songs .main__content {
   display: flex;
   gap: 15px;
   padding: 5px;
   align-items: center;
+  margin: 0 1rem;
 }
 .main .main__songs .main__content .content__btn {
   background-color: #1ed760;
@@ -266,4 +268,51 @@ main {
   align-self: baseline;
   font-size: 1.5rem;
   cursor: pointer;
+}
+.main .main__songs h2 {
+  font-size: 2rem;
+  margin: 0 1.1rem;
+}
+.main .main__songs .main__items {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  gap: 20px;
+}
+.main .main__songs .main__items .main__item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+  align-items: center;
+  font-size: 0.8rem;
+  transition: all 0.3s ease;
+}
+.main .main__songs .main__items .main__item div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  cursor: pointer;
+}
+.main .main__songs .main__items .main__item p {
+  color: #b3b3b3;
+}
+.main .main__songs .main__items .main__item p:nth-child(3) {
+  color: #fff;
+}
+.main .main__songs .main__items .main__item .item__like {
+  background: none;
+  border: none;
+  outline: none;
+  color: #fff;
+  color: #b3b3b3;
+}
+.main .main__songs .main__items .main__item .item__like svg, .main .main__songs .main__items .main__item .item__like .main__banner .main__nav .nav__right img, .main .main__banner .main__nav .nav__right .main__songs .main__items .main__item .item__like img {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.main .main__songs .main__items .main__item .item__like svg:hover, .main .main__songs .main__items .main__item .item__like .main__banner .main__nav .nav__right img:hover, .main .main__banner .main__nav .nav__right .main__songs .main__items .main__item .item__like img:hover {
+  fill: #1ed760;
+  color: #1ed760;
 }/*# sourceMappingURL=main.css.map */
