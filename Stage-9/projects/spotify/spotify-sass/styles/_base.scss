@@ -92,3 +92,8 @@ $svg: 15px;
         scale: 1.03;
     }
 }
+
+@mixin svg-icon($svg) {
+    width: $svg;
+    height: $svg;
+}

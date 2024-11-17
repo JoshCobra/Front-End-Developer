@@ -7,21 +7,20 @@
     .right-side__picture {
         display: flex;
         flex-direction: column;
+        padding: 0 10px;
 
         .picture__nav {
             display: flex;
             align-items: center;
             justify-content: space-between;
-            padding: 0 10px;
 
             h3 {
-                font-size: 1.2rem;
-            }
+                font-size: clamp(0.8rem, 2vw, 1.2rem);
+            }            
 
             svg {
                 @include x-button();
-                width: 17px;
-                height: 17px;
+                @include svg-icon(17px);
             }
         }
     }
@@ -60,8 +59,7 @@
                 @include like-btn();
 
                 svg {
-                    width: 20px;
-                    height: 20px;
+                    @include svg-icon(20px);
                 }
             }
         }

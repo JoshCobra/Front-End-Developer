@@ -194,15 +194,15 @@ main {
 .right-side .right-side__picture {
   display: flex;
   flex-direction: column;
+  padding: 0 10px;
 }
 .right-side .right-side__picture .picture__nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 10px;
 }
 .right-side .right-side__picture .picture__nav h3 {
-  font-size: 1.2rem;
+  font-size: clamp(0.8rem, 2vw, 1.2rem);
 }
 .right-side .right-side__picture .picture__nav svg, .right-side .right-side__picture .picture__nav .main .main__banner .main__nav .nav__right img, .main .main__banner .main__nav .nav__right .right-side .right-side__picture .picture__nav img {
   width: 15px;
