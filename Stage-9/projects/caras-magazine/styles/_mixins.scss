@@ -1,5 +1,19 @@
+@import "./variables";
+
 @mixin respond-to($breakpoint) {
     @media screen and (max-width: $breakpoint) {
         @content; // Estilos específicos donde se utilice el mixin
     }
+}
+
+@mixin button {
+    font-family: $sub-title;
+    font-size: 1.2rem;
+    color: $text;
+    background-color: $white;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
