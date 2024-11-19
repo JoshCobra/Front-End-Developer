@@ -8,18 +8,35 @@
     position: sticky;
     top: 0;
 
+    @include respond-to(550px) {
+        justify-content: space-evenly;
+        padding: 5px;
+    }
+
     > img {
         width: 150px;
         margin: 10px;
+
+        @include respond-to(550px) {
+            width: 11rem;
+        }
+
+        @include respond-to(465px) {
+            width: 9rem;
+        }
     } 
 
     .burger-menu {
         display: none;
-        @include respond-to(550px){
+        @include respond-to(550px) {
             display: block;
             align-self: center;
             max-width: 2.5rem;
             cursor: pointer;
+        }
+
+        @include respond-to(465px) {
+            max-width: 2rem;
         }
     }
 
@@ -33,10 +50,20 @@
         width: 100%;
         padding: 10px 0;
 
+        @include respond-to(550px) {
+            display: none;
+        }
+
         a {
             color: $white;
             text-decoration: none;
             transition: all 0.3s ease;
+
+            &:hover {
+                @include hover-supported() {
+                    color: #ffc0c0;
+                }
+            }
         }
     }
 }
@@ -70,12 +97,30 @@
     background-color: $bg;
     padding: 2%;
 
+    @include respond-to(465px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     img {
         align-self: center;
         max-width: 100%;
         padding-left: 15%;
         cursor: pointer;
         transition: all 0.3s ease;
+
+        @include respond-to(465px) {
+            padding: 0;
+            max-width: 200px;
+        }
+
+        &:hover {
+            @include hover-supported() {
+                transform: scale(1.005);
+                filter: drop-shadow(0 0 0.6rem $red);
+            }
+        }
     }
 
     div {
@@ -106,7 +151,15 @@
 }
 
 .destacada {
+    padding: 30px 0;
     @include destacadaTemplate();
+    @include respond-to(1428px) {
+        justify-content: center;
+    }
+    @include respond-to(550px) {
+        flex-direction: column;
+        text-align: center;
+    }
 
     h2 {
         @include h2-title();
@@ -114,10 +167,20 @@
 
     .destacada-item {
         @include itemTemplate();
+        @include respond-to(1428px) {
+            flex-direction: column;
+        }
+        @include respond-to(550px) {
+            flex-direction: column;
+        }
 
         img {
             flex: 0 0 36px;
-            min-width: 100px;
+            max-width: 100px;
+
+            @include respond-to(1428px) {
+                max-width: 70px;
+            }
         }
 
         h3 {
@@ -127,12 +190,29 @@
         p {
             @include item-p();
         }
+
+        h3,
+        p {
+            @include respond-to(1428px) {
+                flex: unset;
+                text-align: center;
+            }
+        }
     }
 }
 
 .testimonios {
+    padding: 50px 0;
     @include destacadaTemplate();
     grid-column: 1 / 4;
+    background-color: $white;
+
+    h2 {
+        @include respond-to(550px) {
+            text-align: center;
+            padding: 2rem 1rem 0 1rem;
+        }
+    }
 
     .testimonio {
         @include itemTemplate();
@@ -166,6 +246,11 @@
     img {
         width: 350px;
         margin: 10px;
+
+        @include respond-to(550px) {
+            width: 250px;
+            margin: 10px;
+        }
     }
 
     .terms-privacy,
@@ -181,10 +266,16 @@
             color: $footer-text;
             padding: 0 5px;
             text-decoration: none;
-            transition: all 0.3s ease-in-out;
+            transition: $transition;
 
             img {
                 width: 30px;
+            }
+
+            &:hover {
+                @include hover-supported() {
+                    color: $footText--hover;
+                }
             }
         }
     }

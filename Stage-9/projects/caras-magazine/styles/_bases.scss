@@ -8,8 +8,41 @@
 main {
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
+
+    @include respond-to(1428px) {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    @include respond-to(1350px) {
+        grid-template-columns: 1fr;
+    }
+
+    @include respond-to(1350px) {
+        .destacada, 
+        .conoce-lo-ultimo, 
+        .subscription-form, 
+        .testimonios {
+            grid-column: 1;
+        }
+
+        .destacada h2, 
+        .destacada-item p, 
+        .testimonios h2, 
+        .testimonio p {
+            padding: 0 30px 0 30px;
+            text-align: center;
+        }
+    }
 }
 
 button {
     @include button();
+
+    &:hover {
+        @include hover-supported() {
+            background-color: $red;
+            color: $white;
+        }
+    }
 }
+
