@@ -1,0 +1,5 @@
+@mixin respond-to($breakpoint) {
+    @media screen and (max-width: $breakpoint) {
+        @content; // Estilos específicos donde se utilice el mixin
+    }
+}
