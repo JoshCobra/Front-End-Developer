@@ -176,7 +176,7 @@
 
         img {
             flex: 0 0 36px;
-            max-width: 100px;
+            max-width: 50px;
 
             @include respond-to(1428px) {
                 max-width: 70px;
@@ -250,6 +250,10 @@
         @include respond-to(550px) {
             width: 250px;
             margin: 10px;
+        }
+
+        @include respond-to(290px) {
+            width: 150px;
         }
     }
 

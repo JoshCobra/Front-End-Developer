@@ -258,7 +258,7 @@ button {
 }
 .destacada .destacada-item img {
   flex: 0 0 36px;
-  max-width: 100px;
+  max-width: 50px;
 }
 @media screen and (max-width: 1428px) {
   .destacada .destacada-item img {
@@ -353,6 +353,11 @@ button {
   .page-footer img {
     width: 250px;
     margin: 10px;
+  }
+}
+@media screen and (max-width: 290px) {
+  .page-footer img {
+    width: 150px;
   }
 }
 .page-footer .terms-privacy,
