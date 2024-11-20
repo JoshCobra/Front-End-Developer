@@ -142,6 +142,8 @@ Feel free to explore, learn, and contribute
 - [TIPS](/Stage-9/tips.md)
 - [Projects](/Stage-9/projects)
   - [E-Commerce-Sass](/Stage-9/projects/e-commerce-sass/)
+  - [Spotify-Sass](/Stage-9/projects/spotify)
+  - [CARAS Magazine](/Stage-9/projects/caras-magazine) *spanish*
 
 <hr>
 
@@ -173,5 +175,10 @@ Feel free to explore, learn, and contribute
 
 - Stage-8
   - [Practice Projects](/Stage-8/documents/)
+
+- Stage 9
+  - [E-Commerce-Sass](/Stage-9/projects/e-commerce-sass/)
+  - [Spotify-Sass](/Stage-9/projects/spotify)
+  - [CARAS Magazine](/Stage-9/projects/caras-magazine) *spanish*
 <hr>
 
