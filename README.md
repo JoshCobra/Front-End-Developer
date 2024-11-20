@@ -147,6 +147,12 @@ Feel free to explore, learn, and contribute
 
 <hr>
 
+### [Stage 10](/Stage-10)
+- [Bootstrap](/Stage-10/readme.md)
+- [TIPS](/Stage-10/tips.md)
+
+<hr>
+
   ### Projects
   - Stage-2
     - [The Basics in HTML](Stage-2/documents/basics-html)
