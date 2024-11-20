@@ -28,7 +28,7 @@ header nav a {
 }
 
 h1, h2, h4 {
-    padding: 60px 40px 0;
+    padding: 7rem 5rem 0;
     color: #343a40;
     margin: 20px 0;
 }
@@ -37,5 +37,9 @@ p {
     color: #6c757d;
     line-height: 1.6;
     margin: 10px 0;
-    padding: 5px 40px 0;
+    padding: 0.1rem 5rem 0;
+}
+
+.accordion-body {
+    padding: 0.1rem 5rem 0;
 }
