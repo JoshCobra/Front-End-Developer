@@ -43,3 +43,8 @@ p {
 .accordion-body {
     padding: 0.1rem 5rem 0;
 }
+
+.carousel {
+    width: 600px;
+    margin: 0 auto;
+}
