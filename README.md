@@ -3,7 +3,7 @@
 
 <p align="center">
 <img src="https://img.shields.io/badge/Start-12/10/2024-%23238725?style=for-the-badge">
-<img src="https://img.shields.io/badge/Current-Stage_10-%23238725?style=for-the-badge">
+<img src="https://img.shields.io/badge/Current-Stage_11-%23238725?style=for-the-badge">
 <img src="https://img.shields.io/github/last-commit/JoshCobra/Front-End-Developer?style=for-the-badge&color=%23238725">
 </p>
 
@@ -150,6 +150,8 @@ Feel free to explore, learn, and contribute
 ### [Stage 10](/Stage-10)
 - [Bootstrap](/Stage-10/readme.md)
 - [TIPS](/Stage-10/tips.md)
+- [Projects](/Stage-10/projects)
+  - [Bootstrap Blog Example](https://ebac-firebase-hosting-7e5af.web.app/)
 
 <hr>
 
@@ -186,5 +188,9 @@ Feel free to explore, learn, and contribute
   - [E-Commerce-Sass](/Stage-9/projects/e-commerce-sass/)
   - [Spotify-Sass](/Stage-9/projects/spotify)
   - [CARAS Magazine](/Stage-9/projects/caras-magazine) *spanish*
+
+- Stage 10
+  - [Bootstrap Blog Example](https://ebac-firebase-hosting-7e5af.web.app/)
+
 <hr>
 
