@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url("https://img.freepik.com/foto-gratis/ramas-arboles-navidad-sobre-fondo-rojo_24972-650.jpg?t=st=1732299919~exp=1732303519~hmac=dc66bfd5ad8031f3ce92a11e66dc58b73ff99eb11bb7570251f4de00690032ea&w=1380");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.header .header__title {
+  font-size: 4rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.header .header__info {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #ff2121;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding: 20px;
+  max-width: 760px;
+}
+
+.carousel {
+  margin: 20px auto;
+  max-width: 70%;
+}/*# sourceMappingURL=main.css.map */
