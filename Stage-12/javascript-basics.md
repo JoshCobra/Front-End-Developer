@@ -67,3 +67,81 @@ document.getElementById("demo").innerHTML = "Hello, World!";
 ```
 
 JavaScript's versatility and wide adoption make it an essential tool for modern web development.
+
+## ECMAScript
+
+ECMAScript is the standard upon which JavaScript is based. It defines the core features and syntax of the language. The different versions of ECMAScript introduce new features and improvements to the language.
+
+### ES6 (ECMAScript 2015)
+ES6, also known as ECMAScript 2015, introduced many significant features to JavaScript, including:
+
+- **Arrow Functions**: A shorter syntax for writing functions.
+    ```javascript
+    const add = (a, b) => a + b;
+    ```
+
+- **Classes**: A new way to create objects and handle inheritance.
+    ```javascript
+    class Person {
+        constructor(name, age) {
+            this.name = name;
+            this.age = age;
+        }
+
+        greet() {
+            return `Hello, my name is ${this.name}`;
+        }
+    }
+    ```
+
+- **Template Literals**: A new way to create strings with embedded expressions.
+    ```javascript
+    const greeting = `Hello, ${name}!`;
+    ```
+
+- **Destructuring**: A convenient way to extract values from arrays and objects.
+    ```javascript
+    const [a, b] = [1, 2];
+    const {name, age} = person;
+    ```
+
+- **Modules**: A way to organize and reuse code across different files.
+    ```javascript
+    // Exporting a function
+    export function greet(name) {
+        return `Hello, ${name}!`;
+    }
+
+    // Importing a function
+    import { greet } from './greet.js';
+    ```
+
+### ES7 and Beyond
+Subsequent versions of ECMAScript have continued to add new features and improvements. Some notable additions include:
+
+- **ES7 (ECMAScript 2016)**: Introduced the `includes` method for arrays and the exponentiation operator (`**`).
+    ```javascript
+    [1, 2, 3].includes(2); // true
+    2 ** 3; // 8
+    ```
+
+- **ES8 (ECMAScript 2017)**: Introduced `async`/`await` for asynchronous programming and `Object.entries`/`Object.values`.
+    ```javascript
+    async function fetchData() {
+        const response = await fetch('https://api.example.com/data');
+        const data = await response.json();
+        return data;
+    }
+    ```
+
+- **ES9 (ECMAScript 2018)**: Introduced rest/spread properties for objects and asynchronous iteration.
+    ```javascript
+    const {a, ...rest} = {a: 1, b: 2, c: 3};
+    ```
+
+- **ES10 (ECMAScript 2019)**: Introduced `Array.prototype.flat` and `Object.fromEntries`.
+    ```javascript
+    [1, [2, 3]].flat(); // [1, 2, 3]
+    ```
+
+Understanding ECMAScript and its evolution helps developers write modern and efficient JavaScript code.
