@@ -155,6 +155,20 @@ Feel free to explore, learn, and contribute
 
 <hr>
 
+### [Stage 11](/Stage-11)
+- [Hosting Static Websites](/Stage-11/readme.md)
+
+<hr>
+
+### [Stage 12](/Stage-12)
+- [JavaScript](/Stage-12/readme.md)
+	- [JavaScript Basics](/Stage-12/javascript-basics.md)
+	- [Data Types in JavaScript](/Stage-12/data-types.md)
+	- [Variables in JavaScript](/Stage-12/variables.md)
+
+<hr>
+
+
   ### Projects
   - Stage-2
     - [The Basics in HTML](Stage-2/documents/basics-html)
