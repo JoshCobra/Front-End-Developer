@@ -31,7 +31,7 @@ console.log(matrix[1][2]); // Output: 6
 ```
 
 ## Objects
-Objects are collections of key-value pairs.
+Objects are collections of key-value pairs like dictionaries in Python.
 
 ```javascript
 let person = {
@@ -39,7 +39,118 @@ let person = {
     age: 30,
     city: 'New York'
 };
+
+let car = {
+    make: 'Toyota',
+    model: 'Camry',
+    year: 2020
+};
 ```
+### Methods in Objects
+Methods are functions that are properties of an object. They allow objects to perform actions.
+
+```javascript
+let person = {
+    name: 'John',
+    age: 30,
+    city: 'New York',
+    greet: function() {
+        console.log('Hello, my name is ' + this.name);
+    }
+};
+
+// Calling the method
+person.greet(); // Output: Hello, my name is John
+```
+
+You can also use ES6 shorthand syntax for defining methods:
+
+```javascript
+let car = {
+    make: 'Toyota',
+    model: 'Camry',
+    year: 2020,
+    start() {
+        console.log('The car has started.');
+    }
+};
+
+// Calling the method
+car.start(); // Output: The car has started.
+```
+
+### Accessing Object Keys and Values
+You can access the keys and values of an object using various methods.
+
+To access all the keys of an object, you can use the `Object.keys()` method:
+
+```javascript
+let person = {
+    name: 'John',
+    age: 30,
+    city: 'New York'
+};
+
+let keys = Object.keys(person);
+console.log(keys); // Output: ['name', 'age', 'city']
+```
+
+To access all the values of an object, you can use the `Object.values()` method:
+
+```javascript
+let values = Object.values(person);
+console.log(values); // Output: ['John', 30, 'New York']
+```
+
+To access both keys and values, you can use the `Object.entries()` method, which returns an array of key-value pairs:
+
+```javascript
+let entries = Object.entries(person);
+console.log(entries); // Output: [['name', 'John'], ['age', 30], ['city', 'New York']]
+```
+
+To access individual keys and values, you can use the dot notation or bracket notation:
+
+```javascript
+console.log(person.name); // Output: John
+console.log(person['age']); // Output: 30
+```
+
+## Arrays of Objects
+Arrays can also contain objects, allowing you to store a collection of objects in a single array.
+
+```javascript
+let people = [
+    { name: 'John', age: 30, city: 'New York' },
+    { name: 'Jane', age: 25, city: 'San Francisco' },
+    { name: 'Mike', age: 35, city: 'Chicago' }
+];
+```
+
+To access an object in an array of objects, you can use the index of the object in the array. For example, to access the first object in the array:
+
+```javascript
+console.log(people[0]); // Output: { name: 'John', age: 30, city: 'New York' }
+```
+
+To access a property of an object in an array, you can use the index of the object and the property name. For example, to access the name of the second person in the array:
+
+```javascript
+console.log(people[1].name); // Output: Jane
+```
+
+You can also use a loop to iterate over the array of objects and access their properties:
+
+```javascript
+for (let i = 0; i < people.length; i++) {
+    console.log(people[i].name + ' lives in ' + people[i].city);
+}
+// Output:
+// John lives in New York
+// Jane lives in San Francisco
+// Mike lives in Chicago
+```
+
 
 ## Sets
 Sets are collections of unique values.
