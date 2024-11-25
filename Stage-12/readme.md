@@ -3,6 +3,12 @@
 JavaScript is a versatile and powerful programming language commonly used in web development. It allows developers to create dynamic and interactive web pages. 
 
 - **[Intro to JavaScript](javascript-basics.md)** : Learn about the basics of JavaScript, including variables, data types, and operators.
+    - **[Operators](operators.md)** : Explore the different types of operators in JavaScript, such as arithmetic, comparison, and logical operators.
+    - **[Variables](variables.md)** : Understand how to declare and assign values to variables in JavaScript.
+- **[Data Types](data-types.md)** : Explore the different data types in JavaScript, such as strings, numbers, and booleans.
+- **[Data Structures](data-structures.md)** : Discover built-in data structures like arrays, objects, maps, and sets.
+
+Basics Practice: [JavaScript Basics Practice](https://codepen.io/DE-LA-ROSA-VAZQUEZ-JOSUE/pen/emOOrVd)
 
 ## Data Types
 

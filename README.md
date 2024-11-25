@@ -161,12 +161,20 @@ Feel free to explore, learn, and contribute
 <hr>
 
 ### [Stage 12](/Stage-12)
-- [JavaScript](/Stage-12/readme.md)
+- [JavaScript I](/Stage-12/readme.md)
 	- [JavaScript Basics](/Stage-12/javascript-basics.md)
 	- [Data Types in JavaScript](/Stage-12/data-types.md)
 	- [Variables in JavaScript](/Stage-12/variables.md)
+	- [Data Structures in JavaScript](/Stage-12/data-structures.md)
+	- [Operators in JavaScript](/Stage-12/operators.md)
+- [TIPS](/Stage-12/tips.md)
 
 <hr>
+
+### [Stage 13](/Stage-13)
+- [JavaScript Functions and Conditionals](/Stage-13/readme.md)
+	- [Functions in JavaScript](/Stage-13/functions.md)
+	- [Conditionals in JavaScript](/Stage-13/conditionals.md)
 
 
   ### Projects
