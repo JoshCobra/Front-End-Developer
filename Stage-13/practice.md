@@ -19,3 +19,11 @@
 ## Exercise 5
 
 <img src="documents/js-exercise5.png">
+
+## Exercise 6
+
+<img src="documents/js-exercise6.png">
+
+## Exercise 7
+
+<img src="documents/js-exercise7.png">
