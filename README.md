@@ -3,7 +3,7 @@
 
 <p align="center">
 <img src="https://img.shields.io/badge/Start-12/10/2024-%23238725?style=for-the-badge">
-<img src="https://img.shields.io/badge/Current-Stage_13-%23238725?style=for-the-badge">
+<img src="https://img.shields.io/badge/Current-Stage_14-%23238725?style=for-the-badge">
 <img src="https://img.shields.io/github/last-commit/JoshCobra/Front-End-Developer?style=for-the-badge&color=%23238725">
 </p>
 
@@ -173,9 +173,16 @@ Feel free to explore, learn, and contribute
 
 ### [Stage 13](/Stage-13)
 - [JavaScript Functions and Conditionals](/Stage-13/readme.md)
-	- [Functions in JavaScript](/Stage-13/functions.md)
-	- [Conditionals in JavaScript](/Stage-13/conditionals.md)
+	- [Functions in JavaScript](/Stage-13/readme.md)
+	- [Conditionals in JavaScript](/Stage-13/readme.md)
 
+<hr>
+
+### [Stage 14](/Stage-14)
+- [JavaScript Loops](/Stage-14/readme.md)
+	- [Loops in JavaScript](/Stage-14/readme.md)
+
+<hr>
 
   ### Projects
   - Stage-2
