@@ -2,6 +2,8 @@
 
 Loops are used in JavaScript to perform repeated tasks based on a condition. Conditions typically return true or false. A loop will continue running until the defined condition returns false.
 
+Practice File : [loops.js](https://codepen.io/DE-LA-ROSA-VAZQUEZ-JOSUE/pen/emOYxvR)
+
 ## Types of Loops
 
 ### 1. `for` Loop
