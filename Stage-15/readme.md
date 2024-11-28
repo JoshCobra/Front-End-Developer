@@ -64,7 +64,7 @@ console.log(n); // Output: 10
 - `entries()`: Returns an array of a given object's own enumerable property [key, value] pairs.
 - `assign()`: Copies all enumerable own properties from one or more source objects to a target object.
 - `hasOwnProperty()`: Returns a boolean indicating whether the object has the specified property as its own property.
-- `is()`: Determines whether two values are the same value.
+- `is()`: Determines whether two values are the same value, for example, to compare two objects.
 - `freeze()`: Freezes an object: other code cannot delete or change its properties.
 - `seal()`: Seals an object, preventing new properties from being added to it and marking all existing properties as non-configurable.
 
@@ -75,3 +75,12 @@ The `keys()` method returns an array of a given object's own enumerable property
 const object = { a: 1, b: 2, c: 3 };
 console.log(Object.keys(object)); // Output: ['a', 'b', 'c']
 ``` 
+
+### Example of `is()` Method
+The `is()` method determines whether two values are the same value.
+
+```javascript
+console.log(Object.is('foo', 'foo')); // Output: true
+console.log(Object.is({}, {})); // Output: false
+console.log(Object.is(NaN, NaN)); // Output: true
+```
