@@ -1,5 +1,7 @@
 # JavaScript Methods
 
+Examples [here](https://codepen.io/DE-LA-ROSA-VAZQUEZ-JOSUE/pen/dPbPOgw?editors=0012)
+
 ## Array Methods
 - `push()`: Adds one or more elements to the end of an array and returns the new length of the array.
 - `pop()`: Removes the last element from an array and returns that element.
@@ -11,6 +13,8 @@
 - `forEach()`: Executes a provided function once for each array element.
 - `find()`: Returns the value of the first element in the array that satisfies the provided testing function.
 - `includes()`: Determines whether an array includes a certain value among its entries, returning true or false.
+
+More array methods can be found [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array).
 
 ### Example of `map()` Method
 The `map()` method creates a new array populated with the results of calling a provided function on every element in the calling array.
@@ -33,6 +37,8 @@ console.log(doubled); // Output: [2, 4, 6, 8]
 - `toUpperCase()`: Returns the calling string value converted to upper case.
 - `trim()`: Removes whitespace from both ends of a string.
 
+More string methods can be found [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String).
+
 ### Example of `split()` Method
 The `split()` method divides a String into an ordered list of substrings, puts these substrings into an array, and returns the array.
 
@@ -48,6 +54,8 @@ console.log(words[3]); // Output: fox
 - `toString()`: Returns a string representing the specified Number object.
 - `toExponential()`: Returns a string representing the Number object in exponential notation.
 - `toPrecision()`: Returns a string representing the Number object to the specified precision.
+
+More number methods can be found [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number).
 
 ### Example of `toFixed()` Method
 The `toFixed()` method formats a number using fixed-point notation.
@@ -67,6 +75,8 @@ console.log(n); // Output: 10
 - `is()`: Determines whether two values are the same value, for example, to compare two objects.
 - `freeze()`: Freezes an object: other code cannot delete or change its properties.
 - `seal()`: Seals an object, preventing new properties from being added to it and marking all existing properties as non-configurable.
+
+More object methods can be found [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object).
 
 ### Example of `keys()` Method 
 The `keys()` method returns an array of a given object's own enumerable property names.
