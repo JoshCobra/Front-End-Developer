@@ -26,6 +26,16 @@ const doubled = numbers.map(number => number * 2);
 console.log(doubled); // Output: [2, 4, 6, 8]
 ```
 
+### Example of `reduce()` Method
+The `reduce()` method executes a reducer function on each element of the array, resulting in a single output value.
+
+```javascript
+const numbers = [1, 2, 3, 4];
+const sum = numbers.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+
+console.log(sum); // Output: 10
+```
+
 ## String Methods
 - `charAt()`: Returns the character at the specified index.
 - `concat()`: Combines the text of two or more strings and returns a new string.
