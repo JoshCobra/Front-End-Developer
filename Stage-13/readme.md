@@ -85,3 +85,56 @@ if (score >= 90) {
     console.log('Grade: F');
 }
 ```
+
+### switch Statement
+
+The `switch` statement is used to perform different actions based on different conditions. It is often used as an alternative to a series of `if...else if` statements.
+
+```javascript
+switch (expression) {
+    case value1:
+        // code to be executed if expression === value1
+        break;
+    case value2:
+        // code to be executed if expression === value2
+        break;
+    // you can have any number of case statements
+    default:
+        // code to be executed if expression doesn't match any case
+}
+```
+
+### Example
+
+```javascript
+let day = 3;
+let dayName;
+
+switch (day) {
+    case 1:
+        dayName = 'Monday';
+        break;
+    case 2:
+        dayName = 'Tuesday';
+        break;
+    case 3:
+        dayName = 'Wednesday';
+        break;
+    case 4:
+        dayName = 'Thursday';
+        break;
+    case 5:
+        dayName = 'Friday';
+        break;
+    case 6:
+        dayName = 'Saturday';
+        break;
+    case 7:
+        dayName = 'Sunday';
+        break;
+    default:
+        dayName = 'Invalid day';
+}
+
+console.log(dayName); // Output: Wednesday
+```
