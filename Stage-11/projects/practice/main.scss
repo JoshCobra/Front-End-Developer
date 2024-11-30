@@ -1,3 +1,10 @@
+@mixin respond-to($breakpoint) {
+    @media screen and (max-width: $breakpoint) {
+        @content; // Estilos específicos donde se utilice el mixin
+    }
+}
+
+
 * {
     margin: 0;
     box-sizing: border-box;
@@ -9,22 +16,40 @@ body {
 
 .header {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     padding: 20px;
-    margin-top: 100px;
+    margin-top: 150px;
 
     .header__title {
         font-family: Georgia, 'Times New Roman', Times, serif;
         color: #424242a2;
         font-size: 4rem;
+        transition: all 0.5s ease;
         
+        @include respond-to(440px) {
+            font-size: 3rem;
+        }
+
+        @include respond-to(345px) {
+            font-size: 2.5rem;
+        }
+
+        @include respond-to(290px) {
+            font-size: 2rem;
+        }
+
+        @include respond-to(240px) {
+            font-size: 1.6rem;
+        }
     }
 }
 
 .main {
     .main__section {
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
         justify-content: center;
 
@@ -32,9 +57,14 @@ body {
             display: flex;
             gap: 12px;
 
+            @include respond-to(240px) {
+                flex-direction: column;
+                flex-wrap: wrap;
+            }
+
             a {
                 text-decoration: none;
-                color: #424242a2;
+                color: #424242b0;
                 transition: all 0.5s ease;
 
                 &:hover {
@@ -46,12 +76,31 @@ body {
 
     .main__image {
         display: flex;
+        flex-wrap: wrap;
         padding: 20px;
 
         img {
             margin: 0 auto;
             max-width: 400px;
             border-radius: 2px;
+            opacity: 0.9;
+            transition: all 0.5s ease;
+
+            @include respond-to(440px) {
+                max-width: 300px;
+            }
+
+            @include respond-to(345px) {
+                max-width: 250px;
+            }
+
+            @include respond-to(290px) {
+                max-width: 200px;
+            }
+
+            @include respond-to(240px) {
+                max-width: 150px;
+            }
         }
     }
 }
