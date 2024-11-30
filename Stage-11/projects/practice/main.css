@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(255, 240, 190, 0.3333333333);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 100px;
+}
+.header .header__title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgba(66, 66, 66, 0.6352941176);
+  font-size: 4rem;
+}
+
+.main .main__section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main .main__section .section__nav {
+  display: flex;
+  gap: 12px;
+}
+.main .main__section .section__nav a {
+  text-decoration: none;
+  color: rgba(66, 66, 66, 0.6352941176);
+  transition: all 0.5s ease;
+}
+.main .main__section .section__nav a:hover {
+  scale: 1.4;
+}
+.main .main__image {
+  display: flex;
+  padding: 20px;
+}
+.main .main__image img {
+  margin: 0 auto;
+  max-width: 400px;
+  border-radius: 2px;
+}/*# sourceMappingURL=main.css.map */
