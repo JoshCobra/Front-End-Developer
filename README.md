@@ -112,7 +112,6 @@ Feel free to explore, learn, and contribute
 	- [Media Queries](/Stage-7/media-queries.md)
 	- [Responsive Containers](/Stage-7/responsive-containers.md)
 	- [Responsive Images and Texts](/Stage-7/responsive-images.md)
-	- [BEM Methodology in CSS](/Stage-7/BEM-Metodology.md)
 - [TIPS](/Stage-7/tips.md)
 - [Projects](/Stage-7/projects)
   - [E-Commerce Responsive Design](/Stage-7/projects/e-commerce-html/)
