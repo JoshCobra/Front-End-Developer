@@ -229,6 +229,7 @@ Feel free to explore, learn, and contribute
 
 - Stage 10
   - [Bootstrap Blog Example](https://ebac-firebase-hosting-7e5af.web.app/)
+  - [My e-commerce](https://josh-ecommerce0.web.app/)
 
 <hr>
 
