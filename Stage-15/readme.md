@@ -2,6 +2,8 @@
 
 Examples [here](https://codepen.io/DE-LA-ROSA-VAZQUEZ-JOSUE/pen/dPbPOgw?editors=0012)
 
+Exercises [here](https://codepen.io/DE-LA-ROSA-VAZQUEZ-JOSUE/pen/pvzvPEg?editors=0010)
+
 ## Array Methods
 - `push()`: Adds one or more elements to the end of an array and returns the new length of the array.
 - `pop()`: Removes the last element from an array and returns that element.
