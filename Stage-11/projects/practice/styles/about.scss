@@ -34,6 +34,12 @@
 }
 
 .main {
+    .main__img {
+        display: block;
+        margin: 0 50%;
+        padding-bottom: 25px;
+    }
+
     .main__section {
         display: flex;
         flex-direction: column;
@@ -41,9 +47,29 @@
         justify-content: center;
         align-items: center;
         color: #333333;
+        padding: 0 15%;
+        transition: all 0.5s ease;
 
         .main__text {
             font-size: 1.4rem;
+            padding-bottom: 20px;
+            
+            @include respond-to(440px) {
+                font-size: 1.2rem;
+            }
+
+            @include respond-to(345px) {
+                font-size: 0.8rem;
+            }
+        }
+
+        .text {
+            font-size: 1rem;
+            text-align: center;
+
+            @include respond-to(345px) {
+                font-size: 0.8rem;
+            }
         }
     }
 }

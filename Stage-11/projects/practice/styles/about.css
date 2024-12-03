@@ -42,6 +42,11 @@ body {
   }
 }
 
+.main .main__img {
+  display: block;
+  margin: 0 50%;
+  padding-bottom: 25px;
+}
 .main .main__section {
   display: flex;
   flex-direction: column;
@@ -49,7 +54,29 @@ body {
   justify-content: center;
   align-items: center;
   color: #333333;
+  padding: 0 15%;
+  transition: all 0.5s ease;
 }
 .main .main__section .main__text {
   font-size: 1.4rem;
+  padding-bottom: 20px;
+}
+@media screen and (max-width: 440px) {
+  .main .main__section .main__text {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 345px) {
+  .main .main__section .main__text {
+    font-size: 0.8rem;
+  }
+}
+.main .main__section .text {
+  font-size: 1rem;
+  text-align: center;
+}
+@media screen and (max-width: 345px) {
+  .main .main__section .text {
+    font-size: 0.8rem;
+  }
 }/*# sourceMappingURL=about.css.map */
