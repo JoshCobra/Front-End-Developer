@@ -106,3 +106,31 @@ console.log(Object.is('foo', 'foo')); // Output: true
 console.log(Object.is({}, {})); // Output: false
 console.log(Object.is(NaN, NaN)); // Output: true
 ```
+
+
+## JavaScript Scope 
+Scope determines the accessibility of variables in JavaScript. There are two types of scope: 
+- Global Scope: Variables declared outside a function have global scope and can be accessed anywhere in the code.
+- Local Scope: Variables declared inside a function have local scope and can only be accessed within that function.
+
+### Example of Global Scope
+```javascript
+let name = 'Josue'; // Global scope
+
+function greet() {
+  console.log(`Hello, ${name}!`);
+}   
+
+greet(); // Output: Hello, Josue!
+```
+
+### Example of Local Scope
+```javascript
+function greet() {
+  let name = 'Josue'; // Local scope
+  console.log(`Hello, ${name}!`);
+}
+    
+greet(); // Output: Hello, Josue!
+console.log(name); // Output: ReferenceError: name is not defined
+```

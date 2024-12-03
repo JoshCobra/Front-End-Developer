@@ -190,6 +190,7 @@ Feel free to explore, learn, and contribute
 	- [String Methods](/Stage-15/readme.md)
 	- [Number Methods](/Stage-15/readme.md)
 	- [Object Methods](/Stage-15/readme.md)
+	- [JavaScript Scope](/Stage-15/readme.md)
 
 <hr>
 
