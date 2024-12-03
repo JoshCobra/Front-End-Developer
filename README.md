@@ -3,7 +3,7 @@
 
 <p align="center">
 <img src="https://img.shields.io/badge/Start-12/10/2024-%23238725?style=for-the-badge">
-<img src="https://img.shields.io/badge/Current-Stage_15-%23238725?style=for-the-badge">
+<img src="https://img.shields.io/badge/Current-Stage_15_JavaScript-%23238725?style=for-the-badge">
 <img src="https://img.shields.io/github/last-commit/JoshCobra/Front-End-Developer?style=for-the-badge&color=%23238725">
 </p>
 
@@ -26,7 +26,7 @@ Feel free to explore, learn, and contribute
 
 # Start of the Journey
 
-### [Stage 1](Stage-1)
+### [Stage 1 Intro to Front-End](Stage-1)
 - [Intro and Bibliographies](/Stage-1/Readme.md)
 	- [How Internet And Websites Work](/Stage-1/How-Internet-And-WebSites-Work.md)
 	- [Difference Between *Front-End* & *Back-End*](/Stage-1/Difference-Front-End-Back-End.md)
@@ -37,7 +37,7 @@ Feel free to explore, learn, and contribute
   
 <hr>
 
-### [Stage 2](/Stage-2)
+### [Stage 2 First Steps Into HTML](/Stage-2)
 - [First Steps Into HTML](/Stage-2/Readme.md)
 	- [Basic Syntax of HTML](/Stage-2/Basic-Syntax-in-HTML.md)
 	- [My First Web Page](/Stage-2/My-First-Page.md)
@@ -51,7 +51,7 @@ Feel free to explore, learn, and contribute
 
 <hr>
 
-### [Stage 3](/Stage-3)
+### [Stage 3 HTML II](/Stage-3)
 - [HTML II](/Stage-3/Readme.md)
 	- [Diversity in HTML](/Stage-3/Diversity-in-HTML.md)
 	- [Block and Inline Elements](/Stage-3/Block-and-Inline-Elements.md)
@@ -65,7 +65,7 @@ Feel free to explore, learn, and contribute
 
 <hr>
 
-### [Stage 4](/Stage-4)
+### [Stage 4 First Steps into CSS](/Stage-4)
 - [Introduction to CSS](/Stage-4/readme.md)
 	- [CSS Syntax](/Stage-4/CSS-Syntax.md)
 	- [CSS Colors](/Stage-4/CSS-Colors.md)
@@ -79,7 +79,7 @@ Feel free to explore, learn, and contribute
   
 <hr>
 
-### [Stage 5](/Stage-5)
+### [Stage 5 CSS II](/Stage-5)
 - [CSS II](/Stage-5/readme.md)
 	- [Type, Class, ID Selectors](/Stage-5/CSS-Selectors.md)
 	- [Pseudo-classes](/Stage-5/CSS-Pseudo-Classes.md)
@@ -93,7 +93,7 @@ Feel free to explore, learn, and contribute
 
 <hr>
 
-### [Stage 6](/Stage-6)
+### [Stage 6 Flexbox & Grid](/Stage-6)
 - [HTML & CSS: Flexbox and Grid](/Stage-6/readme.md)
 	- [Flexbox in HTML and CSS](/Stage-6/Flexbox.md)
 		- [FlexBox Froggy](https://flexboxfroggy.com/)
@@ -106,13 +106,12 @@ Feel free to explore, learn, and contribute
 
 <hr>
 
-### [Stage 7](/Stage-7)
+### [Stage 7 Responsive Design](/Stage-7)
 - [Responsive Design](/Stage-7/readme.md)
 	- [Responsive Design](/Stage-7/responsive-desgin.md)
 	- [Media Queries](/Stage-7/media-queries.md)
 	- [Responsive Containers](/Stage-7/responsive-containers.md)
 	- [Responsive Images and Texts](/Stage-7/responsive-images.md)
-	- [BEM Methodology in CSS](/Stage-7/BEM-Metodology.md)
 - [TIPS](/Stage-7/tips.md)
 - [Projects](/Stage-7/projects)
   - [E-Commerce Responsive Design](/Stage-7/projects/e-commerce-html/)
@@ -122,7 +121,7 @@ Feel free to explore, learn, and contribute
 
 <hr>
 
-### [Stage 8](/Stage-8)
+### [Stage 8 BEM Methodology](/Stage-8)
 - [BEM Methodology](/Stage-8/readme.md)
 	- [BEM Methodology](/Stage-8/BEM-Metodology.md)
 	- [Practice Projects](/Stage-8/projects/)
@@ -130,7 +129,7 @@ Feel free to explore, learn, and contribute
 
 <hr>
 
-### [Stage 9](/Stage-9)
+### [Stage 9 SASS](/Stage-9)
 - [SASS](/Stage-9/readme.md)
 	- [SASS](/Stage-9/what-is-sass.md)
 	- [Variables in SASS](/Stage-9/variables.md)
@@ -147,7 +146,7 @@ Feel free to explore, learn, and contribute
 
 <hr>
 
-### [Stage 10](/Stage-10)
+### [Stage 10 Bootstrap](/Stage-10)
 - [Bootstrap](/Stage-10/readme.md)
 - [TIPS](/Stage-10/tips.md)
 - [Projects](/Stage-10/projects)
@@ -155,12 +154,12 @@ Feel free to explore, learn, and contribute
 
 <hr>
 
-### [Stage 11](/Stage-11)
+### [Stage 11 Hosting Static Websites](/Stage-11)
 - [Hosting Static Websites](/Stage-11/readme.md)
 
 <hr>
 
-### [Stage 12](/Stage-12)
+### [Stage 12 JavaScript I](/Stage-12)
 - [JavaScript I](/Stage-12/readme.md)
 	- [JavaScript Basics](/Stage-12/javascript-basics.md)
 	- [Data Types in JavaScript](/Stage-12/data-types.md)
@@ -171,16 +170,26 @@ Feel free to explore, learn, and contribute
 
 <hr>
 
-### [Stage 13](/Stage-13)
+### [Stage 13 JavaScript Functions and Conditionals](/Stage-13)
 - [JavaScript Functions and Conditionals](/Stage-13/readme.md)
 	- [Functions in JavaScript](/Stage-13/readme.md)
 	- [Conditionals in JavaScript](/Stage-13/readme.md)
 
 <hr>
 
-### [Stage 14](/Stage-14)
+### [Stage 14 JavaScript Loops](/Stage-14)
 - [JavaScript Loops](/Stage-14/readme.md)
 	- [Loops in JavaScript](/Stage-14/readme.md)
+	- [Types of Loops](/Stage-14/readme.md)
+
+<hr>	
+
+### [Stage 15 JavaScript Methods](/Stage-15)
+- [JavaScript Methods](/Stage-15/readme.md)
+	- [Array Methods](/Stage-15/readme.md)
+	- [String Methods](/Stage-15/readme.md)
+	- [Number Methods](/Stage-15/readme.md)
+	- [Object Methods](/Stage-15/readme.md)
 
 <hr>
 
@@ -220,6 +229,7 @@ Feel free to explore, learn, and contribute
 
 - Stage 10
   - [Bootstrap Blog Example](https://ebac-firebase-hosting-7e5af.web.app/)
+  - [My e-commerce](https://josh-ecommerce0.web.app/)
 
 <hr>
 
