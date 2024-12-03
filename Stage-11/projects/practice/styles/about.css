@@ -21,6 +21,9 @@ body {
   font-size: 4rem;
   transition: all 0.5s ease;
 }
+.header .header__title:hover {
+  color: rgba(7, 85, 0, 0.4666666667);
+}
 @media screen and (max-width: 440px) {
   .header .header__title {
     font-size: 3rem;

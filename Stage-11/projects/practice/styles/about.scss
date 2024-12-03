@@ -14,6 +14,10 @@
         color: #424242a2;
         font-size: 4rem;
         transition: all 0.5s ease;
+
+        &:hover {
+            color: #07550077;
+        }
         
         @include respond-to(440px) {
             font-size: 3rem;

@@ -13,7 +13,11 @@
         font-family: Georgia, 'Times New Roman', Times, serif;
         color: #424242a2;
         font-size: 4rem;
-        transition: all 0.5s ease;
+        transition: all 1s ease;
+
+        &:hover {
+            color: #07550077;
+        }
         
         @include respond-to(440px) {
             font-size: 3rem;
@@ -56,6 +60,7 @@
 
                 &:hover {
                     scale: 1.4;
+                    color: #074e00;
                 }
             }
         }
