@@ -88,3 +88,10 @@ console.log(dogName); // "robin"
 const arr = [0, 1, 2, 3, 4]
 const arr2 = [...arr, "a", "b", "c", false] // insert the content of "arr" to "arr2" using spread operator "..."
 console.log(arr2)
+
+//you can use it to clone array 
+const newArr = [...arr2];
+console.log(newArr)
+
+const obj2 = {...obj, age: 5} // dogName: "robin", species: "dog", age: 5
+console.log(obj2)
