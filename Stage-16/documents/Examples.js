@@ -99,6 +99,7 @@ console.log(obj2)
 
 //Rest
 const loopArr = (...ex) => {
+    console.log(`array: ${ex}`)
     for(val of ex) { //for of used for arrays
         console.log(val);
     }
