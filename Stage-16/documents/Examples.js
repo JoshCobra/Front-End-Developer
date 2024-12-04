@@ -80,3 +80,11 @@ const obj = {
 
 const {dogName, species} = obj;
 console.log(dogName); // "robin"
+
+// ------------------------------------------------
+
+// Spread Operator and Rest Operator
+
+const arr = [0, 1, 2, 3, 4]
+const arr2 = [...arr, "a", "b", "c", false] // insert the content of "arr" to "arr2" using spread operator "..."
+console.log(arr2)
