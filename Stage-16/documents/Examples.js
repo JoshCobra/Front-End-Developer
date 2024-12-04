@@ -98,3 +98,10 @@ const obj2 = {...obj, age: 5} // dogName: "robin", species: "dog", age: 5
 console.log(obj2)
 
 //Rest
+const loopArr = (...ex) => {
+    for(val of ex) { //for of used for arrays
+        console.log(val);
+    }
+}
+
+loopArr("josh", "mary", "robin", "lua");
