@@ -70,7 +70,7 @@ console.log(animals[2]) // cow
 
 // now
 const [an1, an2, an3, an4] = animals;
-console.log(an1) // dog
+console.log(an3) // cow
 
 
 const obj = {
