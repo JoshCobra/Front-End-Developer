@@ -56,3 +56,27 @@ allowed using backtick` //multiline string
 
 // Template Literals
 
+const h = "world"
+const before = "hello " + h // hello world
+
+const now = `hello ${h}` // hello world
+
+
+// Destructing
+
+// before, to access the array 
+const animals = ["dog", "cat", "cow", "chicken"]
+console.log(animals[2]) // cow 
+
+// now
+const [an1, an2, an3, an4] = animals;
+console.log(an1) // dog
+
+
+const obj = {
+    dogName: "robin",
+    species: "dog"
+}
+
+const {dogName, species} = obj;
+console.log(dogName); // "robin"
