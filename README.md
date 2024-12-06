@@ -3,7 +3,7 @@
 
 <p align="center">
 <img src="https://img.shields.io/badge/Start-12/10/2024-%23238725?style=for-the-badge">
-<img src="https://img.shields.io/badge/Current-Stage_15_JavaScript-%23238725?style=for-the-badge">
+<img src="https://img.shields.io/badge/Current-Stage_17_JavaScript-%23238725?style=for-the-badge">
 <img src="https://img.shields.io/github/last-commit/JoshCobra/Front-End-Developer?style=for-the-badge&color=%23238725">
 </p>
 
@@ -193,6 +193,16 @@ Feel free to explore, learn, and contribute
 	- [JavaScript Scope](/Stage-15/readme.md)
 
 <hr>
+
+### [Stage 16 JavaScript ES6+ Characteristics](/Stage-16)
+- [JavaScript ES6+ Characteristics](/Stage-16/readme.md)
+	- [Arrow Functions](/Stage-16/readme.md)
+	- [Template Literals](/Stage-16/readme.md)
+	- [Destructuring Assignment](/Stage-16/readme.md)
+	- [Default Parameters](/Stage-16/readme.md)
+	- [Rest and Spread Operators](/Stage-16/readme.md)
+	- [Classes](/Stage-16/readme.md)
+- [Local Storage](/Stage-16/local-storage.md)
 
   ### Projects
   - Stage-2
