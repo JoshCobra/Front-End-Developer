@@ -29,3 +29,14 @@ dog2.giveInfo() // 'Dog named Blacky, age 12, color black, weight 25, size mediu
 
 dog2.birthday() // 'Dogs BirthDay, New age is: 13'
 dog1.bark() // 'Robin Woof Woof!!!'
+
+
+// Local Storage
+
+localStorage.setItem("user", "user03945"); // Save item in local storage
+localStorage.removeItem("user") // Delete item
+
+const user = localStorage.getItem("user") //get the item
+
+console.log(`User name is: ${user}`)
+console.log(`User name is: ${localStorage.getItem("user")}`)
