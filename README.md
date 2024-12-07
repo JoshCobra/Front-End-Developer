@@ -194,7 +194,7 @@ Feel free to explore, learn, and contribute
 
 <hr>
 
-### [Stage 16 JavaScript ES6+ Characteristics](/Stage-16)
+### [Stage 16 JavaScript ES6+ Characteristics and More](/Stage-16)
 - [JavaScript ES6+ Characteristics](/Stage-16/readme.md)
 	- [Arrow Functions](/Stage-16/readme.md)
 	- [Template Literals](/Stage-16/readme.md)
@@ -203,6 +203,9 @@ Feel free to explore, learn, and contribute
 	- [Rest and Spread Operators](/Stage-16/readme.md)
 	- [Classes](/Stage-16/readme.md)
 - [Local Storage](/Stage-16/local-storage.md)
+	- [Exercise](/Stage-16/documents/excercises/excercises.js)
+
+<hr>
 
   ### Projects
   - Stage-2
