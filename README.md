@@ -207,6 +207,15 @@ Feel free to explore, learn, and contribute
 
 <hr>
 
+### [Stage 17 Interactive Websites: DOM and Events](/Stage-17)
+- [Interactive Websites: DOM and Events](/Stage-17/readme.md)
+	- [Understanding the DOM](/Stage-17/readme.md)
+	- [Manipulating the DOM](/Stage-17/readme.md)
+	- [Event Handling](/Stage-17/readme.md)
+	- [Examples](/Stage-17/readme.md)
+
+<hr>
+
   ### Projects
   - Stage-2
     - [The Basics in HTML](Stage-2/documents/basics-html)
