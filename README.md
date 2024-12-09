@@ -211,6 +211,7 @@ Feel free to explore, learn, and contribute
 - [Interactive Websites: DOM and Events](/Stage-17/readme.md)
 	- [Understanding the DOM](/Stage-17/readme.md)
 	- [Manipulating the DOM](/Stage-17/readme.md)
+	- [Common DOM Methods](/Stage-17/readme.md)
 	- [Event Handling](/Stage-17/readme.md)
 	- [Examples](/Stage-17/readme.md)
 
