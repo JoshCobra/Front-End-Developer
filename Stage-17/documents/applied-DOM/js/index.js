@@ -104,3 +104,12 @@ cartIcon.addEventListener('click', () => {
     cart.classList.toggle('toggle')
 })
 
+const productMouse = document.querySelector(".mouse")
+
+productMouse.addEventListener("mouseenter", () => {
+    productMouse.style.opacity = "0.7"
+})
+
+productMouse.addEventListener("mouseleave", () => {
+    productMouse.style.opacity = "1"
+})
