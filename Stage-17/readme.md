@@ -17,7 +17,7 @@ The DOM is a programming interface for web documents. It represents the page so 
 ## Manipulating the DOM
 JavaScript provides several methods to manipulate the DOM, such as `getElementById`, `querySelector`, `createElement`, and `appendChild`.
 
-## Common DOM Methods
+## [Common DOM Methods](dom-methods.md)
 Here are some commonly used DOM methods:
 
 - `getElementById(id)`: Selects an element by its ID.
