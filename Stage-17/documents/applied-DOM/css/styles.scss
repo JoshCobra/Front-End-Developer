@@ -1,9 +1,5 @@
-$white: #fff;
-$mainColor: #348f22; /*Mejor tener un color solido y luego agregar la transparencia si es necesario*/
-$textColor: #3f3f3f;
-$bgColor: #333;
-$titleWeight: 700;
-$fontFamily: 'Lexend', Arial, Helvetica, sans-serif;
+@import "./variables";
+
 
 @mixin flexbox($justify:space-between, $align:center) { 
     /* Teniendo variables facilitamos la modificación en caso de ser necesario*/
@@ -41,14 +37,14 @@ body {
         @include flexbox();
         background-color: $bgColor;
         width: 100%;
-        padding: 20px 50px;
+        padding: 10px 50px;
         box-sizing: border-box;
         position: sticky;
         top: 0;
         box-shadow: 0 0 10px $bgColor;
 
         .header__logo {
-            width: 4rem;
+            width: 3rem;
             cursor: pointer;
         }
 
@@ -71,6 +67,7 @@ body {
         background-size: cover;
         background-position-y: 25%;
         color: $white;
+        margin-bottom: 50px;
 
         .banner__title {
             width: 100%;
@@ -101,6 +98,7 @@ body {
             .products-item__img {
                 width: 12.5rem;
                 margin-bottom: 15px;
+                border-radius: 5px;
             }
 
             .products-item__title {
@@ -116,6 +114,7 @@ body {
 
             .products-item__btn {
                 @extend %btn;
+                border-radius: 5px;
             }
 
             .products-item__btn:hover {
@@ -140,7 +139,7 @@ body {
         box-sizing: border-box;
         height: 100%;
         position: fixed;
-        right: -100%; /* Oculta el carrito */
+        right: -200%; /* Oculta el carrito */
         top: 108px;
         box-shadow: -19px -1px 22px -15px rgba(0,0,0,0.75);
 

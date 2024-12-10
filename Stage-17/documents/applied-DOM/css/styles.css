@@ -28,14 +28,14 @@ body .header {
   align-items: center;
   background-color: #333;
   width: 100%;
-  padding: 20px 50px;
+  padding: 10px 50px;
   box-sizing: border-box;
   position: sticky;
   top: 0;
   box-shadow: 0 0 10px #333;
 }
 body .header .header__logo {
-  width: 4rem;
+  width: 3rem;
   cursor: pointer;
 }
 body .header .header__icon-menu, body .header .header__icon-cart {
@@ -54,6 +54,7 @@ body .banner {
   background-size: cover;
   background-position-y: 25%;
   color: #fff;
+  margin-bottom: 50px;
 }
 body .banner .banner__title {
   width: 100%;
@@ -81,6 +82,7 @@ body .products .products__item {
 body .products .products__item .products-item__img {
   width: 12.5rem;
   margin-bottom: 15px;
+  border-radius: 5px;
 }
 body .products .products__item .products-item__title {
   font-weight: 700;
@@ -90,6 +92,9 @@ body .products .products__item .products-item__title {
 body .products .products__item .products-item__price {
   font-weight: 300;
   font-size: 0.9rem;
+}
+body .products .products__item .products-item__btn {
+  border-radius: 5px;
 }
 body .products .products__item .products-item__btn:hover {
   background-color: #333;
@@ -108,7 +113,7 @@ body .cart {
   box-sizing: border-box;
   height: 100%;
   position: fixed;
-  right: -100%; /* Oculta el carrito */
+  right: -200%; /* Oculta el carrito */
   top: 108px;
   box-shadow: -19px -1px 22px -15px rgba(0, 0, 0, 0.75);
 }
