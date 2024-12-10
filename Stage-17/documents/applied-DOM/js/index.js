@@ -107,9 +107,9 @@ cartIcon.addEventListener('click', () => {
 const productMouse = document.querySelector(".mouse")
 
 productMouse.addEventListener("mouseenter", () => {
-    productMouse.style.opacity = "0.7"
+    productMouse.style.scale = "1.02"
 })
 
 productMouse.addEventListener("mouseleave", () => {
-    productMouse.style.opacity = "1"
+    productMouse.style.scale = "1"
 })
