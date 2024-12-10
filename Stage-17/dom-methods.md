@@ -84,4 +84,4 @@ These are some of the most commonly used DOM methods in JavaScript. There are ma
 
 [Practical Examples Here](documents/applied-DOM/js/index.js)
 
-![console.log of examples](image.png)
+![console.log of examples](resources/console-log-example.png)
