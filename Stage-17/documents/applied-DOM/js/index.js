@@ -19,3 +19,13 @@ console.log(elem)
 const elem2 = document.querySelectorAll(".products__item")
 // Selects all the elements that matches "class= "products__item""
 console.log(elem2) // NodeList 
+
+
+// CREATE ELEMENTS
+const parent = document.querySelector(".products")
+const newElem = document.createElement("article")
+
+newElem.setAttribute("class","new") // <article class="new"></article>
+console.log(newElem)
+
+parent.append(newElem) // adds the "newElem" to parent ".products" 
