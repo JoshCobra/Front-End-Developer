@@ -125,6 +125,10 @@ body {
                     background-color: blue;
                     font-weight: 800;
                 }
+
+                &.toggle {
+                    background-color: #0011ff;
+                }
             }
 
             .products-item__btn:hover {
@@ -152,6 +156,11 @@ body {
         right: -200%; /* Oculta el carrito */
         top: 108px;
         box-shadow: -19px -1px 22px -15px rgba(0,0,0,0.75);
+        transition: 0.3s all ease;
+
+        &.toggle {
+            right: 0%;
+        }
 
         .cart__title {
             text-align: center;
@@ -179,6 +188,24 @@ body {
             .cart-item__quit:hover {
                 color: $mainColor;
             }
+        }
+
+        .products-item__btn {
+            @extend %btn;
+            border-radius: 5px;
+        }
+
+        .products-item__btn:hover {
+            background-color: $bgColor;
+        }
+
+        .products-item__btn--disabled { 
+            opacity: 0.4;
+            cursor: not-allowed;
+        }
+
+        .products-item__btn--disabled:hover { 
+            background-color: $mainColor;
         }
     }
 }

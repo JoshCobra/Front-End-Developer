@@ -58,7 +58,7 @@ const button = parent3.lastElementChild; // Selects <button class="products-item
 console.log(parent3)
 console.log(button)
 
-button.classList.add("red") // <button class="products-item__btn red">Comprar</button>
+// button.classList.add("red") // <button class="products-item__btn red">Comprar</button>
 // button.classList.remove("red") removes the class list "red"
 // button.classList.replace("red", "blue") first the class to replace and second the replacement class
 
@@ -82,5 +82,25 @@ button.style.color = 'black' // Modifies the text color of the button
 // target.addEventListener(event, function)
 
 button.addEventListener('click', () => {
-    button.style.color = 'white'; //Changes text color on click
+    button.classList.toggle('toggle') //toggle class that toggles the bg color
+    button.style.color = 'red'; //Changes text color on click
 })
+
+const removeItem = document.querySelectorAll(".remove")
+console.log(removeItem) // NodeList(3)
+
+removeItem.forEach(elem => {
+    elem.addEventListener("click", () => {
+        elem.remove();
+    })
+})
+
+const header = document.querySelector("header")
+const cartIcon = header.lastElementChild
+const cart = document.querySelector(".cart")
+//console.log(cartIcon)
+
+cartIcon.addEventListener('click', () => {
+    cart.classList.toggle('toggle')
+})
+
