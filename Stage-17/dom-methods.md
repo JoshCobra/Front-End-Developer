@@ -81,3 +81,5 @@ Now that you know how to add JavaScript to your HTML file, let's look at some of
 10. `element.addEventListener()`: This method is used to add an event listener to an element.
 
 These are some of the most commonly used DOM methods in JavaScript. There are many more DOM methods that you can use to interact with the DOM. You can refer to the [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model) for more information on DOM methods in JavaScript.
+
+[Practical Examples Here](documents/applied-DOM/js/index.js)
