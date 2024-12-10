@@ -1,9 +1,10 @@
-console.log("My E-Commerce");
+// SELECT ELEMENTS OF THE DOM
+console.log("My E-Commerce")
 
-const title = document.getElementById("first-title");
+const title = document.getElementById("first-title")
 console.log(title) // id only selects one element as is an id
 
-const itemPrice = document.getElementsByClassName("products-item__price");
+const itemPrice = document.getElementsByClassName("products-item__price")
 console.log(itemPrice) 
 // HTML Collection of all elements with class name "products-item__price", as it is a class
 
@@ -20,6 +21,7 @@ const elem2 = document.querySelectorAll(".products__item")
 // Selects all the elements that matches "class= "products__item""
 console.log(elem2) // NodeList 
 
+//---------------------------------------------------------------------------
 
 // CREATE ELEMENTS
 const parent = document.querySelector(".products")
@@ -29,3 +31,56 @@ newElem.setAttribute("class","new") // <article class="new"></article>
 console.log(newElem)
 
 parent.append(newElem) // adds the "newElem" to parent ".products" 
+
+//---------------------------------------------------------------------------
+
+//MODIFY ATTRIBUTES
+const logo = document.querySelector(".header__logo")
+// logo.setAttribute("src","") Change an existing attribute
+
+console.log(logo.getAttribute("src")) // img/cobra-logo.png
+console.log(logo.hasAttribute("src")) // true, indicates if the element has the indicated attribute
+// logo.removeAttribute("src") removes the attribute
+
+if (logo.hasAttribute("src")) {
+    //alert("ALERT!!")
+}
+
+//---------------------------------------------------------------------------
+
+// CSS CLASSES
+
+// Select element based on its position 
+const parent2 = document.querySelector(".products")
+const parent3 = parent2.firstElementChild;
+const button = parent3.lastElementChild; // Selects <button class="products-item__btn">Comprar</button>
+
+console.log(parent3)
+console.log(button)
+
+button.classList.add("red") // <button class="products-item__btn red">Comprar</button>
+// button.classList.remove("red") removes the class list "red"
+// button.classList.replace("red", "blue") first the class to replace and second the replacement class
+
+
+// Modify Text
+const banner__subtitle = document.getElementsByClassName("banner__subtitle")
+
+console.log(banner__subtitle[0].innerText)
+
+banner__subtitle[0].innerText = "Explore Our New Products"
+
+
+// Modify Style
+console.log(button.style)
+button.style.color = 'black' // Modifies the text color of the button
+
+//---------------------------------------------------------------------------
+
+// EVENTS 
+// Syntax
+// target.addEventListener(event, function)
+
+button.addEventListener('click', () => {
+    button.style.color = 'white'; //Changes text color on click
+})

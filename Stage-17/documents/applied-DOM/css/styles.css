@@ -96,6 +96,14 @@ body .products .products__item .products-item__price {
 body .products .products__item .products-item__btn {
   border-radius: 5px;
 }
+body .products .products__item .products-item__btn.red {
+  background-color: red;
+  font-weight: 800;
+}
+body .products .products__item .products-item__btn.blue {
+  background-color: blue;
+  font-weight: 800;
+}
 body .products .products__item .products-item__btn:hover {
   background-color: #333;
 }

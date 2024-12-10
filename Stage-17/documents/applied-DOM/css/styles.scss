@@ -115,6 +115,16 @@ body {
             .products-item__btn {
                 @extend %btn;
                 border-radius: 5px;
+                
+                &.red {
+                    background-color: red;
+                    font-weight: 800;
+                }
+
+                &.blue {
+                    background-color: blue;
+                    font-weight: 800;
+                }
             }
 
             .products-item__btn:hover {
