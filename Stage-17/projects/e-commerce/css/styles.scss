@@ -30,6 +30,15 @@
     cursor: pointer;
 }
 
+%closeIcon {
+    color: $bgColor;
+    transition: $transition;
+
+    &:hover {
+        color: $mainColor;
+    }
+}
+
 body {
     @include body();
 
@@ -141,9 +150,27 @@ body {
         right: -200%; /* Oculta el carrito */
         top: 108px;
         box-shadow: -19px -1px 22px -15px rgba(0,0,0,0.75);
+        transition: $transition;
 
-        .cart__title {
-            text-align: center;
+        &.open {
+            right: 0;
+        }
+
+        .cart__top {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 30px;
+
+            .cart__closeIcon {
+                @extend %closeIcon;
+                cursor: pointer;
+
+                svg {
+                    width: 35px;
+                    height: 35px;
+                }
+            }
         }
 
         .cart__item {
@@ -154,6 +181,10 @@ body {
 
             .cart-item__img {
                 width: 5rem;
+            }
+
+            .cart-item__title {
+                font-weight: 400;
             }
             
             .cart-item__price {
@@ -167,6 +198,62 @@ body {
             
             .cart-item__quit:hover {
                 color: $mainColor;
+            }
+        }
+    }
+
+    .menu {
+        width: 150px;
+        height: 280px;
+        background-color: $white;
+        padding: 15px;
+        box-sizing: border-box;
+        position: fixed;
+        left: -200%; /* Oculta el menu */
+        top: 108px;
+        box-shadow: 19px -1px 22px -15px rgba(0,0,0,0.75);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: $transition;
+
+        &.open {
+            left: 0%;
+        }
+
+        .menu__top {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            h2 {
+                font-size: 1.1rem;
+            }
+
+            .menu__closeIcon {
+                @extend %closeIcon;
+                cursor: pointer;
+            }
+        }
+
+        nav {
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 20px;
+            flex-grow: 1;
+
+            a {
+                text-decoration: none;
+                color: $mainColor;
+                font-weight: 800;
+                font-size: 1.2rem;
+                transition: $transition;
+
+                &:hover {
+                    color: $bgColor;
+                }
             }
         }
     }

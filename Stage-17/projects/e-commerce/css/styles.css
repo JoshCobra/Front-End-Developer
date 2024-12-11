@@ -13,6 +13,14 @@ body .products .products__item .products-item__btn {
   cursor: pointer;
 }
 
+body .menu .menu__top .menu__closeIcon, body .cart .cart__top .cart__closeIcon {
+  color: #333;
+  transition: all 0.5s ease;
+}
+body .menu .menu__top .menu__closeIcon:hover, body .cart .cart__top .cart__closeIcon:hover {
+  color: #348f22;
+}
+
 body {
   width: 100%;
   font-size: 1rem;
@@ -115,9 +123,23 @@ body .cart {
   right: -200%; /* Oculta el carrito */
   top: 108px;
   box-shadow: -19px -1px 22px -15px rgba(0, 0, 0, 0.75);
+  transition: all 0.5s ease;
 }
-body .cart .cart__title {
-  text-align: center;
+body .cart.open {
+  right: 0;
+}
+body .cart .cart__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+body .cart .cart__top .cart__closeIcon {
+  cursor: pointer;
+}
+body .cart .cart__top .cart__closeIcon svg {
+  width: 35px;
+  height: 35px;
 }
 body .cart .cart__item {
   border-bottom: 1px solid #333;
@@ -131,6 +153,9 @@ body .cart .cart__item {
 body .cart .cart__item .cart-item__img {
   width: 5rem;
 }
+body .cart .cart__item .cart-item__title {
+  font-weight: 400;
+}
 body .cart .cart__item .cart-item__price {
   font-weight: 700;
 }
@@ -140,6 +165,53 @@ body .cart .cart__item .cart-item__quit {
 }
 body .cart .cart__item .cart-item__quit:hover {
   color: #348f22;
+}
+body .menu {
+  width: 150px;
+  height: 280px;
+  background-color: #fff;
+  padding: 15px;
+  box-sizing: border-box;
+  position: fixed;
+  left: -200%; /* Oculta el menu */
+  top: 108px;
+  box-shadow: 19px -1px 22px -15px rgba(0, 0, 0, 0.75);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.5s ease;
+}
+body .menu.open {
+  left: 0%;
+}
+body .menu .menu__top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+body .menu .menu__top h2 {
+  font-size: 1.1rem;
+}
+body .menu .menu__top .menu__closeIcon {
+  cursor: pointer;
+}
+body .menu nav {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  flex-grow: 1;
+}
+body .menu nav a {
+  text-decoration: none;
+  color: #348f22;
+  font-weight: 800;
+  font-size: 1.2rem;
+  transition: all 0.5s ease;
+}
+body .menu nav a:hover {
+  color: #333;
 }
 
 @media (max-width: 820px) {
