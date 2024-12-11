@@ -61,3 +61,5 @@ cart.addEventListener("click", (event) => {
 });
 // --------------------------------------------------------------
 
+const cart__item = document.querySelectorAll(".cart__item")
+
