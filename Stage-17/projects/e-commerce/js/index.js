@@ -36,15 +36,16 @@ Array.from(button).forEach(btn => {
         productClone.classList.add("remove")
         
         const productImg = productClone.querySelector("img")
-        productImg.classList = "cart-item__img"
+        productImg.classList = "cart-item__img";
 
         const productH3 = productClone.querySelector("h3")
-        productH3.classList = "cart-item__title"
+        productH3.classList = "cart-item__title";
 
         const productPrice = productClone.querySelector("p")
-        productPrice.classList = "cart-item__price"
+        productPrice.classList = "cart-item__price";
 
-        const trashIcon = 
+        const button = productClone.querySelector("button")
+        button.remove();
 
         cart.appendChild(productClone);
     });

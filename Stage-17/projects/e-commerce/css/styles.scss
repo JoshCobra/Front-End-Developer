@@ -131,10 +131,6 @@ body {
             .products-item__btn {
                 @extend %btn;
                 border-radius: 5px;
-
-                &.hide {
-                    display: none;
-                }
             }
 
             .products-item__btn:hover {
