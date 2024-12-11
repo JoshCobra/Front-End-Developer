@@ -120,9 +120,21 @@ body {
                 font-size: 0.9rem;
             }
 
+            .cart-item__quit {
+                display: none;
+
+                &.show {
+                    display: inline;
+                }
+            }
+
             .products-item__btn {
                 @extend %btn;
                 border-radius: 5px;
+
+                &.hide {
+                    display: none;
+                }
             }
 
             .products-item__btn:hover {
@@ -173,7 +185,7 @@ body {
             }
         }
 
-        .cart__item {
+        article {
             border-bottom: 1px solid $bgColor;
             @include flexbox(space-around);
             padding: 15px;

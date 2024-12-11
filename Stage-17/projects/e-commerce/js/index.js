@@ -34,8 +34,18 @@ Array.from(button).forEach(btn => {
         const productClone = productItem.cloneNode(true);
         productClone.classList = "cart_item";
         productClone.classList.add("remove")
-
         
+        const productImg = productClone.querySelector("img")
+        productImg.classList = "cart-item__img"
+
+        const productH3 = productClone.querySelector("h3")
+        productH3.classList = "cart-item__title"
+
+        const productPrice = productClone.querySelector("p")
+        productPrice.classList = "cart-item__price"
+
+        const trashIcon = 
+
         cart.appendChild(productClone);
     });
 }); 
