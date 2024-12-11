@@ -9,7 +9,7 @@ menuIcon.addEventListener("click", () => {
 document.querySelector(".menu__closeIcon").addEventListener("click", () => {
     document.querySelector(".menu").classList.remove('open');
 })
-
+// --------------------------------------------------------------
 
 // Cart Toggle 
 const cartIcon = document.querySelector(".header__icon-cart")
@@ -22,6 +22,7 @@ cartIcon.addEventListener("click", () => {
 document.querySelector(".cart__closeIcon").addEventListener("click", () => {
     document.querySelector(".cart").classList.remove('open');
 })
+// --------------------------------------------------------------
 
 // Add To Cart
 const products__items = document.getElementsByClassName("products__item")
@@ -50,7 +51,7 @@ Array.from(button).forEach(btn => {
         cart.appendChild(productClone);
     });
 }); 
-
+// --------------------------------------------------------------
 
 // Remove From Cart
 cart.addEventListener("click", (event) => {
@@ -58,3 +59,5 @@ cart.addEventListener("click", (event) => {
         event.target.closest(".cart_item").remove();
     }
 });
+// --------------------------------------------------------------
+
