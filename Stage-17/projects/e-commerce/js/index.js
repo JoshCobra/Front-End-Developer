@@ -53,10 +53,8 @@ Array.from(button).forEach(btn => {
 
 
 // Remove From Cart
-const removeItem = document.querySelectorAll(".remove")
-
-removeItem.forEach(elem => {
-    elem.addEventListener("click", () => {
-        elem.remove();
-    })
-})
+cart.addEventListener("click", (event) => {
+    if (event.target.classList.contains("cart-item__quit")) {
+        event.target.closest(".cart_item").remove();
+    }
+});
