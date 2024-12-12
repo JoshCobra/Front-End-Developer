@@ -215,6 +215,8 @@ Feel free to explore, learn, and contribute
 	- [Event Handling](/Stage-17/readme.md)
 	- [Examples](/Stage-17/readme.md)
 - [TIPS](/Stage-17/tips.md)
+- [Projects](/Stage-17/projects)
+	- [e-commerce](https://joshcobra.github.io/e-commerce/) *spanish*
 
 <hr>
 
@@ -255,6 +257,9 @@ Feel free to explore, learn, and contribute
 - Stage 10
   - [Bootstrap Blog Example](https://ebac-firebase-hosting-7e5af.web.app/)
   - [My e-commerce](https://josh-ecommerce0.web.app/)
+
+- Stage 17
+  - [e-commerce](https://joshcobra.github.io/e-commerce/) *spanish*
 
 <hr>
 
