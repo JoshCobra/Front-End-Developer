@@ -37,7 +37,7 @@ Here are some commonly used DOM methods:
 
 These methods allow you to select, create, and manipulate elements in the DOM to build dynamic and interactive web pages.
 
-## Event Handling
+## [Event Handling](event-handling.md)
 Events are actions that occur when the user interacts with the web page. JavaScript can respond to these events using event listeners.
 
 ## Examples

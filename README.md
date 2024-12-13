@@ -212,11 +212,11 @@ Feel free to explore, learn, and contribute
 	- [Understanding the DOM](/Stage-17/readme.md)
 	- [Manipulating the DOM](/Stage-17/readme.md)
 	- [Common DOM Methods](/Stage-17/dom-methods.md)
-	- [Event Handling](/Stage-17/readme.md)
+	- [Event Handling](/Stage-17/event-handling.md)
 	- [Examples](/Stage-17/readme.md)
 - [TIPS](/Stage-17/tips.md)
 - [Projects](/Stage-17/projects)
-	- [e-commerce](https://joshcobra.github.io/e-commerce/) *spanish*
+	- [e-commerce](https://joshcobra.github.io/e-commerce/) *in progress...*
 
 <hr>
 
@@ -259,7 +259,7 @@ Feel free to explore, learn, and contribute
   - [My e-commerce](https://josh-ecommerce0.web.app/)
 
 - Stage 17
-  - [e-commerce](https://joshcobra.github.io/e-commerce/) *spanish*
+  - [e-commerce](https://joshcobra.github.io/e-commerce/) *in progress...*
 
 <hr>
 
