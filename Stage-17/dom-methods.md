@@ -60,25 +60,42 @@ Now that you know how to add JavaScript to your HTML file, let's look at some of
 
 ### Commonly Used DOM Methods
 
+When selecting elements some functions return a **single element**, others will return a **collection of elements** and others a **static element collection**. When selecting elements, you can use the following methods:
+
+#### Single Element
 1. `document.getElementById()`: This method is used to get an element by its id. It returns the element with the specified id.
 
-2. `document.getElementsByClassName()`: This method is used to get elements by their class name. It returns a collection of elements with the specified class name.
+2. `document.querySelector()`: This method is used to get the first element that matches a specified CSS selector. It returns the first element that matches the specified selector.
 
-3. `document.getElementsByTagName()`: This method is used to get elements by their tag name. It returns a collection of elements with the specified tag name.
+#### Collection of Elements
 
-4. `document.querySelector()`: This method is used to get the first element that matches a specified CSS selector. It returns the first element that matches the specified selector.
+1. `document.getElementsByClassName()`: This method is used to get elements by their class name. It returns a collection of elements with the specified class name.
 
-5. `document.querySelectorAll()`: This method is used to get all elements that match a specified CSS selector. It returns a collection of elements that match the specified selector.
+2. `document.getElementsByTagName()`: This method is used to get elements by their tag name. It returns a collection of elements with the specified tag name.
 
-6. `element.innerHTML`: This property is used to get or set the HTML content of an element.
+3. `document.querySelectorAll()`: This method is used to get all elements that match a specified CSS selector. It returns a collection of elements that match the specified selector.
 
-7. `element.textContent`: This property is used to get or set the text content of an element.
+#### Static Element Collection
 
-8. `element.setAttribute()`: This method is used to set the value of an attribute on an element.
+1. `document.images`: This property is used to get a collection of all the `<img>` elements in the document.
 
-9. `element.getAttribute()`: This method is used to get the value of an attribute on an element.
+2. `document.links`: This property is used to get a collection of all the `<a>` elements in the document.
 
-10. `element.addEventListener()`: This method is used to add an event listener to an element.
+3. `document.forms`: This property is used to get a collection of all the `<form>` elements in the document.
+
+4. `document.scripts`: This property is used to get a collection of all the `<script>` elements in the document.
+
+When you have selected an element, you can use the following methods to manipulate the element:
+
+1. `element.innerHTML`: This property is used to get or set the HTML content of an element.
+
+2. `element.textContent`: This property is used to get or set the text content of an element.
+
+3. `element.setAttribute()`: This method is used to set the value of an attribute on an element.
+
+4. `element.getAttribute()`: This method is used to get the value of an attribute on an element.
+
+5. `element.addEventListener()`: This method is used to add an event listener to an element.
 
 These are some of the most commonly used DOM methods in JavaScript. There are many more DOM methods that you can use to interact with the DOM. You can refer to the [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model) for more information on DOM methods in JavaScript.
 
