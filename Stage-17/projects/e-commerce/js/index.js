@@ -52,3 +52,5 @@ cart.addEventListener("click", (event) => {
 // --------------------------------------------------------------
 
 // Total Cart Items
+const cartItems = document.querySelectorAll(".cart__item")
+console.log(cartItems)
