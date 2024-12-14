@@ -30,16 +30,18 @@ const addToCartBtn = document.querySelectorAll(".products-item__btn")
 const item = document.querySelectorAll(".products__item")
 
 // When NodeLis, we need to add event listener for each
-addToCartBtn.forEach((button, index) => {
-    button.addEventListener("click", () => {
-        const selectedItem = item[index].cloneNode(true);
-        selectedItem.classList = "cart__item remove";
-        if (selectedItem.querySelector("button").classList == "products-item__btn") {
-            selectedItem.querySelector("button").style.display = "none";
-        }
-        cart.appendChild(selectedItem);
+function addToCart() {
+    addToCartBtn.forEach((button, index) => {
+        button.addEventListener("click", () => {
+            const selectedItem = item[index].cloneNode(true);
+            selectedItem.classList = "cart__item remove";
+            if (selectedItem.querySelector("button").classList == "products-item__btn") {
+                selectedItem.querySelector("button").style.display = "none";
+            }
+            cart.appendChild(selectedItem);
+        });
     });
-});
+}
 
 // --------------------------------------------------------------
 
@@ -52,5 +54,12 @@ cart.addEventListener("click", (event) => {
 // --------------------------------------------------------------
 
 // Total Cart Items
-const cartItems = document.querySelectorAll(".cart__item")
-console.log(cartItems)
+
+const cartItems = document.querySelectorAll(".cart__item").length
+
+if (cart.classList.contains("cart__item")) {
+    console.log("Nada en el carrito")
+} else {
+    addToCart();
+    console.log(cartItems)
+}
