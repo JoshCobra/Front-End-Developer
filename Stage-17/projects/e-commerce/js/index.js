@@ -5,6 +5,8 @@ const menuIcon = document.querySelector(".header__icon-menu")
 
 const cart = document.querySelector(".cart")
 const cartIcon = document.querySelector(".header__icon-cart")
+cartIcon.appendChild(document.createElement("p"));
+const cartItemsIndicator = document.querySelector(".header__icon-cart p")
 
 const addToCartBtn = document.querySelectorAll(".products-item__btn")
 
@@ -22,7 +24,7 @@ document.querySelector(".menu__closeIcon").addEventListener("click", () => {
 
 // Cart Toggle 
 cartIcon.addEventListener("click", () => {
-    document.querySelector(".cart").classList.toggle('open')
+    cart.classList.toggle('open')
 })
 
 document.querySelector(".cart__closeIcon").addEventListener("click", () => {
@@ -37,9 +39,11 @@ function addToCart() {
         button.addEventListener("click", () => {
             const selectedItem = item[index].cloneNode(true);
             selectedItem.classList = "cart__item remove";
+
             if (selectedItem.querySelector("button").classList == "products-item__btn") {
                 selectedItem.querySelector("button").style.display = "none";
             }
+
             cart.appendChild(selectedItem);
             updateCartItems();
         });
@@ -52,15 +56,17 @@ function addToCart() {
 cart.addEventListener("click", (event) => {
     if (event.target.classList.contains("cart-item__quit")) {
         event.target.closest(".remove").remove();
+
         updateCartItems();
     }
 });
 // --------------------------------------------------------------
 
 // Update Total Cart Items
+
 function updateCartItems() {
     const cartItems = document.querySelectorAll(".cart__item").length;
-    console.log(cartItems);
+    cartItemsIndicator.innerHTML = cartItems
 }
 
 addToCart();
