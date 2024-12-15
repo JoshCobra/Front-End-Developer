@@ -1,13 +1,18 @@
 console.log("Josh's eCommerce (Tienda Cobra)")
-// Burger Menu Toggle
+
+const cart = document.querySelector(".cart")
+const addToCartBtn = document.querySelectorAll(".products-item__btn")
+const item = document.querySelectorAll(".products__item")
+const menu = document.querySelector(".menu")
 const menuIcon = document.querySelector(".header__icon-menu")
 
+// Burger Menu Toggle
 menuIcon.addEventListener("click", () => {
-    document.querySelector(".menu").classList.toggle('open');
+    menu.classList.toggle('open');
 })
 
 document.querySelector(".menu__closeIcon").addEventListener("click", () => {
-    document.querySelector(".menu").classList.remove('open');
+    menu.classList.remove('open');
 })
 // --------------------------------------------------------------
 
@@ -25,10 +30,6 @@ document.querySelector(".cart__closeIcon").addEventListener("click", () => {
 // --------------------------------------------------------------
 
 // Add To Cart
-const cart = document.querySelector(".cart")
-const addToCartBtn = document.querySelectorAll(".products-item__btn")
-const item = document.querySelectorAll(".products__item")
-
 // When NodeLis, we need to add event listener for each
 function addToCart() {
     addToCartBtn.forEach((button, index) => {
@@ -39,6 +40,7 @@ function addToCart() {
                 selectedItem.querySelector("button").style.display = "none";
             }
             cart.appendChild(selectedItem);
+            updateCartItems();
         });
     });
 }
@@ -49,6 +51,7 @@ function addToCart() {
 cart.addEventListener("click", (event) => {
     if (event.target.classList.contains("cart-item__quit")) {
         event.target.closest(".remove").remove();
+        updateCartItems();
     }
 });
 // --------------------------------------------------------------
@@ -57,9 +60,9 @@ cart.addEventListener("click", (event) => {
 
 const cartItems = document.querySelectorAll(".cart__item").length
 
-if (cart.classList.contains("cart__item")) {
-    console.log("Nada en el carrito")
-} else {
-    addToCart();
-    console.log(cartItems)
+function updateCartItems() {
+    const cartItems = document.querySelectorAll(".cart__item").length;
+    console.log(cartItems);
 }
+
+addToCart();
