@@ -1,10 +1,14 @@
 console.log("Josh's eCommerce (Tienda Cobra)")
 
-const cart = document.querySelector(".cart")
-const addToCartBtn = document.querySelectorAll(".products-item__btn")
-const item = document.querySelectorAll(".products__item")
 const menu = document.querySelector(".menu")
 const menuIcon = document.querySelector(".header__icon-menu")
+
+const cart = document.querySelector(".cart")
+const cartIcon = document.querySelector(".header__icon-cart")
+
+const addToCartBtn = document.querySelectorAll(".products-item__btn")
+
+const item = document.querySelectorAll(".products__item")
 
 // Burger Menu Toggle
 menuIcon.addEventListener("click", () => {
@@ -17,15 +21,12 @@ document.querySelector(".menu__closeIcon").addEventListener("click", () => {
 // --------------------------------------------------------------
 
 // Cart Toggle 
-const cartIcon = document.querySelector(".header__icon-cart")
-// console.log(cartIcon)
-
 cartIcon.addEventListener("click", () => {
     document.querySelector(".cart").classList.toggle('open')
 })
 
 document.querySelector(".cart__closeIcon").addEventListener("click", () => {
-    document.querySelector(".cart").classList.remove('open');
+    cart.classList.remove('open');
 })
 // --------------------------------------------------------------
 
@@ -56,10 +57,7 @@ cart.addEventListener("click", (event) => {
 });
 // --------------------------------------------------------------
 
-// Total Cart Items
-
-const cartItems = document.querySelectorAll(".cart__item").length
-
+// Update Total Cart Items
 function updateCartItems() {
     const cartItems = document.querySelectorAll(".cart__item").length;
     console.log(cartItems);
