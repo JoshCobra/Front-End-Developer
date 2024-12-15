@@ -7,9 +7,9 @@ const menuIcon = document.querySelector(".header__icon-menu")
 const cart = document.querySelector(".cart")
 const cartIcon = document.querySelector(".header__icon-cart")
 
-cartIcon.appendChild(document.createElement("p"));
-const cartItemsIndicator = document.querySelector(".header__icon-cart p")
-
+cartIcon.appendChild(document.createElement("span"));
+const cartItemsIndicator = document.querySelector(".header__icon-cart span")
+cartItemsIndicator.id = "cartItemsIndicator"
 cartItemsIndicator.textContent = "0"
 
 const addToCartBtn = document.querySelectorAll(".products-item__btn")
