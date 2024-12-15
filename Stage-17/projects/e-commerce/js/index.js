@@ -3,12 +3,17 @@ console.log("Josh's eCommerce (Tienda Cobra)")
 const menu = document.querySelector(".menu")
 const menuIcon = document.querySelector(".header__icon-menu")
 
+
 const cart = document.querySelector(".cart")
 const cartIcon = document.querySelector(".header__icon-cart")
+
 cartIcon.appendChild(document.createElement("p"));
 const cartItemsIndicator = document.querySelector(".header__icon-cart p")
 
+cartItemsIndicator.textContent = "0"
+
 const addToCartBtn = document.querySelectorAll(".products-item__btn")
+
 
 const item = document.querySelectorAll(".products__item")
 
@@ -63,10 +68,9 @@ cart.addEventListener("click", (event) => {
 // --------------------------------------------------------------
 
 // Update Total Cart Items
-
 function updateCartItems() {
     const cartItems = document.querySelectorAll(".cart__item").length;
-    cartItemsIndicator.innerHTML = cartItems
+    cartItemsIndicator.textContent = cartItems
 }
 
 addToCart();
