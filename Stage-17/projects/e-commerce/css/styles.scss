@@ -166,7 +166,7 @@ body {
         background-color: $white;
         padding: 25px;
         box-sizing: border-box;
-        height: 100%;
+        height: 80%;
         position: fixed;
         right: -200%; /* Oculta el carrito */
         top: 108px;
@@ -326,7 +326,7 @@ body {
         padding: 0 10px;
     }
     .cart {
-        width: 100%;
+        width: 300px;
         box-shadow: none;
     }
     .cart__title {
