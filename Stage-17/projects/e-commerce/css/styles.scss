@@ -296,13 +296,13 @@ body {
     .products-item__img {
         width: 9.3rem;
     }
-    .cart {
+    body .cart {
         width: 400px;
         top: 80px;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 490px) {
     .banner {
         padding: 2rem;
     }
@@ -325,19 +325,18 @@ body {
     .product-item__price {
         padding: 0 10px;
     }
-    .cart {
-        width: 300px;
+    body .cart {
+        width: 100%;
+        height: 100%;
         box-shadow: none;
-    }
-    .cart__title {
-        padding: 15px;
     }
     .cart__item {
         flex-direction: column;
         align-items: center;
+        font-size: 1rem;
     }
     .cart-item__img {
-        width: 100px;
+        width: 90px;
     }
     .cart-item__title {
         margin: 0;
