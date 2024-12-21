@@ -223,7 +223,7 @@ button {
 .subscription-form div #email:focus {
   border: 1px solid #ED1E1E;
 }
-.subscription-form div #name-form-error, .subscription-form div #success-subscription,
+.subscription-form div #name-form-error,
 .subscription-form div #email-form-error {
   font-family: #404040;
   padding: 10px;
@@ -233,11 +233,18 @@ button {
   font-size: 1rem;
   display: none;
 }
-.subscription-form div #name-form-error.show, .subscription-form div .show#success-subscription,
+.subscription-form div #name-form-error.show,
 .subscription-form div #email-form-error.show {
   display: inline;
 }
 .subscription-form div #success-subscription {
+  font-family: #404040;
+  padding: 10px;
+  background-color: #ED1E1E;
+  font-weight: 800;
+  color: #fff;
+  font-size: 1rem;
+  display: none;
   background-color: #008000;
 }
 .subscription-form div #success-subscription.show {

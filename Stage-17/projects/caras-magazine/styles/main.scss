@@ -181,7 +181,13 @@
         }
 
         #success-subscription {
-            @extend %name-form-error;
+            font-family: $text;
+            padding: 10px;
+            background-color: $red;
+            font-weight: 800;
+            color: $white;
+            font-size: 1rem;
+            display: none;
             background-color: #008000;
 
             &.show {
