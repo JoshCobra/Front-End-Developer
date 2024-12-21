@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Newsletter</title>
+</head>
+<body>
+    <header class="page-header">
+        <img src="img/logo-white.png" alt="logo-caras-rojo">
+        <img class="burger-menu" src="img/burger-menu.png" alt="burger-menu">
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Nosotros</a>
+            <a href="#">Contacto</a>
+            <div class="header-search-icon">
+                <i data-feather="search"></i>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="conoce-lo-ultimo">
+            <h1>Sé el Primero en Conocer las Últimas Tendencias</h1>
+            <h3>Recibe actualizaciones semanales de lo más glamuroso en moda, cultura y celebridades, <span>directamente en tu inbox</span></h3>
+        </div>
+        <form class="subscription-form">
+            <img src="img/revista-actual-img.png" alt="revista-actual-img">
+            <div>
+                <label>Únete a Nuestra <span>Exclusiva</span> Lista de Correo</label>
+                <input type="text" name="name" id="name" placeholder="Tu nombre" required> <div id="name-form-error"></div>
+                <input type="email" name="email" id="email" placeholder="Correo electrónico" required> <div id="email-form-error"></div>
+                <button type="submit" id="submit-button">Suscribirme</button> <div id="success-subscription"></div>
+            </div>
+        </form>
+        <section class="destacada">
+            <h2>¿Sigues pensando en Suscribirte?</h2>
+            <div class="destacada-item">
+                <img src="img/exclusividad.png" alt="icono-acceso">
+                <h3>Acceso Exclusivo</h3>
+                <p>Recibe contenido exclusivo que no encontrarás en ningún otro lugar.</p>
+            </div>
+            <div class="destacada-item">
+                <img src="img/actualizaciones.png" alt="icono-actualizacion">
+                <h3>Actualizaciones Semanales</h3>
+                <p>Recibe actualizaciones semanales sobre las últimas tendencias en moda, cultura y celebridades.</p>
+            </div>
+            <div class="destacada-item">
+                <img src="img/privacidad.png" alt="icono-candado">
+                <h3>Privacidad Garantizada</h3>
+                <p>No compartiremos tu información con nadie y podrás darte de baja en cualquier momento.</p>
+            </div>
+        </section>
+        <article class="testimonios">
+            <h2>Lo que Nuestros Suscriptores Dicen</h2>
+            <div class="testimonio">
+                <img src="img/testimonio-1.png" alt="testimonio-1">
+                <p>“Me encanta recibir actualizaciones semanales sobre las últimas tendencias en moda. ¡Gracias!”</p>
+                <h3>María Sánchez</h3>
+            </div>
+            <div class="testimonio">
+                <img src="img/testimonio-2.png" alt="testimonio-2">
+                <p>“¡Me encanta recibir contenido exclusivo que no encontraré en ningún otro lugar!”</p>
+                <h3>Juan Pérez</h3>
+            </div>
+            <div class="testimonio">
+                <img src="img/testimonio-3.png" alt="testimonio-3">
+                <p>“¡Gracias por garantizar mi privacidad y permitirme darme de baja en cualquier momento!”</p>
+                <h3>Carla González</h3>
+            </div>
+        </article>
+    </main>
+    <footer class="page-footer">
+        <img src="img/logo-red.png" alt="logo-caras-rojo">
+        <p>© 2024 Caras. Todos los derechos reservados.</p>
+        <nav class="terms-privacy">
+            <a href="#">Política de Privacidad</a>
+            <a href="#">Términos de Servicio</a>
+            <a href="#">Aviso Legal</a>
+        </nav>
+        <nav class="socials">
+            <a href="https://www.facebook.com/Revista.Caras"><img src="img/facebook-logo.png" alt="facebook"></a>
+            <a href="https://x.com/carasmexico"><img src="img/twitter-logo.png" alt="twitter"></a>
+            <a href="https://www.instagram.com/carasmexico/"><img src="img/instagram-logo.png" alt="instagram"></a>
+        </nav>
+        <small>EDITORIAL TELEVISA S.A. DE C.V. TODOS LOS DERECHOS RESERVADOS. TBG - EDITORIAL TELEVISA - ENTERTAINMENT - NEWS</small>
+    </footer>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>

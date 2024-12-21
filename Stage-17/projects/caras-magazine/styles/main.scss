@@ -1,0 +1,303 @@
+@import "./bases";
+
+.page-header {
+    display: flex;
+    background-color: $red;
+    gap: 20px;
+    padding: 25px;
+    position: sticky;
+    top: 0;
+
+    @include respond-to(550px) {
+        justify-content: space-evenly;
+        padding: 5px;
+    }
+
+    > img {
+        width: 150px;
+        margin: 10px;
+
+        @include respond-to(550px) {
+            width: 11rem;
+        }
+
+        @include respond-to(465px) {
+            width: 9rem;
+        }
+    } 
+
+    .burger-menu {
+        display: none;
+        @include respond-to(550px) {
+            display: block;
+            align-self: center;
+            max-width: 2.5rem;
+            cursor: pointer;
+        }
+
+        @include respond-to(465px) {
+            max-width: 2rem;
+        }
+    }
+
+    nav {
+        font-family: $title;
+        font-weight: $title-weight;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        gap: 8px;
+        width: 100%;
+        padding: 10px 0;
+
+        @include respond-to(550px) {
+            display: none;
+        }
+
+        a {
+            color: $white;
+            text-decoration: none;
+            transition: all 0.3s ease;
+
+            &:hover {
+                @include hover-supported() {
+                    color: #ffc0c0;
+                }
+            }
+        }
+    }
+
+    .header-search-icon {
+        color: $white;
+        cursor: pointer;
+        transition: all 0.3s ease;
+
+        &:hover {
+            @include hover-supported() {
+                color: #ffc0c0;
+            }
+        }
+
+        svg {
+            height: 20px;
+            width: 20px;
+        }
+    }
+}
+
+.conoce-lo-ultimo {
+    font-family: $title;
+    color: $text;
+    text-align: center;
+    grid-column: 1 / 4;
+    background-color: $bg;
+
+    h1 {
+        font-weight: $title-weight;
+        font-size: 2.35rem;
+        letter-spacing: -0.7px;
+        margin: 20px;
+        padding: 2%;
+    }
+
+    h3 {
+        font-weight: 600;
+        font-size: 1.4rem;
+        padding: 20px 12%;
+    }
+}
+
+.subscription-form {
+    grid-column: 1 / 3;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: $bg;
+    padding: 2%;
+
+    @include respond-to(465px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    img {
+        align-self: center;
+        max-width: 100%;
+        padding-left: 15%;
+        cursor: pointer;
+        transition: all 0.3s ease;
+
+        @include respond-to(465px) {
+            padding: 0;
+            max-width: 200px;
+        }
+
+        &:hover {
+            @include hover-supported() {
+                transform: scale(1.005);
+                filter: drop-shadow(0 0 0.6rem $red);
+            }
+        }
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        label {
+            font-family: $title;
+            letter-spacing: -0.5px;
+            color: $text;
+            font-size: 1.2rem;
+            margin: 10px;
+            text-align: center;
+            padding: 0 4rem;
+        }
+
+        #name,
+        #email {
+            @include form-input();
+
+            &:focus {
+                border: 1px solid #ED1E1E;
+            }
+        }
+    }
+}
+
+.destacada {
+    padding: 30px 0;
+    @include destacadaTemplate();
+    @include respond-to(1428px) {
+        justify-content: center;
+    }
+    @include respond-to(550px) {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    h2 {
+        @include h2-title();
+    }
+
+    .destacada-item {
+        @include itemTemplate();
+        @include respond-to(1428px) {
+            flex-direction: column;
+        }
+        @include respond-to(550px) {
+            flex-direction: column;
+        }
+
+        img {
+            flex: 0 0 36px;
+            max-width: 50px;
+
+            @include respond-to(1428px) {
+                max-width: 70px;
+            }
+        }
+
+        h3 {
+            @include h3-text();
+        }
+
+        p {
+            @include item-p();
+        }
+
+        h3,
+        p {
+            @include respond-to(1428px) {
+                flex: unset;
+                text-align: center;
+            }
+        }
+    }
+}
+
+.testimonios {
+    padding: 50px 0;
+    @include destacadaTemplate();
+    grid-column: 1 / 4;
+    background-color: $white;
+
+    h2 {
+        @include respond-to(550px) {
+            text-align: center;
+            padding: 2rem 1rem 0 1rem;
+        }
+    }
+
+    .testimonio {
+        @include itemTemplate();
+        flex-direction: column;
+
+        img {
+            max-width: 100px;
+        }
+
+        h3 {
+            @include h3-text();
+            flex: 0 0 25px;
+        }
+
+        p {
+            @include item-p();
+            flex: 1 0 50px;
+            text-align: center;
+        }
+    }
+}
+
+.page-footer {
+    display: flex;
+    flex-direction: column;
+    background-color: $bg-2;
+    color: $footer-text;
+    padding: 20px;
+    gap: 3rem;
+
+    img {
+        width: 350px;
+        margin: 10px;
+
+        @include respond-to(550px) {
+            width: 250px;
+            margin: 10px;
+        }
+
+        @include respond-to(290px) {
+            width: 150px;
+        }
+    }
+
+    .terms-privacy,
+    .socials {
+        font-family: $title;
+        font-size: 0.8rem;
+        display: flex;
+        justify-content: left;
+        text-align: center;
+        gap: 5px;
+
+        a {
+            color: $footer-text;
+            padding: 0 5px;
+            text-decoration: none;
+            transition: $transition;
+
+            img {
+                width: 30px;
+            }
+
+            &:hover {
+                @include hover-supported() {
+                    color: $footText--hover;
+                }
+            }
+        }
+    }
+}
