@@ -164,6 +164,30 @@
                 border: 1px solid #ED1E1E;
             }
         }
+
+        #name-form-error,
+        #email-form-error {
+            font-family: $text;
+            padding: 10px;
+            background-color: $red;
+            font-weight: 800;
+            color: $white;
+            font-size: 1rem;
+            display: none;
+
+            &.show {
+                display: inline;
+            }
+        }
+
+        #success-subscription {
+            @extend %name-form-error;
+            background-color: #008000;
+
+            &.show {
+                display: inline;
+            }
+        }
     }
 }
 

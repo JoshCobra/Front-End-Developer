@@ -16,6 +16,7 @@ form.addEventListener("submit", (event) => {
         event.preventDefault(); // Previene el envío si hay errores
       } else {
         successSubmit.innerText = "Se Subscribió Exitosamente";
+        successSubmit.classList = "show"
       }
 })
 
@@ -23,13 +24,15 @@ function validateForm(formName, formEmail) {
     let esValido = true;
 
     if (formName === '') {
-        nameError.innerText = "Debes proporcionar un nombre"
+        nameError.classList = "show"
+        nameError.innerText = "Debes proporcionar un nombre";
         esValido = false;
     }
 
     const regexEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!regexEmail.test(formEmail)) {
-        emailError.innerText = "El correo electrónico no es valido"
+        emailError.classList = "show"
+        emailError.innerText = "El correo electrónico no es valido";
       esValido = false;
     }
 
