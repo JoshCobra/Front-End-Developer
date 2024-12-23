@@ -217,6 +217,7 @@ Feel free to explore, learn, and contribute
 - [TIPS](/Stage-17/tips.md)
 - [Projects](/Stage-17/projects)
 	- [e-commerce](https://joshcobra.github.io/e-commerce/) *in progress...*
+	- [caras-magazine](https://github.com/JoshCobra/caras-magazine) *in progress...*
 
 <hr>
 
@@ -260,6 +261,7 @@ Feel free to explore, learn, and contribute
 
 - Stage 17
   - [e-commerce](https://joshcobra.github.io/e-commerce/) *in progress...*
+  - [caras-magazine](https://github.com/JoshCobra/caras-magazine) *in progress...*
 
 <hr>
 
