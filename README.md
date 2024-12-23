@@ -230,7 +230,7 @@ Feel free to explore, learn, and contribute
     - [My E-Commerce](Stage-3/Projects/e-commerce-html) *spanish*
     - [McLaren Page](Stage-3/Projects/the-w1-mclaren) *spanish*
 
- - Stage-4
+- Stage-4
    - [McLaren Page Including CSS Stylesheet](Stage-4/projects/mclaren-styles)
     
 - Stage-5
@@ -264,4 +264,3 @@ Feel free to explore, learn, and contribute
   - [caras-magazine](https://github.com/JoshCobra/caras-magazine) *in progress...*
 
 <hr>
-
