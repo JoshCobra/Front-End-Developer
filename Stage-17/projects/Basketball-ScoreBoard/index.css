@@ -3,7 +3,7 @@ body {
     box-sizing: border-box;
     font-family: '60s Scoreboard', sans-serif;     
     background: url("img/juego-baloncesto-cancha-madera-deportiva_18591-51439.jpg") no-repeat;
-    background-size: contain;
+    background-size: 100%;
     background-color: #19244d;
 }
 
@@ -56,10 +56,8 @@ body {
 }
 
 #reset-button {
-    width: 25%;
     margin: auto;
     text-align: center;
-    border-radius: 5px;
 }
 
 #reset-button button,
@@ -101,4 +99,31 @@ body {
     padding: 10px;
     border-radius: 5px;
     margin: 5px 0;
+}
+
+#contact {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 50px;
+}
+
+#by-josuedelarosa {
+    font-size: 0.7rem;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 800px) {
+    #reset-button button,
+    #start-timer,
+    #stop-timer {
+        width: 60px;
+        font-size: 0.9rem;
+    }
+
+    #by-josuedelarosa {
+        font-size: 0.5rem;
+    }
 }
