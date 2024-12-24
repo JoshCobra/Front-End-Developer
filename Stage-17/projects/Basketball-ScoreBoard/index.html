@@ -15,8 +15,11 @@
                     <span class="points" onclick="team1Add3Points()">+3</span>
                 </div>
             </div>
-                <h3 id="timer"></h3>
-                <button id="stop-timer"></button>
+            <div id="timer">
+                <h3 id="timer-el"></h3>
+                <button id="start-timer" onclick="startTimer()">START</button>
+                <button id="stop-timer" onclick="stopTimer()">STOP</button>
+            </div>
             <div>
                 <h3>GUEST</h3>
                 <span id="team2-score"></span>
@@ -28,7 +31,7 @@
             </div>
         </div>
         <div id="reset-button">
-            <button onclick="resetScore()">RESET SCORE</button>
+            <button onclick="reset()">RESET</button>
         </div>
     </body>
 </html>
