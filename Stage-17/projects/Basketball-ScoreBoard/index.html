@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <link href="https://fonts.cdnfonts.com/css/60s-scoreboard" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+        <script src="index.js" defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <span id="team1-score"></span>
+                <div class="anotation">
+                    <span class="points" onclick="team1Add1Points()">+1</span>
+                    <span class="points" onclick="team1Add2Points()">+2</span>
+                    <span class="points" onclick="team1Add3Points()">+3</span>
+                </div>
+            </div>
+                <span id="timer"></span>
+                <span id="stop-timer"></span>
+            <div>
+                <h3>GUEST</h3>
+                <span id="team2-score"></span>
+                <div class="anotation">
+                    <span class="points" onclick="team2Add1Points()">+1</span>
+                    <span class="points" onclick="team2Add2Points()">+2</span>
+                    <span class="points" onclick="team2Add3Points()">+3</span>
+                </div>
+            </div>
+        </div>
+        <div id="reset-button">
+            <h3 onclick="resetScore()">RESET SCORE</h3>
+        </div>
+    </body>
+</html>
