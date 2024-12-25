@@ -18,6 +18,7 @@ body {
     font-size: 3.3rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
     color: #ffffff;
+    text-shadow: 1px 1px 15px #0a0001;
 }
 
 .team-container {
