@@ -6,10 +6,11 @@
     </head>
     <body>
         <div class="container">
-            <div>
+            <div class="team-container">
                 <h3>HOME</h3>
                 <span id="team1-score"></span>
                 <div class="anotation">
+                    <span class="points" onclick="team1Sub1Points()">-1</span>
                     <span class="points" onclick="team1Add1Points()">+1</span>
                     <span class="points" onclick="team1Add2Points()">+2</span>
                     <span class="points" onclick="team1Add3Points()">+3</span>
@@ -21,10 +22,11 @@
                 <button id="stop-timer" onclick="stopTimer()">STOP</button>
                 <button id="reset-timer" onclick="resetTimer()">RESET</button>
             </div>
-            <div>
+            <div class="team-container">
                 <h3>GUEST</h3>
                 <span id="team2-score"></span>
                 <div class="anotation">
+                    <span class="points" onclick="team2Sub1Points()">-1</span>
                     <span class="points" onclick="team2Add1Points()">+1</span>
                     <span class="points" onclick="team2Add2Points()">+2</span>
                     <span class="points" onclick="team2Add3Points()">+3</span>

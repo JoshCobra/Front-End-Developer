@@ -20,6 +20,13 @@ body {
     color: #ffffff;
 }
 
+.team-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 #team1-score,
 #team2-score {
     color: #dd0000;
@@ -30,8 +37,8 @@ body {
     align-items: center;
     margin: 20px 0;
     font-size: 5rem;
-    text-align: center;
     justify-content: center;
+    width: 50%;
 }
 
 .highlight {
@@ -60,6 +67,7 @@ body {
     gap: 20px;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .points {

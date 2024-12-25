@@ -19,11 +19,13 @@ team2Score.textContent = team2Counter;
 updateTimerDisplay();
 
 // Funciones para actualizar los puntajes
+const team1Sub1Points = () => { team1Counter -=1; updateScore(); }
 const team1Add1Points = () => { team1Counter +=1; updateScore(); }
 const team1Add2Points = () => { team1Counter +=2; updateScore(); }
 const team1Add3Points = () => { team1Counter +=3; updateScore(); }
 
 
+const team2Sub1Points = () => { team2Counter -=1; updateScore(); }
 const team2Add1Points = () => { team2Counter +=1; updateScore(); }
 const team2Add2Points = () => { team2Counter +=2; updateScore(); }
 const team2Add3Points = () => { team2Counter +=3; updateScore(); }
