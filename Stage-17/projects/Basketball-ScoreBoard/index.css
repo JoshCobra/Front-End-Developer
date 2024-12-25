@@ -24,12 +24,35 @@ body {
 #team2-score {
     color: #dd0000;
     background-color: #0a0001;
-    padding: 35px;
+    padding: 10px;
     border-radius: 5px;
     display: flex;
     align-items: center;
     margin: 20px 0;
     font-size: 5rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.highlight {
+    border: 3px solid #e63946;
+    box-shadow: 0 0 15px #e63946;
+    animation: pulse 1s infinite;
+}
+
+.unhighlight {
+    box-shadow: none;
+    border: none;
+    animation: none;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        box-shadow: 0 0 15px #e63946;
+    }
+    50% {
+        box-shadow: 0 0 25px #e63946;
+    }
 }
 
 .anotation {
@@ -101,6 +124,10 @@ body {
     padding: 10px;
     border-radius: 5px;
     margin: 5px 0;
+    border: none;
+    text-align: center;
+    font-size: 3.5rem;
+    width: 250px;
 }
 
 #contact {

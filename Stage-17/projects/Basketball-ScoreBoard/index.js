@@ -37,13 +37,11 @@ function updateScore() {
 }
 
 function highlight(team) {
-    team.style.borderTop = "solid";
-    team.style.borderColor = "red";
-    team.style.borderWidth = "15px";
+    team.classList = "highlight";
 }
 
 function unHighlight(team) {
-    team.style = "none"
+    team.classList = "unhighlight";
 }
 
 function verifyScore() {
@@ -78,10 +76,25 @@ function reset() {
 }
 
 function updateTimerDisplay() {
-    timerDisplay.textContent = `${String(timerMinutes).padStart(2, '0')}:${String(timerSeconds).padStart(2, '0')}`;
+    timerDisplay.value = `${String(timerMinutes).padStart(2, '0')}:${String(timerSeconds).padStart(2, '0')}`;
+}
+
+function setTimerInput() {
+    const input = timerDisplay.value;
+    const [minutes, seconds] = input.split(":").map(Number); // Divide el input y convierte a number value
+
+    if (!isNaN(minutes) && minutes >= 0 && !isNaN(seconds) && seconds >= 0 && seconds < 60) {
+        timerMinutes = minutes;
+        timerSeconds = seconds;
+    } else {
+        alert("Por favor, ingresa un tiempo válido en el formato MM:SS.");
+        updateTimerDisplay(); // Restaura el valor anterior si la entrada no es válida
+    }
 }
 
 function startTimer() {
+    setTimerInput();
+
     if (timerInterval) return; // Evita múltiples temporizadores
 
     timerInterval = setInterval(() => {
@@ -107,7 +120,11 @@ function stopTimer() {
 }
 
 function resetTimer() {
+    stopTimer();
     timerMinutes = 10;
     timerSeconds = 0;
     updateTimerDisplay();
 }
+
+// Actualizar el tiempo cuando el usuario lo modifica
+timerDisplay.addEventListener("change", setTimerInput);
