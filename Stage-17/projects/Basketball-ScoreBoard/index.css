@@ -14,11 +14,15 @@ body {
     align-items: center;
 }
 
-.container h3 {
-    font-size: 3.3rem;
+.container input {
+    font-size: 3rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
     color: #ffffff;
     text-shadow: 1px 1px 15px #0a0001;
+    background-color:rgba(0, 0, 0, 0);
+    border: none;
+    outline:none;
+    width: 200px;
 }
 
 .team-container {
@@ -88,7 +92,7 @@ body {
 }
 
 #reset-button {
-    margin: auto;
+    margin: 40px 0;
     text-align: center;
 }
 
