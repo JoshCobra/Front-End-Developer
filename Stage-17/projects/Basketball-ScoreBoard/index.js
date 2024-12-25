@@ -105,3 +105,9 @@ function stopTimer() {
     clearInterval(timerInterval);
     timerInterval = null;
 }
+
+function resetTimer() {
+    timerMinutes = 10;
+    timerSeconds = 0;
+    updateTimerDisplay();
+}

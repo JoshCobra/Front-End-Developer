@@ -62,7 +62,8 @@ body {
 
 #reset-button button,
 #start-timer,
-#stop-timer {
+#stop-timer,
+#reset-timer {
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
     font-size: 1.3rem;
     font-weight: 800;
@@ -78,7 +79,8 @@ body {
 
 #reset-button button:hover,
 #start-timer:hover,
-#stop-timer:hover {
+#stop-timer:hover,
+#reset-timer:hover {
     transform: scale(1.03);
     box-shadow: 1px 1px 15px #0a0001;
 }
@@ -118,8 +120,9 @@ body {
 @media screen and (max-width: 800px) {
     #reset-button button,
     #start-timer,
-    #stop-timer {
-        width: 60px;
+    #stop-timer, 
+    #reset-timer {
+        width: 80px;
         font-size: 0.9rem;
     }
 
