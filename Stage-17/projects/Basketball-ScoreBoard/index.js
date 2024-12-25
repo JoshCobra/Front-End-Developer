@@ -1,3 +1,14 @@
+if ("serviceWorker" in navigator) {
+    window.addEventListener("load", () => {
+      navigator.serviceWorker.register("/service-worker.js").then(registration => {
+        console.log("Service Worker registered with scope:", registration.scope);
+      }).catch(error => {
+        console.error("Service Worker registration failed:", error);
+      });
+    });
+  }
+
+
 // Elementos del DOM
 const team1Score = document.getElementById("team1-score")
 const team2Score = document.getElementById("team2-score")
