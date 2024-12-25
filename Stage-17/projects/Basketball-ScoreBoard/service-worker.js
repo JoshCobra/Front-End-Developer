@@ -2,8 +2,8 @@ const CACHE_NAME = "bballsocre-cache-v1";
 const urlsToCache = [
   "/",
   "/index.html",
-  "/styles.css",
-  "/script.js",
+  "/index.css",
+  "/index.js",
   "/manifest.json",
   "/icon-192x192.png",
   "/icon-512x512.png"
