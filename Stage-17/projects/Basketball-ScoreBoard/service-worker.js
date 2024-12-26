@@ -1,19 +1,20 @@
-const CACHE_NAME = "bballsocre-cache-v1";
+const CACHE_NAME = "bballscore-cache-v1";
 const urlsToCache = [
   "/",
   "/index.html",
   "/index.css",
   "/index.js",
   "/manifest.json",
-  "/icon-192x192.png",
-  "/icon-512x512.png"
+  "/img/icon-192x192.png",
+  "/img/icon-512x512.png",
+  "/img/juego-baloncesto-cancha-madera-deportiva_18591-51439.jpg"
 ];
 
 // Service Worker installation
 self.addEventListener("install", event => {
   event.waitUntil(
     caches.open(CACHE_NAME).then(cache => {
-      console.log("Opened cache");
+      console.log("[Service Worker] Caching all resources");
       return cache.addAll(urlsToCache);
     })
   );
@@ -22,16 +23,16 @@ self.addEventListener("install", event => {
 // Activate and Clean old cache
 self.addEventListener("activate", event => {
   event.waitUntil(
-    caches.keys().then(cacheNames => {
-      return Promise.all(
+    caches.keys().then(cacheNames =>
+      Promise.all(
         cacheNames.map(cache => {
           if (cache !== CACHE_NAME) {
-            console.log("Clearing old cache");
+            console.log("[Service Worker] Deleting old cache:", cache);
             return caches.delete(cache);
           }
         })
-      );
-    })
+      )
+    )
   );
 });
 
@@ -39,7 +40,14 @@ self.addEventListener("activate", event => {
 self.addEventListener("fetch", event => {
   event.respondWith(
     caches.match(event.request).then(response => {
-      return response || fetch(event.request);
+      if (response) {
+        console.log("[Service Worker] Serving from cache:", event.request.url);
+        return response;
+      }
+      console.log("[Service Worker] Fetching from network:", event.request.url);
+      return fetch(event.request).catch(() =>
+        caches.match("/fallback.html") // Opcional: agrega una página de fallback
+      );
     })
   );
 });

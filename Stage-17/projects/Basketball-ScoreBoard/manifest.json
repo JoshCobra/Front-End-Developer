@@ -1,11 +1,11 @@
 {
-    "name": "",
+    "name": "Basketball ScoreBoard",
     "short_name": "Basketball ScoreBoard",
     "description": "Dynamic Basketball ScoreBoard by Josue De la rosa",
     "start_url": "/index.html",
     "display": "standalone",
-    "background_color": "#ffffff",
-    "theme_color": "#000000",
+    "background_color": "#19244d", 
+    "theme_color": "#dd0000", 
     "icons": [
       {
         "src": "img/icon-512x512.png",
