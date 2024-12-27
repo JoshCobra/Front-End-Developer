@@ -7,7 +7,8 @@ const urlsToCache = [
   "/manifest.json",
   "/img/icon-192x192.png",
   "/img/icon-512x512.png",
-  "/img/juego-baloncesto-cancha-madera-deportiva_18591-51439.jpg"
+  "/img/juego-baloncesto-cancha-madera-deportiva_18591-51439.jpg",
+  "/offline.html"
 ];
 
 // Service Worker installation
@@ -44,10 +45,10 @@ self.addEventListener("fetch", event => {
         console.log("[Service Worker] Serving from cache:", event.request.url);
         return response;
       }
-      console.log("[Service Worker] Fetching from network:", event.request.url);
-      return fetch(event.request).catch(() =>
-        caches.match("/fallback.html") // Opcional: agrega una página de fallback
-      );
+      return fetch(event.request).catch(error => {
+        console.error("[Service Worker] Fetch failed; returning offline page:", error);
+        return caches.match("/offline.html");
+      });
     })
   );
 });
