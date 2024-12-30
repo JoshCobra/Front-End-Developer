@@ -56,3 +56,6 @@ for (let value of arr) {
     console.log(value);
 }
 ```
+Example:
+
+<img scr="resources/js-for-of-loop-example.png" alt="for of loop example">
