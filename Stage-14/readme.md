@@ -58,4 +58,4 @@ for (let value of arr) {
 ```
 Example:
 
-<img src="/resources/js-for-of-loop-example.png" alt="for of loop example">
+<img src="resources/js-for-of-loop-example.png" alt="for of loop example">
