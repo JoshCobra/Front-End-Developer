@@ -42,15 +42,19 @@ button {
     margin: 20px 0;
 }
 
+#generated-passwords {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
 .password {
     border-radius: 2px;
     background-color: #273549;
     text-align: center;
     color: #10B981;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
     margin: 10px 0;
-    max-width: 150px;
+    max-width: 163px;
     padding: 5px 20px;
 }
