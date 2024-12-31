@@ -66,4 +66,9 @@ button:hover {
     color: #10B981;
     margin: 10px 0;
     padding: 5px 20px;
+    transition: all 0.7s ease;
+}
+
+.password:hover {
+    background-color: #374151;
 }

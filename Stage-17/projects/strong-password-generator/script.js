@@ -36,3 +36,21 @@ function showPasswords() {
 
     passwordsSection.id = "show-passwords-section";
 }
+
+
+function copyPassword(passwordToCopy) {
+    passwordToCopy.onclick = function() {
+        document.execCommand("copy");
+    }
+    
+    passwordToCopy.addEventListener("copy", function(event) {
+        event.preventDefault();
+        if (event.clipboardData) {
+          event.clipboardData.setData("text/plain", passwordToCopy.textContent);
+        }
+    });
+    
+}
+
+copyPassword(firstPasswordEl)
+copyPassword(secondPasswordEl)
