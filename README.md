@@ -218,6 +218,8 @@ Feel free to explore, learn, and contribute
 - [Projects](/Stage-17/projects)
 	- [e-commerce](https://joshcobra.github.io/e-commerce/) *in progress...*
 	- [caras-magazine](https://github.com/JoshCobra/caras-magazine) *in progress...*
+	- [Basketball Scoreboard](https://marcador-online-basketball.netlify.app/) *PWA*
+	- [Get a Strong Password](https://geta-strongpassword.netlify.app/) 
 
 <hr>
 
@@ -263,5 +265,6 @@ Feel free to explore, learn, and contribute
   - [e-commerce](https://joshcobra.github.io/e-commerce/) *in progress...*
   - [caras-magazine](https://github.com/JoshCobra/caras-magazine) *in progress...*
   - [Basketball Scoreboard](https://marcador-online-basketball.netlify.app/) *PWA*
+  - [Get a Strong Password](https://geta-strongpassword.netlify.app/) 
 
 <hr>
