@@ -17,38 +17,60 @@ const checkBox = document.getElementById("toggle-special-character");
 const firstPasswordEl = document.getElementById("firstPassword-el");
 const secondPasswordEl = document.getElementById("secondPassword-el");
 
-let generatedPassword1 = "";
-let generatedPassword2 = "";
+let specialCharacterPassOne = "";
+let specialCharacterPassTwo = "";
+
+let generatedPasswordOne = "";
+let generatedPasswordTwo = "";
 
 
-checkBox.addEventListener('change', function() {
-    if (this.checked) {
-        console.log("active");
+// checkBox.addEventListener('change', function() {
+//     if (this.checked) {
+//         console.log("active");
+//     } else {
+//         console.log("inactive");
+//     }
+// })
+
+
+function getRandomCharacter() {
+    let randomNumber;
+
+    if (checkBox.checked) {
+        randomNumber = Math.floor( Math.random() * characters.length);
+
+        return characters[randomNumber];
+
     } else {
-        console.log("inactive");
+        randomNumber = Math.floor( Math.random() * noSpecialCharacters.length);
+
+        return noSpecialCharacters[randomNumber];
     }
-})
-
-
-function getRandomCharacter(array) {
-    let randomNumber = Math.floor( Math.random() * array.length);
-    return array[randomNumber];
 }
 
 
 function getPassword(whereToStorePassword) {
     for (let i = 0; i < passwordLength; i++) {
-        whereToStorePassword += getRandomCharacter(characters);
+        whereToStorePassword += getRandomCharacter();
     }
+
     return whereToStorePassword;
 }
 
 
 function showPasswords() {
-    firstPasswordEl.textContent = getPassword(generatedPassword1);
-    secondPasswordEl.textContent = getPassword(generatedPassword2);
+    if (checkBox.checked) {
+        firstPasswordEl.textContent = getPassword(specialCharacterPassOne);
+        secondPasswordEl.textContent = getPassword(specialCharacterPassTwo);
 
-    passwordsSection.id = "show-passwords-section";
+        passwordsSection.id = "show-passwords-section";
+
+    } else {
+        firstPasswordEl.textContent = getPassword(generatedPasswordOne);
+        secondPasswordEl.textContent = getPassword(generatedPasswordTwo);
+
+        passwordsSection.id = "show-passwords-section";
+    }
 }
 
 
