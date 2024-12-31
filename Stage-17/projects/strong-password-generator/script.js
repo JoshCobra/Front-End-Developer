@@ -4,5 +4,6 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 // const noSpecialCharacters;
 
 function generatePasswords() {
-    
+    let randomizer = Math.floor( Math.random() * characters.length)
+    console.log(characters[randomizer])
 }
