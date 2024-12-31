@@ -6,7 +6,9 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 
 // const noSpecialCharacters;
 
-const passwordLength = 16;
+const passwordLength = 15;
+
+const passwordsSection = document.getElementById("passwords-section")
 
 const firstPasswordEl = document.getElementById("firstPassword-el");
 const secondPasswordEl = document.getElementById("secondPassword-el");
@@ -29,6 +31,8 @@ function getPassword(whereToStorePassword) {
 }
 
 function showPasswords() {
-    firstPasswordEl.textContent = getPassword(generatedPassword1)
-    secondPasswordEl.textContent = getPassword(generatedPassword2)
+    firstPasswordEl.textContent = getPassword(generatedPassword1);
+    secondPasswordEl.textContent = getPassword(generatedPassword2);
+
+    passwordsSection.id = "show-passwords-section";
 }
