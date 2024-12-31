@@ -53,22 +53,41 @@ button:hover {
 }
 
 #show-passwords-section {
-    margin-top: 20px;
+    margin-top: 15px;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
 }
 
 .password {
+    position: relative;
     border-radius: 2px;
     background-color: #273549;
     text-align: center;
     color: #10B981;
     margin: 10px 0;
-    padding: 5px 20px;
+    padding: 7px 20px;
     transition: all 0.7s ease;
 }
 
 .password:hover {
     background-color: #374151;
+}
+
+svg {
+    display: inline;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    color: #ECFDF5;
+    top: 50%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+    pointer-events: none; 
+}
+
+.password:hover svg {
+    opacity: 1;
 }

@@ -21,10 +21,20 @@
         </section>
 
         <section id="passwords-section">
-            <span id="firstPassword-el" class="password"></span>
-            <span id="secondPassword-el" class="password"></span>
+            <div class="password">
+                <span id="firstPassword-el"></span>
+                <i data-feather="copy"></i>
+            </div>
+            <div class="password">
+                <span id="secondPassword-el"></span>
+                <i data-feather="copy"></i>
+            </div>
         </section>
     </main>
     
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+        feather.replace();
+    </script>
 </body>
 </html>
