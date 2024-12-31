@@ -127,7 +127,7 @@ svg {
 
     .password {
         margin: 0;
-        width: 120px;
+        width: 135px;
     }
     .password span {
         font-size: 0.9rem;
@@ -139,11 +139,10 @@ svg {
         margin: 15px;
     }
     .password {
-        width: 100px;
-        padding: 4px 12px;
+        padding: 4px 10px;
     }
 
     .password span {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 }
