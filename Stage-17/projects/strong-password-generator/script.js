@@ -12,13 +12,22 @@ const noSpecialCharacters = ["A","B","C","D","E","F","G","H","I","J","K","L","M"
 const passwordLength = 15;
 
 const passwordsSection = document.getElementById("passwords-section");
-const checkBox = document.querySelector("input[name=checkbox]");
+const checkBox = document.getElementById("toggle-special-character");
 
 const firstPasswordEl = document.getElementById("firstPassword-el");
 const secondPasswordEl = document.getElementById("secondPassword-el");
 
 let generatedPassword1 = "";
 let generatedPassword2 = "";
+
+
+checkBox.addEventListener('change', function() {
+    if (this.checked) {
+        console.log("active");
+    } else {
+        console.log("inactive");
+    }
+})
 
 
 function getRandomCharacter(array) {
@@ -33,6 +42,7 @@ function getPassword(whereToStorePassword) {
     }
     return whereToStorePassword;
 }
+
 
 function showPasswords() {
     firstPasswordEl.textContent = getPassword(generatedPassword1);
@@ -53,7 +63,6 @@ function copyPassword(passwordToCopy) {
           event.clipboardData.setData("text/plain", passwordToCopy.textContent);
         }
     });
-    
 }
 
 copyPassword(firstPasswordEl)
