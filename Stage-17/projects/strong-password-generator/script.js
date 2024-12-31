@@ -14,14 +14,21 @@ const secondPasswordEl = document.getElementById("secondPassword-el");
 let generatedPassword1 = "";
 let generatedPassword2 = "";
 
+
 function getRandomCharacter(array) {
     let randomNumber = Math.floor( Math.random() * array.length);
     return array[randomNumber];
 }
+
 
 function getPassword(whereToStorePassword) {
     for (let i = 0; i < passwordLength; i++) {
         whereToStorePassword += getRandomCharacter(characters);
     }
     return whereToStorePassword;
+}
+
+function showPasswords() {
+    firstPasswordEl.textContent = getPassword(generatedPassword1)
+    secondPasswordEl.textContent = getPassword(generatedPassword2)
 }
