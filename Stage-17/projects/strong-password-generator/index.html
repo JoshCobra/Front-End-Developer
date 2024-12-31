@@ -17,7 +17,13 @@
         <section id="info">
             <h1>Generate a <span>Strong Password</span> </h1>
             <p>Never use an insecure password again.</p>
-            <button onclick="showPasswords()">Generate Passwords</button>
+            <div id="user-interaction">
+                <button onclick="showPasswords()">Generate Passwords</button>
+                <div>
+                    <input type="checkbox" name="toggle-special-character" id="toggle-special-character" checked>
+                    <p>Include Special Characters</p>
+                </div>
+            </div>
         </section>
 
         <section id="passwords-section">

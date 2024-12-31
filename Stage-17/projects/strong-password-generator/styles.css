@@ -30,6 +30,22 @@ main {
     margin-top: 7px;
 }
 
+#user-interaction {
+    display: flex;
+    margin: 30px 0 5px 0;
+    align-items: center;
+    gap: 30px;
+}
+
+#user-interaction p {
+    margin: 0;
+}
+
+#user-interaction div {
+    display: flex;
+    align-items: center;
+}
+
 button {
     border: none;
     border-radius: 2px;
@@ -39,13 +55,18 @@ button {
     background-color: #10B981;
     font-size: 0.95rem;
     font-weight: 700;
-    margin: 30px 0 5px 0;
     transition: all 0.7s ease;
 }
 
 button:hover {
     transform: scale(1.01);
     box-shadow: 0 0 4px #A7F3D0;
+}
+
+input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    accent-color: #10B981;
 }
 
 #passwords-section {
@@ -75,7 +96,6 @@ button:hover {
 }
 
 svg {
-    display: inline;
     position: absolute;
     width: 20px;
     height: 20px;
