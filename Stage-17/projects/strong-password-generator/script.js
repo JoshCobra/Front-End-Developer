@@ -8,20 +8,20 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 
 const passwordLength = 16;
 
-let password1 = "";
-let password2 = "";
+const firstPasswordEl = document.getElementById("firstPassword-el");
+const secondPasswordEl = document.getElementById("secondPassword-el");
+
+let generatedPassword1 = "";
+let generatedPassword2 = "";
 
 function getRandomCharacter(array) {
-    let randomNumber = Math.floor( Math.random() * array.length)
-    return array[randomNumber]
+    let randomNumber = Math.floor( Math.random() * array.length);
+    return array[randomNumber];
 }
 
 function getPassword(whereToStorePassword) {
     for (let i = 0; i < passwordLength; i++) {
-        whereToStorePassword += getRandomCharacter(characters) 
+        whereToStorePassword += getRandomCharacter(characters);
     }
-    return whereToStorePassword   
+    return whereToStorePassword;
 }
-
-console.log( getPassword(password1) )
-console.log( getPassword(password2) )
