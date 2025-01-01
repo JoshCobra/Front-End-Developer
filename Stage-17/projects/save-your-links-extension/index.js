@@ -32,12 +32,14 @@ function render(leads) {
         `
     }
     ulEl.innerHTML = listItems
+    downloadBtn.style.display = "inline"
 }
 
 deleteBtn.addEventListener("dblclick", function() {
     localStorage.clear()
     myLeads = []
     render(myLeads)
+    downloadBtn.style.display = "none"
 })
 
 inputBtn.addEventListener("click", function() {

@@ -49,10 +49,6 @@ a {
     display: none;
 }
 
-.show {
-    display: inline;
-}
-
 #download-btn svg {
     width: 15px;
     height: 15px;
