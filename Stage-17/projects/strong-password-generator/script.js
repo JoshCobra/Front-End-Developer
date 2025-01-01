@@ -24,15 +24,6 @@ let generatedPasswordOne = "";
 let generatedPasswordTwo = "";
 
 
-// checkBox.addEventListener('change', function() {
-//     if (this.checked) {
-//         console.log("active");
-//     } else {
-//         console.log("inactive");
-//     }
-// })
-
-
 function getRandomCharacter() {
     let randomNumber;
 
