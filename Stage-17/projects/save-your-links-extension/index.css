@@ -11,7 +11,9 @@ input {
     padding: 10px;
     box-sizing: border-box;
     border: 1px solid #676767;
+    background-color: rgba(0, 0, 0, 0);
     margin-bottom: 4px;
+    border-radius: 5px;
 }
 
 button {
@@ -20,6 +22,7 @@ button {
     padding: 10px 20px;
     border: 1px solid #676767;
     font-weight: bold;
+    border-radius: 5px;
 }
 
 #delete-btn {
@@ -39,4 +42,18 @@ li {
 
 a {
     color: #0600b8;
+}
+
+#download-btn {
+    padding: 5px;
+    display: none;
+}
+
+.show {
+    display: inline;
+}
+
+#download-btn svg {
+    width: 15px;
+    height: 15px;
 }
