@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "version": "1.0",
-    "name": "Save Your Links",
+    "name": "Saved Links Manager",
     "action": {
         "default_popup": "index.html",
         "default_icon": "img/icon-512x512.png"
