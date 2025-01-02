@@ -4,7 +4,7 @@
     "name": "Save Your Links",
     "action": {
         "default_popup": "index.html",
-        "default_icon": "img/icon.png"
+        "default_icon": "img/icon-512x512.png"
     },
     "permissions": [
         "tabs"
