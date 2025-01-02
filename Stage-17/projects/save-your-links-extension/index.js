@@ -50,5 +50,15 @@ inputBtn.addEventListener("click", () => {
 })
 
 downloadBtn.addEventListener('click', () => {
-    
+    const content = myLeads.join("\n")
+    const blob = new Blob([content], {type: "text/plain"})
+    const url = URL.createObjectURL(blob)
+
+    const a = document.createElement("a")
+    a.href = url
+    a.download = "links.txt"
+
+    a.click()
+
+    URL.revokeObjectURL(url);
 })
