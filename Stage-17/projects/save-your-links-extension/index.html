@@ -1,17 +1,31 @@
 <html>
     <head>
-        <link rel="stylesheet" href="index.css">
-        <script src="index.js" defer></script>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js" defer></script>
     </head>
     <body>
         <input type="text" id="input-el">
         <button id="input-btn">SAVE INPUT</button>
         <button id="tab-btn">SAVE TAB</button>
         <button id="delete-btn">DELETE ALL</button>
+
         <ul id="ul-el">
         </ul>
+
         <button id="download-btn">
-            <img src="download.svg" alt="download-icon">
+            <img src="img/svg/download.svg" alt="download-icon">
         </button>
+
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <label for="fileName">Nombre del archivo:</label>
+                <input type="text" id="fileName" placeholder="links.txt" />
+                <button id="confirmDownload">DOWNLOAD</button>
+                <button id="cancelDownload">
+                    <img src="img/svg/close-icon.svg" alt="close-icon">
+                </button>
+            </div>
+        </div>
+
     </body>
 </html>
