@@ -6,6 +6,12 @@ body {
     background-color: #fde68a55;
 }
 
+label {
+    color: #F59E0B;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
 input {
     width: 100%;
     padding: 10px;
