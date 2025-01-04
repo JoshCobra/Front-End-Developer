@@ -1,12 +1,12 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-app.js";
+import { getDatabase } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-database.js";
 
 const firebaseConfig = {
-
+    databaseURL: process.env.DATABASE_URL
 }
 
 const app = initializeApp(firebaseConfig);
-
-
+const database = getDatabase(app);
 
 const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q",
     "R","S","T","U","V","W","X","Y","Z","a","b","c","d","e","f","g","h","i","j","k","l",
