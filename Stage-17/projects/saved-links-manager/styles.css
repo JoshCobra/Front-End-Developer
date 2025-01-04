@@ -2,7 +2,7 @@ body {
     margin: 0 auto;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    max-width: 362px;
+    min-width: 362px;
     background-color: #fde68a55;
 }
 
