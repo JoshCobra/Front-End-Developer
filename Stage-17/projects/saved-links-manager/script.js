@@ -1,5 +1,7 @@
 let myLinks = []
 
+const body = document.querySelector("body")
+
 const inputEl = document.getElementById("input-el")
 const inputBtn = document.getElementById("input-btn")
 
@@ -23,7 +25,17 @@ if (linksLocalStorage) {
 
 tabBtn.addEventListener('click', () => {
     chrome.tabs.query({active: true, currentWindow: true}, function(tabs){
-        myLinks.push(tabs[0].url)
+        let newLink = tabs[0].url
+
+        if (myLinks.includes(newLink)) {
+            body.style.minWidth = "379px"
+            tabBtn.textContent = "DUPLICATED"
+            return
+        }
+
+        tabBtn.textContent = "SAVE TAB"
+
+        myLinks.push(newLink)
         localStorage.setItem("myLinks", JSON.stringify(myLinks) )
         render(myLinks)
     })
@@ -62,7 +74,8 @@ inputBtn.addEventListener('click', () => {
     }
 
     if (myLinks.includes(inputEl.value)) {
-        inputBtn.textContent = "ALREADY ADDED"
+        body.style.minWidth = "379px"
+        inputBtn.textContent = "DUPLICATED"
         return
     }
 
