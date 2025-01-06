@@ -1,7 +1,7 @@
 body {
     margin: 0 auto;
     padding: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Inter", serif;
     min-width: 385px;
     background-color: #fde68a55;
 }
@@ -13,6 +13,7 @@ label {
 }
 
 input {
+    font-family: "Inter", serif;
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
@@ -23,6 +24,7 @@ input {
 }
 
 button {
+    font-family: "Inter", serif;
     background: #F59E0B;
     color: white;
     padding: 10px 20px;
