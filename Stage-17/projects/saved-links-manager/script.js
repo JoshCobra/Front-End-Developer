@@ -11,17 +11,17 @@ const linksLocalStorage = JSON.parse( localStorage.getItem("myLinks") )
 const tabBtn = document.getElementById("tab-btn")
 
 const downloadBtn = document.getElementById("download-btn")
-const modal = document.getElementById('modal');
-const confirmDownload = document.getElementById('confirmDownload');
-const cancelDownload = document.getElementById('cancelDownload');
-const fileNameInput = document.getElementById('fileName');
+const modal = document.getElementById("modal");
+const confirmDownload = document.getElementById("confirmDownload");
+const cancelDownload = document.getElementById("cancelDownload");
+const fileNameInput = document.getElementById("fileName");
 
 if (linksLocalStorage) {
     myLinks = linksLocalStorage
     render(myLinks)
 }
 
-tabBtn.addEventListener("click", () => {    
+tabBtn.addEventListener('click', () => {
     chrome.tabs.query({active: true, currentWindow: true}, function(tabs){
         myLinks.push(tabs[0].url)
         localStorage.setItem("myLinks", JSON.stringify(myLinks) )
@@ -50,7 +50,7 @@ function render(links) {
     downloadBtn.style.display = "inline"
 }
 
-deleteBtn.addEventListener("dblclick", () => {
+deleteBtn.addEventListener('dblclick', () => {
     localStorage.clear()
     myLinks = []
     render(myLinks)
