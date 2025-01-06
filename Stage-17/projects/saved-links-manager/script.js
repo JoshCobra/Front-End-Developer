@@ -1,6 +1,6 @@
 let myLinks = []
 
-const body = document.querySelector("body")
+// const body = document.querySelector("body")
 
 const inputEl = document.getElementById("input-el")
 const inputBtn = document.getElementById("input-btn")
@@ -28,7 +28,6 @@ tabBtn.addEventListener('click', () => {
         let newLink = tabs[0].url
 
         if (myLinks.includes(newLink)) {
-            body.style.minWidth = "379px"
             tabBtn.textContent = "DUPLICATED"
             return
         }
@@ -40,6 +39,12 @@ tabBtn.addEventListener('click', () => {
         render(myLinks)
     })
 })
+
+chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => { //Listens for tab changes
+    if (changeInfo.url) {
+        tabBtn.textContent = "SAVE TAB"
+    }
+});
 
 function render(links) {
     if (links.length === 0) {
@@ -66,6 +71,9 @@ deleteBtn.addEventListener('dblclick', () => {
     localStorage.clear()
     myLinks = []
     render(myLinks)
+
+    tabBtn.textContent = "SAVE TAB"
+    inputBtn.textContent = "SAVE INPUT"
 })
 
 inputBtn.addEventListener('click', () => {
@@ -74,7 +82,6 @@ inputBtn.addEventListener('click', () => {
     }
 
     if (myLinks.includes(inputEl.value)) {
-        body.style.minWidth = "379px"
         inputBtn.textContent = "DUPLICATED"
         return
     }
