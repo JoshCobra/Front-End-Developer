@@ -258,7 +258,7 @@ Feel free to explore, learn, and contribute
   - [CARAS Magazine](/Stage-7/projects/) *spanish*
 
 - Stage-8
-  - [Practice Projects](/Stage-8/documents/)
+  - [Practice Projects](/Stage-8/projects/)
 
 - Stage 9
   - [E-Commerce-Sass](/Stage-9/projects/e-commerce-sass/)
