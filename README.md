@@ -224,6 +224,11 @@ Feel free to explore, learn, and contribute
 
 <hr>
 
+### [Stage 18 jQuery](/Stage-18)
+- [jQuery](/Stage-18/readme.md)
+	- [Introduction to jQuery](/Stage-18/readme.md)
+	- [jQuery Syntax](/Stage-18/readme.md)
+
   ### Projects
   - Stage-2
     - [The Basics in HTML](Stage-2/documents/basics-html)
