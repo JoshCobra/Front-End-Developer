@@ -24,6 +24,7 @@ body {
 .header__nav {
     display: flex;
     gap: 20px;
+    transition: all 0.3s ease;
 }
 
 .header__link { /*Block__Element */
@@ -46,6 +47,11 @@ body {
 
 .header__icon {
     cursor: pointer;
+}
+
+#icon__menu {
+    display: none;
+    transition: all 0.3s ease;
 }
 
 .header__icon--secondary {
@@ -109,4 +115,44 @@ body {
 
 .products__btn--disabled:hover {
     background-color: #bdbdbd
+}
+
+svg {
+    width: 25px;
+    height: 25px;
+    transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 750px) {
+    svg {
+        width: 30px;
+        height: 30px;
+    }
+
+    .header__logo {
+        width: 100px; 
+    }
+
+    .header__nav {
+        display: none;
+    }
+
+    .header__user {
+        gap: 20px;
+    }
+
+    #icon__menu {
+        display: inline;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    svg {
+        width: 25px;
+        height: 25px;
+    }
+
+    .header__logo {
+        width: 70px; 
+    }
 }
