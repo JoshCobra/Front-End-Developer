@@ -73,6 +73,10 @@ body {
     gap: 30px;
 }
 
+.products__item {
+    position: relative;
+}
+
 .products__img {
     width: 100%;
     transition: all 0.3s ease;
@@ -121,6 +125,23 @@ svg {
     width: 25px;
     height: 25px;
     transition: all 0.3s ease;
+}
+
+.discount {
+    position: absolute;
+    border-radius: 10px;
+    padding: 7px;
+    font-weight: 800;
+    background-color: red;
+    color: #fff;
+    left: 10px;
+    top: 10px;
+    box-shadow: 0 4px 8px #0000002f;
+    transition: all 0.3s ease;
+}
+
+.products__item:hover .discount {
+    transform: scale(1.05);
 }
 
 @media screen and (max-width: 750px) {
