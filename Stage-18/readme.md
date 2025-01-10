@@ -1,6 +1,9 @@
 # jQuery  [jQuery](https://jquery.com/)
 jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, and animation much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.
 
+## Why its important to learn
+Nowadays jQuery is not as popular as it used to be, but it is still widely used in many projects. It is important to learn jQuery because it is a powerful library that simplifies JavaScript development. jQuery makes it easy to manipulate the DOM, handle events, and add effects to your website. By learning jQuery, you can become a more efficient and productive web developer.
+
 ## Getting Started
 There are a few ways to get started with jQuery. You can:   
 1. Install jQuery through npm: `npm install jquery`

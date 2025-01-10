@@ -77,6 +77,9 @@ $("#myElement").addClass("newClass");
 
 // Remove a class from an element
 $("#myElement").removeClass("oldClass");
+
+// Animate an element
+$("#myElement").animate({left: '250px'});
 ```
 
 ## Conclusion
