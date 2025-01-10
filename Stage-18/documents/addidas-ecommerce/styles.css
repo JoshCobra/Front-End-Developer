@@ -133,7 +133,7 @@ body {
 .about {
     width: 80%;
     margin: 200px auto 0;
-    background-color: #333;
+    background-color: #181818;
     color: #fff;
     border-radius: 20px;
     padding: 40px;
@@ -220,7 +220,6 @@ svg {
     color: #fff;
     left: 10px;
     top: 10px;
-    box-shadow: 0 4px 8px #0000002f;
     transition: all 0.3s ease;
 }
 
