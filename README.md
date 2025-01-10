@@ -3,7 +3,7 @@
 
 <p align="center">
 <img src="https://img.shields.io/badge/Start-12/10/2024-%23238725?style=for-the-badge">
-<img src="https://img.shields.io/badge/Current-eCommerce_Project_Stage_17-%23238725?style=for-the-badge">
+<img src="https://img.shields.io/badge/Current-jQuery_Stage_18-%23238725?style=for-the-badge">
 <img src="https://img.shields.io/github/last-commit/JoshCobra/Front-End-Developer?style=for-the-badge&color=%23238725">
 </p>
 
@@ -217,9 +217,10 @@ Feel free to explore, learn, and contribute
 - [TIPS](/Stage-17/tips.md)
 - [Projects](/Stage-17/projects)
 	- [e-commerce](https://joshcobra.github.io/e-commerce/) *in progress...*
-	- [caras-magazine](https://github.com/JoshCobra/caras-magazine) *in progress...*
+	- [caras-magazine](https://github.com/JoshCobra/caras-magazine)
 	- [Basketball Scoreboard](https://marcador-online-basketball.netlify.app/) *PWA*
 	- [Get a Strong Password](https://geta-strongpassword.netlify.app/) 
+	- [My Chrome Extension](https://chromewebstore.google.com/detail/saved-links-manager/ondophnolgckjghlooekkkijnngabdfp?authuser=0&hl=es-419)
 
 <hr>
 
@@ -263,8 +264,9 @@ Feel free to explore, learn, and contribute
 
 - Stage 17
   - [e-commerce](https://joshcobra.github.io/e-commerce/) *in progress...*
-  - [caras-magazine](https://github.com/JoshCobra/caras-magazine) *in progress...*
+  - [caras-magazine](https://github.com/JoshCobra/caras-magazine) 
   - [Basketball Scoreboard](https://marcador-online-basketball.netlify.app/) *PWA*
   - [Get a Strong Password](https://geta-strongpassword.netlify.app/) 
+  - [My Chrome Extension](https://chromewebstore.google.com/detail/saved-links-manager/ondophnolgckjghlooekkkijnngabdfp?authuser=0&hl=es-419)
 
 <hr>
