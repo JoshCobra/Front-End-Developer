@@ -34,6 +34,35 @@ body {
     transition: all 0.3s ease;
 }
 
+.header__nav--menu {
+    position: fixed;
+    top: 100px;
+    right: -200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 130px;
+}
+
+.show__nav {
+    right: 20px;
+}
+
+.header__nav--menu a {
+    font-size: 1.6rem;
+    box-shadow: 0 4px 8px #0000002f;
+    padding: 10px;
+    color: #fff;
+    background-color: rgba(36, 73, 175, 0.836);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.header__nav--menu .header__link:hover {
+    color: #333;
+    background-color: #fff;
+}
+
 .header__link { /*Block__Element */
     font-size: 1.4rem;
     font-weight: 600;
@@ -216,7 +245,7 @@ svg {
     border-radius: 10px;
     padding: 7px;
     font-weight: 800;
-    background-color: red;
+    background-color: rgb(36, 73, 175);
     color: #fff;
     left: 10px;
     top: 10px;
@@ -251,7 +280,6 @@ svg {
 
     .discount {
         padding: 5px;
-        font-size: 10px;
         top: -13px;
         left: 0;
     }
@@ -265,5 +293,9 @@ svg {
 
     .header__logo {
         width: 70px; 
+    }
+
+    .discount {
+        font-size: 10px;
     }
 }
