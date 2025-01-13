@@ -107,12 +107,15 @@ body {
 }
 
 .item__counter {
+    text-align: center;
     font-size: 15px;
     font-weight: 800;
+    width: 27px;
+    height: 27px;
     color: #fff;
     background-color: rgb(36, 73, 175);
     border-radius: 50%;
-    padding: 3px 6px;
+    padding: 5px;
     position: relative;
     top: -10px;
     right: -16px;
