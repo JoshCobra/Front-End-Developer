@@ -44,11 +44,23 @@ body {
     transition: all 0.3s ease;
 }
 
+.header__user--toggle {
+    position: fixed;
+    top: 100px;
+    right: -200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 140px;
+    transition: all 0.3s ease;
+}
+
 .show__nav {
     right: 20px;
 }
 
-.header__nav--menu a {
+.header__nav--menu a,
+.header__user--toggle a {
     font-size: 1.6rem;
     box-shadow: 0 4px 8px #0000002f;
     padding: 10px;
