@@ -23,9 +23,14 @@ $(document).ready( function() { // All jQuery code, similar to 'defer'
     })
     
     $(".header__user").prepend("<span class='item__counter'> 0 </span>")
+    $(".item__counter").css("display", "none")
     let counter = 0;
 
     $(".products__btn").click( function() {
         $(".item__counter").text(counter += 1)
+
+        if (counter) {
+            $(".item__counter").css("display", "block")
+        }
     })
 })
