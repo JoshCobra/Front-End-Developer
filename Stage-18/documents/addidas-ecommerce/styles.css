@@ -70,12 +70,14 @@ body {
     text-align: center;
 }
 
-.header__nav--menu .header__link:hover {
+.header__nav--menu .header__link:hover,
+.header__user--toggle .user__link:hover {
     color: #333;
     background-color: #fff;
 }
 
-.header__link { /*Block__Element */
+.header__link,
+.user__link { /*Block__Element */
     font-size: 1.4rem;
     font-weight: 600;
     cursor: pointer;
