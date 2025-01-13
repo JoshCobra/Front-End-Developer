@@ -31,7 +31,6 @@ body {
 .header__nav {
     display: flex;
     gap: 20px;
-    transition: all 0.3s ease;
 }
 
 .header__nav--menu {
@@ -42,6 +41,7 @@ body {
     flex-direction: column;
     gap: 20px;
     width: 130px;
+    transition: all 0.3s ease;
 }
 
 .show__nav {
