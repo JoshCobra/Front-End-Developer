@@ -21,6 +21,11 @@ $(document).ready( function() { // All jQuery code, similar to 'defer'
         $(".header__nav--menu").toggleClass("show__nav")
         $(".header__user--toggle").removeClass("show__nav")
     })
+    
+    $(".header__user").prepend("<span class='item__counter'> 0 </span>")
+    let counter = 0;
 
-    $(".products__btn").click()
+    $(".products__btn").click( function() {
+        $(".item__counter").text(counter += 1)
+    })
 })
