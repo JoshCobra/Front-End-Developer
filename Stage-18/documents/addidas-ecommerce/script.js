@@ -26,10 +26,6 @@ $(document).ready( function() { // All jQuery code, similar to 'defer'
     $(".item__counter").css("display", "none")
     let counter = 0;
 
-    if ( $(".products__btn").classList === "products__btn--disabled" ) {
-        return
-    }
-
     $(".products__btn").click( function() {
         $(".item__counter").text(counter += 1)
 
