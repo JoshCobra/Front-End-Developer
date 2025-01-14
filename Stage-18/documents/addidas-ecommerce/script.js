@@ -26,11 +26,19 @@ $(document).ready( function() { // All jQuery code, similar to 'defer'
     $(".item__counter").css("display", "none")
     let counter = 0;
 
-    $(".products__btn").click( function() {
-        $(".item__counter").text(counter += 1)
+    $(".products__btn").each( function(i, obj) {
+        $(this).click( function() {
+            if ( $(this).hasClass("products__btn--disabled") ) {
+                return
+            }
+    
+            $(".item__counter").text(counter += 1)
+    
+            if (counter) {
+                $(".item__counter").css("display", "block")
+            }
 
-        if (counter) {
-            $(".item__counter").css("display", "block")
-        }
+            console.log(i, obj)
+        })
     })
 })
