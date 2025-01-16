@@ -231,6 +231,16 @@ Feel free to explore, learn, and contribute
 
 <hr>
 
+### [Stage 19 Asynchronous JavaScript](/Stage-19)
+- [Asynchronous JavaScript](/Stage-19/readme.md)
+	- [Promises](/Stage-19/promises.md)
+	- [Async/Await](/Stage-19/async-await.md)
+	- [Fetch API](/Stage-19/fetch-api.md)
+	- [Axios](/Stage-19/axios.md)
+
+<hr>
+
+
   ### Projects
   - Stage-2
     - [The Basics in HTML](Stage-2/documents/basics-html)
