@@ -3,6 +3,8 @@
 ## Introduction
 Promises in JavaScript provide a way to handle asynchronous operations. They represent a value that may be available now, in the future, or never.
 
+![Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/promises.png)
+
 ## Creating a Promise
 A promise is created using the `Promise` constructor, which takes a function with two arguments: `resolve` and `reject`.
 

@@ -42,3 +42,19 @@ buyIngredients("Mary", (meat) => {
         ])
     })
 })
+
+//Promises Example
+const onTheParty = () => {
+    return new Promise((resolve, reject) => { //Two possible results "resolve" or "reject"
+      setTimeOut(() => { //Anonymous function
+        
+        if(juanCame) {
+          resolve("Beer")
+          
+        } else {
+          reject("No Beer :(")
+        }
+        
+      }, 2000)
+    })
+  }
