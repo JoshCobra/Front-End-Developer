@@ -61,3 +61,46 @@ fetchData(displayData, handleError);
 In this example:
 - `fetchData` now takes two callbacks: `callback` for success and `errorCallback` for errors.
 - `handleError` is called if there is an error during data fetching.
+
+
+## Example of Callback Hell
+
+Callback hell, also known as "Pyramid of Doom," occurs when multiple asynchronous operations are nested within each other, making the code difficult to read and maintain. Here is an example:
+
+```javascript
+function fetchData(callback) {
+    setTimeout(() => {
+        const data = { name: "John", age: 30 };
+        callback(data);
+    }, 2000);
+}
+
+function fetchMoreData(data, callback) {
+    setTimeout(() => {
+        data.address = "123 Main St";
+        callback(data);
+    }, 2000);
+}
+
+function fetchEvenMoreData(data, callback) {
+    setTimeout(() => {
+        data.phone = "555-1234";
+        callback(data);
+    }, 2000);
+}
+
+fetchData((data) => {
+    console.log(`Fetched data: ${JSON.stringify(data)}`);
+    fetchMoreData(data, (updatedData) => {
+        console.log(`Fetched more data: ${JSON.stringify(updatedData)}`);
+        fetchEvenMoreData(updatedData, (finalData) => {
+            console.log(`Fetched even more data: ${JSON.stringify(finalData)}`);
+        });
+    });
+});
+```
+
+In this example:
+- `fetchData`, `fetchMoreData`, and `fetchEvenMoreData` are asynchronous functions that simulate fetching data.
+- Each function takes a callback that is called once the data is available.
+- The nested structure of callbacks makes the code harder to read and maintain.
