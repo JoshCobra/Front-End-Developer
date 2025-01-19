@@ -43,14 +43,15 @@ buyIngredients("Mary", (meat) => {
     })
 })
 
+
+
 //Promises Example
-const onTheParty = () => {
-    return new Promise((resolve, reject) => { //Two possible results "resolve" or "reject"
-      setTimeOut(() => { //Anonymous function
+const onTheParty = (juanCame) => {
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
         
         if(juanCame) {
           resolve("Beer")
-          
         } else {
           reject("No Beer :(")
         }
@@ -58,3 +59,19 @@ const onTheParty = () => {
       }, 2000)
     })
   }
+  
+  onTheParty(true)
+    .then((value) => {
+    console.log(`We got the ${value}`)
+  })
+    .catch((error) => {
+    console.error(error)
+  })
+  
+  onTheParty(false)
+    .then((value) => {
+    console.log(`We got the ${value}`)
+  })
+    .catch((error) => {
+    console.error(error)
+  })
