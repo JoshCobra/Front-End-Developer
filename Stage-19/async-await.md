@@ -1,5 +1,7 @@
 # Async and Await in JavaScript
 
+<a src="https://www.youtube.com/watch?v=9j1dZwFEJ-c" target="_blank">Async and Await in JavaScript Video</a>
+
 `async` and `await` are keywords in JavaScript that make it easier to work with asynchronous code. They are built on top of Promises and *allow you to write asynchronous code that looks synchronous*.
 
 ## Async

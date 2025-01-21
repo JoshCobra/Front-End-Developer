@@ -81,7 +81,7 @@ const onTheParty = (juanCame) => {
 const asyncExample = async () => {
   try {
       const response = await apiExample("animal") 
-      // You can only use await in async functions
+      // You can only use await in async functions, await depends on async
       console.log("hello " + response)
     
   } catch(error) {
