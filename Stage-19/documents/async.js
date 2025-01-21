@@ -75,3 +75,19 @@ const onTheParty = (juanCame) => {
     .catch((error) => {
     console.error(error)
   })
+
+  
+//Syintatic Sugar *make syntax easy*
+const asyncExample = async () => {
+  try {
+      const response = await apiExample("animal") 
+      // You can only use await in async functions
+      console.log("hello " + response)
+    
+  } catch(error) {
+    console.log(error)
+  }
+  
+}
+
+asyncExample()
