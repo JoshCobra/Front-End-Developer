@@ -3,7 +3,7 @@
 
 <p align="center">
 <img src="https://img.shields.io/badge/Start-12/10/2024-%23238725?style=for-the-badge">
-<img src="https://img.shields.io/badge/Current-Async_JS_Stage_19-%23238725?style=for-the-badge">
+<img src="https://img.shields.io/badge/Current-AJAX_API'S_Stage_20-%23238725?style=for-the-badge">
 <img src="https://img.shields.io/github/last-commit/JoshCobra/Front-End-Developer?style=for-the-badge&color=%23238725">
 </p>
 
@@ -239,6 +239,12 @@ Feel free to explore, learn, and contribute
 
 <hr>
 
+### [Stage 20 AJAX and APIs](/Stage-20)
+- [AJAX and APIs](/Stage-20/readme.md)
+	- [AJAX](/Stage-20/ajax.md)
+	- [APIs](/Stage-20/apis.md)
+
+<hr>
 
   ### Projects
   - Stage-2
