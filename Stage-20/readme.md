@@ -1,32 +1,32 @@
-# AJAX y API's
+# AJAX and APIs
 
-## Introducción
+## Introduction
 
-AJAX (Asynchronous JavaScript and XML) es una técnica de desarrollo web para crear aplicaciones interactivas. Permite que las páginas web se actualicen de manera asíncrona intercambiando pequeñas cantidades de datos con el servidor detrás de escena. Esto significa que es posible actualizar partes de una página web, sin recargar toda la página.
+AJAX (Asynchronous JavaScript and XML) is a web development technique for creating interactive applications. It allows web pages to be updated asynchronously by exchanging small amounts of data with the server behind the scenes. This means that parts of a web page can be updated without reloading the entire page.
 
-## ¿Qué es una API?
+## What is an API?
 
-Una API (Application Programming Interface) es un conjunto de reglas que permite que un software se comunique con otro. En el contexto de desarrollo web, las API's son utilizadas para permitir que las aplicaciones web interactúen con servicios externos, como bases de datos, servicios de terceros, etc.
+An API (Application Programming Interface) is a set of rules that allows software to communicate with each other. In the context of web development, APIs are used to enable web applications to interact with external services, such as databases, third-party services, etc.
 
-## Uso de AJAX con API's
+## Using AJAX with APIs
 
-Para utilizar AJAX con API's, generalmente se sigue el siguiente flujo:
+To use AJAX with APIs, the following flow is generally followed:
 
-1. **Crear una solicitud XMLHttpRequest**: Este objeto permite intercambiar datos con un servidor web.
-2. **Configurar la solicitud**: Especificar el método HTTP (GET, POST, etc.) y la URL de la API.
-3. **Enviar la solicitud**: Enviar la solicitud al servidor.
-4. **Manejar la respuesta**: Procesar la respuesta del servidor cuando esté disponible.
+1. **Create an XMLHttpRequest**: This object allows data to be exchanged with a web server.
+2. **Configure the request**: Specify the HTTP method (GET, POST, etc.) and the API URL.
+3. **Send the request**: Send the request to the server.
+4. **Handle the response**: Process the server's response when it is available.
 
-### Ejemplo de uso de AJAX con una API
+### Example of using AJAX with an API
 
 ```javascript
-// Crear una nueva solicitud
+// Create a new request
 let xhr = new XMLHttpRequest();
 
-// Configurar la solicitud
+// Configure the request
 xhr.open('GET', 'https://api.example.com/data', true);
 
-// Manejar la respuesta
+// Handle the response
 xhr.onreadystatechange = function() {
     if (xhr.readyState === 4 && xhr.status === 200) {
         let data = JSON.parse(xhr.responseText);
@@ -34,6 +34,6 @@ xhr.onreadystatechange = function() {
     }
 };
 
-// Enviar la solicitud
+// Send the request
 xhr.send();
 ```

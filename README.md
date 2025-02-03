@@ -241,6 +241,7 @@ Feel free to explore, learn, and contribute
 
 ### [Stage 20 AJAX and APIs](/Stage-20)
 - [AJAX and APIs](/Stage-20/readme.md)
+	- [JSON](/Stage-20/json.md)
 	- [AJAX](/Stage-20/ajax.md)
 	- [APIs](/Stage-20/apis.md)
 
