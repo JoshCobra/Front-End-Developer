@@ -3,6 +3,12 @@
     margin: 0;
 }
 
+body {
+    background-color: #efffb318;
+    font-family: "Knewave", serif;
+    font-style: normal;
+}
+
 header {
     display: flex;
     flex-direction: column;
@@ -21,9 +27,9 @@ header img {
 
 header h1 {
     font-size: 3rem;
-    color: #263238;
+    color: #ffffff;
     font-weight: 700;
-    letter-spacing: 2px;
+    letter-spacing: 7px;
 }
 
 .search-section {
