@@ -1,5 +1,5 @@
 const createPokeCard = (pokemon) => {
-    
+
     const card = document.createElement("div")
     card.classList.add("pokemon-card")
     
@@ -40,5 +40,20 @@ const createPokeCard = (pokemon) => {
 
 document.addEventListener("DOMContentLoaded", () => {
 
-    fetch
+    fetch("https://pokeapi.co/api/v2/pokemon?imit=20")
+        .then((response) => response.json())
+        .then((data) => {
+            const pokemonGrid = document.getElementById("pokemon-grid")
+            data.results.forEach((pokemon) => {
+                fetch(pokemon.url)
+                    .then((response) => response.json())
+                    .then((pokemonData) => {
+                        const pokemonCard = createPokeCard(pokemonData)
+                        pokemonGrid.appendChild(pokemonCard)
+                    })
+            })
+        })
+        .catch((error) => {
+            console.log("Error fetch: ", error )
+        })
 })

@@ -67,5 +67,10 @@ header h1 {
 }
 
 .search-results-grid {
-
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 100px;
 }
