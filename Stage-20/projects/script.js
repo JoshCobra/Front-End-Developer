@@ -1,4 +1,5 @@
-const createPokeCard = () => {
+const createPokeCard = (pokemon) => {
+    
     const card = document.createElement("div")
     card.classList.add("pokemon-card")
     
@@ -36,3 +37,8 @@ const createPokeCard = () => {
 
     return card
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+
+    fetch
+})
