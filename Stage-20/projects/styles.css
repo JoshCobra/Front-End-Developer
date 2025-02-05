@@ -14,7 +14,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 100px;
+    margin: 10px 170px 35px;
     background-color: #ff3737;
     padding: 30px;
     border-radius: 10px;
@@ -27,9 +27,11 @@ header img {
 
 header h1 {
     font-size: 3rem;
-    color: #ffffff;
-    font-weight: 700;
+    color: #ffd900;
+    font-weight: 800;
     letter-spacing: 7px;
+    -webkit-text-stroke-color: #073ac7;
+    -webkit-text-stroke-width: 1px;
 }
 
 .search-section {
@@ -55,6 +57,7 @@ header h1 {
 }
 
 #search-btn {
+    background-color: #ffd900;
     transition: all 0.25s ease-in-out;
 }
 
