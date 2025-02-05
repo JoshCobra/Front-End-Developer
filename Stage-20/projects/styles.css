@@ -80,6 +80,8 @@ header h1 {
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
+    background-color: #ffefa7;
+    border-radius: 10px;
 }
 
 .pokemon-image-container {
@@ -88,4 +90,14 @@ header h1 {
 
 .pokemon-image {
     width: 100%;
+}
+
+.pokemon-info {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ff3737;
+    color: #263238;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    border-radius: 0 10px 0;
 }
