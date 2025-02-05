@@ -74,3 +74,18 @@ header h1 {
     align-items: center;
     margin: 25px 100px;
 }
+
+.pokemon-card {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+.pokemon-image-container {
+    width: 120px;
+}
+
+.pokemon-image {
+    width: 100%;
+}
