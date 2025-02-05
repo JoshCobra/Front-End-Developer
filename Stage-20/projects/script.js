@@ -40,7 +40,7 @@ const createPokeCard = (pokemon) => {
 
 document.addEventListener("DOMContentLoaded", () => {
 
-    fetch("https://pokeapi.co/api/v2/pokemon?limit=20")
+    fetch("https://pokeapi.co/api/v2/pokemon?limit=12")
         .then((response) => response.json())
         .then((data) => {
             const pokemonGrid = document.getElementById("pokemon-grid")
