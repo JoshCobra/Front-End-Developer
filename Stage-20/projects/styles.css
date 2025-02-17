@@ -82,13 +82,13 @@ header h1 {
     justify-content: center;
     background-color: #ffefa756;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 4px 6px #0000001a, 0 1px 3px #00000014;
     transition: all 0.35s ease-in-out;
 }
 
 .pokemon-card:hover {
     transform: scale(1.02);
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3), 0 4px 6px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 8px 12px #0000004d, 0 4px 6px #00000026;
 }
 
 .pokemon-image-container {
