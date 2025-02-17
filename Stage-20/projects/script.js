@@ -20,7 +20,16 @@ const createPokeCard = (pokemon) => {
         typesDiv.appendChild(typeSpan)
 
         if (typeSpan.textContent === "poison") {
-            typeSpan.style.backgroundColor = "blue"
+            typeSpan.style.backgroundColor = "#7f01fe"
+
+        } else if (typeSpan.textContent === "fire") {
+            typeSpan.style.backgroundColor = "#fc6400"
+
+        } else if (typeSpan.textContent === "water") {
+            typeSpan.style.backgroundColor = "#0e87cc"
+
+        } else if (typeSpan.textContent === "flying") {
+            typeSpan.style.backgroundColor = "#d4f1f9"
         }
     })
 
@@ -49,10 +58,12 @@ document.addEventListener("DOMContentLoaded", () => {
         .then((response) => response.json())
         .then((data) => {
             const pokemonGrid = document.getElementById("pokemon-grid")
+            console.log(data)
             data.results.forEach((pokemon) => {
                 fetch(pokemon.url)
                     .then((response) => response.json())
                     .then((pokemonData) => {
+                        console.log(pokemonData)
                         const pokemonCard = createPokeCard(pokemonData)
                         pokemonGrid.appendChild(pokemonCard)
                     })
