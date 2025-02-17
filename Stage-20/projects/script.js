@@ -17,6 +17,11 @@ const createPokeCard = (pokemon) => {
         const typeSpan = document.createElement("span")
         typeSpan.classList.add("pokemon-type", type.type.name)
         typeSpan.textContent = type.type.name
+        typesDiv.appendChild(typeSpan)
+
+        if (typeSpan.textContent === "poison") {
+            typeSpan.style.backgroundColor = "blue"
+        }
     })
 
     infoDiv.appendChild(pokeName)
