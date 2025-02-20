@@ -52,9 +52,10 @@ const createPokeCard = (pokemon) => {
     return card
 }
 
+const url = "https://pokeapi.co/api/v2/pokemon"
+
 const loadPokemons = async () => {
     const pokemonGrid = document.getElementById("pokemon-grid")
-    const url = "https://pokeapi.co/api/v2/pokemon"
 
     try {
         const response = await axios.get(url, {params: {limit: 20}})
@@ -69,8 +70,25 @@ const loadPokemons = async () => {
             pokemonGrid.appendChild(pokemonCard)
         }
     } catch (error) {
-        console.log("Error fetch:", error)
+        console.error("Error fetch:", error)
     }
 }
 
 document.addEventListener("DOMContentLoaded", loadPokemons)
+
+const searchPokemon = async () => {
+    const pokemonName = document.getElementById('pokemon-search').value.toLowerCase()
+
+    if(pokemonName) {
+        try {
+            const response = await axios.get(url+pokemonName)
+            const pokemonGrid = document.getElementById('pokemon-grid')
+            pokemonGrid.innerHTML = ''
+
+            const pokemonCard = createPokeCard(response.data)
+            pokemonGrid.appendChild(pokemonCard)
+        } catch (error) {
+            console.error("Error Finding the pokemon: ", error)
+        }
+    }
+}
