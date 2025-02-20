@@ -74,22 +74,3 @@ const loadPokemons = async () => {
 }
 
 document.addEventListener("DOMContentLoaded", loadPokemons)
-
-    // axios.get("https://pokeapi.co/api/v2/pokemon", {params: {limit: 20}})
-    //     .then((response) => {
-    //         const pokemonGrid = document.getElementById("pokemon-grid")
-    //         const { data } = response
-
-    //         data.results.forEach((pokemon) => {
-    //             fetch(pokemon.url)
-    //                 .then((response) => response.json())
-    //                 .then((pokemonData) => {
-
-    //                     const pokemonCard = createPokeCard(pokemonData)
-    //                     pokemonGrid.appendChild(pokemonCard)
-    //                 })
-    //         })
-    //     })
-    //     .catch((error) => {
-    //         console.log("Error fetch: ", error )
-    //     })
