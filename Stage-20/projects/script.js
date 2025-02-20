@@ -58,7 +58,7 @@ const loadPokemons = async () => {
     const pokemonGrid = document.getElementById("pokemon-grid")
 
     try {
-        const response = await axios.get(url, {params: {limit: 20}})
+        const response = await axios.get(url, {params: {limit: 40}})
         const pokemons = response.data.results
 
         pokemonGrid.innerHTML = ''
@@ -96,7 +96,6 @@ const searchPokemon = async () => {
 document.getElementById('search-btn').addEventListener('click', searchPokemon)
 document.getElementById('pokemon-search').addEventListener('keypress', function(e) {
     if (e.key === 'Enter') {
-        console.log("search")
         searchPokemon()
     } 
 })
