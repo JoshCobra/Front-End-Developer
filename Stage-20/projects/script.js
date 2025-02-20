@@ -52,24 +52,44 @@ const createPokeCard = (pokemon) => {
     return card
 }
 
-document.addEventListener("DOMContentLoaded", () => {
+const loadPokemons = async () => {
+    const pokemonGrid = document.getElementById("pokemon-grid")
+    const url = "https://pokeapi.co/api/v2/pokemon"
 
-    axios.get("https://pokeapi.co/api/v2/pokemon", {params: {limit: 20}})
-        .then((response) => {
-            const pokemonGrid = document.getElementById("pokemon-grid")
-            const { data } = response
+    try {
+        const response = await axios.get(url, {params: {limit: 20}})
+        const pokemons = response.data.results
 
-            data.results.forEach((pokemon) => {
-                fetch(pokemon.url)
-                    .then((response) => response.json())
-                    .then((pokemonData) => {
+        pokemonGrid.innerHTML = ''
 
-                        const pokemonCard = createPokeCard(pokemonData)
-                        pokemonGrid.appendChild(pokemonCard)
-                    })
-            })
-        })
-        .catch((error) => {
-            console.log("Error fetch: ", error )
-        })
-})
+        for(const pokemon of pokemons) {
+
+            const detailsResponse = await axios.get(pokemon.url)
+            const pokemonCard = createPokeCard(detailsResponse.data)
+            pokemonGrid.appendChild(pokemonCard)
+        }
+    } catch (error) {
+        console.log("Error fetch:", error)
+    }
+}
+
+document.addEventListener("DOMContentLoaded", loadPokemons)
+
+    // axios.get("https://pokeapi.co/api/v2/pokemon", {params: {limit: 20}})
+    //     .then((response) => {
+    //         const pokemonGrid = document.getElementById("pokemon-grid")
+    //         const { data } = response
+
+    //         data.results.forEach((pokemon) => {
+    //             fetch(pokemon.url)
+    //                 .then((response) => response.json())
+    //                 .then((pokemonData) => {
+
+    //                     const pokemonCard = createPokeCard(pokemonData)
+    //                     pokemonGrid.appendChild(pokemonCard)
+    //                 })
+    //         })
+    //     })
+    //     .catch((error) => {
+    //         console.log("Error fetch: ", error )
+    //     })
