@@ -52,7 +52,7 @@ const createPokeCard = (pokemon) => {
     return card
 }
 
-const url = "https://pokeapi.co/api/v2/pokemon"
+const url = "https://pokeapi.co/api/v2/pokemon/"
 
 const loadPokemons = async () => {
     const pokemonGrid = document.getElementById("pokemon-grid")
@@ -92,3 +92,11 @@ const searchPokemon = async () => {
         }
     }
 }
+
+document.getElementById('search-btn').addEventListener('click', searchPokemon)
+document.getElementById('pokemon-search').addEventListener('keypress', function(e) {
+    if (e.key === 'Enter') {
+        console.log("search")
+        searchPokemon()
+    } 
+})
