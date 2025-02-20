@@ -54,16 +54,16 @@ const createPokeCard = (pokemon) => {
 
 document.addEventListener("DOMContentLoaded", () => {
 
-    fetch("https://pokeapi.co/api/v2/pokemon?limit=12")
-        .then((response) => response.json())
-        .then((data) => {
+    axios.get("https://pokeapi.co/api/v2/pokemon", {params: {limit: 20}})
+        .then((response) => {
             const pokemonGrid = document.getElementById("pokemon-grid")
-            console.log(data)
+            const { data } = response
+
             data.results.forEach((pokemon) => {
                 fetch(pokemon.url)
                     .then((response) => response.json())
                     .then((pokemonData) => {
-                        console.log(pokemonData)
+
                         const pokemonCard = createPokeCard(pokemonData)
                         pokemonGrid.appendChild(pokemonCard)
                     })
