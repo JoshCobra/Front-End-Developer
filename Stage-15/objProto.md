@@ -21,3 +21,5 @@ If you type the object's name followed by a period into the console, like `myObj
 Every object in JavaScript has a built-in property, which is called its prototype. The prototype is itself an object, so the prototype will have its own prototype, making what's called a prototype chain. The chain ends when we reach a prototype that has `null` for its own prototype.
 
 So basically every time the object we are creating doesn't include a property we want to use like `toString()` but keep in mind that our object `myObject` doesn't have this function on it, so we use the prototype object to access this property, finds it there an calls it.
+
+<img src= "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Object_prototypes/myobject-prototype-chain.svg">
