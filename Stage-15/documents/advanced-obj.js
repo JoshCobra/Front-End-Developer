@@ -34,5 +34,13 @@ programmer.greet() // Inheriting the functions from original object person
 
 // Working with object
 const checkAvalible = (object) => {
-    
+    if (object.avalible) {
+        console.log("Person is Avalible to work")
+    } else {
+        console.log("This person is not avalible")
+    }
 }
+
+checkAvalible(programmer)
+
+checkAvalible(person) // Does not have the attribute 'avalible' so its false
