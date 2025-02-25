@@ -31,6 +31,12 @@ programmer.avalible = false
 console.log(programmer)
 programmer.greet() // Inheriting the functions from original object person
 
+let doctor = Object.create(person)
+
+doctor.name = "Omar"
+doctor.age = 22
+doctor.avalible = true
+
 
 // Working with object
 const checkAvalible = (object) => {
@@ -42,5 +48,5 @@ const checkAvalible = (object) => {
 }
 
 checkAvalible(programmer)
-
+checkAvalible(doctor)
 checkAvalible(person) // Does not have the attribute 'avalible' so its false
