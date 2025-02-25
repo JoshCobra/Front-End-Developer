@@ -41,7 +41,7 @@ doctor.avalible = true
 // Working with object
 const checkAvalible = (object) => {
     if (object.avalible) {
-        console.log("Person is Avalible to work")
+        console.log(`${object.name} is a ${typeof(object)} available to work`)
     } else {
         console.log("This person is not avalible")
     }
