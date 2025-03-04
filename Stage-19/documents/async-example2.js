@@ -44,6 +44,25 @@ function step1(callback) {
     }, 1000)
 }
 
+function step2(callback) {
+    setTimeout(() => {
+        console.log("Step - 2 Done")
+        callback()
+    }, 2000)
+}
+
+function step3(callback) {
+    setTimeout(() => {
+        console.log("Step - 3 Done")
+        callback()
+    }, 3000)
+}
+
+// Callback Hell
 step1(() => {
-    console.log("All events completed")
+    step2(()=> {
+        step3(()=> {
+            console.log("All events completed")
+        })
+    })
 })
