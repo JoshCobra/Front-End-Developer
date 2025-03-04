@@ -69,6 +69,8 @@ step1(() => {
 
 // - Promises
 
+// https://www.youtube.com/watch?v=Xs1EMmBLpn4
+
 console.log("------")
 
 const timePassed = ()=> {
@@ -79,13 +81,15 @@ const timePassed = ()=> {
             let start = false
 
             if (start) {
-                resolve("Finish timePassed() function")
+                resolve("Finish timePassed() function") 
+                // The value on resolve becomes the 'result' reject becomes 'error'
             } else {
                 reject("variable 'start' is not false")
+                // The value on reject becomes the 'result'
             }
         }, 4000)
     })
 }
 
-timePassed().then(result => {console.log(result)})
-            .catch(error => {console.log(error)})
+timePassed().then(result => console.log(result)) // Showing the result
+            .catch(error => console.log(error))
