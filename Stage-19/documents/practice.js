@@ -1,5 +1,5 @@
 // Usando Promises
-// Este ejercicio es la preparacion de un carro para una carrera
+// Este ejercicio es la preparación de un carro para una carrera
 function prepareTires() {
   
     return new Promise((resolve, reject) => {
@@ -8,7 +8,7 @@ function prepareTires() {
         let tiresReady = true
         
         if(tiresReady) {
-            resolve("Las llantas estan listas 🧑‍🔧")
+            resolve("Las llantas están listas 🧑‍🔧")
         } else {
           reject("Llantas INCORRECTAS 😲")
         }
@@ -56,7 +56,7 @@ function prepareTires() {
   
   
   // Usando Await y Async
-  // Este codigo hace referencia a una lista de compras para hacer una ensalada
+  // Este código hace referencia a una lista de compras para hacer una ensalada
   
   function buyVegetables() {
     
