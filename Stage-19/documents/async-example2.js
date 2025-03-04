@@ -29,7 +29,7 @@ console.log("--------")
  console.log("Start")
 
  setTimeout(()=> { // Executes before the timeout
-    console.log("Time Out")
+    console.log("Time Out After 2 Seconds")
  }, 2000) // Defined timeout of 2 seconds 
 
  console.log("Finish")
@@ -37,8 +37,13 @@ console.log("--------")
 
  // Example 
 
- function step1(callback) {
+function step1(callback) {
     setTimeout(() => {
         console.log("Step - 1 Done")
-    })
- }
+        callback()
+    }, 1000)
+}
+
+step1(() => {
+    console.log("All events completed")
+})
