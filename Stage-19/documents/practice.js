@@ -110,7 +110,7 @@ function prepareTires() {
     
     return new Promise((resolve, reject) => {
       if (dice === 0) {
-        reject("El dado ha caido en 0")
+        reject("El dado ha caído en 0")
       } else {
         resolve(`El dado cayo en ${dice}`)
       }
@@ -127,4 +127,4 @@ function prepareTires() {
     }
   }
   
-  throwDice()
+throwDice()
