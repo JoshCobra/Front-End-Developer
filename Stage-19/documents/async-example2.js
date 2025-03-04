@@ -68,3 +68,21 @@ step1(() => {
 })
 
 // - Promises
+
+const timePassed = ()=> {
+
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+
+            let start = true
+
+            if (start) {
+                resolve("Finish")
+            } else {
+                reject("Start is not defined")
+            }
+        }, 4000)
+    })
+}
+
+timePassed().then(value => {console.log(value)})
