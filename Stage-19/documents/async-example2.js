@@ -78,15 +78,19 @@ const timePassed = ()=> {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
 
-            let start = false
+            let finish = true
 
-            if (start) {
-                resolve("Finish timePassed() function") 
-                // The value on resolve becomes the 'result' reject becomes 'error'
-            } else {
-                reject("variable 'start' is not false")
-                // The value on reject becomes the 'result'
-            }
+            // if (start) {
+            //     resolve("Finish timePassed() function") 
+            //     // The value on resolve becomes the 'result' reject becomes 'error'
+            // } else {
+            //     reject("variable 'start' is not false")
+            //     // The value on reject becomes the 'result'
+            // }
+
+            finish ? resolve("Finish") : reject("Unfinished")
+            // Ternary operator
+
         }, 4000)
     })
 }
