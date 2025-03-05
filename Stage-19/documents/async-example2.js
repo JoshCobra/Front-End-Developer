@@ -97,3 +97,4 @@ const timePassed = ()=> {
 
 timePassed().then(result => console.log(result)) // Showing the result
             .catch(error => console.log(error))
+            .finally( console.log("This code executes every time, no matter if resolved or rejected"))
