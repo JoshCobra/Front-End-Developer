@@ -1,6 +1,6 @@
 # Introduction to Web Development and Front-End
 
-### Fisrt-Stage
+### First-Stage
 
 - [**How the Internet and Websites Work**](How-Internet-And-WebSites-Work.md): Understanding the global network that connects computers and the structure of online sites.
 - [**Key Differences Between Front-End and Back-End**](Difference-Front-End-Back-End.md): Exploring the responsibilities and functions of each in web development.

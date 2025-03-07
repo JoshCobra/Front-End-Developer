@@ -12,6 +12,8 @@
 4. [**Live Preview**](https://github.com/microsoft/vscode-livepreview)  
    This extension provides real-time visualization of your HTML files within Visual Studio Code. As you code, you can instantly see the changes reflected, making it easier to adjust and refine your design without switching windows.
 
+Next [[Stage-1/Tips|Tips]]
+
 <div align="center>
 
  [Stage 1 Intro](/Stage-1)    ---     [Go Back](/Stage-1/Setting-Up-Development-Tools.md)      ---     [Return](/)   --- [TIPS](/Stage-1/Tips.md)
