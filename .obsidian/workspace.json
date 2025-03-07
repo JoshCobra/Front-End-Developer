@@ -11,14 +11,14 @@
             "id": "fe2cf6f1fcdbba8f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Stage-1/Vs-Code-Extensions.md",
-                "mode": "source",
-                "source": false
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Vs-Code-Extensions"
+              "icon": "diff",
+              "title": "Diff: workspace.json"
             }
           }
         ]
@@ -94,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Stage-1/Vs-Code-Extensions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Vs-Code-Extensions"
+              "title": "Backlinks"
             }
           },
           {
@@ -113,12 +112,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Stage-1/Vs-Code-Extensions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Vs-Code-Extensions"
+              "title": "Outgoing links"
             }
           },
           {
@@ -142,13 +140,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Stage-1/Vs-Code-Extensions.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Vs-Code-Extensions"
+              "title": "Outline"
             }
           },
           {
