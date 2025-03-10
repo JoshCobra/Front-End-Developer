@@ -1,6 +1,89 @@
 # HTTP Methods
 
+HTTP defines a set of request methods to indicate the desired action to be performed for a given resource. Here are some commonly used HTTP methods:
 
+### GET
+The GET method requests a representation of the specified resource. Requests using GET should only retrieve data.
+
+**Example Usage:**
+```plaintext
+GET /users
+```
+
+### POST
+The POST method submits an entity to the specified resource, often causing a change in state or side effects on the server.
+
+**Example Usage:**
+```plaintext
+POST /users
+{
+    "name": "Jane Doe",
+    "email": "jane.doe@example.com"
+}
+```
+
+### PUT
+The PUT method replaces all current representations of the target resource with the request payload.
+
+**Example Usage:**
+```plaintext
+PUT /users/1
+{
+    "name": "Jane Doe",
+    "email": "jane.doe@example.com"
+}
+```
+
+### DELETE
+The DELETE method deletes the specified resource.
+
+**Example Usage:**
+```plaintext
+DELETE /users/1
+```
+
+### PATCH
+The PATCH method applies partial modifications to a resource.
+
+**Example Usage:**
+```plaintext
+PATCH /users/1
+{
+    "email": "jane.newemail@example.com"
+}
+```
+
+### HEAD
+The HEAD method asks for a response identical to that of a GET request, but without the response body.
+
+**Example Usage:**
+```plaintext
+HEAD /users
+```
+
+### OPTIONS
+The OPTIONS method describes the communication options for the target resource.
+
+**Example Usage:**
+```plaintext
+OPTIONS /users
+```
+
+### CONNECT
+The CONNECT method establishes a tunnel to the server identified by the target resource.
+
+**Example Usage:**
+```plaintext
+CONNECT /users
+```
+
+### TRACE
+The TRACE method performs a message loop-back test along the path to the target resource.
+
+**Example Usage:**
+```plaintext
+TRACE /users
+```
 
 # Postman
 
