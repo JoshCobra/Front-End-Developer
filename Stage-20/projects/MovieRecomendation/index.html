@@ -3,25 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js" defer></script>
     <title>Movie Recommendation</title>
 </head>
 <body>
     <header>
         <h1>Movies Of The Day</h1>
         <nav>
-            <a href="">Shows</a>
-            <a href=""></a>
+            <a href="">Today's Selection</a>
+            <a href="">Action</a>
+            <a href="">Horror</a>
+            <a href="">Sci-Fi</a>
+            <a href="">Romance</a>
         </nav>
     </header>
 
     <main>
+        <section id="todays-selection">
+            <h2>Get Today's Selection</h2>
+            <p>Specially Selected For You</p>
+            <button id="get-suggestion">Get Suggestion</button>
+        </section>
+
         <section id="search">
             <input type="text" id="movie-search" placeholder="Search">
             <button id="search-btn">Search</button>
-        </section>
-
-        <section id="todays-selection">
-            <button id="get-suggestion">Get Suggestion</button>
         </section>
 
         <section class="grid">
