@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "95f33865050fa6e5",
+        "id": "5df2505364ddda2c",
         "type": "tabs",
         "children": [
           {
-            "id": "fe2cf6f1fcdbba8f",
+            "id": "0fefa8cc08bdf7ad",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
+                "file": "Stage-20/postman.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
+              "icon": "lucide-file",
+              "title": "postman"
             }
           }
         ]
@@ -163,7 +163,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.5
+    "width": 261.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -176,14 +177,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fe2cf6f1fcdbba8f",
+  "active": "0fefa8cc08bdf7ad",
   "lastOpenFiles": [
+    "README.md",
+    "Stage-20/apis.md",
+    "Stage-2/documents/basics-html.md",
+    "Stage-20/postman.md",
+    "Stage-20/json.md",
+    "Stage-20/readme.md",
+    "Stage-20/axios.md",
+    "Stage-1/Difference-Front-End-Back-End.md",
     "Stage-1/Vs-Code-Extensions.md",
     "Stage-1/Readme.md",
     "Stage-1/Tips.md",
-    "README.md",
     "Stage-1.md",
-    "Stage-1/Difference-Front-End-Back-End.md",
     "Stage-1/HTML-CSS-JavaScript-Vi.md"
   ]
 }

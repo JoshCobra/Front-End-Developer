@@ -245,6 +245,7 @@ Feel free to explore, learn, and contribute
 	- [JSON](/Stage-20/json.md)
 	- [AJAX](/Stage-20/ajax.md)
 	- [APIs](/Stage-20/apis.md)
+	- [Postman](/Stage-20/postman.md)
 
 <hr>
 
