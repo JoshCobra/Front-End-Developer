@@ -1,5 +1,7 @@
 # HTTP Methods
 
+<img src='https://www.ionos.co.uk/digitalguide/fileadmin/_processed_/6/2/csm_diagram-of-http-communication-process_d3324c3b01.webp'>
+
 HTTP defines a set of request methods to indicate the desired action to be performed for a given resource. Here are some commonly used HTTP methods:
 
 ### GET
