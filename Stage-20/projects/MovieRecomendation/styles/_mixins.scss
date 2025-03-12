@@ -1,0 +1,29 @@
+@import "./variables";
+
+@mixin flex-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin button {
+    padding: 10px;
+    background-color: $bg-btn;
+    color: $white-txt;
+    border: none;
+    border-radius: 20px;
+    transition: $transition;
+
+    &:hover {
+        transform: scale(1.04);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+}
+
+@mixin section {
+    background-color: $bg-color;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: $shadow;
+}

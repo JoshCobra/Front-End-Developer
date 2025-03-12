@@ -1,38 +1,82 @@
+@import "./mixins";
+
 header {
-    background-color: #407b4c;
+    background: linear-gradient(to top, $bg-color, $white 55%);
     padding: 10px;
     margin: 10px;
     border-radius: 20px;
 
+    h1 {
+        text-align: center;
+    }
+
     nav {
-        display: flex;
+        @include flex-main();
+        gap: 10px;
 
         a {
-            color: #2c2c2c;
+            color: $main-txt;
         }
     }
 }
 
 main {
     #todays-selection {
-        background-color: #407b4c;
+        @include flex-main();
+        background-color: $bg-color;
         border-radius: 20px;
         padding: 20px;
         margin: 10px;
+        box-shadow: $shadow;
+        flex-direction: column;
 
         h2 {
             font-size: 2rem;
+            margin: 0;
+            color: $h2-white;
         }
 
         p {
-            color: #2c2c2c;
+            color: $main-txt;
+            font-size: 1.3rem;
+            margin: 10px 0;
         }
 
         button {
-            padding: 10px;
-            background-color: #335298;
-            color: #2c2c2c;
+            @include button();
+        }
+    }
 
+    #search {
+        @include section();
+        @include flex-main();
+        flex-direction: column;
+
+        h2 {
+            color: $h2-white;
+            font-size: 2rem;
+        }
+
+        input[type="text"] {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            color: $h2-white;
+            background-color: $bg-color;
+            width: 60%;
+            box-sizing: border-box;
+            margin: 10px 0;
+
+            &:focus {
+                outline: none;
+                background-color: #50975f;
+                border-color: $bg-color;
+            }
+        }
+
+        button {
+            @include button();
         }
     }
 }

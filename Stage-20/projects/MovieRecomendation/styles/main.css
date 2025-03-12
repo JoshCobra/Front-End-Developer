@@ -1,30 +1,99 @@
+/* Colors */
+/* Fonts */
+/* Miscellaneous */
+/**/
 header {
-  background-color: #407b4c;
+  background: linear-gradient(to top, #407b4c, white 55%);
   padding: 10px;
   margin: 10px;
   border-radius: 20px;
 }
+header h1 {
+  text-align: center;
+}
 header nav {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 header nav a {
   color: #2c2c2c;
 }
 
 main #todays-selection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #407b4c;
   border-radius: 20px;
   padding: 20px;
   margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  flex-direction: column;
 }
 main #todays-selection h2 {
   font-size: 2rem;
+  margin: 0;
+  color: #e1e1e1;
 }
 main #todays-selection p {
   color: #2c2c2c;
+  font-size: 1.3rem;
+  margin: 10px 0;
 }
 main #todays-selection button {
   padding: 10px;
   background-color: #335298;
-  color: #2c2c2c;
+  color: #dcdcdc;
+  border: none;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+}
+main #todays-selection button:hover {
+  transform: scale(1.04);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+main #search {
+  background-color: #407b4c;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+main #search h2 {
+  color: #e1e1e1;
+  font-size: 2rem;
+}
+main #search input[type=text] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #e1e1e1;
+  background-color: #407b4c;
+  width: 60%;
+  box-sizing: border-box;
+  margin: 10px 0;
+}
+main #search input[type=text]:focus {
+  outline: none;
+  background-color: #50975f;
+  border-color: #407b4c;
+}
+main #search button {
+  padding: 10px;
+  background-color: #335298;
+  color: #dcdcdc;
+  border: none;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+}
+main #search button:hover {
+  transform: scale(1.04);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }/*# sourceMappingURL=main.css.map */
