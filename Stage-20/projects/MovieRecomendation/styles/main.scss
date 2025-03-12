@@ -19,8 +19,13 @@ header {
 
         a {
             font-family: $txt;
-            color: $main-txt;
+            color: $white-txt;
             text-decoration: none;
+            transition: $transition;
+
+            &:hover {
+                color: #000000;
+            }
         }
     }
 }
@@ -64,6 +69,7 @@ main {
             font-family: $h2-title;
             color: $h2-white;
             font-size: 2rem;
+            margin: 0;
         }
 
         input[type="text"] {

@@ -22,8 +22,12 @@ header nav {
 }
 header nav a {
   font-family: "Karla", sans-serif;
-  color: #2c2c2c;
+  color: #dcdcdc;
   text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+header nav a:hover {
+  color: #000000;
 }
 
 main #todays-selection {
@@ -79,6 +83,7 @@ main #search h2 {
   font-family: "Zain", sans-serif;
   color: #e1e1e1;
   font-size: 2rem;
+  margin: 0;
 }
 main #search input[type=text] {
   padding: 10px;
