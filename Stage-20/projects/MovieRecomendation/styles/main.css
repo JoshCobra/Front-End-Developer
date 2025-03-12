@@ -9,16 +9,21 @@ header {
   border-radius: 20px;
 }
 header h1 {
+  font-family: "Modak", system-ui;
   text-align: center;
+  font-size: 3rem;
+  font-weight: 100;
 }
 header nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 15px;
 }
 header nav a {
+  font-family: "Karla", sans-serif;
   color: #2c2c2c;
+  text-decoration: none;
 }
 
 main #todays-selection {
@@ -35,9 +40,12 @@ main #todays-selection {
 main #todays-selection h2 {
   font-size: 2rem;
   margin: 0;
+  font-family: "Zain", sans-serif;
+  font-weight: 800;
   color: #e1e1e1;
 }
 main #todays-selection p {
+  font-family: "Karla", sans-serif;
   color: #2c2c2c;
   font-size: 1.3rem;
   margin: 10px 0;
@@ -49,6 +57,8 @@ main #todays-selection button {
   border: none;
   border-radius: 20px;
   transition: all 0.3s ease-in-out;
+  font-family: "Karla", sans-serif;
+  font-weight: bold;
 }
 main #todays-selection button:hover {
   transform: scale(1.04);
@@ -66,6 +76,7 @@ main #search {
   flex-direction: column;
 }
 main #search h2 {
+  font-family: "Zain", sans-serif;
   color: #e1e1e1;
   font-size: 2rem;
 }
@@ -92,6 +103,8 @@ main #search button {
   border: none;
   border-radius: 20px;
   transition: all 0.3s ease-in-out;
+  font-family: "Karla", sans-serif;
+  font-weight: bold;
 }
 main #search button:hover {
   transform: scale(1.04);

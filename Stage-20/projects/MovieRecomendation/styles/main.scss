@@ -7,15 +7,20 @@ header {
     border-radius: 20px;
 
     h1 {
+        font-family: $title;
         text-align: center;
+        font-size: 3rem;
+        font-weight: 100;
     }
 
     nav {
         @include flex-main();
-        gap: 10px;
+        gap: 15px;
 
         a {
+            font-family: $txt;
             color: $main-txt;
+            text-decoration: none;
         }
     }
 }
@@ -33,10 +38,13 @@ main {
         h2 {
             font-size: 2rem;
             margin: 0;
+            font-family: $h2-title;
+            font-weight: 800;
             color: $h2-white;
         }
 
         p {
+            font-family: $txt;
             color: $main-txt;
             font-size: 1.3rem;
             margin: 10px 0;
@@ -53,6 +61,7 @@ main {
         flex-direction: column;
 
         h2 {
+            font-family: $h2-title;
             color: $h2-white;
             font-size: 2rem;
         }
