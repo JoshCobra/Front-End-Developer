@@ -12,27 +12,35 @@ const createMovieCard = (show) => {
 
 }
 
-const url = "https://api.tvmaze.com/schedule/"
+const scheduleURL = "https://api.tvmaze.com/schedule/"
 
 const loadMovies = async () => {
     
     
 }
 
-async function getLimitedSchedule(limit = 10) {
-  try {
-    const response = await axios.get("https://api.tvmaze.com/schedule");
+async function getSchedule(limit = 10) {
 
-    const limitedShows = response.data.slice(0, limit); // Limit to 10 shows
+    const nowLive = document.getElementById("now-live")
+    const showCard = document.createElement("div")
+    showCard.classList.add("show-card")
 
-    limitedShows.forEach((show, index) => {
-      console.log(`${index + 1}. 📺 ${show.show.name} | ${show.name} | 🕒 ${show.airtime} | 📡 ${show.network?.name || "Streaming"}`);
-    });
+    nowLive.appendChild(showCard)
 
-  } catch (error) {
-    console.error("Error fetching schedule:", error);
-  }
+    try {
+        const response = await axios.get("https://api.tvmaze.com/schedule");
+        const limitedShows = response.data.slice(0, limit); // Limit to 10 shows
+
+        limitedShows.forEach((show, index) => {
+            console.log(`${index + 1}. 📺 ${show.show.name} | ${show.name} | 🕒 ${show.airtime} | 📡 ${show.network?.name || "Streaming"}`);
+        });
+
+    } catch (error) {
+        console.error("Error fetching schedule:", error);
+    }
 }
 
-getLimitedSchedule();
+getSchedule();
+
+
 
