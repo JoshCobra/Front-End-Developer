@@ -1,0 +1,38 @@
+header {
+    background-color: #407b4c;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+
+    nav {
+        display: flex;
+
+        a {
+            color: #2c2c2c;
+        }
+    }
+}
+
+main {
+    #todays-selection {
+        background-color: #407b4c;
+        border-radius: 20px;
+        padding: 20px;
+        margin: 10px;
+
+        h2 {
+            font-size: 2rem;
+        }
+
+        p {
+            color: #2c2c2c;
+        }
+
+        button {
+            padding: 10px;
+            background-color: #335298;
+            color: #2c2c2c;
+
+        }
+    }
+}

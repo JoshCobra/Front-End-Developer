@@ -90,10 +90,6 @@ const searchPokemon = async () => {
 
         } catch (error) {
             console.error("Error Finding the pokemon: ", error)
-            
-            if (pokemonName === "caca") {
-                alert("You Found CACA's mystery")
-            }
 
             if (error.code === 'ERR_BAD_REQUEST') {
                 alert("Can't find a Pokemon with Name "+ pokemonName)

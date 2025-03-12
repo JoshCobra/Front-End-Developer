@@ -1,0 +1,30 @@
+header {
+  background-color: #407b4c;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20px;
+}
+header nav {
+  display: flex;
+}
+header nav a {
+  color: #2c2c2c;
+}
+
+main #todays-selection {
+  background-color: #407b4c;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 10px;
+}
+main #todays-selection h2 {
+  font-size: 2rem;
+}
+main #todays-selection p {
+  color: #2c2c2c;
+}
+main #todays-selection button {
+  padding: 10px;
+  background-color: #335298;
+  color: #2c2c2c;
+}/*# sourceMappingURL=main.css.map */
