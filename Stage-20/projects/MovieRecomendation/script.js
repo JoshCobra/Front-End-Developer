@@ -21,6 +21,8 @@ const loadMovies = async () => {
 
 async function getSchedule(limit = 10) {
 
+    const nowLive = document.getElementById("now-live")
+
     try {
         const response = await axios.get("https://api.tvmaze.com/schedule");
         const limitedShows = response.data.slice(0, limit); // Limit to 10 shows
