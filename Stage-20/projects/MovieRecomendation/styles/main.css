@@ -135,8 +135,11 @@ main #now-live .show-card {
   background-color: #50975f;
   padding: 10px;
   border-radius: 20px;
+  width: 220px;
+  height: 350;
 }
 main #now-live .show-card h2 {
+  text-align: center;
   font-family: "Zain", sans-serif;
   color: #e1e1e1;
   font-weight: 700;
