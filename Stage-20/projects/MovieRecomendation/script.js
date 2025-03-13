@@ -12,15 +12,7 @@ const createMovieCard = (show) => {
 
 }
 
-const scheduleURL = "https://api.tvmaze.com/schedule/"
-
-const loadMovies = async () => {
-    
-    
-}
-
 async function getSchedule(limit = 10) {
-
     const nowLive = document.getElementById("now-live")
 
     try {
