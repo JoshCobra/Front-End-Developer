@@ -31,14 +31,17 @@ async function getSchedule(limit = 10) {
             const showCard = document.createElement("div")
             const showName = document.createElement("h2")
             const showInfo = document.createElement("p")
+            const showImg = document.createElement("img")
             showCard.classList.add("show-card")
         
             nowLive.appendChild(showCard)
             showCard.appendChild(showName)
             showCard.appendChild(showInfo)
+            showCard.appendChild(showImg)
 
             showName.textContent = show.show.name
-            showInfo.textContent = show.name
+            showInfo.textContent = show.name + show.airtime
+            showImg.src = show.show.image.medium
 
         });
 
