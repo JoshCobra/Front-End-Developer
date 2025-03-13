@@ -114,4 +114,39 @@ main #search button {
 main #search button:hover {
   transform: scale(1.04);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+main #now-live {
+  background-color: #407b4c;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+main #now-live .show-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px;
+  background-color: #50975f;
+  padding: 10px;
+  border-radius: 20px;
+}
+main #now-live .show-card h2 {
+  font-family: "Zain", sans-serif;
+  color: #e1e1e1;
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 0;
+}
+main #now-live .show-card p {
+  margin: 5px 0;
+  color: #dcdcdc;
+}
+main #now-live .show-card img {
+  max-width: 150px;
 }/*# sourceMappingURL=main.css.map */

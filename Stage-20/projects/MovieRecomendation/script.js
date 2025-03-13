@@ -40,7 +40,7 @@ async function getSchedule(limit = 10) {
             showCard.appendChild(showImg)
 
             showName.textContent = show.show.name
-            showInfo.textContent = show.name + show.airtime
+            showInfo.textContent = `${show.name} - Airtime: ${show.airtime}`
             showImg.src = show.show.image.medium
 
         });

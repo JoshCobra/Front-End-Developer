@@ -94,4 +94,37 @@ main {
             @include button();
         }
     }
+
+    #now-live {
+        @include section();
+        @include flex-main();
+        flex-wrap: wrap;
+
+        .show-card {
+            @include  flex-main();
+            flex-direction: column;
+            margin: 10px;
+            background-color: #50975f;
+            padding: 10px;
+            border-radius: 20px;
+
+            h2 {
+                font-family: $h2-title;
+                color: $h2-white;
+                font-weight: 700;
+                font-size: 2rem;
+                margin: 0;
+            }
+
+            p {
+                margin: 5px 0;
+                color: $white-txt;
+            }
+
+            img {
+                max-width: 150px;
+            }
+        }
+
+    }
 }
