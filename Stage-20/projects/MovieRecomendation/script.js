@@ -1,16 +1,3 @@
-const createMovieCard = (show) => {
-
-    const card = document.createElement("div")
-    card.classList.add("movie-card")
-
-    const infoDiv = document.createElement("div")
-    infoDiv.classList.add("movie-info")
-
-    const movieName = document.createElement("div")
-    movieName.classList.add("movie.name")
-    movieName.textContent = show.show.name
-
-}
 
 async function getSchedule(limit = 10) {
     const nowLive = document.getElementById("now-live")
@@ -45,4 +32,32 @@ async function getSchedule(limit = 10) {
 getSchedule();
 
 
+function getRandomNumber() {
+    return Math.floor(Math.random()* 100 )+2
+}
 
+async function getRandomShow(id) {
+    const recommendation = document.getElementById("todays-selection")
+
+    try {
+        const response = await axios.get(`https://api.tvmaze.com/shows/${id}`)
+
+        const randomShow = document.createElement("div")
+        recommendation.appendChild(randomShow)
+
+        randomShow.appendChild(showName)
+        randomShow.appendChild(showInfo)
+        randomShow.appendChild(showImg)
+        
+        showName.textContent = response.show.name
+
+    } catch (error) {
+        console.log("Error getting a random show")
+    }
+}
+
+const randomShowBtn = document.getElementById("get-suggestion")
+
+randomShowBtn.addEventListener('click', () => {
+    getRandomShow(getRandomNumber())
+})
