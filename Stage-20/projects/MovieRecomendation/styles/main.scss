@@ -1,7 +1,6 @@
 @import "./mixins";
 
 header {
-    background: linear-gradient(to top, $bg-color, $white 55%);
     padding: 10px;
     margin: 10px;
     border-radius: 20px;
@@ -11,6 +10,7 @@ header {
         text-align: center;
         font-size: 3rem;
         font-weight: 100;
+        margin: 0;
     }
 
     nav {
@@ -77,7 +77,6 @@ main {
             border: none;
             border-radius: 5px;
             font-size: 1rem;
-            color: $h2-white;
             background-color: $bg-color;
             width: 60%;
             box-sizing: border-box;
@@ -105,10 +104,10 @@ main {
         font-family: $h2-title;
         font-size: 4rem;
         font-weight: 800;
-        animation: blink-border 2s infinite;
+        animation: blink 2s infinite;
 
 
-        @keyframes blink-border {
+        @keyframes blink {
             0% {
                 border-color: red;
                 filter: blur(0);

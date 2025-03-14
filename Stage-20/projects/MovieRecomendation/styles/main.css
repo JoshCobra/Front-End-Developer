@@ -3,7 +3,6 @@
 /* Miscellaneous */
 /**/
 header {
-  background: linear-gradient(to top, #E0ECE4, white 55%);
   padding: 10px;
   margin: 10px;
   border-radius: 20px;
@@ -13,6 +12,7 @@ header h1 {
   text-align: center;
   font-size: 3rem;
   font-weight: 100;
+  margin: 0;
 }
 header nav {
   display: flex;
@@ -38,7 +38,7 @@ main #todays-selection {
   border-radius: 20px;
   padding: 20px;
   margin: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   flex-direction: column;
 }
 main #todays-selection h2 {
@@ -86,7 +86,6 @@ main #search input[type=text] {
   border: none;
   border-radius: 5px;
   font-size: 1rem;
-  color: white;
   background-color: #E0ECE4;
   width: 60%;
   box-sizing: border-box;
@@ -121,9 +120,9 @@ main #live-txt {
   font-family: "Zain", sans-serif;
   font-size: 4rem;
   font-weight: 800;
-  animation: blink-border 2s infinite;
+  animation: blink 2s infinite;
 }
-@keyframes blink-border {
+@keyframes blink {
   0% {
     border-color: red;
     filter: blur(0);
@@ -174,5 +173,5 @@ main #now-live .show-card img {
   border-radius: 8px;
 }
 main #now-live .show-card:hover {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }/*# sourceMappingURL=main.css.map */
