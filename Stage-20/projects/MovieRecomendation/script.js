@@ -26,7 +26,7 @@ const createSuggestionCard = (response) => {
     const showImg = document.createElement("img")
     const showRating = document.createElement("p")
     const showSummary = document.createElement("div")
-    showCard.classList.add("show-card")
+    showCard.classList.add("suggested-show")
 
     recommendation.appendChild(showCard)
     showCard.appendChild(showName)
@@ -64,10 +64,9 @@ async function getRandomShow(id) {
     try {
         const response = await axios.get(`https://api.tvmaze.com/shows/${id}`)
         createSuggestionCard(response)
-        console.log(response)
 
     } catch (error) {
-        console.log("Error getting a random show: ", error)
+        console.error("Error getting a random show: ", error)
     }
 }
 

@@ -2,6 +2,44 @@
 /* Fonts */
 /* Miscellaneous */
 /**/
+/* Colors */
+/* Fonts */
+/* Miscellaneous */
+/**/
+.show-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px;
+  background-color: #e4efe4;
+  padding: 10px;
+  border-radius: 20px;
+  width: 220px;
+  height: 350;
+  transition: all 0.3s ease-in-out;
+}
+.show-card h2 {
+  text-align: center;
+  font-family: "Zain", sans-serif;
+  color: #000000;
+  font-weight: 700;
+  font-size: 3vw;
+  margin: 0;
+}
+.show-card p {
+  margin: 5px 0;
+  color: "Zain", sans-serif;
+  font-family: "Karla", sans-serif;
+}
+.show-card img {
+  max-width: 150px;
+  border-radius: 8px;
+}
+.show-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
 header {
   padding: 10px;
   margin: 10px;
@@ -141,37 +179,4 @@ main #now-live {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-}
-main #now-live .show-card {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  margin: 10px;
-  background-color: #e4efe4;
-  padding: 10px;
-  border-radius: 20px;
-  width: 220px;
-  height: 350;
-  transition: all 0.3s ease-in-out;
-}
-main #now-live .show-card h2 {
-  text-align: center;
-  font-family: "Zain", sans-serif;
-  color: #000000;
-  font-weight: 700;
-  font-size: 3vw;
-  margin: 0;
-}
-main #now-live .show-card p {
-  margin: 5px 0;
-  color: "Zain", sans-serif;
-  font-family: "Karla", sans-serif;
-}
-main #now-live .show-card img {
-  max-width: 150px;
-  border-radius: 8px;
-}
-main #now-live .show-card:hover {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }/*# sourceMappingURL=main.css.map */
