@@ -1,39 +1,38 @@
-
-async function getSchedule(limit = 10) {
+const createShowCard = (show) => {
     const nowLive = document.getElementById("now-live")
 
+    const showCard = document.createElement("div")
+    const showName = document.createElement("h2")
+    const showInfo = document.createElement("p")
+    const showImg = document.createElement("img")
+    showCard.classList.add("show-card")
+
+    nowLive.appendChild(showCard)
+    showCard.appendChild(showName)
+    showCard.appendChild(showInfo)
+    showCard.appendChild(showImg)
+
+    showName.textContent = show.show.name
+    showInfo.textContent = `${show.name} - Airtime: ${show.airtime}`
+    showImg.src = show.show.image.medium
+}
+
+function getRandomNumber() {
+    return Math.floor(Math.random()* 100 )+2
+}
+
+async function getSchedule(limit = 10) {
     try {
         const response = await axios.get("https://api.tvmaze.com/schedule");
         const limitedShows = response.data.slice(0, limit); // Limit to 10 shows
 
         limitedShows.forEach((show) => {
-            const showCard = document.createElement("div")
-            const showName = document.createElement("h2")
-            const showInfo = document.createElement("p")
-            const showImg = document.createElement("img")
-            showCard.classList.add("show-card")
-        
-            nowLive.appendChild(showCard)
-            showCard.appendChild(showName)
-            showCard.appendChild(showInfo)
-            showCard.appendChild(showImg)
-
-            showName.textContent = show.show.name
-            showInfo.textContent = `${show.name} - Airtime: ${show.airtime}`
-            showImg.src = show.show.image.medium
-
+            createShowCard(show)
         });
 
     } catch (error) {
         console.error("Error fetching schedule:", error);
     }
-}
-
-getSchedule();
-
-
-function getRandomNumber() {
-    return Math.floor(Math.random()* 100 )+2
 }
 
 async function getRandomShow(id) {
@@ -61,3 +60,5 @@ const randomShowBtn = document.getElementById("get-suggestion")
 randomShowBtn.addEventListener('click', () => {
     getRandomShow(getRandomNumber())
 })
+
+getSchedule();
