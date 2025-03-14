@@ -37,5 +37,38 @@
 }
 
 .suggested-show {
-    
+    @include  flex-main();
+    flex-direction: column;
+    margin-top: 50px;
+
+    .img-summary {
+        @include flex-main();
+        gap: 40px;
+        width: 500px;
+
+        img {
+            width: 200px;
+            border-radius: 8px;
+        }
+    }
+
+    h2 {
+        text-align: center;
+        font-family: $h2-title;
+        color: $black-txt;
+        font-weight: 700;
+        font-size: 3vw;
+        margin: 0;
+    }
+
+    #summary {
+        p {
+            font-size: 0.9rem;
+        }
+    }
+
+    #rating {
+        font-weight: 800;
+
+    }
 }

@@ -22,18 +22,24 @@ const createSuggestionCard = (response) => {
 
     const showCard = document.createElement("div")
     const showName = document.createElement("h2")
+    const imgSummaryDiv = document.createElement("div")
     const showInfo = document.createElement("p")
     const showImg = document.createElement("img")
     const showRating = document.createElement("p")
     const showSummary = document.createElement("div")
     showCard.classList.add("suggested-show")
+    imgSummaryDiv.classList.add("img-summary")
 
     recommendation.appendChild(showCard)
     showCard.appendChild(showName)
     showCard.appendChild(showInfo)
-    showCard.appendChild(showImg)
+    showCard.appendChild(imgSummaryDiv)
+    imgSummaryDiv.appendChild(showImg)
     showCard.appendChild(showRating)
-    showCard.appendChild(showSummary)
+    imgSummaryDiv.appendChild(showSummary)
+
+    showSummary.id = "summary"
+    showRating.id = "rating"
 
     showName.textContent = response.data.name
     showInfo.textContent = `${response.data.genres[0]} - ${response.data.genres[1]}`

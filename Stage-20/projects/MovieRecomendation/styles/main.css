@@ -40,6 +40,39 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
+.suggested-show {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.suggested-show .img-summary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  width: 500px;
+}
+.suggested-show .img-summary img {
+  width: 200px;
+  border-radius: 8px;
+}
+.suggested-show h2 {
+  text-align: center;
+  font-family: "Zain", sans-serif;
+  color: #000000;
+  font-weight: 700;
+  font-size: 3vw;
+  margin: 0;
+}
+.suggested-show #summary p {
+  font-size: 0.9rem;
+}
+.suggested-show #rating {
+  font-weight: 800;
+}
+
 header {
   padding: 10px;
   margin: 10px;
