@@ -1,4 +1,5 @@
 @import "./mixins";
+@import './cards';
 
 header {
     padding: 10px;
@@ -127,40 +128,5 @@ main {
         @include flex-main();
         flex-wrap: wrap;
 
-        .show-card {
-            @include  flex-main();
-            flex-direction: column;
-            margin: 10px;
-            background-color: #e4efe4;
-            padding: 10px;
-            border-radius: 20px;
-            width: 220px;
-            height: 350;
-            transition: $transition;
-
-            h2 {
-                text-align: center;
-                font-family: $h2-title;
-                color: $black-txt;
-                font-weight: 700;
-                font-size: 3vw;
-                margin: 0;
-            }
-
-            p {
-                margin: 5px 0;
-                color: $h2-title;
-                font-family: $txt;
-            }
-
-            img {
-                max-width: 150px;
-                border-radius: 8px;
-            }
-
-            &:hover {
-                box-shadow: $shadow;
-            }
-        }
     }
 }

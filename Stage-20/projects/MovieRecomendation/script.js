@@ -29,11 +29,11 @@ const createSuggestionCard = (response) => {
     showCard.classList.add("show-card")
 
     recommendation.appendChild(showCard)
-    recommendation.appendChild(showName)
-    recommendation.appendChild(showInfo)
-    recommendation.appendChild(showImg)
-    recommendation.appendChild(showRating)
-    recommendation.appendChild(showSummary)
+    showCard.appendChild(showName)
+    showCard.appendChild(showInfo)
+    showCard.appendChild(showImg)
+    showCard.appendChild(showRating)
+    showCard.appendChild(showSummary)
 
     showName.textContent = response.data.name
     showInfo.textContent = `${response.data.genres[0]} - ${response.data.genres[1]}`
