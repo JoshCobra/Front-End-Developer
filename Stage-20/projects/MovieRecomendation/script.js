@@ -65,6 +65,7 @@ async function getSchedule(limit = 10) {
         console.error("Error fetching schedule: ", error);
     }
 }
+getSchedule();
 
 async function getRandomShow(id) {
     try {
@@ -77,11 +78,34 @@ async function getRandomShow(id) {
 }
 
 const randomShowBtn = document.getElementById("get-suggestion")
-
 randomShowBtn.addEventListener('click', () => {
     const recommendation = document.getElementById("todays-selection");
     recommendation.innerHTML = "";
     getRandomShow(getRandomNumber());
 })
 
-getSchedule();
+async function searchShow(input) {
+  try {
+    const response = await axios.get(`https://api.tvmaze.com/search/shows?q=${input}`);
+    
+    if (response.data.length > 0) {
+        console.log("Show Name:", response.data[0].show.name, response.data[0].show.image.medium);
+    } else {
+        console.log("No results found.");
+    }
+
+  } catch (error) {
+    console.error("Error fetching show:", error);
+  }
+}
+
+const searchBtn = document.getElementById("search-btn")
+searchBtn.addEventListener('click', () => {
+    const input = document.getElementById("movie-search").value
+
+    if (input) {
+        searchShow(input)
+    } else {
+        return
+    }
+})
