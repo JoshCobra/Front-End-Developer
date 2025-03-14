@@ -121,6 +121,21 @@ main #live-txt {
   font-family: "Zain", sans-serif;
   font-size: 4rem;
   font-weight: 800;
+  animation: blink-border 2s infinite;
+}
+@keyframes blink-border {
+  0% {
+    border-color: red;
+    filter: blur(0);
+  }
+  30% {
+    border-color: transparent;
+    filter: blur(0.5px);
+  }
+  60% {
+    border-color: red;
+    filter: blur(0);
+  }
 }
 main #now-live {
   display: flex;
