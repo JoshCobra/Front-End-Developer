@@ -171,6 +171,7 @@ main #now-live .show-card p {
 }
 main #now-live .show-card img {
   max-width: 150px;
+  border-radius: 8px;
 }
 main #now-live .show-card:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
