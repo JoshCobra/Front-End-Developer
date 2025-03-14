@@ -85,7 +85,7 @@ main {
 
             &:focus {
                 outline: none;
-                background-color: #50975f;
+                background-color: #D0DDD0;
                 border-color: $bg-color;
             }
         }
@@ -104,7 +104,7 @@ main {
             @include  flex-main();
             flex-direction: column;
             margin: 10px;
-            background-color: #50975f;
+            background-color: #D0DDD0;
             padding: 10px;
             border-radius: 20px;
             width: 220px;
