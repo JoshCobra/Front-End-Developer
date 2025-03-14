@@ -45,7 +45,7 @@ main {
             margin: 0;
             font-family: $h2-title;
             font-weight: 800;
-            color: $h2-white;
+            color: $black-txt;
         }
 
         p {
@@ -57,17 +57,17 @@ main {
 
         button {
             @include button();
+            cursor: pointer;
         }
     }
 
     #search {
-        @include section();
         @include flex-main();
         flex-direction: column;
 
         h2 {
             font-family: $h2-title;
-            color: $h2-white;
+            color: $black-txt;
             font-size: 2rem;
             margin: 0;
         }
@@ -92,11 +92,22 @@ main {
 
         button {
             @include button();
+            cursor: pointer;
+            width: 110px;
+            font-size: 1rem;
         }
     }
 
+    #live-txt {
+        color: red;
+        text-align: center;
+        margin: 70px 0 0;
+        font-family: $h2-title;
+        font-size: 4rem;
+        font-weight: 800;
+    }
+
     #now-live {
-        @include section();
         @include flex-main();
         flex-wrap: wrap;
 
@@ -104,16 +115,17 @@ main {
             @include  flex-main();
             flex-direction: column;
             margin: 10px;
-            background-color: #D0DDD0;
+            background-color: #e4efe4;
             padding: 10px;
             border-radius: 20px;
             width: 220px;
             height: 350;
+            transition: $transition;
 
             h2 {
                 text-align: center;
                 font-family: $h2-title;
-                color: $h2-white;
+                color: $black-txt;
                 font-weight: 700;
                 font-size: 3vw;
                 margin: 0;
@@ -121,13 +133,17 @@ main {
 
             p {
                 margin: 5px 0;
-                color: $white-txt;
+                color: $h2-title;
+                font-family: $txt;
             }
 
             img {
                 max-width: 150px;
             }
-        }
 
+            &:hover {
+                box-shadow: $shadow;
+            }
+        }
     }
 }

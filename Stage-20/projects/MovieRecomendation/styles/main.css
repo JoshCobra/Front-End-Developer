@@ -3,7 +3,7 @@
 /* Miscellaneous */
 /**/
 header {
-  background: linear-gradient(to top, #F0F0D7, white 55%);
+  background: linear-gradient(to top, #E0ECE4, white 55%);
   padding: 10px;
   margin: 10px;
   border-radius: 20px;
@@ -22,7 +22,7 @@ header nav {
 }
 header nav a {
   font-family: "Karla", sans-serif;
-  color: #727D73;
+  color: #bfcec0;
   text-decoration: none;
   transition: all 0.3s ease-in-out;
 }
@@ -34,7 +34,7 @@ main #todays-selection {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #F0F0D7;
+  background-color: #E0ECE4;
   border-radius: 20px;
   padding: 20px;
   margin: 10px;
@@ -46,34 +46,30 @@ main #todays-selection h2 {
   margin: 0;
   font-family: "Zain", sans-serif;
   font-weight: 800;
-  color: #454a45;
+  color: #000000;
 }
 main #todays-selection p {
   font-family: "Karla", sans-serif;
-  color: #2c2c2c;
+  color: #414f46;
   font-size: 1.3rem;
   margin: 10px 0;
 }
 main #todays-selection button {
   padding: 10px;
-  background-color: #AAB99A;
-  color: #727D73;
+  background-color: #797A7E;
+  color: white;
   border: none;
   border-radius: 20px;
   transition: all 0.3s ease-in-out;
   font-family: "Karla", sans-serif;
   font-weight: bold;
+  cursor: pointer;
 }
 main #todays-selection button:hover {
   transform: scale(1.04);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 main #search {
-  background-color: #F0F0D7;
-  border-radius: 20px;
-  padding: 20px;
-  margin: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -81,7 +77,7 @@ main #search {
 }
 main #search h2 {
   font-family: "Zain", sans-serif;
-  color: #454a45;
+  color: #000000;
   font-size: 2rem;
   margin: 0;
 }
@@ -90,8 +86,8 @@ main #search input[type=text] {
   border: none;
   border-radius: 5px;
   font-size: 1rem;
-  color: #454a45;
-  background-color: #F0F0D7;
+  color: white;
+  background-color: #E0ECE4;
   width: 60%;
   box-sizing: border-box;
   margin: 10px 0;
@@ -99,28 +95,34 @@ main #search input[type=text] {
 main #search input[type=text]:focus {
   outline: none;
   background-color: #D0DDD0;
-  border-color: #F0F0D7;
+  border-color: #E0ECE4;
 }
 main #search button {
   padding: 10px;
-  background-color: #AAB99A;
-  color: #727D73;
+  background-color: #797A7E;
+  color: white;
   border: none;
   border-radius: 20px;
   transition: all 0.3s ease-in-out;
   font-family: "Karla", sans-serif;
   font-weight: bold;
+  cursor: pointer;
+  width: 110px;
+  font-size: 1rem;
 }
 main #search button:hover {
   transform: scale(1.04);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+main #live-txt {
+  color: red;
+  text-align: center;
+  margin: 70px 0 0;
+  font-family: "Zain", sans-serif;
+  font-size: 4rem;
+  font-weight: 800;
+}
 main #now-live {
-  background-color: #F0F0D7;
-  border-radius: 20px;
-  padding: 20px;
-  margin: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -132,24 +134,29 @@ main #now-live .show-card {
   justify-content: center;
   flex-direction: column;
   margin: 10px;
-  background-color: #D0DDD0;
+  background-color: #e4efe4;
   padding: 10px;
   border-radius: 20px;
   width: 220px;
   height: 350;
+  transition: all 0.3s ease-in-out;
 }
 main #now-live .show-card h2 {
   text-align: center;
   font-family: "Zain", sans-serif;
-  color: #454a45;
+  color: #000000;
   font-weight: 700;
   font-size: 3vw;
   margin: 0;
 }
 main #now-live .show-card p {
   margin: 5px 0;
-  color: #727D73;
+  color: "Zain", sans-serif;
+  font-family: "Karla", sans-serif;
 }
 main #now-live .show-card img {
   max-width: 150px;
+}
+main #now-live .show-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }/*# sourceMappingURL=main.css.map */
