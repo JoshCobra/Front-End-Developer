@@ -17,6 +17,23 @@ const createShowCard = (show) => {
     showImg.src = show.show.image.medium
 }
 
+const createSuggestionCard = (response) => {
+    const recommendation = document.getElementById("todays-selection")
+
+    const showCard = document.createElement("div")
+    const showName = document.createElement("h2")
+    const showInfo = document.createElement("p")
+    const showImg = document.createElement("img")
+    showCard.classList.add("show-card")
+
+    recommendation.appendChild(showCard)
+    recommendation.appendChild(showName)
+    recommendation.appendChild(showInfo)
+    recommendation.appendChild(showImg)
+
+    showName.textContent = response.data.name
+}
+
 function getRandomNumber() {
     return Math.floor(Math.random()* 100 )+2
 }
@@ -31,27 +48,18 @@ async function getSchedule(limit = 10) {
         });
 
     } catch (error) {
-        console.error("Error fetching schedule:", error);
+        console.error("Error fetching schedule: ", error);
     }
 }
 
 async function getRandomShow(id) {
-    const recommendation = document.getElementById("todays-selection")
-
     try {
         const response = await axios.get(`https://api.tvmaze.com/shows/${id}`)
-
-        const randomShow = document.createElement("div")
-        recommendation.appendChild(randomShow)
-
-        randomShow.appendChild(showName)
-        randomShow.appendChild(showInfo)
-        randomShow.appendChild(showImg)
-        
-        showName.textContent = response.show.name
+        createSuggestionCard(response)
+        console.log(response)
 
     } catch (error) {
-        console.log("Error getting a random show")
+        console.log("Error getting a random show: ", error)
     }
 }
 
