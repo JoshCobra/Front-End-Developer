@@ -39,7 +39,7 @@
 .suggested-show {
     @include  flex-main();
     flex-direction: column;
-    margin-top: 50px;
+    margin: 0;
 
     .img-summary {
         @include flex-main();

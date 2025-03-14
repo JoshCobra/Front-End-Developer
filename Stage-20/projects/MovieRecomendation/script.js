@@ -79,7 +79,9 @@ async function getRandomShow(id) {
 const randomShowBtn = document.getElementById("get-suggestion")
 
 randomShowBtn.addEventListener('click', () => {
-    getRandomShow(getRandomNumber())
+    const recommendation = document.getElementById("todays-selection");
+    recommendation.innerHTML = "";
+    getRandomShow(getRandomNumber());
 })
 
 getSchedule();
