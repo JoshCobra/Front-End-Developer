@@ -24,14 +24,22 @@ const createSuggestionCard = (response) => {
     const showName = document.createElement("h2")
     const showInfo = document.createElement("p")
     const showImg = document.createElement("img")
+    const showRating = document.createElement("p")
+    const showSummary = document.createElement("div")
     showCard.classList.add("show-card")
 
     recommendation.appendChild(showCard)
     recommendation.appendChild(showName)
     recommendation.appendChild(showInfo)
     recommendation.appendChild(showImg)
+    recommendation.appendChild(showRating)
+    recommendation.appendChild(showSummary)
 
     showName.textContent = response.data.name
+    showInfo.textContent = `${response.data.genres[0]} - ${response.data.genres[1]}`
+    showImg.src = response.data.image.medium
+    showRating.textContent = `Rating: ${response.data.rating.average}`
+    showSummary.innerHTML = response.data.summary
 }
 
 function getRandomNumber() {
