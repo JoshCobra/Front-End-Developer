@@ -49,22 +49,27 @@ const createSuggestionCard = (response) => {
 }
 
 const createSearchCard = (show) => {
-    const searchSection = document.getElementById("search")
+    const searchResult = document.getElementById("search-result")
 
     const showCard = document.createElement("div")
     const showName = document.createElement("h2")
     const showImg = document.createElement("img")
     const showInfo = document.createElement("p")
+    const showSummary = document.createElement("div")
     showCard.classList.add("suggested-show")
 
-    searchSection.appendChild(showCard)
+    searchResult.appendChild(showCard)
     showCard.appendChild(showName)
     showCard.appendChild(showImg)
     showCard.appendChild(showInfo)
+    showCard.appendChild(showSummary)
+
+    showSummary.classList.add("img-summary")
 
     showName.textContent = show.show.name
     showImg.src = show.show.image.medium
     showInfo.textContent = `Type: ${show.show.type} Language: ${show.show.language}`
+    showSummary.innerHTML = show.show.summary
 }
 
 function getRandomNumber() {
@@ -104,6 +109,9 @@ randomShowBtn.addEventListener('click', () => {
 })
 
 async function searchShow(input) {
+    const searchResult = document.getElementById("search-result")
+    searchResult.innerHTML = ''
+    
   try {
     const response = await axios.get(`https://api.tvmaze.com/search/shows?q=${input}`);
     
