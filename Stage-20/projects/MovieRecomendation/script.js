@@ -48,6 +48,25 @@ const createSuggestionCard = (response) => {
     showSummary.innerHTML = response.data.summary
 }
 
+const createSearchCard = (show) => {
+    const searchSection = document.getElementById("search")
+
+    const showCard = document.createElement("div")
+    const showName = document.createElement("h2")
+    const showImg = document.createElement("img")
+    const showInfo = document.createElement("p")
+    showCard.classList.add("suggested-show")
+
+    searchSection.appendChild(showCard)
+    showCard.appendChild(showName)
+    showCard.appendChild(showImg)
+    showCard.appendChild(showInfo)
+
+    showName.textContent = show.show.name
+    showImg.src = show.show.image.medium
+    showInfo.textContent = `Type: ${show.show.type} Language: ${show.show.language}`
+}
+
 function getRandomNumber() {
     return Math.floor(Math.random()* 100 )+2
 }
@@ -89,7 +108,7 @@ async function searchShow(input) {
     const response = await axios.get(`https://api.tvmaze.com/search/shows?q=${input}`);
     
     if (response.data.length > 0) {
-        console.log("Show Name:", response.data[0].show.name, response.data[0].show.image.medium);
+        createSearchCard(response.data[0])
     } else {
         console.log("No results found.");
     }

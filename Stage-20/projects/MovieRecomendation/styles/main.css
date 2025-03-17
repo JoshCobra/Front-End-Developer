@@ -72,6 +72,9 @@
 .suggested-show #rating {
   font-weight: 800;
 }
+.suggested-show p {
+  font-family: "Karla", sans-serif;
+}
 
 header {
   padding: 10px;
