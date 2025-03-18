@@ -42,7 +42,12 @@ const createSuggestionCard = (response) => {
     showRating.id = "rating"
 
     showName.textContent = response.data.name
-    showInfo.textContent = `${response.data.genres[0]} - ${response.data.genres[1]}`
+
+    if (response.data.genres) {
+        showInfo.textContent = `${response.data.genres[0]} - ${response.data.genres[1]}`
+    } else {
+        return
+    }
     showImg.src = response.data.image.medium
     showRating.textContent = `Rating: ${response.data.rating.average}`
     showSummary.innerHTML = response.data.summary
@@ -66,9 +71,12 @@ const createSearchCard = (show) => {
 
     showSummary.classList.add("img-summary")
 
+    showSummary.style.flexDirection = "column"
+    showSummary.style.gap = "2px"
+
     showName.textContent = show.show.name
     showImg.src = show.show.image.medium
-    showInfo.textContent = `Type: ${show.show.type} Language: ${show.show.language}`
+    showInfo.innerHTML = `<b>Type:</b> ${show.show.type} <b>Language:</b> ${show.show.language}`
     showSummary.innerHTML = show.show.summary
 }
 
@@ -111,7 +119,7 @@ randomShowBtn.addEventListener('click', () => {
 async function searchShow(input) {
     const searchResult = document.getElementById("search-result")
     searchResult.innerHTML = ''
-    
+
   try {
     const response = await axios.get(`https://api.tvmaze.com/search/shows?q=${input}`);
     
