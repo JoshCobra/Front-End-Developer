@@ -37,7 +37,8 @@
 }
 
 .suggested-show {
-    @include  flex-main();
+    @include flex-main();
+    @include adjustSuggested();
     flex-direction: column;
     margin: 0;
 
@@ -45,6 +46,7 @@
         @include flex-main();
         gap: 40px;
         width: 500px;
+        margin: 0 30px;
 
         img {
             width: 200px;

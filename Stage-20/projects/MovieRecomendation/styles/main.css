@@ -47,12 +47,25 @@
   flex-direction: column;
   margin: 0;
 }
+@media screen and (max-width: 590px) {
+  .suggested-show .img-summary {
+    width: 300px;
+    flex-direction: column;
+  }
+  .suggested-show #summary {
+    max-width: 300px;
+  }
+  .suggested-show #summary p {
+    font-size: 0.7rem;
+  }
+}
 .suggested-show .img-summary {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 40px;
   width: 500px;
+  margin: 0 30px;
 }
 .suggested-show .img-summary img {
   width: 200px;
@@ -87,6 +100,11 @@ header h1 {
   font-size: 3rem;
   font-weight: 100;
   margin: 0;
+}
+@media screen and (max-width: 460px) {
+  header h1 {
+    font-size: 2.2rem;
+  }
 }
 header nav {
   display: flex;

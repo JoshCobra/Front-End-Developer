@@ -35,3 +35,25 @@
         display: none;
     }
 }
+
+@mixin reduceTextSizeTo($size) {
+    @media screen and (max-width:460px) {
+        font-size: $size;
+    }
+}
+
+@mixin adjustSuggested {
+    @media screen and (max-width:590px) {
+        .img-summary {
+            width: 300px;
+            flex-direction: column;
+        }
+
+        #summary {
+            max-width: 300px;
+            p {
+                font-size: 0.7rem;
+            }
+        }
+    }
+}
