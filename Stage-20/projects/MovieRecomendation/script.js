@@ -126,11 +126,13 @@ async function searchShow(input) {
     if (response.data.length > 0) {
         createSearchCard(response.data[0])
     } else {
+        searchResult.innerHTML = `<p> No results found</p>`
         console.log("No results found.");
     }
 
   } catch (error) {
     console.error("Error fetching show:", error);
+    searchResult.innerHTML = `<p>Error getting data.</p>`
   }
 }
 
