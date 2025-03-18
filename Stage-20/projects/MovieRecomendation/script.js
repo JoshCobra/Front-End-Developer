@@ -84,7 +84,7 @@ function getRandomNumber() {
     return Math.floor(Math.random()* 100 )+2
 }
 
-async function getSchedule(limit = 10) {
+async function getSchedule(limit = 6) {
     try {
         const response = await axios.get("https://api.tvmaze.com/schedule");
         const limitedShows = response.data.slice(0, limit); // Limit to 10 shows

@@ -29,3 +29,9 @@
     margin: 10px;
     box-shadow: $shadow;
 }
+
+@mixin hideOnMaxWidth($value) {
+    @media screen and (max-width:$value) {
+        display: none;
+    }
+}

@@ -15,6 +15,7 @@ header {
     }
 
     nav {
+        @include hideOnMaxWidth(460px);
         @include flex-main();
         gap: 15px;
 
@@ -37,7 +38,7 @@ main {
         background-color: $bg-color;
         border-radius: 20px;
         padding: 20px;
-        margin: 10px;
+        margin: 10px 30px;
         box-shadow: $shadow;
         flex-direction: column;
 
