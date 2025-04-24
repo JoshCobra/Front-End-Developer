@@ -1,0 +1,12 @@
+{
+  "name": "node-basics",
+  "version": "1.0.0",
+  "description": "Learning Node.js basics",
+  "main": "npm.js", 
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
