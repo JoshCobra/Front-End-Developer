@@ -247,6 +247,9 @@ Feel free to explore, learn, and contribute
 	- [APIs](/Stage-20/apis.md)
 	- [Postman](/Stage-20/postman.md)
 
+### [Stage 21 Node.js](/Stage-21)
+- [Introduction to Node.js](/Stage-21/readme.md)
+
 <hr>
 
 ### [Stage 21 Introduction to Node.js](/Stage-21)
