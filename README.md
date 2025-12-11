@@ -3,7 +3,7 @@
 
 <p align="center">
 <img src="https://img.shields.io/badge/Start-12/10/2024-%23238725?style=for-the-badge">
-<img src="https://img.shields.io/badge/Current-AJAX_API'S_Stage_20-%23238725?style=for-the-badge">
+<img src="https://img.shields.io/badge/Current-React_I_Stage_23-%23238725?style=for-the-badge">
 <img src="https://img.shields.io/github/last-commit/JoshCobra/Front-End-Developer?style=for-the-badge&color=%23238725">
 </p>
 
@@ -249,6 +249,11 @@ Feel free to explore, learn, and contribute
 
 ### [Stage 21 Node.js](/Stage-21)
 - [Introduction to Node.js](/Stage-21/readme.md)
+	- [What is Node.js?](/Stage-21/what-is-nodejs.md)
+	- [Setting Up Node.js Environment](/Stage-21/setting-up-nodejs.md)
+	- [Node.js Modules](/Stage-21/nodejs-modules.md)
+	- [File System in Node.js](/Stage-21/file-system.md)
+	- [Creating a Simple Server](/Stage-21/simple-server.md)
 
 <hr>
 
