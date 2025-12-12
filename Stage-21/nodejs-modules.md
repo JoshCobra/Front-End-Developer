@@ -31,6 +31,8 @@ const difference = math.subtract(5, 3);
 console.log(`Difference: ${difference}`); // Output: Difference: 2
 ```
 
+See the example in [simple-example](/Stage-21/simple-example/app.js) and [simple-example/math.js](/Stage-21/simple-example/math.js).
+
 ## Built-in Modules
 Node.js comes with several built-in modules that provide various functionalities, such as file system operations, HTTP server creation, and more. You can import these modules using the `require` function without specifying a file path.
 ```javascript
