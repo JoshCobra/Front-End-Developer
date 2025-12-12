@@ -259,6 +259,16 @@ Feel free to explore, learn, and contribute
 
 <hr>
 
+### [Stage 22 Typescript](/Stage-22)
+- [Introduction to TypeScript](/Stage-22/readme.md)
+
+<hr>
+
+### [Stage 23 React I](/Stage-23)
+- [Introduction to React](/Stage-23/readme.md)
+
+<hr>
+
   ### Projects
   - Stage-2
     - [The Basics in HTML](Stage-2/documents/basics-html)
