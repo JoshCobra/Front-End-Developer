@@ -52,6 +52,7 @@ const array = [1, 2, 3, 4];
 const reversedArray = _.reverse(array.slice());
 console.log(reversedArray); // Output: [4, 3, 2, 1]
 ```
+[Lodash](https://lodash.com/)
 
 ## Summary
 Node.js modules are essential for organizing and reusing code in your applications. By creating your own modules, using built-in modules, and leveraging third-party modules from npm, you can build efficient and maintainable Node.js applications.
